@@ -13,7 +13,7 @@ import BuyCarbonCerdit from "./pages/BuyCarbonCerdits/BuyCarbonCerdit";
 import Challenges from "./pages/ChallengesAndSolutions/Challenges";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import ExploreProject from "./pages/ExploreProject/ExploreProject";
-import Forestry from "./pages/Forestry/Forestry";
+import NatureBasedAsset from "./pages/NatureBasedAsset/NatureBasedAsset";
 import Media from "./pages/NewsandMedia/Media";
 import StartAProject from "./pages/StartAProject/StartAProject";
 import WindSolar from "./pages/RenewableEnergy/Renewable Energy";
@@ -23,33 +23,67 @@ import Footer from "./components/Footer/Footer";
 import ShortFooter from "./components/ShortFooter/ShortFooter";
 
 
-const App=()=> {
-  return (
-    <>
-      <Navbar />
+const App = () => {
+    return ( <
+        >
+        <
+        Navbar / >
 
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/our-story" element={<OurStory />} />
-        <Route path="/news-and-media" element={<Media />} />
-        <Route path="/challenges" element={<Challenges />} />
-        <Route path="/forest" element={<Forestry />} />
-        <Route path="/blue-carbon" element={<CarbonCredits />} />
-        <Route path="/agriculture" element={<Agriculture/>} />
-        <Route path="/wind-and-solar" element={<WindSolar/>} />
-        <Route path="/anaerobic-digestion" element={<Anaerobic/>}/>
-        <Route path="/explore-projects" element={<ExploreProject/>}/>
-        <Route path="/start-a-project" element={<StartAProject/>}/>
-        <Route path="/buy-carbon-credits" element={<BuyCarbonCerdit/>}/>
-        <Route path="/become-a-partner" element={<BecomeAPartner/>}/>
-        <Route path="/contact" element={<ContactUs/>} />
+        <
+        Routes >
+        <
+        Route path = "/"
+        element = { < Home / > }
+        /> <
+        Route path = "/our-story"
+        element = { < OurStory / > }
+        /> <
+        Route path = "/news-and-media"
+        element = { < Media / > }
+        /> <
+        Route path = "/challenges"
+        element = { < Challenges / > }
+        /> <
+        Route path = "/naturebasedasset"
+        element = { < NatureBasedAsset / > }
+        /> <
+        Route path = "/blue-carbon"
+        element = { < CarbonCredits / > }
+        /> <
+        Route path = "/agriculture"
+        element = { < Agriculture / > }
+        /> <
+        Route path = "/wind-and-solar"
+        element = { < WindSolar / > }
+        /> <
+        Route path = "/anaerobic-digestion"
+        element = { < Anaerobic / > }
+        /> <
+        Route path = "/explore-projects"
+        element = { < ExploreProject / > }
+        /> <
+        Route path = "/start-a-project"
+        element = { < StartAProject / > }
+        /> <
+        Route path = "/buy-carbon-credits"
+        element = { < BuyCarbonCerdit / > }
+        /> <
+        Route path = "/become-a-partner"
+        element = { < BecomeAPartner / > }
+        /> <
+        Route path = "/contact"
+        element = { < ContactUs / > }
+        />
 
-      </Routes>
-      <Footer/>
-      <ShortFooter/>
+        <
+        /Routes> <
+        Footer / >
+        <
+        ShortFooter / >
 
-    </>
-  );
+        <
+        />
+    );
 }
 
 export default App;
