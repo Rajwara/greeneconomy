@@ -24,7 +24,7 @@ function InnerCard(props) {
   );
 }
 
-function AboutCards1() {
+function OurStoryCards1() {
   const datials = [
     {
       img: missionIcon,
@@ -66,4 +66,4 @@ function AboutCards1() {
   );
 }
 
-export default AboutCards1;
+export default OurStoryCards1;

@@ -2,19 +2,21 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 
-import AboutUs from "./pages/AboutUs/AboutUs";
+// import AboutUs from "./pages/AboutUs/AboutUs";
+import OurStory from "./pages/OurStory/OurStory";
+
 import Agriculture from "./pages/Agriculture/Agriculture";
-import Anaerobic from "./pages/AnaerobicDigestion/Anaerobic";
+import Anaerobic from "./pages/WasteManagement/WasteManagement";
 import BecomeAPartner from "./pages/BecomeAPartner/BecomeAPartner";
-import BlueCarbon from "./pages/BlueCarbon/BlueCarbon";
+import CarbonCredits from "./pages/CarbonCredits/CarbonCredits";
 import BuyCarbonCerdit from "./pages/BuyCarbonCerdits/BuyCarbonCerdit";
-import Challenges from "./pages/Challanges/Challanges";
+import Challenges from "./pages/ChallengesAndSolutions/Challenges";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import ExploreProject from "./pages/ExploreProject/ExploreProject";
 import Forestry from "./pages/Forestry/Forestry";
 import Media from "./pages/NewsandMedia/Media";
 import StartAProject from "./pages/StartAProject/StartAProject";
-import WindSolar from "./pages/WindandSolar/WindSolar";
+import WindSolar from "./pages/RenewableEnergy/Renewable Energy";
 import Home from "./pages/Home/Home";
 
 import Footer from "./components/Footer/Footer";
@@ -28,11 +30,11 @@ const App=()=> {
 
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/our-story" element={<OurStory />} />
         <Route path="/news-and-media" element={<Media />} />
         <Route path="/challenges" element={<Challenges />} />
         <Route path="/forest" element={<Forestry />} />
-        <Route path="/blue-carbon" element={<BlueCarbon />} />
+        <Route path="/blue-carbon" element={<CarbonCredits />} />
         <Route path="/agriculture" element={<Agriculture/>} />
         <Route path="/wind-and-solar" element={<WindSolar/>} />
         <Route path="/anaerobic-digestion" element={<Anaerobic/>}/>

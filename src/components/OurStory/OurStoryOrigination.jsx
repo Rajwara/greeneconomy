@@ -1,7 +1,7 @@
 import React from "react";
 import WMImg2 from "../../../src/images/origination-img.jpg";
 
-function Origination() {
+function OurStoryOrigination() {
   return (
     <div className="bg-[#F7F5F2]  px-[30px] md:px[60] lg:px-[80px] xl:px-[100px]  relative md:py-[20px] xl:py-[30px] pb-[100px] md:pb-[100px] xl:pb-[120px]">
       <div className=" py-[20px] md:py-[10px] lg:py-[30px]">
@@ -56,4 +56,4 @@ function Origination() {
   );
 }
 
-export default Origination;
+export default OurStoryOrigination;

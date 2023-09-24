@@ -1,16 +1,18 @@
 import React from "react";
 import BlueCarbonBanner from "../../components/BlueCarbon/BlueCarbonBanner";
-import NatureBasedAssetsBlueC from "../../components/BlueCarbon/NatureBasedAssetsBlueC";
+import PioneeringInitiatives from "../../components/BlueCarbon/PioneeringInitiatives";
 import WhatIsBlueCarbon from "../../components/BlueCarbon/whatIsBlueCarbon";
 import BlueCarbonMangroves from "../../components/BlueCarbon/BlueCarbonMangroves";
 import BlueCarbonSeagrasses from "../../components/BlueCarbon/BlueCarbonSeagrasses";
 import BlueCarbonTidalMarshes from "../../components/BlueCarbon/BlueCarbonTidalMarshes";
+import BlueCarbonGepPlay from "../../components/BlueCarbon/BlueCarbonGepPlay";
 
-const BlueCarbon = () => {
+const CarbonCredits = () => {
   return (
     <div>
       <BlueCarbonBanner />
-      <NatureBasedAssetsBlueC />
+      <PioneeringInitiatives />
+      <BlueCarbonGepPlay/>
       <WhatIsBlueCarbon />
       <BlueCarbonMangroves />
       <BlueCarbonSeagrasses />
@@ -19,4 +21,4 @@ const BlueCarbon = () => {
   );
 };
 
-export default BlueCarbon;
+export default CarbonCredits;

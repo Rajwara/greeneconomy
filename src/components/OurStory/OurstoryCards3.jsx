@@ -33,7 +33,7 @@ function butn() {
     </div>
   );
 }
-function AboutCards3() {
+function OurstoryCards3() {
   const datials = [
     {
       image: img1,
@@ -73,4 +73,4 @@ function AboutCards3() {
     </div>
   );
 }
-export default AboutCards3;
+export default OurstoryCards3;

@@ -6,7 +6,7 @@ function StateAbout() {
     <div className="bg-[#F7F5F2] px-[30px] md:px[60] lg:px-[80px] xl:px-[100px] relative md:py-[20px] xl:py-[30px]  pt-[50px]  pb-[100px] md:pb-[100px] xl:pb-[120px]">
       <h2 className="text-[20px] lg:text-[22px] pb-[20px] font-[700] text-[#316D69] text-center">
         {" "}
-        About Us
+        Our story
       </h2>
       <div className=" py-[20px] md:py-[10px] lg:py-[30px]">
         <h3

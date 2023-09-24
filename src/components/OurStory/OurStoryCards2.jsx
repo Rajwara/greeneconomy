@@ -20,7 +20,7 @@ function InnerCard(props) {
   );
 }
 
-function AboutCards2() {
+function OurStoryCards2() {
   const datials = [
     {
       image: img1,
@@ -49,4 +49,4 @@ function AboutCards2() {
     </div>
   );
 }
-export default AboutCards2;
+export default OurStoryCards2;

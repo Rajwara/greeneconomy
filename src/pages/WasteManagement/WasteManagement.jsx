@@ -8,21 +8,23 @@ import DigestionManagement from "../../components/AnaerobicDigestion/DigestionMa
 import DigestionConsultancy from "../../components/AnaerobicDigestion/AnaerobicDigestionConsultancy";
 import AnaerobicDigestionCards from "../../components/AnaerobicDigestion/AnaerobicDigestionCards";
 import AnaerobicJoin from "../../components/AnaerobicDigestion/AnaerobicJoin";
+import AnaerobicDigestionGlance from "../../components/AnaerobicDigestion/AnaerobicDigestionGlance";
 
-const Anaerobic = () => {
+const WasteManagement = () => {
   return (
     <div>
       <AnaerobicBanner />
+      <AnaerobicDigestionGlance/>
+      <DigestionConsultancy />
       <BenefitsofAnaerobic />
       <AnaerobicDigestion />
       <DryAnaerobicDisgestion />
       <AnaerobicDigestionForIndustry />
       <DigestionManagement />
-      <DigestionConsultancy />
       <AnaerobicDigestionCards />
       <AnaerobicJoin />
     </div>
   );
 };
 
-export default Anaerobic;
+export default WasteManagement;

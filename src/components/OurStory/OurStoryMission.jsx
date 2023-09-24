@@ -35,7 +35,7 @@ function Banner() {
     </div>
   );
 }
-function AboutMission() {
+function OurStoryMission() {
   return (
     <div className="relative mt-[50px]">
       <div style={divStyle1}>
@@ -61,4 +61,4 @@ function AboutMission() {
   );
 }
 
-export { AboutMission, Banner };
+export { OurStoryMission, Banner };

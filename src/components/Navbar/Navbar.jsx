@@ -94,7 +94,7 @@ const Navbar = () => {
                 }`}
                 onClick={() => toggleDropdown("dropdownNavbarLink1")}
               >
-                Our Story
+                About Us
                 <svg
                   className="w-2.5 h-2.5 ml-2.5"
                   aria-hidden="true"
@@ -124,34 +124,34 @@ const Navbar = () => {
                 >
                   <li>
                     <NavLink
-                      to="/about-us"
+                      to="/our-story"
                       className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
-                        activeLink === "AboutUs"
+                        activeLink === "OurStory"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
                       } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("AboutUs")}
+                      onClick={() => handleLinkClick("OurStory")}
                     >
-                      About Us
+                      Our Story
                     </NavLink>
                   </li>
                   <li>
                     <Link
-                      to="/news-and-media"
+                      to="/challenges"
                       className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
-                        activeLink === "NewsandMedia"
+                        activeLink === "ChallangesAndSolutions"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
                       } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("NewsandMedia")}
+                      onClick={() => handleLinkClick("ChallangesAndSolutions")}
                     >
-                      News and Media
+                      Challenges & Solutions
                     </Link>
                   </li>
                 </ul>
               </div>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 to="/challenges"
                 className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
@@ -163,7 +163,7 @@ const Navbar = () => {
               >
                 Challenges
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <button
                 id="dropdownNavbarLink2"
@@ -201,6 +201,21 @@ const Navbar = () => {
                   className="py-2 text-sm text-[#3c3c3c] dark:text-gray-400"
                   aria-labelledby="dropdownLargeButton2"
                 >
+
+                      <li className=" pl-4">
+                    
+                    <Link
+                      to="/blue-carbon"
+                      className={`block font-montserrat  text-base py-2  pr-4 sm:pr-0 ${
+                        activeLink === "CarbonCredits"
+                          ? "text-[#316D69] font-bold"
+                          : "text-[#3c3c3c]"
+                      } hover:text-[#316D69] rounded `}
+                      onClick={() => handleLinkClick("CarbonCredits")}
+                    >
+                      Carbon Credits
+                    </Link>
+                  </li>
                   <li>
                     <Link
                       to="/forest"
@@ -214,7 +229,7 @@ const Navbar = () => {
                       Nature Based Assets
                     </Link>
                   </li>
-                  <li className="flex flex-row pl-4">
+                  {/* <li className="flex flex-row pl-4">
                     <p className="text-[#3c3c3c] font-montserrat font-medium text-base pt-2">
                       1.
                     </p>
@@ -229,23 +244,8 @@ const Navbar = () => {
                     >
                       Forest
                     </Link>
-                  </li>
-                  <li className="flex flex-row pl-4">
-                    <p className="text-[#3c3c3c] font-montserrat font-medium text-base pt-2">
-                      2.
-                    </p>
-                    <Link
-                      to="/blue-carbon"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
-                        activeLink === "BlueCarbon"
-                          ? "text-[#316D69] font-bold"
-                          : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("BlueCarbon")}
-                    >
-                      Blue Carbon
-                    </Link>
-                  </li>
+                  </li> */}
+{/*               
                   <li className="flex flex-row pl-4">
                     <p className="text-[#3c3c3c] font-montserrat font-medium text-base pt-2">
                       3.
@@ -261,7 +261,7 @@ const Navbar = () => {
                     >
                       Agriculture
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       to="/wind-and-solar"
@@ -272,7 +272,7 @@ const Navbar = () => {
                       } hover:text-[#316D69] rounded `}
                       onClick={() => handleLinkClick("WindandSolar")}
                     >
-                      Wind and Solar
+                     Renewable Energy
                     </Link>
                   </li>
                   <li>
@@ -285,7 +285,7 @@ const Navbar = () => {
                       } hover:text-[#316D69] rounded `}
                       onClick={() => handleLinkClick("AnaerobicDigestion")}
                     >
-                      Anaerobic Digestion
+                      Waste Management
                     </Link>
                   </li>
                 </ul>
@@ -341,6 +341,7 @@ const Navbar = () => {
                       Explore Projects
                     </Link>
                   </li>
+
                   <li>
                     <NavLink
                       to="/start-a-project"
@@ -356,6 +357,20 @@ const Navbar = () => {
                   </li>
                 </ul>
               </div>
+            </li>
+
+              <li>
+              <NavLink
+                to="/news-and-media"
+                className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
+                  activeLink === "NewsAndMedia"
+                    ? "text-[#316D69] font-bold"
+                    : "text-[#3c3c3c]"
+                } hover:text-[#316D69] rounded `}
+                onClick={() => handleLinkClick("NewsAndMedia")}
+              >
+                News and Media
+              </NavLink>
             </li>
             <li>
               <button

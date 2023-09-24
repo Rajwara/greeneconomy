@@ -15,22 +15,21 @@ function DeforestationClimate() {
               <p className=" ">
                 <span className="text-[#D3CA28] font-bold">
                   {" "}
-                  Deforestation and Climate Change{" "}
+                  The Green Economy Partnership{" "}
                 </span>{" "}
-                present serious challenges to the planet. While deforestation
-                leads to loss of biodiversity and affects efforts to reach net
-                zero carbon emissions, Climate Change has numerous repercussions
-                including extreme weather events, rising sea levels and coral
-                bleaching. To meet these challenges, we need to switch to
-                sustainable practices that reduce deforestation and limit global
-                warming.
+                 is fully aware of the importance
+                of addressing the interlinked challenges of deforestation and
+                climate change. Deforestation affects the carbon cycle,
+                resulting in global warming and climate change. Such effects
+                necessitate techniques negating the adverse effects of
+                deforestation, and call for an extensive climate action plan.
               </p>
               <p className="mt-6">
-                Solutions range from planting more trees and using renewable
-                energy sources such as solar, hydroelectricity and wind power.
-                We need to work together to address deforestation and Climate
-                Change in order to protect our environment for future
-                generations.
+                The Green Economy Partnership gets that covered as it takes the
+                required initiatives for afforestation, reforestation, and using
+                sustainable energy sources like hydroelectricity, solar, and
+                wind power; all of this paves the way toward a climate-resilient
+                future.
               </p>
             </div>
           </div>

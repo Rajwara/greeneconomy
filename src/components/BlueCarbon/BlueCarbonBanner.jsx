@@ -1,15 +1,16 @@
-import React from "react";
+import React from 'react'
 import backgroundImage from "../../../src/images/bluecarbonbanner.jpg";
+import Banner from '../BannerForAllPages/Banner';
 
 const BlueCarbonBanner = () => {
   return (
-    <div
-      className="bg-cover bg-no-repeat bg-center h-64 "
-      style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
-      {/* Content of your component */}
-    </div>
-  );
-};
+    <Banner
+    title='Carbon Credits'
+    description='Carbon Credits'
+    backgroundImage={backgroundImage}
+    buttonText='Read more'
+    />
+  )
+}
 
-export default BlueCarbonBanner;
+export default BlueCarbonBanner

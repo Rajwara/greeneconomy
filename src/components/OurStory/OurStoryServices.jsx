@@ -5,7 +5,7 @@ const divStyle1 = {
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
 };
-function AboutServices() {
+function OurStoryServices() {
   return (
     <div className="relative">
       <h2 className=" py-[30px] text-[20px] lg:text-[22px] font-[900] text-[#316D69] text-center">
@@ -43,4 +43,4 @@ function AboutServices() {
   );
 }
 
-export default AboutServices;
+export default OurStoryServices;

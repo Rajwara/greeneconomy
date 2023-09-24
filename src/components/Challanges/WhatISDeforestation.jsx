@@ -11,10 +11,8 @@ const divStyle = {
 function WhatISDeforestation() {
   return (
     <div className="relative ">
-      <div >
+      <div>
         <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] py-[20px] md:py-[50px]">
- 
-
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
             <div className="pb-[20px] flex flex-col justify-center items-center h-full">
               <div className=" container flex  items-center">
@@ -30,20 +28,17 @@ function WhatISDeforestation() {
               <h2 className="text-left text-4xl mb-6 font-montserrat  font-bold text-[#316D69] pb-6">
                 What is Deforestation?
               </h2>
-          <div className="font-poppins text-lg text-black">
-          <p className=" pb-[5px]">
-                Deforestation refers to the cutting down, clearing, and removal
-                of forests by human activity, typically for the purpose of using
-                the land for other purposes such as agriculture, urban
-                development, or logging
-              </p>
-              <p className=" ">
-                It can also occur as a result of natural causes such as fire or
-                disease. Deforestation can have a significant impact on the
-                environment, including loss of biodiversity, changes in climate,
-                and disruption of local communities and economies.
-              </p>
-          </div>
+              <div className="font-poppins text-lg text-black">
+                <p className=" pb-[5px]">
+                  Deforestation is the widespread cutting of forests for many
+                  reasons. This could be done for converting forested land for
+                  uses such as industrial activities, urban development, 
+                </p>
+                <p className=" ">
+                  and agriculture. The trees are usually cut on a large scale,
+                  disrupting the rich biodiversity that forests support.
+                </p>
+              </div>
             </div>
           </div>
         </div>

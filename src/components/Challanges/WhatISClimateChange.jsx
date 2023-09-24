@@ -9,21 +9,20 @@ function WhatIsClimateChange() {
           <h2 className=" text-[#316D69] text-4xl mb-6 font-montserrat  font-bold pb-6">
             What is Climate Change?
           </h2>
-         <div className="font-poppins text-lg text-[#3c3c3c]">
-         <p className="">
-            Climate change refers to the long-term changes in temperature,
-            precipitation, wind patterns, and other measures of climate that
-            occur over several decades or longer.
-          </p>
-          <p className=" ">
-            Human activities, such as the burning of fossil fuels and
-            deforestation, are the primary drivers of climate change. As a
-            result of climate change, the Earth's average surface temperature is
-            rising, leading to a wide range of impacts, including more extreme
-            weather events, sea level rise, and changes in the frequency and
-            severity of heat waves, droughts, and storms.
-          </p>
-         </div>
+          <div className="font-poppins text-lg text-[#3c3c3c]">
+            <p className="">
+              Climate change is the long-term alteration of typical patterns of
+              weather patterns of the Earth, and global climate systems. Climate
+              change is considered the key global challenge over the decade.
+            </p>
+            <p className="mt-2 ">
+            It
+              is done mostly due to industrial processes, burning of fossil
+              fuels, and other destructive human activities. It results in the
+              abrupt rise in global temperature, resulting in social,
+              economical, and environmental effects.
+            </p>
+          </div>
         </div>
         <div className="pt-[20px] flex flex-col justify-center items-center h-full">
           <div className=" container flex  items-center">

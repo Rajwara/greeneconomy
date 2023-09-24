@@ -31,21 +31,27 @@ export default function AnimatedCard() {
     <div className=" container_c animated_container mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] ">
       <Card
         color="#316D69"
-        title="Forest"
+        title="Nature- Based Solutions "
         imageSrc={image1}
-        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, hic? Magnam eum error saepe doloribus corrupti repellat quisquam alias doloremque!"
+        description="The  Nature-Based Solutions combat climate change, by utilizing assets like sustainable forestry, blue carbon, and climate-smart agriculture for a sustainable future."
       />
       <Card
         color="#BAB220"
-        title="Blue Carbon"
+        title="Renewable Energy"
         imageSrc={image2}
-        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, hic? Magnam eum error saepe doloribus corrupti repellat quisquam alias doloremque!"
+        description="GEP promotes cost-effective wind and solar solutions as vital renewable energy sources in the fight against climate change."
       />
       <Card
         color="#316D69"
-        title="Agriculture"
+        title="waste management "
         imageSrc={image3}
-        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, hic? Magnam eum error saepe doloribus corrupti repellat quisquam alias doloremque!"
+        description="Anaerobic digestion is a sustainable process converting organics to efficient gas and nutrient-rich digestate, reducing emissions and supporting waste management."
+      />
+        <Card
+        color="#316D69"
+        title="Carbon credits  "
+        imageSrc={image3}
+        description="GEP specializes in carbon trading, a vital mechanism that transforms CO2 into an economic commodity, driving sustainability by reducing global greenhouse gas emissions."
       />
     </div>
   );

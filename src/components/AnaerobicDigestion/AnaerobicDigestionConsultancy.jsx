@@ -1,33 +1,38 @@
 import React from "react";
+import banner from "../../../src/images/p2i1.png";
 
 function DigestionConsultancy() {
   return (
-    <section class="py-16 p-5 md:p-10 bg-[#F7F5F2]  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] ">
-      <div class="container mx-auto">
-        <div class="flex flex-wrap items-center">
-          <div class="w-full md:w-5/12  md:pr-10">
-            <h1 class=" text-left text-md md:text-3xl font-montserrat  leading-7 tracking-normal xs:mb-4 lg:mb-0 text-[#BAB220] font-bold">
-              Green Economy Partnership Anaerobic Digestion Consultancy
-            </h1>
+    <section className="  py-12 text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] ">
+      <div className="container mx-auto">
+        <div className="lg:flex lg:space-x-8 justify-center items-center">
+          <div className="lg:w-1/2 mt-8 md:mt-0 mb-5">
+            <h2 className="text-2xl md:text-3xl text-[#316D69] leading-7 tracking-normal font-montserrat font-bold mb-4">
+              GEP’s Anaerobic Digestion Consultancy
+            </h2>
+            <div className="mb-3 text-[#3c3c3c] text-lg leading-7 font-normal font-poppins">
+              <p className=" ">
+                Green Economy Partnership provides consultancy services for you
+                to uncover the potential of anaerobic digestion. It also offers
+                an efficient solution to address waste management challenges and
+                harness renewable energy resources.
+              </p>
+              <p className=" mt-2">
+                Through anaerobic digestion, you will not only contribute to
+                reducing global carbon footprint but also establish such an
+                economical system to generate power. Our team of experts will
+                help you make well-informed decisions, as they are dedicated to
+                enhancing your quality of life.
+              </p>
+            </div>
           </div>
 
-          <div class="w-full md:w-6/12 md:pl-10">
-            <p class="text-lg xs:text-sm text-left md:text-xl lg:text-lg text-[#316D69] leading-7 font-poppins ">
-              At Green Economy Partnership, we offer anaerobic digestion
-              consultancy that provides an effective solution to the waste
-              management and renewable energy problems. Our anaerobic digestion
-              process is an efficient way of turning organic material such as
-              food waste, agricultural residue and sewage into biogas.
-              <br />
-              Not only can this help lower the global carbon footprint but it
-              also creates an economically sustainable system of power
-              generation from organic sources. Our anaerobic digestion experts
-              will provide you with all the necessary information to make an
-              informed decision on how best to use this technology.
-              <br />
-              We are committed in helping you find solutions for an improved
-              quality of life and a cleaner planet.
-            </p>
+          <div className="lg:w-1/2">
+            <img
+              src={banner}
+              alt="About Green Economy"
+              className="rounded-lg shadow-md"
+            />
           </div>
         </div>
       </div>
