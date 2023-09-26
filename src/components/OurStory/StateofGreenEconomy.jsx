@@ -4,70 +4,54 @@ import WMImg2 from "../../../src/images/about-state-of-the-gep.jpg";
 function StateAbout() {
   return (
     <div className="bg-[#F7F5F2] px-[30px] md:px[60] lg:px-[80px] xl:px-[100px] relative md:py-[20px] xl:py-[30px]  pt-[50px]  pb-[100px] md:pb-[100px] xl:pb-[120px]">
-      <h2 className="text-[20px] lg:text-[22px] pb-[20px] font-[700] text-[#316D69] text-center">
+      <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat mb-8 text-center">
         {" "}
         Our story
-      </h2>
-      <div className=" py-[20px] md:py-[10px] lg:py-[30px]">
-        <h3
-          className=" pb-[10px] text-[#BAB220]  lg:hidden text-center  leading-[30px] 
-                 font-[500] text-[18px] "
-        >
-          State of the Green Economy with Forestry
-        </h3>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
-          <div className=" pb-[20px] lg:hidden flex flex-col justify-center items-center h-full">
-            <div className=" container flex justify-center items-center">
-              <img
-                className="w-full md:h-[400px] rounded-lg"
-                src={WMImg2}
-                alt="gep"
-              ></img>
-            </div>
+      </h6>
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
+        <div className=" pb-[20px] lg:hidden flex flex-col justify-center items-center h-full">
+          <div className=" container flex justify-center items-center">
+            <img
+              className="w-full md:h-[400px] rounded-lg"
+              src={WMImg2}
+              alt="gep"
+            ></img>
           </div>
+        </div>
 
-          <div
-            className="container text-left flex flex-col 
+        <div
+          className="container text-left flex flex-col 
           h-full"
-          >
-            <h3 className="text-left text-[#BAB220] font-[500]  text-[18px] pb-[20px] lg:block">
-              State of the Green Economy with Forestry
-            </h3>
-            <p className="text-[14px] md:text-[16px] lg:text-[18px] pb-[10PX]">
-              Green Economy Partnership leads the way in developing and
-              restoring the forestry for carbon capture and ecosystem services
-              in the world.
+        >
+          <h2 className=" text-[#BAB220]  text-4xl mb-8 font-montserrat font-bold">
+            State of the Green Economy with Forestry
+          </h2>
+          <div className="text-[14px] text-[#3c3c3c] md:text-[16px] lg:text-[18px] pb-[10PX]">
+            <p>
+              The experts at Green Economy only have one promise: to achieve
+              net-zero carbon emissions. GEP is a firm believer of the fact that
+              the climate crisis is an urgent call that’s why our journey to
+              achieve net zero emissions by 2050 has already started. GEP
+              encourages carbon offset practices for a sustainable development
+              future. It holds the highest level of accountability through
+              Verra’s Verified Carbon Standard, paving the way for sustainable
+              development where progress and sustainability coexist.
             </p>
-            <p className="text-[14px] md:text-[16px] lg:text-[18px] pb-[10PX]">
-              We are pioneering carbon elimination standard for engineered
-              carbon removal methods in the voluntary carbon industry. With the
-              fate of our planet's future in balance, we're calling on global
-              citizens and government to join us and take action. By working
-              together, we can reverse climate change by dramatically reducing
-              carbon levels throughout the world. As per Paris agreement offsets
-              are not enough to achieve their goals all alone.
-            </p>
-            <p className="text-[14px] md:text-[16px] lg:text-[18px] ">
-              The Oxford Principles for Net Zero Aligned Carbon Offsetting and
-              other international initiatives are calling for companies to
-              include Carbon Dioxide Removal (CDR) as part of their net zero
-              strategy. We identify carbon removal suppliers from various
-              methodologies and provide them with a certification that assures
-              buyers that they meet our rigorous standards. Our approach will
-              help make it possible for businesses and individuals alike to take
-              meaningful, measurable action against climate change.
+            <p className="mt-2">
+              GEP is all about leaving a legacy for its future generations.
+              That’s why its experts have taken an oath of net zero carbon
+              emissions. As leaders in the race of net zero emissions of UAE,
+              and as active participants of COP28 Dubai, our one goal is to
+              ensure that our efforts for the net zero emissions are not just
+              impactful, but transparent. So, let’s build the legacy of
+              sustainability together!
             </p>
           </div>
+        </div>
 
-          <div className="hidden lg:block ">
-            <div className="relative  container flex flex-col justify-center items-center h-full">
-              <img
-                className=" rounded-lg"
-                src={WMImg2}
-                alt="deforestation"
-              ></img>
-            </div>
+        <div className="hidden lg:block ">
+          <div className="relative  container flex flex-col justify-center items-center h-full">
+            <img className=" rounded-lg" src={WMImg2} alt="deforestation"></img>
           </div>
         </div>
       </div>

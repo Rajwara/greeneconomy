@@ -201,12 +201,10 @@ const Navbar = () => {
                   className="py-2 text-sm text-[#3c3c3c] dark:text-gray-400"
                   aria-labelledby="dropdownLargeButton2"
                 >
-
-                      <li className=" pl-4">
-                    
+                  <li className=" pl-3">
                     <Link
                       to="/blue-carbon"
-                      className={`block font-montserrat  text-base py-2  pr-4 sm:pr-0 ${
+                      className={`block font-montserrat  text-base py-2   pr-4 sm:pr-0 ${
                         activeLink === "CarbonCredits"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -245,7 +243,7 @@ const Navbar = () => {
                       Forest
                     </Link>
                   </li> */}
-{/*               
+                  {/*               
                   <li className="flex flex-row pl-4">
                     <p className="text-[#3c3c3c] font-montserrat font-medium text-base pt-2">
                       3.
@@ -272,7 +270,7 @@ const Navbar = () => {
                       } hover:text-[#316D69] rounded `}
                       onClick={() => handleLinkClick("WindandSolar")}
                     >
-                     Renewable Energy
+                      Renewable Energy
                     </Link>
                   </li>
                   <li>
@@ -359,7 +357,7 @@ const Navbar = () => {
               </div>
             </li>
 
-              <li>
+            <li>
               <NavLink
                 to="/news-and-media"
                 className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${

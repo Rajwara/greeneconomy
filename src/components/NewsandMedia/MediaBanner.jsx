@@ -1,12 +1,15 @@
 import React from "react";
 import backgroundImage from "../../../src/images/mediabanner.jpg";
+import Banner from "../BannerForAllPages/Banner";
 
 const MediaBanner = () => {
   return (
-    <div
-      className="bg-cover bg-no-repeat bg-center h-80  px-[30px] md:px-[60px] text-start flex  font-roboto lg:px-[80px] xl:px-[100px] "
-      style={{ backgroundImage: `url(${backgroundImage})` }}
-    ></div>
+    <Banner
+      title="News and Media"
+      description="This is news and media page."
+      backgroundImage={backgroundImage}
+      buttonText="Contact Us"
+    />
   );
 };
 

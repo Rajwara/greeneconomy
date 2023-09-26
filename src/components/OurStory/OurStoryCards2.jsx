@@ -24,18 +24,18 @@ function OurStoryCards2() {
   const datials = [
     {
       image: img1,
-      heading: "Project Identification",
-      text: "We at Green Economy are committed to finding innovative ways to reduce carbon emissions. Our team of experts specialize in a wide range of project activities, such as exploration of forestry, agriculture and blue carbon that offer potential for rewarding credits under Article 6.2 of Paris Agreement and other incentives aligned with the global effort towards sustainability.",
+      heading: "Project Identification ",
+      text: "Our proficiency lies in assessment (identification) of carbon credit opportunities. The experts utilize a range of carbon mitigation approaches, including renewable energy, forestry, and sustainable agriculture. The solutions that our experts provide aligns with The Green Economy’s objectives, paving the path for sustainable initiatives.",
     },
     {
       image: img2,
       heading: "Project Valuation",
-      text: "Green Economy Partnership provides thorough assessments of projects, determining their eligibility for international carbon credits standards such as GEP-VCS, Gold Standard or Verra Additionally, each project is given a unique potential valuation based on the benefits it brings to its local region.",
+      text: "At Green Economy, our experts have a comprehensive approach toward project valuation, ensuring it aligns with internationally recognized carbon credit standards such as Gold Standard, and Verra. They precisely evaluate the carbon credit potential of every project within these standards, and then integrate carbon credit generation into your projects. ",
     },
     {
       image: img3,
       heading: "Certification Support",
-      text: "The Green Economy Partnership is a pioneer in the carbon certification process, offering comprehensive guidance from declaration to completion. Their expertise guarantees maximum efficiency and accuracy throughout the milestones of drafting, registration, verification AND issuance!",
+      text: "The Green Economy Partnership supports carbon certification from drafting project design documents to the validation, registration, verifications, and issuances milestones.",
     },
   ];
 

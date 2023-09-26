@@ -33,25 +33,25 @@ export default function AnimatedCard() {
         color="#316D69"
         title="Nature- Based Solutions "
         imageSrc={image1}
-        description="The  Nature-Based Solutions combat climate change, by utilizing assets like sustainable forestry, blue carbon, and climate-smart agriculture for a sustainable future."
+        description="The  Nature-Based Solutions utilize assets like sustainable forestry, blue carbon, and climate-smart agriculture for a sustainable future."
       />
       <Card
         color="#BAB220"
         title="Renewable Energy"
         imageSrc={image2}
-        description="GEP promotes cost-effective wind and solar solutions as vital renewable energy sources in the fight against climate change."
+        description="GEP promotes cost-effective wind and solar solutions as vital renewable energy sources in the fight against climate change. "
       />
       <Card
         color="#316D69"
         title="waste management "
         imageSrc={image3}
-        description="Anaerobic digestion is a sustainable process converting organics to efficient gas and nutrient-rich digestate, reducing emissions and supporting waste management."
+        description="Anaerobic digestion is a sustainable process converting organics to efficient gas and nutrient-rich digestate, supporting waste management."
       />
-        <Card
+      <Card
         color="#316D69"
         title="Carbon credits  "
         imageSrc={image3}
-        description="GEP specializes in carbon trading, a vital mechanism that transforms CO2 into an economic commodity, driving sustainability by reducing global greenhouse gas emissions."
+        description="GEP specializes in carbon trading that transforms CO2 into an economic commodity, driving sustainability by reducing global GHG emissions."
       />
     </div>
   );
