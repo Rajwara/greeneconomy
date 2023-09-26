@@ -25,6 +25,7 @@ import Slider from "./components/Home/Slider";
 
 
 const App = () => {
+<<<<<<< HEAD
   return (
     <>
       <Navbar />
@@ -48,9 +49,68 @@ const App = () => {
       </Routes>
       <Footer />
       <ShortFooter />
+=======
+    return ( <
+        >
+        <
+        Navbar / >
 
-    </>
-  );
+        <
+        Routes >
+        <
+        Route path = "/"
+        element = { < Home / > }
+        /> <
+        Route path = "/our-story"
+        element = { < OurStory / > }
+        /> <
+        Route path = "/news-and-media"
+        element = { < Media / > }
+        /> <
+        Route path = "/challenges"
+        element = { < Challenges / > }
+        /> <
+        Route path = "/naturebasedasset"
+        element = { < NatureBasedAsset / > }
+        /> <
+        Route path = "/blue-carbon"
+        element = { < CarbonCredits / > }
+        /> <
+        Route path = "/agriculture"
+        element = { < Agriculture / > }
+        /> <
+        Route path = "/wind-and-solar"
+        element = { < WindSolar / > }
+        /> <
+        Route path = "/anaerobic-digestion"
+        element = { < Anaerobic / > }
+        /> <
+        Route path = "/explore-projects"
+        element = { < ExploreProject / > }
+        /> <
+        Route path = "/start-a-project"
+        element = { < StartAProject / > }
+        /> <
+        Route path = "/buy-carbon-credits"
+        element = { < BuyCarbonCerdit / > }
+        /> <
+        Route path = "/become-a-partner"
+        element = { < BecomeAPartner / > }
+        /> <
+        Route path = "/contact"
+        element = { < ContactUs / > }
+        />
+
+        <
+        /Routes> <
+        Footer / >
+        <
+        ShortFooter / >
+>>>>>>> origin/main
+
+        <
+        />
+    );
 }
 
 export default App;

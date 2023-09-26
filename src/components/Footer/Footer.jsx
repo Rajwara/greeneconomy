@@ -42,7 +42,7 @@ const mainfooter = () => {
               </li>
             </ul>
           </div>
-          <div className="grid-cols-3 space-y-4 f-line2 sm:pl-16 md:pl-28 lg:mt-0 lg:pl-8">
+          <div className="grid-cols-3 space-y-4 f-line2 sm:pl-16 md:pl-28 lg:mt-0 lg:pl-16">
             <h4 className="text-[#BAB220] font-bold font-roboto w-fit text-2xl -mt-20">
               Quick Links
             </h4>

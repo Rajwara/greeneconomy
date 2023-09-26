@@ -114,7 +114,7 @@ const Navbar = () => {
               {/* <!-- Dropdown menu 1 --> */}
               <div
                 id="dropdownNavbar1"
-                className={`z-20 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 ${
+                className={`z-20 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-52 ${
                   dropdowns.dropdownNavbarLink1 ? "block" : "hidden"
                 }`}
               >
@@ -201,10 +201,19 @@ const Navbar = () => {
                   className="py-2 text-sm text-[#3c3c3c] dark:text-gray-400"
                   aria-labelledby="dropdownLargeButton2"
                 >
+<<<<<<< HEAD
                   <li className=" pl-3">
                     <Link
                       to="/blue-carbon"
                       className={`block font-montserrat  text-base py-2   pr-4 sm:pr-0 ${
+=======
+
+                      <li className=" pl-3">
+                    
+                    <Link
+                      to="/blue-carbon"
+                      className={`block font-montserrat  text-base py-2  pr-4  sm:pr-0 ${
+>>>>>>> origin/main
                         activeLink === "CarbonCredits"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -216,7 +225,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      to="/forest"
+                      to="/naturebasedasset"
                       className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "NatureBasedAssets"
                           ? "text-[#316D69] font-bold"
