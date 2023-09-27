@@ -5,23 +5,18 @@ import img3 from "../../../src/images/h3.jpg";
 
 const NatureBasedAssets = () => {
   return (
-    <div className="  pt-20 pb-12 gap-16 overflow-hidden relative lg:flex lg:items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+    <div className="  pt-20  gap-16 overflow-hidden relative lg:flex lg:items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
       <div className="w-full py-12">
         <h2 className="text-2xl font-bold tracking-normal leading-7 text-black font-montserrat dark:text-white lg:text-3xl">
           <span className="text-[#316D69] block">Nature based Assets</span>
         </h2>
         <p className="text-lg font-normal mt-4 font-poppins leading-7 text-[#3c3c3c]">
-          Nature-based assets refer to natural resources and ecosystems, such as
-          forests, wetlands, and coral reefs, that provide valuable goods and
-          services to human society, such as water filtration, flood control,
-          carbon sequestration, and habitat for wildlife.
-          <br />
-          <br />
-          These assets can also have economic value and can be managed for
-          sustainable use. They are increasingly recognized as important for
-          addressing global challenges such as climate change, biodiversity
-          loss, and human well-being.{" "}
-        </p>
+        The planet Earth is witnessing a planetary crisis unfold in real time, and every passing minute demands for a change. When it comes to solving the climate crisis one at a time, nature acts as our great ally, and it’s about time we recognize its value, and make good use of its assets. These assets are all about working with nature instead of against it.       </p>
+        <ol className="text-lg font-poppins list-decimal ml-10 mt-8 ">
+          <li className="mt-2">Sustainable forestry</li>
+          <li className="mt-2">Blue carbon</li>
+          < li className="mt-2">Climate smart agriculture </li>
+        </ol>
         <div className="lg:mt-0 lg:flex-shrink-0">
           <div className="mt-12 inline-flex rounded-lg shadow">
             <button
