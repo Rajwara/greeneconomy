@@ -4,14 +4,6 @@ import Banner from "../BannerForAllPages/Banner";
 
 const CarbonCerditBanner = () => {
   return (
-<<<<<<< HEAD
-    <Banner
-      title="Buy Carbon Cerdits"
-      description=" This is buy carbon cerdits page."
-      backgroundImage={backgroundImage}
-      buttonText="Contact Us"
-    />
-=======
 <>
 <Banner
 title="Start offsetting your carbon emissions today!"
@@ -20,7 +12,6 @@ backgroundImage={backgroundImage}
 buttonText="Contact Us"
 />
 </>
->>>>>>> origin/main
   );
 };
 
