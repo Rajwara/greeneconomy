@@ -1,53 +1,81 @@
 import React from "react";
-
-import img2 from "../../../src/images/img2.jpg";
+import BulletPointtwo from "../../../src/images/Bullet-Point-two.svg";
+import BulletPointone from "../../../src/images/BulletPointone.svg";
+import BulletPointthree from "../../../src/images/BulletPointthree.svg";
+import BulletPointfour from "../../../src/images/BulletPointfour.svg";
+import BulletPointfive from "../../../src/images/BulletPointfive.svg";
+import BulletPointsix from "../../../src/images/BulletPointsix.svg";
 
 function BenefitsofAnaerobic() {
   return (
-    <section className="  py-12 text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] ">
-      <div className="container mx-auto">
-        <div className="lg:flex lg:space-x-8 justify-center items-center">
-          <div className="lg:w-1/2 mt-8 md:mt-0 mb-5">
-            <h2 className="text-2xl md:text-3xl text-[#316D69] leading-7 tracking-normal font-montserrat font-bold mb-4">
-              Benefits of Anaerobic Digestion
-            </h2>
-            <p className=" mb-3 text-[#3c3c3c] text-lg leading-7 font-normal font-poppins">
-              Anaerobic digestion is a sustainable, eco-friendly and energy
-              efficient process used to capture the energy in organic materials
-              and convert them into biogas and bio fertilizers.
-            </p>
-            <h5 className="text-2xl md:text-lg text-[#BAB220] font-bold mb-4 font-montserrat tracking-normal leading-7">
-              Standard benefits:
-            </h5>
-            <ul className="list-disc mb-4 text-left list-inside text-[#3c3c3c] text-lg leading-7 font-normal font-poppins">
-              <li>
-                Anaerobic digestion is a natural process that breaks down
-                biodegradable material in the absence of oxygen.
-              </li>
-              <li>
-                Anaerobic digestion produces methane and carbon dioxide, which
-                can be used to generate electricity and heat.
-              </li>
-            </ul>
-            <h5 className="text-2xl md:text-lg text-[#BAB220] font-bold mb-4 tracking-normal leading-7 font-montserrat">
-              Emotional benefits:
-            </h5>
-            <ul className="list-disc text-left list-inside text-[#3c3c3c] text-lg leading-7 font-normal font-poppins">
-              <li>Help the environment by using renewable energy.</li>
-              <li>Reduce your carbon footprint.</li>
-            </ul>
-          </div>
-          <div className="lg:w-1/2">
-            <img
-              src={img2}
-              alt="About Green Economy"
-              className="rounded-lg shadow-md"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+    // <section className="  py-12 text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] ">
+   
+    // </section>
+<div className="  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] pb-[100px]">
+<h2 className="text-2xl md:text-4xl text-center text-[#316D69] leading-7 tracking-normal font-montserrat font-bold mb-4">
+    The Benefits of Turning Waste to Energy
+  </h2>
+  <div className="flex justify-evenly mt-14">
+  <ul className="flex flex-col justify-evenly gap-8">
+  <li className="flex  gap-4">
+        <img src={BulletPointone} className="h-6 w-6" alt="" />
+        <h6 className=" text-lg text-[#3c3c3c] font-bold	font-montserrat">
+          Reduced landfill waste
+        </h6>
+      </li>
+      <li className="flex gap-4">
+        <img src={BulletPointtwo} className="h-6 w-6" alt="" />
+        <h6 className=" text-lg text-[#3c3c3c] font-bold	font-montserrat">
+        Greenhouse gas emission reduction
+        </h6>
+      </li>
+     
+  </ul>
+
+  <ul className="flex flex-col justify-evenly gap-8">
+  <li className="flex  gap-4 ">
+        <img src={BulletPointthree} className="h-6 w-6" alt="" />
+        <h6 className=" text-lg text-[#3c3c3c] font-bold	font-montserrat">
+        Clean energy generation
+        </h6>
+      </li>
+      <li className="flex gap-4">
+        <img src={BulletPointfour} className="h-6 w-6" alt="" />
+        <h6 className=" text-lg text-[#3c3c3c] font-bold	font-montserrat">
+        Resource conservation
+        </h6>
+      </li>
+      </ul>
+      <ul className="flex justify-evenly flex-col gap-8">
+      <li className="flex gap-4">
+        <img src={BulletPointfive} className="h-6 w-6" alt="" />
+        <h6 className=" text-lg text-[#3c3c3c] font-bold	font-montserrat">
+        Waste management integration
+        </h6>
+      </li>
+      <li className="flex gap-4">
+        <img src={BulletPointsix} className="h-6 w-6" alt="" />
+        <h6 className=" text-lg text-[#3c3c3c] font-bold	font-montserrat">
+        Improved air quality
+        </h6>
+      </li>
+  </ul>
+  </div>
+</div>
+   
   );
 }
 
 export default BenefitsofAnaerobic;
+
+
+
+<div className="lg:flex lg:space-x-8 justify-center items-center">
+<div className=" mt-8 md:mt-0 mb-5">
+  
+  {/* <div className=" "> */}
+    <ul className=" flex justify-evenly ">
+    
+    </ul>
+  </div>
+</div>

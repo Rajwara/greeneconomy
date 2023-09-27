@@ -9,6 +9,7 @@ import DigestionConsultancy from "../../components/AnaerobicDigestion/AnaerobicD
 import AnaerobicDigestionCards from "../../components/AnaerobicDigestion/AnaerobicDigestionCards";
 import AnaerobicJoin from "../../components/AnaerobicDigestion/AnaerobicJoin";
 import AnaerobicDigestionGlance from "../../components/AnaerobicDigestion/AnaerobicDigestionGlance";
+import StatsAnaerobic from "../../components/AnaerobicDigestion/StatsAnaerobic";
 
 const WasteManagement = () => {
   return (
@@ -17,12 +18,13 @@ const WasteManagement = () => {
       <AnaerobicDigestionGlance/>
       <DigestionConsultancy />
       <BenefitsofAnaerobic />
-      <AnaerobicDigestion />
-      <DryAnaerobicDisgestion />
-      <AnaerobicDigestionForIndustry />
-      <DigestionManagement />
-      <AnaerobicDigestionCards />
-      <AnaerobicJoin />
+      <StatsAnaerobic/>
+      {/* <AnaerobicDigestion /> */}
+      {/* <DryAnaerobicDisgestion /> */}
+      {/* <AnaerobicDigestionForIndustry /> */}
+      {/* <DigestionManagement /> */}
+      {/* <AnaerobicDigestionCards /> */}
+      {/* <AnaerobicJoin /> */}
     </div>
   );
 };
