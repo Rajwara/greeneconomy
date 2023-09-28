@@ -213,7 +213,7 @@ const Navbar = () => {
                       } hover:text-[#316D69] rounded `}
                       onClick={() => handleLinkClick("CarbonCredits")}
                     >
-                      Carbon Credits
+                      Carbon Trading
                     </Link>
                   </li>
                   <li>
