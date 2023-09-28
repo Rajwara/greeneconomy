@@ -3,6 +3,11 @@ import EffectsofDeforestation from "../../../src/images/Effects-of-Deforestation
 // import bg1 from "../../../src/images/backgroun1.webp";
 // import BulletPointarrow from "../../../src/images/Bullet-Point-arrow.svg";
 import BulletPointtwo from "../../../src/images/Bullet-Point-two.svg";
+import BulletPointone from "../../../src/images/BulletPointone.svg";
+import BulletPointhree from "../../../src/images/BulletPointthree.svg";
+import BulletPointfour from "../../../src/images/BulletPointfour.svg";
+import BulletPointfive from "../../../src/images/BulletPointfive.svg";
+import BulletPointsix from "../../../src/images/BulletPointsix.svg";
 
 const BlueCarbonGepPlay = () => {
   return (
@@ -33,7 +38,7 @@ const BlueCarbonGepPlay = () => {
                     <li className="flex gap-3 align-middle">
                       <img
                         className="w-6 h-6 "
-                        src={BulletPointtwo}
+                        src={BulletPointone}
                         alt="location"
                       />
                       {/* <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat">
@@ -72,7 +77,7 @@ const BlueCarbonGepPlay = () => {
                     <li className="flex gap-3 align-middle">
                       <img
                         className="w-6 h-6 "
-                        src={BulletPointtwo}
+                        src={BulletPointhree}
                         alt="location"
                       />
                       {/* <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat">
@@ -91,7 +96,7 @@ const BlueCarbonGepPlay = () => {
                     <li className="flex gap-3 align-middle">
                       <img
                         className="w-6 h-6 "
-                        src={BulletPointtwo}
+                        src={BulletPointfour}
                         alt="location"
                       />
                       {/* <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat">
@@ -110,7 +115,7 @@ const BlueCarbonGepPlay = () => {
                     <li className="flex gap-3 align-middle">
                       <img
                         className="w-6 h-6 "
-                        src={BulletPointtwo}
+                        src={BulletPointfive}
                         alt="location"
                       />
                       {/* <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat">
@@ -129,7 +134,7 @@ const BlueCarbonGepPlay = () => {
                     <li className="flex gap-3 align-middle">
                       <img
                         className="w-6 h-6 "
-                        src={BulletPointtwo}
+                        src={BulletPointsix}
                         alt="location"
                       />
                       {/* <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat">

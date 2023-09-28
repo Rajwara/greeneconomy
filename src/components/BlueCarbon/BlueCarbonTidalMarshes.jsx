@@ -3,7 +3,7 @@ import TidalMarshes from "../../../src/images/bluectidalmarshes.jpg";
 
 const BlueCarbonTidalMarshes = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 mb-6 px-[30px] md:px-[60px] font-roboto lg:px-[80px] xl:px-[100px]">
+    <div className="grid grid-cols-1 lg:grid-cols-2 mb-6 px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
       <div className="container text-left bg-[#f7f5f2] py-8 px-12 flex flex-col justify-center  h-full">
         <h2 className=" mb-4  text-[#316D69] text-3xl font-montserrat font-bold leading-7 tracking-normal ">
           Tidal Marshes
