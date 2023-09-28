@@ -14,7 +14,7 @@ export default function AboutusHome() {
           <h2 className="text-4xl mb-6 font-montserrat  font-bold text-[#3c3c3c]">
             Green Economy Partnership: Going green by 2050
           </h2>
-          <div className="font-poppins text-lg text-[#3c3c3c]">
+          <div className="font-poppins text-lg text-[#3c3c3c] font-normal leading-7">
             <p className=" ">
               Welcome to{" "}
               <span className="text-[#D3CA28] font-bold">
