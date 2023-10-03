@@ -6,6 +6,7 @@ import OurStoryOrigination from "../../components/OurStory/OurStoryOrigination";
 import StateAbout from "../../components/OurStory/StateofGreenEconomy";
 import GepComePlay from "../../components/OurStory/GepComePlay";
 import HowDoGepExpert from "../../components/OurStory/HowDoGepExpert";
+import OurStoryMission from "../../components/OurStory/OurStoryMission";
 
 const OurStory = () => {
   return (
@@ -17,6 +18,7 @@ const OurStory = () => {
       <GepComePlay />
       <OurStoryOrigination />
       <OurStoryCards2 />
+      <OurStoryMission />
     </div>
   );
 };

@@ -12,7 +12,7 @@ export default function SolutionsHome() {
         </div>
 
         <div className="flex flex-col flex-wrap">
-          <div className="text-4xl mb-8 font-montserrat font-bold">
+          <div className="text-4xl mb-8 leading-9 font-montserrat font-bold">
             <h2 className="   text-black border-neutral-950	underline mb-4 ">
               Solution :<br />{" "}
             </h2>

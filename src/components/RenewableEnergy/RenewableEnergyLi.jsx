@@ -7,13 +7,12 @@ import BulletPointfour from "../../../src/images/BulletPointfour.svg";
 import BulletPointfive from "../../../src/images/BulletPointfive.svg";
 import BulletPointsix from "../../../src/images/BulletPointsix.svg";
 
-
 const RenewableEnergyLi = () => {
   return (
     <div className="relative ">
       <div>
         <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] py-[20px] md:py-[20px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] pt-[50px]">
             <div className="pb-[20px] flex flex-col justify-center items-center h-full">
               <div className=" container flex  items-center">
                 <img
@@ -24,9 +23,9 @@ const RenewableEnergyLi = () => {
               </div>
             </div>
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="text-left text-4xl  font-montserrat  font-bold text-[#316D69] pb-6">
-              Renewable Energy 
-
+              <h2 className=" text-left text-[#316D69] font-montserrat tracking-normal leading-9 mb-6 text-4xl font-bold">
+                What{" "}
+                <span className="text-[#BAB220]">is Renewable Energy ?</span>
               </h2>
               <p className="text-[#3C3C3C] text-lg font-normal font-poppins ">
                 In GEP’s pursuit of a sustainable energy future, wind
@@ -38,7 +37,7 @@ const RenewableEnergyLi = () => {
                 renewable energy is now the cheapest source to generate energy.
                 These renewable resources are also gaining momentum because:
               </p>
-              <div className="mt-14 font-poppins text-lg text-black">
+              <div className="mt-8 font-poppins text-lg text-black">
                 <ul className=" flex flex-col gap-2">
                   <div className="	">
                     <li className="flex gap-3 align-middle">

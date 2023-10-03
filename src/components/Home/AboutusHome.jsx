@@ -6,8 +6,8 @@ import homeaboutus from "../../../src/images/AboutusHome.png";
 export default function AboutusHome() {
   return (
     <div>
-      <div class="grid grid-cols-3 gap-4 mx-auto shadow-[none] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
-        <div class=" justify-center align-middle">
+      <div class="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4 mx-auto shadow-[none] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+        <div class=" justify-center align-middle ">
           <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat">
             About us
           </h6>
@@ -39,7 +39,7 @@ export default function AboutusHome() {
         <div class="">
           <img src={homeaboutus} alt="" />
         </div>
-        <div class=" font-poppins text-lg">
+        <div class=" font-poppins text-lg ">
           <div className="flex-col align-middle gap-4">
             <AiOutlineCarryOut className="mt-1 text-[50px] border-2 rounded-full border-[#316D69] bg-[#316D69] hover:bg-[#f7f5f2] hover:text-[#316D69] text-[#f7f5f2] p-2" />
 

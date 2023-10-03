@@ -8,7 +8,7 @@ import OurStory from "./pages/OurStory/OurStory";
 import Agriculture from "./pages/Agriculture/Agriculture";
 import Anaerobic from "./pages/WasteManagement/WasteManagement";
 import BecomeAPartner from "./pages/BecomeAPartner/BecomeAPartner";
-import CarbonCredits from "./pages/CarbonCredits/CarbonCredits";
+import CarbonTrading from "./pages/CarbonTrading/CarbonTrading";
 import BuyCarbonCerdit from "./pages/BuyCarbonCerdits/BuyCarbonCerdit";
 import Challenges from "./pages/ChallengesAndSolutions/Challenges";
 import ContactUs from "./pages/ContactUs/ContactUs";
@@ -32,7 +32,7 @@ const App = () => {
         <Route path="/news-and-media" element={<Media />} />{" "}
         <Route path="/challenges" element={<Challenges />} />{" "}
         <Route path="/naturebasedasset" element={<NatureBasedAsset />} />{" "}
-        <Route path="/blue-carbon" element={<CarbonCredits />} />{" "}
+        <Route path="/blue-carbon" element={<CarbonTrading />} />{" "}
         <Route path="/agriculture" element={<Agriculture />} />{" "}
         <Route path="/wind-and-solar" element={<RenewableEnergy />} />{" "}
         <Route path="/anaerobic-digestion" element={<Anaerobic />} />{" "}

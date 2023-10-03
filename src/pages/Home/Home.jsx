@@ -9,7 +9,7 @@ import GovernmentofUganda from "../../components/Home/GovernmentofUganda";
 import OurActivateAprroach from "../../components/Home/OurActivateAprroach";
 import OurPartner from "../../components/Home/OurPartner";
 import Counter from "../../components/Home/Counter";
-import ContactButton from "../../components/ContactFooterUperComponent/ContactFooterUperButton";
+import ContactButton from "../../components/Home/ContactButton";
 
 const Home = () => {
   return (

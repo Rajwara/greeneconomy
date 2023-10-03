@@ -3,7 +3,7 @@ import banner from "../../../src/images/p2i1.png";
 
 function DigestionConsultancy() {
   return (
-    <section className="  py-12 text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] ">
+    <section className="  py-12 text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[0px] ">
       <div className="container mx-auto">
         <div className="lg:flex lg:space-x-8 justify-center items-center">
           <div className="lg:w-1/2 mt-8 md:mt-0 mb-5">

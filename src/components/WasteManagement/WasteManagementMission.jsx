@@ -1,16 +1,16 @@
 import React from "react";
 import ContactFooterUperButton from "../ContactFooterUperComponent/ContactFooterUperButton";
 
-const ContactButton = () => {
+const WasteManagementMission = () => {
   return (
     <>
       <ContactFooterUperButton
-        titlebtn="Feel Free to Contact Us!"
-        descriptionbtn="This is a longer description to test the component."
+        titlebtn=" Mission 2050"
+        descriptionbtn="Let's transform net-zero carbon footprint together by 2050"
         buttontextbtn="Get Started"
       />
     </>
   );
 };
 
-export default ContactButton;
+export default WasteManagementMission;
