@@ -321,80 +321,17 @@ const Navbar = () => {
               </div>
             </li>
             <li>
-              <button
-                id="dropdownNavbarLink3"
-                data-dropdown-toggle="dropdownNavbar3"
-                className={`flex items-center justify-between w-full py-2 pl-3 pr-4 mt-[10px] font-montserrat font-semibold text-base text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-[#316D69] md:p-0 md:w-auto dark:text-white md:dark:hover:text-[#316D69] dark:focus:text-[#f7f5f2] dark:border-gray-700 ${
-                  dropdowns.dropdownNavbarLink3 ? "" : ""
-                }`}
-                onClick={() => {
-                  toggleDropdown("dropdownNavbarLink3");
-                  handleLinkClick(true);
-                }}
+              <NavLink
+                to="/projects"
+                className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
+                  activeLink === "NewsAndMedia"
+                    ? "text-[#316D69] font-bold"
+                    : "text-[#3c3c3c]"
+                } hover:text-[#316D69] rounded `}
+                onClick={() => handleLinkClick("NewsAndMedia")}
               >
                 Projects
-                <svg
-                  className="w-2.5 h-2.5 ml-2.5"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="m1 1 4 4 4-4"
-                  />
-                </svg>
-              </button>
-              {/* <!-- Dropdown menu 3 --> */}
-              <div
-                id="dropdownNavbar3"
-                className={`z-20 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600 ${
-                  dropdowns.dropdownNavbarLink3 ? "block" : "hidden"
-                }`}
-              >
-                <ul
-                  className="py-2 text-sm text-[#3c3c3c] dark:text-gray-400"
-                  aria-labelledby="dropdownLargeButton3"
-                >
-                  <li>
-                    <Link
-                      to="/explore-projects"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
-                        activeLink === "ExploreProject"
-                          ? "text-[#316D69] font-bold"
-                          : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
-                      onClick={() => {
-                        handleLinkClick("ExploreProject");
-                        closeDropdown("dropdownNavbarLink3");
-                      }}
-                    >
-                      Explore Projects
-                    </Link>
-                  </li>
-
-                  <li>
-                    <NavLink
-                      to="/start-a-project"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
-                        activeLink === "StartaProject"
-                          ? "text-[#316D69] font-bold"
-                          : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
-                      onClick={() => {
-                        handleLinkClick("StartaProject");
-                        closeDropdown("dropdownNavbarLink3");
-                      }}
-                    >
-                      Start a Project
-                    </NavLink>
-                  </li>
-                </ul>
-              </div>
+              </NavLink>
             </li>
 
             <li>

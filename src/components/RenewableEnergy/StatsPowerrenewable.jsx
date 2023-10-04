@@ -18,18 +18,18 @@ const StatsPowerrenewable = () => {
             </p>
 
             <div>
-              <h6 className="mt-6 text-2xl font-bold font-montserrat leading-7 tracking-normal text-[#316D69]">
+              <h6 className="mt-6 text-2xl font-bold font-montserrat leading-7 tracking-normal text-[#bab220]">
                 Here’s the content.
               </h6>
 
               <ul className="gap-6   ">
                 <li className="mt-4 ">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
+                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 border-2 border-[#bab220] mt-1 rounded-full dark:text-green-500 dark:bg-transparent">
                       <svg
                         className="w-4 h-4"
                         viewBox="0 0 20 20"
-                        fill="currentColor"
+                        fill="#bab220"
                       >
                         <path
                           fillRule="evenodd"
@@ -46,11 +46,11 @@ const StatsPowerrenewable = () => {
                 </li>
                 <li className="mt-2 ">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
+                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 border-2 border-[#bab220] mt-1 rounded-full dark:text-green-500 dark:bg-transparent">
                       <svg
                         className="w-4 h-4"
                         viewBox="0 0 20 20"
-                        fill="currentColor"
+                        fill="#bab220"
                       >
                         <path
                           fillRule="evenodd"
@@ -68,11 +68,11 @@ const StatsPowerrenewable = () => {
                 </li>
                 <li className="mt-2 ">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
+                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 border-2 border-[#bab220] mt-1 rounded-full dark:text-green-500 dark:bg-transparent">
                       <svg
                         className="w-4 h-4"
                         viewBox="0 0 20 20"
-                        fill="currentColor"
+                        fill="#bab220"
                       >
                         <path
                           fillRule="evenodd"
@@ -89,112 +89,6 @@ const StatsPowerrenewable = () => {
                 </li>
               </ul>
             </div>
-
-            {/* <div>
-                <h6 className="mt-6 text-2xl font-bold font-montserrat leading-7 tracking-normal text-[#316D69]">
-                  Blue Carbon
-                </h6>
-
-                <ul className="gap-6  ">
-                  <li className="mt-4 ">
-                    <div className="flex">
-                      <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
-                        <svg
-                          className="w-4 h-4"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </span>
-                      <span className="ml-4 text-lg font-normal font-poppins leading-7 text-[#3c3c3c] dark:text-gray-200">
-                        Mangroves and coastal wetlands annually sequester carbon
-                        at a rate ten times greater than mature tropical forests.
-                      </span>
-                    </div>
-                  </li>
-                  <li className="mt-2 ">
-                    <div className="flex">
-                      <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
-                        <svg
-                          className="w-4 h-4"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </span>
-                      <span className="ml-4 text-lg font-normal font-poppins leading-7 text-[#3c3c3c] dark:text-gray-200">
-                        Though seagrass covers 0.1% of the world's seafloor, but
-                        stores 11% of ocean’s buried carbon.
-                      </span>
-                    </div>
-                  </li>
-                </ul>
-              </div> */}
-
-            {/* <div>
-                <h6 className="mt-6 text-2xl font-bold font-montserrat leading-7 tracking-normal text-[#316D69]">
-                  Climate Smart Agriculture
-                </h6>
-
-                <ul className="gap-6   ">
-                  <li className="mt-4 ">
-                    <div className="flex">
-                      <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
-                        <svg
-                          className="w-4 h-4"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </span>
-                      <span className="ml-4 text-lg font-normal font-poppins leading-7 text-[#3c3c3c] dark:text-gray-200">
-                        In 2018, emissions from agriculture, and associated land
-                        use comprised 17% of the global greenhouse gas emissions.
-                        Smart agriculture can reduce these emissions to a
-                        significant amount.
-                      </span>
-                    </div>
-                  </li>
-                  <li className="mt-2 ">
-                    <div className="flex">
-                      <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
-                        <svg
-                          className="w-4 h-4"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </span>
-                      <span className="ml-4 text-lg font-normal font-poppins leading-7 text-[#3c3c3c] dark:text-gray-200">
-                        According to WEF, smart agricultural practices have the
-                        potential to increase crop yields by 300 metric million
-                        tonnes by 2030, while saving $100 billion for farmers in
-                        reduced costs.
-                      </span>
-                    </div>
-                  </li>
-                </ul>
-              </div> */}
           </div>
           <div className="relative mt-10  relative-20 lg:mt-0 lg:col-start-1">
             <div className="relative space-y-4">

@@ -12,7 +12,7 @@ import CarbonTrading from "./pages/CarbonTrading/CarbonTrading";
 import BuyCarbonCerdit from "./pages/BuyCarbonCerdits/BuyCarbonCerdit";
 import Challenges from "./pages/ChallengesAndSolutions/Challenges";
 import ContactUs from "./pages/ContactUs/ContactUs";
-import ExploreProject from "./pages/ExploreProject/ExploreProject";
+import Projects from "./pages/Projects/Projects";
 import NatureBasedAsset from "./pages/NatureBasedAsset/NatureBasedAsset";
 import Media from "./pages/NewsandMedia/Media";
 import StartAProject from "./pages/StartAProject/StartAProject";
@@ -36,7 +36,7 @@ const App = () => {
         <Route path="/agriculture" element={<Agriculture />} />{" "}
         <Route path="/wind-and-solar" element={<RenewableEnergy />} />{" "}
         <Route path="/anaerobic-digestion" element={<Anaerobic />} />{" "}
-        <Route path="/explore-projects" element={<ExploreProject />} />{" "}
+        <Route path="/projects" element={<Projects />} />{" "}
         <Route path="/start-a-project" element={<StartAProject />} />{" "}
         <Route path="/buy-carbon-credits" element={<BuyCarbonCerdit />} />{" "}
         <Route path="/become-a-partner" element={<BecomeAPartner />} />{" "}

@@ -21,7 +21,7 @@ function GepComePlay() {
                   <ul className=" flex flex-col gap-2">
                     <li className="flex gap-3 align-middle">
                       <img
-                        className="w-6 h-6 "
+                        className="w-6 h-6"
                         src={BulletPointarrow}
                         alt="location"
                       />

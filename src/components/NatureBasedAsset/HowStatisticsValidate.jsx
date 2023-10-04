@@ -10,7 +10,8 @@ const HowStatisticsValidate = () => {
         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center">
           <div className="ml-auto lg:col-start-2 ">
             <h2 className="mt-2 text-4xl font-bold leading-9 font-montserrat tracking-normal text-[#3c3c3c] dark:text-white sm:text-3xl sm:leading-9">
-              How Statistics Validate These Facts?
+              How Statistics Validate
+              <span className="text-[#bab220]"> These Facts?</span>
             </h2>
             <p className="mt-4 text-lg leading-7 font-normal font-poppins text-[#3c3c3c] dark:text-gray-300">
               Nature-based solutions represent more than just a concept, they
@@ -31,11 +32,11 @@ const HowStatisticsValidate = () => {
               <ul className="gap-6   ">
                 <li className="mt-4 ">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
+                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 mt-1 border-2 border-[#316D69] rounded-full dark:text-green-500 dark:bg-transparent">
                       <svg
                         className="w-4 h-4"
                         viewBox="0 0 20 20"
-                        fill="currentColor"
+                        fill="#316D69"
                       >
                         <path
                           fillRule="evenodd"
@@ -53,11 +54,11 @@ const HowStatisticsValidate = () => {
                 </li>
                 <li className="mt-2 ">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
+                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 mt-1 border-2 border-[#316D69] rounded-full dark:text-green-500 dark:bg-transparent">
                       <svg
                         className="w-4 h-4"
                         viewBox="0 0 20 20"
-                        fill="currentColor"
+                        fill="#316D69"
                       >
                         <path
                           fillRule="evenodd"
@@ -75,11 +76,11 @@ const HowStatisticsValidate = () => {
                 </li>
                 <li className="mt-2 ">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
+                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 mt-1 border-2 border-[#316D69] rounded-full dark:text-green-500 dark:bg-transparent">
                       <svg
                         className="w-4 h-4"
                         viewBox="0 0 20 20"
-                        fill="currentColor"
+                        fill="#316D69"
                       >
                         <path
                           fillRule="evenodd"
@@ -105,11 +106,11 @@ const HowStatisticsValidate = () => {
               <ul className="gap-6  ">
                 <li className="mt-4 ">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
+                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 mt-1 border-2 border-[#316D69] rounded-full dark:text-green-500 dark:bg-transparent">
                       <svg
                         className="w-4 h-4"
                         viewBox="0 0 20 20"
-                        fill="currentColor"
+                        fill="#316D69"
                       >
                         <path
                           fillRule="evenodd"
@@ -126,11 +127,11 @@ const HowStatisticsValidate = () => {
                 </li>
                 <li className="mt-2 ">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
+                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 mt-1 border-2 border-[#316D69] rounded-full dark:text-green-500 dark:bg-transparent">
                       <svg
                         className="w-4 h-4"
                         viewBox="0 0 20 20"
-                        fill="currentColor"
+                        fill="#316D69"
                       >
                         <path
                           fillRule="evenodd"
@@ -156,11 +157,11 @@ const HowStatisticsValidate = () => {
               <ul className="gap-6   ">
                 <li className="mt-4 ">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
+                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6  mt-1 border-2 border-[#316D69] rounded-full dark:text-green-500 dark:bg-transparent">
                       <svg
                         className="w-4 h-4"
                         viewBox="0 0 20 20"
-                        fill="currentColor"
+                        fill="#316D69"
                       >
                         <path
                           fillRule="evenodd"
@@ -179,11 +180,11 @@ const HowStatisticsValidate = () => {
                 </li>
                 <li className="mt-2 ">
                   <div className="flex">
-                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 dark:bg-transparent">
+                    <span className="flex items-center justify-center flex-shrink-0 w-6 h-6   mt-1 border-2 border-[#316D69] rounded-full dark:text-green-500 dark:bg-transparent">
                       <svg
-                        className="w-4 h-4"
+                        className="w-4 h-4 "
                         viewBox="0 0 20 20"
-                        fill="currentColor"
+                        fill="#316D69"
                       >
                         <path
                           fillRule="evenodd"
