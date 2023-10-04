@@ -1,12 +1,12 @@
 import React from "react";
-import SolutionsHomeimg2 from "../../../src/images/SolutionsHomeimg2.png";
+import SolutionsHomeimg2 from "../../../src/images/ourstory-ourvision.png";
 
 function OurVision() {
   return (
     <div>
-      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-14 mx-auto mt-20  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
-        <div className="flex">
-          <img src={SolutionsHomeimg2} alt="" />
+      <div className=" grid grid-cols-1  lg:grid-cols-2 gap-14 mx-auto mt-20  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+        <div className="flex align-middle">
+          <img src={SolutionsHomeimg2} alt="" className="h-auto" />
         </div>
 
         <div className="flex flex-col flex-wrap">

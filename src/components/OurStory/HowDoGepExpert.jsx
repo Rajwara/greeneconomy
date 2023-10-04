@@ -6,7 +6,7 @@ const HowDoGepExpert = () => {
       <h2 className="text-4xl mb-8 font-montserrat font-bold text-[#316D69]">
         How Do GEP Experts Help You Combat Climate Change?
       </h2>
-      <p className="text-lg w-8/12 mx-auto font-poppins text-[#3c3c3c] font-normal">
+      <p className="text-lg xl:w-8/12 mx-auto font-poppins text-[#3c3c3c] font-normal">
         Green Economy Partnership specializes in the dynamics of carbon trading.
         Carbon trading is a process that transforms carbon dioxide gas (CO2)
         into an economic commodity. How does the mechanism work? The state caps

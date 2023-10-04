@@ -3,11 +3,13 @@ import ContactFooterUperButton from "../ContactFooterUperComponent/ContactFooter
 
 const ContactButton = () => {
   return (
-    <ContactFooterUperButton
-      title="Feel Free to Contact Us!"
-      description="This is a longer description to test the component."
-      buttontext="Get Started"
-    />
+    <>
+      <ContactFooterUperButton
+        titlebtn="Feel Free to Contact Us!"
+        descriptionbtn="This is a longer description to test the component."
+        buttontextbtn="Get Started"
+      />
+    </>
   );
 };
 

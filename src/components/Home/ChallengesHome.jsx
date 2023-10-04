@@ -32,7 +32,11 @@ export default function ChallengesHome() {
           </div>
         </div>
         <div className="">
-          <img src={ChallengesHomeimg} alt="" />
+          <img
+            src={ChallengesHomeimg}
+            alt=""
+            className="lg:h-[600px] h-auto w-full"
+          />
         </div>
       </div>
     </div>

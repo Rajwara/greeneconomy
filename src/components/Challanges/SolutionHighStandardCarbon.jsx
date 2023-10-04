@@ -9,7 +9,7 @@ const divStyle1 = {
 function SolutionHighStandardCarbon() {
   return (
     <div className="relative" style={divStyle1}>
-      <div className="mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] bg-cover bg-center bg-no-repeat bg-[black] bg-opacity-50">
+      <div className="mx-auto px-[30px] py-8 md:px-[60px] lg:px-[80px] xl:px-[100px] bg-cover bg-center bg-no-repeat bg-[#3c3c3c] bg-opacity-50">
         <div className="flex flex-col justify-center items-center h-full overflow-hidden xs:py-[20px] lg:py-[50px]">
           <h6 className="uppercase text-lg text-[#F7F5F2] font-bold	font-montserrat">
             Solution

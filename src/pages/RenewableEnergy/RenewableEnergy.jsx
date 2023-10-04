@@ -9,15 +9,17 @@ import Brighter from "../../components/RenewableEnergy/LetsCreateBrighter";
 import RenewableEnergyLi from "../../components/RenewableEnergy/RenewableEnergyLi";
 import RethinkingFossilFuels from "../../components/RenewableEnergy/RethinkingFossilFuels";
 import StatsPowerrenewable from "../../components/RenewableEnergy/StatsPowerrenewable";
+import RenewableEnergyMission from "../../components/RenewableEnergy/RenewableEnergyMission";
 
 const RenewableEnergy = () => {
   return (
     <div>
       <SolarBanner />
-      <RenewableEnergyLi/>
+      <RenewableEnergyLi />
       <InitiativesWindandSolar />
-      <RethinkingFossilFuels/>
-      <StatsPowerrenewable/>
+      <RethinkingFossilFuels />
+      <StatsPowerrenewable />
+      <RenewableEnergyMission />
       {/* <Renewable /> */}
       {/* <SolarCards1 /> */}
       {/* <CommittedBetter /> */}

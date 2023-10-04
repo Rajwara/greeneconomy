@@ -10,22 +10,18 @@ import OurInivatives from "../../components/Challanges/OurInivatives";
 import EffectsOfDeferestionCards from "../../components/Challanges/EffectsOfDeferestionCards";
 import MissionButton from "../../components/Challanges/MissionButton";
 
-
-
-
-
 const Challanges = () => {
   return (
     <div>
       <ChallengesBanner />
       <DeforestationClimate />
       <WhatISDeforestation />
-      <EffectsOfDeferestionCards/>
+      <EffectsOfDeferestionCards />
       <WhatIsClimateChange />
       <SolutionHighStandardCarbon />
       <HowCarbonOffsetsWork />
       {/* <ChallangesMission /> */}
-      <MissionButton/>
+      <MissionButton />
       {/* <OurInivatives/> */}
     </div>
   );

@@ -1,24 +1,26 @@
 import React from "react";
-import AnaerobicBanner from "../../components/AnaerobicDigestion/AnaerobicBanner";
-import BenefitsofAnaerobic from "../../components/AnaerobicDigestion/BenefitsofAnaerobic";
-import AnaerobicDigestion from "../../components/AnaerobicDigestion/AnaerobicDigestionPlant";
-import DryAnaerobicDisgestion from "../../components/AnaerobicDigestion/DryAnaerobicDistesion";
-import AnaerobicDigestionForIndustry from "../../components/AnaerobicDigestion/AnaerobicDigestionForIndustry";
-import DigestionManagement from "../../components/AnaerobicDigestion/DigestionManagement";
-import DigestionConsultancy from "../../components/AnaerobicDigestion/AnaerobicDigestionConsultancy";
-import AnaerobicDigestionCards from "../../components/AnaerobicDigestion/AnaerobicDigestionCards";
-import AnaerobicJoin from "../../components/AnaerobicDigestion/AnaerobicJoin";
-import AnaerobicDigestionGlance from "../../components/AnaerobicDigestion/AnaerobicDigestionGlance";
-import StatsAnaerobic from "../../components/AnaerobicDigestion/StatsAnaerobic";
+import AnaerobicBanner from "../../components/WasteManagement/AnaerobicBanner";
+import BenefitsofAnaerobic from "../../components/WasteManagement/BenefitsofAnaerobic";
+import AnaerobicDigestion from "../../components/WasteManagement/AnaerobicDigestionPlant";
+import DryAnaerobicDisgestion from "../../components/WasteManagement/DryAnaerobicDistesion";
+import AnaerobicDigestionForIndustry from "../../components/WasteManagement/AnaerobicDigestionForIndustry";
+import DigestionManagement from "../../components/WasteManagement/DigestionManagement";
+import DigestionConsultancy from "../../components/WasteManagement/AnaerobicDigestionConsultancy";
+import AnaerobicDigestionCards from "../../components/WasteManagement/AnaerobicDigestionCards";
+import AnaerobicJoin from "../../components/WasteManagement/AnaerobicJoin";
+import AnaerobicDigestionGlance from "../../components/WasteManagement/AnaerobicDigestionGlance";
+import StatsAnaerobic from "../../components/WasteManagement/StatsAnaerobic";
+import WasteManagementMission from "../../components/WasteManagement/WasteManagementMission";
 
 const WasteManagement = () => {
   return (
     <div>
       <AnaerobicBanner />
-      <AnaerobicDigestionGlance/>
+      <AnaerobicDigestionGlance />
       <DigestionConsultancy />
       <BenefitsofAnaerobic />
-      <StatsAnaerobic/>
+      <StatsAnaerobic />
+      <WasteManagementMission />
       {/* <AnaerobicDigestion /> */}
       {/* <DryAnaerobicDisgestion /> */}
       {/* <AnaerobicDigestionForIndustry /> */}

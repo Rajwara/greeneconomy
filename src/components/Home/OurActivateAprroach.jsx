@@ -3,7 +3,7 @@ import React from "react";
 const OurActivateAprroach = () => {
   return (
     <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mx-auto text-center mt-12">
-      <h2 className="text-4xl mb-8 font-montserrat tracking-normal leading-7 text-[#316D69] font-bold">
+      <h2 className="text-4xl mb-8 font-montserrat tracking-normal leading-9 text-[#316D69] font-bold">
         Our Activate Aprroach
       </h2>
       <div className="xs:text-start lg:w-8/12 mx-auto text-lg font-poppins font-normal leading-7">

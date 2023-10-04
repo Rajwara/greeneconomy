@@ -33,6 +33,13 @@ const Navbar = () => {
       return updatedDropdowns;
     });
   };
+  // Function to close a specific dropdown
+  const closeDropdown = (dropdownId) => {
+    setDropdowns((prevState) => ({
+      ...prevState,
+      [dropdownId]: false,
+    }));
+  };
 
   return (
     <nav className="bg-white dark:bg-gray-900 sticky w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
@@ -92,7 +99,10 @@ const Navbar = () => {
                 className={`flex items-center justify-between w-full py-2 pl-3  pr-4 font-montserrat font-semibold text-base mt-[10px] text-[#3c3c3c] hover:text-[#316D69] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#316D69] md:p-0 md:w-auto dark:text-[#f7f5f2] md:dark:hover:text-[#316D69] dark:focus:text-[#f7f5f2] dark:border-gray-700 ${
                   dropdowns.dropdownNavbarLink1 ? "" : ""
                 }`}
-                onClick={() => toggleDropdown("dropdownNavbarLink1")}
+                onClick={() => {
+                  toggleDropdown("dropdownNavbarLink1");
+                  handleLinkClick(true);
+                }}
               >
                 About Us
                 <svg
@@ -130,7 +140,10 @@ const Navbar = () => {
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
                       } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("OurStory")}
+                      onClick={() => {
+                        handleLinkClick("OurStory");
+                        closeDropdown("dropdownNavbarLink1");
+                      }}
                     >
                       Our Story
                     </NavLink>
@@ -143,7 +156,10 @@ const Navbar = () => {
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
                       } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("ChallangesAndSolutions")}
+                      onClick={() => {
+                        handleLinkClick("ChallangesAndSolutions");
+                        closeDropdown("dropdownNavbarLink1");
+                      }}
                     >
                       Challenges & Solutions
                     </Link>
@@ -171,7 +187,10 @@ const Navbar = () => {
                 className={`flex items-center justify-between w-full py-2 pl-3 pr-4 mt-[10px] font-montserrat font-semibold text-base text-[#3c3c3c] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-[#316D69] md:p-0 md:w-auto dark:text-white md:dark:hover:text-[#316D69] dark:focus:text-[#f7f5f2] dark:border-gray-700 ${
                   dropdowns.dropdownNavbarLink2 ? "" : ""
                 }`}
-                onClick={() => toggleDropdown("dropdownNavbarLink2")}
+                onClick={() => {
+                  toggleDropdown("dropdownNavbarLink2");
+                  handleLinkClick(true);
+                }}
               >
                 Services
                 <svg
@@ -201,9 +220,7 @@ const Navbar = () => {
                   className="py-2 text-sm text-[#3c3c3c] dark:text-gray-400"
                   aria-labelledby="dropdownLargeButton2"
                 >
-
-                      <li className=" pl-3">
-                    
+                  <li className=" pl-3">
                     <Link
                       to="/blue-carbon"
                       className={`block font-montserrat  text-base py-2  pr-4  sm:pr-0 ${
@@ -211,7 +228,10 @@ const Navbar = () => {
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
                       } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("CarbonCredits")}
+                      onClick={() => {
+                        handleLinkClick("CarbonCredits");
+                        closeDropdown("dropdownNavbarLink2");
+                      }}
                     >
                       Carbon Trading
                     </Link>
@@ -224,7 +244,10 @@ const Navbar = () => {
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
                       } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("NatureBasedAssets")}
+                      onClick={() => {
+                        handleLinkClick("NatureBasedAssets");
+                        closeDropdown("dropdownNavbarLink2");
+                      }}
                     >
                       Nature Based Assets
                     </Link>
@@ -245,7 +268,7 @@ const Navbar = () => {
                       Forest
                     </Link>
                   </li> */}
-                  {/*               
+                  {/*
                   <li className="flex flex-row pl-4">
                     <p className="text-[#3c3c3c] font-montserrat font-medium text-base pt-2">
                       3.
@@ -270,7 +293,10 @@ const Navbar = () => {
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
                       } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("WindandSolar")}
+                      onClick={() => {
+                        handleLinkClick("WindandSolar");
+                        closeDropdown("dropdownNavbarLink2");
+                      }}
                     >
                       Renewable Energy
                     </Link>
@@ -283,7 +309,10 @@ const Navbar = () => {
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
                       } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("AnaerobicDigestion")}
+                      onClick={() => {
+                        handleLinkClick("AnaerobicDigestion");
+                        closeDropdown("dropdownNavbarLink2");
+                      }}
                     >
                       Waste Management
                     </Link>
@@ -292,71 +321,17 @@ const Navbar = () => {
               </div>
             </li>
             <li>
-              <button
-                id="dropdownNavbarLink3"
-                data-dropdown-toggle="dropdownNavbar3"
-                className={`flex items-center justify-between w-full py-2 pl-3 pr-4 mt-[10px] font-montserrat font-semibold text-base text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-[#316D69] md:p-0 md:w-auto dark:text-white md:dark:hover:text-[#316D69] dark:focus:text-[#f7f5f2] dark:border-gray-700 ${
-                  dropdowns.dropdownNavbarLink3 ? "" : ""
-                }`}
-                onClick={() => toggleDropdown("dropdownNavbarLink3")}
+              <NavLink
+                to="/projects"
+                className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
+                  activeLink === "NewsAndMedia"
+                    ? "text-[#316D69] font-bold"
+                    : "text-[#3c3c3c]"
+                } hover:text-[#316D69] rounded `}
+                onClick={() => handleLinkClick("NewsAndMedia")}
               >
                 Projects
-                <svg
-                  className="w-2.5 h-2.5 ml-2.5"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="m1 1 4 4 4-4"
-                  />
-                </svg>
-              </button>
-              {/* <!-- Dropdown menu 3 --> */}
-              <div
-                id="dropdownNavbar3"
-                className={`z-20 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600 ${
-                  dropdowns.dropdownNavbarLink3 ? "block" : "hidden"
-                }`}
-              >
-                <ul
-                  className="py-2 text-sm text-[#3c3c3c] dark:text-gray-400"
-                  aria-labelledby="dropdownLargeButton3"
-                >
-                  <li>
-                    <Link
-                      to="/explore-projects"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
-                        activeLink === "ExploreProject"
-                          ? "text-[#316D69] font-bold"
-                          : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("ExploreProject")}
-                    >
-                      Explore Projects
-                    </Link>
-                  </li>
-
-                  <li>
-                    <NavLink
-                      to="/start-a-project"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
-                        activeLink === "StartaProject"
-                          ? "text-[#316D69] font-bold"
-                          : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("StartaProject")}
-                    >
-                      Start a Project
-                    </NavLink>
-                  </li>
-                </ul>
-              </div>
+              </NavLink>
             </li>
 
             <li>
@@ -379,7 +354,10 @@ const Navbar = () => {
                 className={`flex items-center justify-between  w-full py-2 pl-3 md:-ml-[20px] lg:ml-0 pr-4 mt-[10px] font-montserrat font-semibold text-base text-[#3c3c3c] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#316D69] md:p-0 md:w-auto dark:text-white md:dark:hover:text-[#3c3c3c] dark:focus:text-[#f7f5f2] dark:border-gray-700 ${
                   dropdowns.dropdownNavbarLink4 ? "" : ""
                 }`}
-                onClick={() => toggleDropdown("dropdownNavbarLink4")}
+                onClick={() => {
+                  toggleDropdown("dropdownNavbarLink4");
+                  handleLinkClick(true);
+                }}
               >
                 Buy Credits
                 <svg
@@ -417,7 +395,10 @@ const Navbar = () => {
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
                       } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("BuyCarbonCredit")}
+                      onClick={() => {
+                        handleLinkClick("BuyCarbonCredit");
+                        closeDropdown("dropdownNavbarLink4");
+                      }}
                     >
                       Buy Carbon Credits
                     </Link>
@@ -430,7 +411,10 @@ const Navbar = () => {
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
                       } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("BecomeaPartner")}
+                      onClick={() => {
+                        handleLinkClick("BecomeaPartner");
+                        closeDropdown("dropdownNavbarLink4");
+                      }}
                     >
                       Become a Partner
                     </Link>

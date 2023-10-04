@@ -1,26 +1,26 @@
 import React from "react";
-import WMImg2 from "../../../src/images/about-state-of-the-gep.jpg";
+import WMImg2 from "../../../src/images/ourstory-aboutus.png";
 
 function StateAbout() {
   return (
-    <div className="bg-[#F7F5F2] px-[30px] md:px[60] lg:px-[80px] xl:px-[100px] relative md:py-[20px] xl:py-[30px]  pt-[50px]  pb-[100px] md:pb-[100px] xl:pb-[120px]">
-      <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat mb-8 text-center">
+    <div className="bg-[#F7F5F2]  px-[30px] md:px[60] lg:px-[80px] xl:px-[100px] relative md:py-[20px] xl:py-[30px]  pt-[50px]  pb-[100px] md:pb-[100px] ">
+      <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat mb-8 mt-8 text-center">
         {" "}
         Our story
       </h6>
-      <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
-        <div className=" pb-[20px] lg:hidden flex flex-col justify-center items-center h-full">
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lg:gap-x-[50px] ">
+        {/* <div className=" pb-[20px] lg:hidden flex flex-col justify-center items-center h-full">
           <div className=" container flex justify-center items-center">
             <img
-              className="w-full md:h-[400px] rounded-lg"
+              className="w-full md:h-[400px] h-auto rounded-lg"
               src={WMImg2}
               alt="gep"
             ></img>
           </div>
-        </div>
+        </div> */}
 
         <div
-          className="container text-left flex flex-col 
+          className="container text-left flex flex-col items-center align-middle justify-center
           h-full"
         >
           <h2 className=" text-[#BAB220]  text-4xl mb-8 font-montserrat font-bold">
@@ -49,7 +49,7 @@ function StateAbout() {
           </div>
         </div>
 
-        <div className="hidden lg:block ">
+        <div className=" ">
           <div className="relative  container flex flex-col justify-center items-center h-full">
             <img className=" rounded-lg" src={WMImg2} alt="deforestation"></img>
           </div>

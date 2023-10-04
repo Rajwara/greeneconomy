@@ -1,5 +1,5 @@
 import React from "react";
-import WMImg2 from "../../../src/images/origination-img.jpg";
+import WMImg2 from "../../../src/images/ourstory-origination.png";
 
 function OurStoryOrigination() {
   return (
