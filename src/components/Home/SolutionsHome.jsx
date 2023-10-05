@@ -1,6 +1,5 @@
 import React from "react";
 
-import SolutionsHomeimg from "../../../src/images/SolutionsHomeimg.png";
 import SolutionsHomeimg2 from "../../../src/images/SolutionsHomeimg2.png";
 
 export default function SolutionsHome() {

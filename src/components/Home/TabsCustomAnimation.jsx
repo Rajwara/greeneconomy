@@ -33,7 +33,7 @@ const TabsCustomAnimation = () => {
       imagedec: agriculture,
     },
     {
-      label: "Profile",
+      label: "Cap and Trade ",
       value: "profile",
       icon: FcMoneyTransfer,
       desc: `There was implementation of cap-and-trade systems, aimed to create financial incentives to encourage industries to reduce their carbon footprint. 
@@ -83,7 +83,7 @@ const TabsCustomAnimation = () => {
 
     <div className="">
     <div className="container mx-auto mt-10">
-      <h2 className="text-2xl md:text-3xl text-[#316D69] leading-7 tracking-normal font-montserrat font-bold mb-4 text-center">
+      <h2 className="text-2xl md:text-3xl text-[#316D69] leading-7 tracking-normal font-montserrat font-bold mb-16 text-center">
         The Route to Carbon Neutrality
       </h2>
       <Tabs value={activeTab}>
