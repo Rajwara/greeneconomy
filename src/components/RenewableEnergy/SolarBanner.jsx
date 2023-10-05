@@ -1,5 +1,5 @@
 import React from "react";
-import banner1 from "../../../src/images/wind-mill-banner.jpg";
+import banner1 from "../../../src/images/Renewable-Energy-banner.jpg";
 import Banner from "../BannerForAllPages/Banner";
 function SolarBanner() {
   return (

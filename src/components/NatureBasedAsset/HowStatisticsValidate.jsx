@@ -1,11 +1,13 @@
 import React from "react";
-import img1 from "../../../src/images/agro.jpg";
-import img2 from "../../../src/images/6.jpg";
-import img3 from "../../../src/images/plantation.jpg";
-import img5 from "../../../src/images/background.jpg";
+// import img1 from "../../../src/images/agro.jpg";
+// import img2 from "../../../src/images/6.jpg";
+// import img3 from "../../../src/images/plantation.jpg";
+// import img5 from "../../../src/images/background.jpg";
+import StatisticsValidate from "../../../src/images/How-Statistics-Validate-These-Facts.png";
+
 const HowStatisticsValidate = () => {
   return (
-    <div className="relative container-fluid py-12  bg-[#f7f5f2] dark:bg-gray-800 py-26  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+    <div className="container-fluid py-12  bg-[#f7f5f2] dark:bg-gray-800 py-26  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
       <div className="relative">
         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center">
           <div className="ml-auto lg:col-start-2 ">
@@ -204,37 +206,12 @@ const HowStatisticsValidate = () => {
               </ul>
             </div>
           </div>
-          <div className="relative mt-10  relative-20 lg:mt-0 lg:col-start-1">
-            <div className="relative space-y-4">
-              <div className="flex items-end justify-center space-x-4 lg:justify-start">
-                <img
-                  className="w-40 rounded-lg shadow-lg md:w-64"
-                  width="260"
-                  src={img2}
-                  alt="2"
-                />
-                <img
-                  className="w-32 rounded-lg shadow-lg md:w-56"
-                  width="200"
-                  src={img1}
-                  alt="1"
-                />
-              </div>
-              <div className="flex items-start justify-center ml-12 space-x-4 lg:justify-start">
-                <img
-                  className="w-24 rounded-lg shadow-lg md:w-40"
-                  width="170"
-                  src={img3}
-                  alt="3"
-                />
-                <img
-                  className="w-40 rounded-lg shadow-lg md:w-64"
-                  width="260"
-                  src={img5}
-                  alt="2"
-                />
-              </div>
-            </div>
+          <div className="">
+            <img
+              className="w-full h-full rounded-lg  "
+              src={StatisticsValidate}
+              alt="StatisticsValidate"
+            />
           </div>
         </div>
       </div>
