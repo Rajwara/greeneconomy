@@ -1,5 +1,5 @@
 import React from "react";
-import img2 from "../../../src/images/img2.jpg";
+import img2 from "../../../src/images/Anaerobic-Digestion-at-a-Glance.png";
 
 const AnaerobicDigestionGlance = () => {
   return (

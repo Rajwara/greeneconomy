@@ -74,7 +74,7 @@ const NativeForestConservationAndFacts = () => {
             </div>
           ))}
         </div>
-        <img src={Grass} alt="Grass" className="w-full h-full mt-4" />
+        <img src={Grass} alt="Grass" className="w-full h-full mt-8" />
       </div>
     </div>
   );

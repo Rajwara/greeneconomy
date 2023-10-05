@@ -21,6 +21,7 @@ import Home from "./pages/Home/Home";
 
 import Footer from "./components/Footer/Footer";
 import ShortFooter from "./components/ShortFooter/ShortFooter";
+import CarbonCredits from "./pages/CarbonCredits/CarbonCredits";
 
 const App = () => {
   return (
@@ -38,8 +39,7 @@ const App = () => {
         <Route path="/anaerobic-digestion" element={<Anaerobic />} />{" "}
         <Route path="/projects" element={<Projects />} />{" "}
         <Route path="/start-a-project" element={<StartAProject />} />{" "}
-        <Route path="/buy-carbon-credits" element={<BuyCarbonCerdit />} />{" "}
-        <Route path="/become-a-partner" element={<BecomeAPartner />} />{" "}
+        <Route path="/carbon-credits" element={<CarbonCredits />} />{" "}
         <Route path="/contact" element={<ContactUs />} />
       </Routes>{" "}
       <Footer />

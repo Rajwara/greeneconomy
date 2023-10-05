@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../../../src/images/p2i1.png";
+import banner from "../../../src/images/GEPs-Anaerobic-Digestion-Consultancy.png";
 
 function DigestionConsultancy() {
   return (

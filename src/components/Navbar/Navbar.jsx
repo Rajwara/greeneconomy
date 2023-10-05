@@ -324,11 +324,11 @@ const Navbar = () => {
               <NavLink
                 to="/projects"
                 className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
-                  activeLink === "NewsAndMedia"
+                  activeLink === "Projects"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"
                 } hover:text-[#316D69] rounded `}
-                onClick={() => handleLinkClick("NewsAndMedia")}
+                onClick={() => handleLinkClick("Projects")}
               >
                 Projects
               </NavLink>
@@ -346,82 +346,20 @@ const Navbar = () => {
               >
                 News and Media
               </NavLink>
-            </li>
-            <li>
-              <button
-                id="dropdownNavbarLink4"
-                data-dropdown-toggle="dropdownNavbar4"
-                className={`flex items-center justify-between  w-full py-2 pl-3 md:-ml-[20px] lg:ml-0 pr-4 mt-[10px] font-montserrat font-semibold text-base text-[#3c3c3c] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#316D69] md:p-0 md:w-auto dark:text-white md:dark:hover:text-[#3c3c3c] dark:focus:text-[#f7f5f2] dark:border-gray-700 ${
-                  dropdowns.dropdownNavbarLink4 ? "" : ""
-                }`}
-                onClick={() => {
-                  toggleDropdown("dropdownNavbarLink4");
-                  handleLinkClick(true);
-                }}
+            </li>      <li>
+              <NavLink
+                to="/carbon-credits"
+                className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
+                  activeLink === "CarbonCredits"
+                    ? "text-[#316D69] font-bold"
+                    : "text-[#3c3c3c]"
+                } hover:text-[#316D69] rounded `}
+                onClick={() => handleLinkClick("CarbonCredits")}
               >
-                Buy Credits
-                <svg
-                  className="w-2.5 h-2.5 ml-2.5"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="m1 1 4 4 4-4"
-                  />
-                </svg>
-              </button>
-              {/* <!-- Dropdown menu 4 --> */}
-              <div
-                id="dropdownNavbar4"
-                className={`z-20 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-48 dark:bg-gray-700 dark:divide-gray-600 ${
-                  dropdowns.dropdownNavbarLink4 ? "block" : "hidden"
-                }`}
-              >
-                <ul
-                  className="py-2 text-sm text-[#3c3c3c] dark:text-gray-400"
-                  aria-labelledby="dropdownLargeButton4"
-                >
-                  <li>
-                    <Link
-                      to="/buy-carbon-credits"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
-                        activeLink === "BuyCarbonCredit"
-                          ? "text-[#316D69] font-bold"
-                          : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
-                      onClick={() => {
-                        handleLinkClick("BuyCarbonCredit");
-                        closeDropdown("dropdownNavbarLink4");
-                      }}
-                    >
-                      Buy Carbon Credits
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/become-a-partner"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
-                        activeLink === "BecomeaPartner"
-                          ? "text-[#316D69] font-bold"
-                          : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
-                      onClick={() => {
-                        handleLinkClick("BecomeaPartner");
-                        closeDropdown("dropdownNavbarLink4");
-                      }}
-                    >
-                      Become a Partner
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+                Carbon Credits
+              </NavLink>
             </li>
+           
             <li>
               <NavLink
                 to="/contact"

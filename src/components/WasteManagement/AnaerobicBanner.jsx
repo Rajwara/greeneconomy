@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../BannerForAllPages/Banner";
-import banner from "../../../src/images/anaerobic-main-bnr.jpg";
+import banner from "../../../src/images/waste-management.png";
 const AnaerobicBanner = () => {
   return (
     <Banner

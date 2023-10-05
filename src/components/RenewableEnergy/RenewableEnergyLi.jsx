@@ -1,5 +1,5 @@
 import React from "react";
-import EffectsofDeforestation from "../../../src/images/Effects-of-Deforestation.png";
+import RenewableEnergy from "../../../src/images/What-is-Renewable-Energy.png";
 import BulletPointtwo from "../../../src/images/Bullet-Point-two.svg";
 import BulletPointone from "../../../src/images/BulletPointone.svg";
 import BulletPointhree from "../../../src/images/BulletPointthree.svg";
@@ -17,7 +17,7 @@ const RenewableEnergyLi = () => {
               <div className=" container flex  items-center">
                 <img
                   className=" mx-auto "
-                  src={EffectsofDeforestation}
+                  src={RenewableEnergy}
                   alt="EffectsofDeforestation"
                 ></img>
               </div>
