@@ -4,15 +4,17 @@ import GEPCarbonProgram from "../../components/CarbonCredits/GEPCarbonProgram";
 import CriteriaforSelecting from "../../components/CarbonCredits/CriteriaforSelecting";
 import WhyPartnerWithGep from "../../components/CarbonCredits/WhyPartnerWithGep";
 import CarbonCreditsMission from "../../components/CarbonCredits/CarbonCreditsMission";
+import BenefitsforFarmers from "../../components/CarbonCredits/BenefitsforFarmers";
 
 const CarbonCredits = () => {
   return (
     <div>
       <CarbonCreditsBanner />
-      <GEPCarbonProgram/>
-      <CriteriaforSelecting/>
+      <GEPCarbonProgram />
+      <CriteriaforSelecting />
       <WhyPartnerWithGep />
-      <CarbonCreditsMission/>
+      <BenefitsforFarmers />
+      <CarbonCreditsMission />
     </div>
   );
 };

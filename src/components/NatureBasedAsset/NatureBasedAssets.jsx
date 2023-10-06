@@ -4,7 +4,7 @@ import NatureBasedAssetsimg from "../../../src/images/Nature-Based-Assets-1.png"
 const NatureBasedAssets = () => {
   return (
     <div className=" flex flex-row  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] sm:mt-[50px] lg:mt-[100px]">
-      <div className="grid grid-cols-1 md:gris-cols-1 lg:grid-cols-2 xl:grid-cols-2 ">
+      <div className="grid grid-cols-1 md:gris-cols-1 lg:grid-cols-2 xl:grid-cols-2 items-center gap-8">
         <div className="flex flex-col mr-0 md:mr-0 lg:mr-[50px] xl:mr-[50px]">
           <h2 className="text-2xl font-bold tracking-normal leading-7 text-black font-montserrat dark:text-white lg:text-3xl">
             <span className="text-[#316D69] block">Nature based Assets</span>

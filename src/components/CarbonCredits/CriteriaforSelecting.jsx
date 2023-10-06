@@ -1,10 +1,8 @@
 import React from "react";
-import { FaBeer } from 'react-icons/fa';
-
+import { FaBeer } from "react-icons/fa";
 
 const CriteriaforSelecting = () => {
   const CriteriaData = [
-    
     {
       id: 1,
       icon: FaBeer,
@@ -43,24 +41,28 @@ const CriteriaforSelecting = () => {
     },
   ];
   return (
-    <div className="container mx-auto">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mx-auto">
       <h2 className="text-center text-4xl  font-montserrat  font-bold text-[#316D69] pb-6">
         Criteria for Selecting High-Standard Carbon Offset Project{" "}
       </h2>
       <div className="grid grid-cols-1 mt-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
-    
-          {CriteriaData.map((data) => (
-            <div className="inner-card border-2 border-[#316D69] rounded-lg shadow-2xl shadow-[#316D69] pl-6 pr-6 pb-12" key={data.id}>
-              <div className="cards-data text-left mt-10 ">
-                <FaBeer className="h-16 w-16"/>
-                <h6 className="uppercase text-lg mt-6 text-[#316D69] font-bold	font-montserrat">{data.title}</h6>
-                <p className="text-[14px] md:text-[16px] mt-4 lg:text-[18px]  leading-[24px]   font-poppins text-lg ">{data.desc}</p>
-
-              </div>
+        {CriteriaData.map((data) => (
+          <div
+            className="inner-card border-2 border-[#316D69] rounded-lg shadow-2xl shadow-[#316D69] pl-6 pr-6 pb-12"
+            key={data.id}
+          >
+            <div className="cards-data text-left mt-10 ">
+              <FaBeer className="h-16 w-16" />
+              <h6 className="uppercase text-lg mt-6 text-[#316D69] font-bold	font-montserrat">
+                {data.title}
+              </h6>
+              <p className="text-[14px] md:text-[16px] mt-4 lg:text-[18px]  leading-[24px]   font-poppins text-lg ">
+                {data.desc}
+              </p>
             </div>
-          ))}
-        </div>
-      
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

@@ -22,10 +22,12 @@ import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import ShortFooter from "./components/ShortFooter/ShortFooter";
 import CarbonCredits from "./pages/CarbonCredits/CarbonCredits";
+import ScrollToTop from "./components/ScrollForTop/ScrollForTop";
 
 const App = () => {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />{" "}

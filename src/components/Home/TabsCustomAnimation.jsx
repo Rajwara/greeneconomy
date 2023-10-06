@@ -78,7 +78,7 @@ const TabsCustomAnimation = () => {
 
   return (
     <div className="">
-      <div className="container mx-auto mt-10">
+      <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mx-auto mt-10">
         <h2 className="text-2xl md:text-3xl text-[#316D69] leading-7 tracking-normal font-montserrat font-bold mb-16 text-center">
           The Route to Carbon Neutrality
         </h2>

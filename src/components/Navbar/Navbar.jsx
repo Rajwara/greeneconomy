@@ -333,7 +333,6 @@ const Navbar = () => {
                 Projects
               </NavLink>
             </li>
-
             <li>
               <NavLink
                 to="/news-and-media"
@@ -346,7 +345,8 @@ const Navbar = () => {
               >
                 News and Media
               </NavLink>
-            </li>      <li>
+            </li>{" "}
+            <li>
               <NavLink
                 to="/carbon-credits"
                 className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
@@ -359,7 +359,6 @@ const Navbar = () => {
                 Carbon Credits
               </NavLink>
             </li>
-           
             <li>
               <NavLink
                 to="/contact"

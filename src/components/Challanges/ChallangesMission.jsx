@@ -12,7 +12,7 @@ const ChallangesMission = () => {
     <div>
       <div className="relative mt-[50px]">
         <div style={divStyle1}>
-          <div className=" py-[50px] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  text-center  bg-black bg-opacity-50">
+          <div className=" py-[50px]   text-center  bg-black bg-opacity-50">
             <h1 className="pb-[15px] md:pb-[30px] text-center text-white text-[24px] md:text-[28px] lg:text-[30px] xl:text-[33px] font-[900]">
               {" "}
               Mission 2050{" "}

@@ -9,11 +9,7 @@ const NatureBaseSolutionSecond = () => {
     <div className=" flex flex-row lg:items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] lg:mt-[100px] mt-[50px]">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
         <div className="flex items-center  ">
-          <img
-            src={NatureBasedAssets2}
-            className="w-full h-full rounded-lg"
-            alt="Tree"
-          />
+          <img src={NatureBasedAssets2} className="h-[90%] w-full" alt="Tree" />
         </div>
         <div className="w-full ">
           {/* <h2 className="text-2xl font-bold tracking-normal leading-7 text-black font-montserrat dark:text-white lg:text-3xl">
