@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../../../src/images/greenlogo.png";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState("Home");
@@ -81,7 +81,7 @@ const Navbar = () => {
         >
           <ul className="flex flex-col flex-wrap font-medium p-4 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
-              <NavLink
+              <Link
                 exact
                 to="/"
                 className={`block font-montserrat font-bold text-lg py-2 pl-3 pr-4 sm:pr-0 ${
@@ -90,7 +90,7 @@ const Navbar = () => {
                 onClick={() => handleLinkClick("Home")}
               >
                 Home
-              </NavLink>
+              </Link>
             </li>
             <li>
               <button
@@ -133,7 +133,7 @@ const Navbar = () => {
                   aria-labelledby="dropdownLargeButton1"
                 >
                   <li>
-                    <NavLink
+                    <Link
                       to="/our-story"
                       className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "OurStory"
@@ -146,7 +146,7 @@ const Navbar = () => {
                       }}
                     >
                       Our Story
-                    </NavLink>
+                    </Link>
                   </li>
                   <li>
                     <Link
@@ -321,7 +321,7 @@ const Navbar = () => {
               </div>
             </li>
             <li>
-              <NavLink
+              <Link
                 to="/projects"
                 className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
                   activeLink === "Projects"
@@ -331,10 +331,10 @@ const Navbar = () => {
                 onClick={() => handleLinkClick("Projects")}
               >
                 Projects
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink
+              <Link
                 to="/news-and-media"
                 className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
                   activeLink === "NewsAndMedia"
@@ -344,10 +344,10 @@ const Navbar = () => {
                 onClick={() => handleLinkClick("NewsAndMedia")}
               >
                 News and Media
-              </NavLink>
+              </Link>
             </li>{" "}
             <li>
-              <NavLink
+              <Link
                 to="/carbon-credits"
                 className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
                   activeLink === "CarbonCredits"
@@ -357,10 +357,10 @@ const Navbar = () => {
                 onClick={() => handleLinkClick("CarbonCredits")}
               >
                 Carbon Credits
-              </NavLink>
+              </Link>
             </li>
             <li>
-              <NavLink
+              <Link
                 to="/contact"
                 className={`block py-2 font-montserrat font-semibold text-base pl-3 pr-4 sm:pr-0 ${
                   activeLink === "Contact"
@@ -370,7 +370,7 @@ const Navbar = () => {
                 onClick={() => handleLinkClick("Contact")}
               >
                 Contact
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </div>

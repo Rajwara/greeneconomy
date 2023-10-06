@@ -30,19 +30,19 @@ const App = () => {
       <ScrollToTop />
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />{" "}
-        <Route path="/our-story" element={<OurStory />} />{" "}
-        <Route path="/news-and-media" element={<Media />} />{" "}
-        <Route path="/challenges" element={<Challenges />} />{" "}
-        <Route path="/naturebasedasset" element={<NatureBasedAsset />} />{" "}
-        <Route path="/blue-carbon" element={<CarbonTrading />} />{" "}
-        <Route path="/agriculture" element={<Agriculture />} />{" "}
-        <Route path="/wind-and-solar" element={<RenewableEnergy />} />{" "}
-        <Route path="/anaerobic-digestion" element={<Anaerobic />} />{" "}
-        <Route path="/projects" element={<Projects />} />{" "}
-        <Route path="/start-a-project" element={<StartAProject />} />{" "}
-        <Route path="/carbon-credits" element={<CarbonCredits />} />{" "}
-        <Route path="/contact" element={<ContactUs />} />
+        <Route exact path="/" element={<Home />} />{" "}
+        <Route exact path="/our-story" element={<OurStory />} />{" "}
+        <Route exact path="/news-and-media" element={<Media />} />{" "}
+        <Route exact path="/challenges" element={<Challenges />} />{" "}
+        <Route exact path="/naturebasedasset" element={<NatureBasedAsset />} />{" "}
+        <Route exact path="/blue-carbon" element={<CarbonTrading />} />{" "}
+        <Route exact path="/agriculture" element={<Agriculture />} />{" "}
+        <Route exact path="/wind-and-solar" element={<RenewableEnergy />} />{" "}
+        <Route exact path="/anaerobic-digestion" element={<Anaerobic />} />{" "}
+        <Route exact path="/projects" element={<Projects />} />{" "}
+        <Route exact path="/start-a-project" element={<StartAProject />} />{" "}
+        <Route exact path="/carbon-credits" element={<CarbonCredits />} />{" "}
+        <Route exact path="/contact" element={<ContactUs />} />
       </Routes>{" "}
       <Footer />
       <ShortFooter />
