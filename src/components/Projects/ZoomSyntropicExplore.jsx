@@ -1,6 +1,5 @@
 import React from "react";
-import img1 from "../../../src/images/h3.jpg";
-import Grass from "../../../src/images/Rabbit-&-Grass-1.png";
+import img1 from "../../../src/images/The-Goal-of-Our-Native-Forest.jpg";
 
 const ZoomSyntropicExplore = () => {
   return (
@@ -15,17 +14,6 @@ const ZoomSyntropicExplore = () => {
                 </p>{" "}
                 Conservation Project Is to:
               </h2>
-              {/* <p className="mb-8 leading-7 text-[#3c3c3c] font-normal  font-poppins dark:text-gray-300">
-                Agroforestry, including Eucalyptus, can benefit from such
-                schemes
-                <br />
-                <br />
-                Understanding Agroforestry means to reconnect to nature and as
-                Ernst continuously emphasises, this requires the human to
-                observe, to learn and to understand that “the mistake was when
-                humans thought they were the most intelligent species; but we
-                are only part of an intelligent system.”
-              </p> */}
             </div>
             <div className=" gap-8 p-8 lg:p-24">
               <img src={img1} className=" rounded-lg" alt="Tree" />
@@ -92,7 +80,6 @@ const ZoomSyntropicExplore = () => {
               </li>
             </ul>
           </div>
-          {/* <img src={Grass} alt="Grass" className="w-full h-full" /> */}
         </div>
       </div>
     </section>

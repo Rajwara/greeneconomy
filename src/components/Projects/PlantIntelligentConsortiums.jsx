@@ -1,6 +1,5 @@
 import React from "react";
-import img3 from "../../../src/images/plantation.jpg";
-import Grass1 from "../../../src/images/Rabbit-&-Grass-2.png";
+import img3 from "../../../src/images/Plant-intelligent-consortiums.jpg";
 
 const PlantIntelligentConsortiums = () => {
   return (
@@ -14,10 +13,7 @@ const PlantIntelligentConsortiums = () => {
         Foster intelligent consortiums through veggie intercropping for
         sustainable agriculture.{" "}
       </p>
-
       <img src={img3} alt="plants" className="w-[100%] h-[300px] mt-8" />
-
-      {/* <img src={Grass1} alt="Grass" className="w-full h-full mt-4 " /> */}
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
-
 import img1 from "../../../src/images/identification-icon.png";
 import img2 from "../../../src/images/valuation-icon.png";
 import img3 from "../../../src/images/certification-icon.png";
+
 function InnerCard(props) {
   return (
     <div className="py-[20px] bg-[#EFEDD1] xs:mb-[10px] rounded-md shadow-lg text-center flex flex-col items-center justify-center shadow-[#BAB220]">

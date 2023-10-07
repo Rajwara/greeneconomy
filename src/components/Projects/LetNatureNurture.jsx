@@ -1,12 +1,14 @@
 import React from "react";
-import Img from "../../../src/images/h1.jpg";
+import Img1 from "../../../src/images/GROW-DENSE-ROWS.jpg";
+import Img2 from "../../../src/images/PRUNE-FOR-BIOMASS.jpg";
+import Img3 from "../../../src/images/ENJOY-RAPID-GROWTH.jpg";
 import Grass from "../../../src/images/Rabbit-&-Grass.png";
 
 const LetNatureNurture = () => {
   const carddata = [
     {
       id: 1,
-      img: Img,
+      img: Img1,
       headinglist: "A .",
       headingtext: "Grow dense rows ",
       description:
@@ -14,7 +16,7 @@ const LetNatureNurture = () => {
     },
     {
       id: 2,
-      img: Img,
+      img: Img2,
       headinglist: "B .",
       headingtext: "Prune for biomass ",
       description:
@@ -22,7 +24,7 @@ const LetNatureNurture = () => {
     },
     {
       id: 3,
-      img: Img,
+      img: Img3,
       headinglist: "C .",
       headingtext: "Enjoy rapid growth  ",
       description: "Maximize your farming yield and enjoy exponential growth. ",

@@ -1,5 +1,6 @@
 import React from "react";
 import HighStandardCarbonBackgroundimg from "../../../src/images/HighStandardCarbonBackgroundimg.jpg";
+
 const divStyle1 = {
   backgroundImage: `url(${HighStandardCarbonBackgroundimg})`,
   backgroundRepeat: "no-repeat",
@@ -34,7 +35,7 @@ function SolutionHighStandardCarbon() {
                   benefit from the outcome, safeguarding the future generation
                   interests.
                 </p>
-                <p className="mt-2">
+                <p className="mt-4">
                   Renewable energy sources are the cornerstone of the global
                   energy transition. Shifting ultimately towards cleaner energy
                   alternatives will reduce the carbon footprint. The Green

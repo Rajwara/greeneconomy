@@ -24,7 +24,7 @@ const FlowChart = () => {
               2020, they accounted for half of the global greenhouse gas
               emissions.
             </p>
-            <p className="">
+            <p className="mt-4">
               The rest of the countries including Argentina, Republic of Korea,
               Mexico, Russia, Saudi Arabia, South Africa, Turkey, the United
               Kingdom, the United States, and the European UnionAustralia,

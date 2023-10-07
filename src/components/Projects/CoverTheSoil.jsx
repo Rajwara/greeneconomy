@@ -1,12 +1,12 @@
 import React from "react";
-import Img2 from "../../../src/images/h2.jpg";
-// import Grass1 from "../../../src/images/Rabbit-&-Grass-2.png";
+import Img1 from "../../../src/images/Cover-the-soil-with-organic-matter.jpg";
+import Img2 from "../../../src/images/Notice-all-the-soil-is-covered.jpg";
 
 const CoverTheSoil = () => {
   const coverdata = [
     {
       id: 1,
-      img: Img2,
+      img: Img1,
       description:
         "Cover the soil with organic matter, especially around trees. ",
     },
@@ -26,15 +26,18 @@ const CoverTheSoil = () => {
         {coverdata.map((item) => (
           <div className="card-inner p-8" key={item.id}>
             <div className="card-text">
-              <img src={item.img} alt="" className="w-[100%] h-[100%]" />
-              <p className="text-lg mt-4 text-[#316D69] font-bold font-poppins leading-7">
+              <img
+                src={item.img}
+                alt=""
+                className="w-[100%] h-[100%] rounded-lg"
+              />
+              <p className="text-lg mt-6 text-[#316D69] font-bold font-poppins leading-7">
                 {item.description}
               </p>
             </div>
           </div>
         ))}
       </div>
-      {/* <img src={Grass1} alt="Grass" className="w-full h-full" /> */}
     </div>
   );
 };

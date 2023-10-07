@@ -1,5 +1,5 @@
 import React from "react";
-import EffectsofDeforestation from "../../../src/images/challenges-effectsofdeforestation.png";
+import EffectsofDeforestation from "../../../src/images/BENEFITS-FOR-FARMERS.png";
 
 const BenefitsforFarmers = () => {
   return (

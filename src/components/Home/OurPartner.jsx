@@ -1,6 +1,7 @@
 import React from "react";
 import guineabissau from "../../../src/images/Emblem_of_Guinea-Bissau.png";
 import ugandalogo from "../../../src/images/Coat_of_arms_of_Uganda.png";
+import zanzibarlogo from "../../../src/images/zanzibarlogo.png";
 
 const OurPartner = () => {
   return (
@@ -31,7 +32,17 @@ const OurPartner = () => {
               alt=""
             />
             <h4 className="font-montserrat font-xl h-10 font-bold mt-10">
-              Goverment of uganda
+              Goverment of Uganda
+            </h4>
+          </div>
+          <div className="shadow-2xl bg-white shadow-[#BAB220] h-full hover:shadow-[#316D69]   px-14 py-4 rounded-lg">
+            <img
+              className="w-[100%] h-[250px] text-start "
+              src={zanzibarlogo}
+              alt=""
+            />
+            <h4 className="font-montserrat font-xl h-10 font-bold mt-10">
+              Goverment of Zanzibar
             </h4>
           </div>
         </div>

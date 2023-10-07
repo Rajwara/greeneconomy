@@ -1,5 +1,5 @@
 import React from "react";
-import NatureBasedAssetsimg from "../../../src/images/Nature-Based-Assets-1.png";
+import NatureBasedAssetsimg from "../../../src/images/Why-Partner-With.png";
 
 const WhyPartnerWithGep = () => {
   return (

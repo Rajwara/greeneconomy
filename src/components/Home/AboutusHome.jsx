@@ -1,9 +1,8 @@
 import React from "react";
-// import { AiOutlineCheck } from "react-icons/ai";
 import { AiOutlineCarryOut } from "react-icons/ai";
-
 import homeaboutus from "../../../src/images/AboutusHome.png";
-export default function AboutusHome() {
+
+function AboutusHome() {
   return (
     <div>
       <div class="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4 mx-auto shadow-[none] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
@@ -26,7 +25,7 @@ export default function AboutusHome() {
               for the dire need for a net-zero carbon world. The climate crisis
               can’t be ignored, especially when the numbers speak volumes.
             </p>
-            <p className="">
+            <p className="mt-4">
               From 1880 to 2012, the average global temperature increased by a
               staggering 0.85 degrees. Carbon emissions which are the driving
               force behind such a drastic increase also experienced exponential
@@ -77,3 +76,5 @@ export default function AboutusHome() {
     </div>
   );
 }
+
+export default AboutusHome;

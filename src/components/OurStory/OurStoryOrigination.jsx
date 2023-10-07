@@ -18,7 +18,7 @@ function OurStoryOrigination() {
                 The Green Economy Partnership initiatives are initiatives in
                 Africa, the fruits of which are visible today.
               </p>
-              <p className="">
+              <p className="mt-4">
                 Those initiatives are making a real impact in Africa as it is
                 helping the project originators to grasp carbon finance
                 revenues. GEP is setting good examples through our environmental

@@ -3,9 +3,6 @@ function DeforestationClimate() {
   return (
     <div className="mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] ">
       <div className="flex flex-col justify-center items-center h-full overflow-hidden xs:py-[20px] lg:py-[50px]">
-        {/* <h2 className="text-[#316D69] xs:text-center pb-[10px] text-[20px] lg:text-[22px] font-[700]">
-          Challenges
-        </h2> */}
         <div className="py-8 ">
           <div className="text-left lg:text-center container ">
             <h2 className="text-4xl mb-6 font-montserrat  font-bold text-[#316D69] pb-6">
@@ -17,12 +14,12 @@ function DeforestationClimate() {
                   {" "}
                   The Green Economy Partnership{" "}
                 </span>{" "}
-                 is fully aware of the importance
-                of addressing the interlinked challenges of deforestation and
-                climate change. Deforestation affects the carbon cycle,
-                resulting in global warming and climate change. Such effects
-                necessitate techniques negating the adverse effects of
-                deforestation, and call for an extensive climate action plan.
+                is fully aware of the importance of addressing the interlinked
+                challenges of deforestation and climate change. Deforestation
+                affects the carbon cycle, resulting in global warming and
+                climate change. Such effects necessitate techniques negating the
+                adverse effects of deforestation, and call for an extensive
+                climate action plan.
               </p>
               <p className="mt-6">
                 The Green Economy Partnership gets that covered as it takes the

@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../../../src/images/f2.jpg";
+import banner from "../../../src/images/Work-With-Nature-and-Nature-Will-Work-for-You.png";
 import Banner from "../BannerForAllPages/Banner";
 
 const ExploreBanner = () => {

@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import "./slider.css";
 import arrowleft from "../../../src/images/arrow-left.png";
 import arrowright from "../../../src/images/arrow-right.png";
-import Button from "./Button";
 
 const Slider = () => {
   const slideRef = useRef(null);

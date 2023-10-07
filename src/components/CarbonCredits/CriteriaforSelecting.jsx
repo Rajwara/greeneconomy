@@ -1,41 +1,46 @@
 import React from "react";
-import { FaBeer } from "react-icons/fa";
+import CertificationIcon from "../../../src/images/Certification.svg";
+import VerificationIcon from "../../../src/images/VERIFICATION.svg";
+import MeasurabilityIcon from "../../../src/images/MEASURABILITY.svg";
+import PermanenceIcon from "../../../src/images/PERMANENCE.svg";
+import BenefitsIcon from "../../../src/images/CO-BENEFITS.svg";
+import SustainabilityIcon from "../../../src/images/SUSTAINABILITY.svg";
 
 const CriteriaforSelecting = () => {
   const CriteriaData = [
     {
       id: 1,
-      icon: FaBeer,
+      icon: CertificationIcon,
       title: "Certification ",
       desc: "Projects must be certified by recognized international or national standards, such as VERRA or Gold Standard.",
     },
     {
       id: 2,
-      icon: FaBeer,
+      icon: VerificationIcon,
       title: "Verification  ",
       desc: "Emissions removal should be proven to have genuinely taken place through a rigorous verification process.    ",
     },
     {
       id: 3,
-      icon: FaBeer,
+      icon: MeasurabilityIcon,
       title: "Measurability  ",
       desc: "Emissions removal should be measurable, allowing for precise quantification of the carbon reduction achieved.",
     },
     {
       id: 4,
-      icon: FaBeer,
+      icon: PermanenceIcon,
       title: "Permanence ",
       desc: "Carbon credits represent the permanent removal of emissions, providing a long-term solution to combat climate change.  ",
     },
     {
       id: 5,
-      icon: FaBeer,
+      icon: BenefitsIcon,
       title: "Co-Benefits    ",
       desc: "Offset projects should have co-benefits, delivering additional positive impacts beyond emissions reduction.  ",
     },
     {
       id: 6,
-      icon: FaBeer,
+      icon: SustainabilityIcon,
       title: "Sustainability ",
       desc: "Carbon credits should be permanent, ensuring the sustained removal of greenhouse gases from the atmosphere. ",
     },
@@ -52,7 +57,7 @@ const CriteriaforSelecting = () => {
             key={data.id}
           >
             <div className="cards-data text-left mt-10 ">
-              <FaBeer className="h-16 w-16" />
+              <img src={data.icon} alt="" className="w-[20%] h-[20%] " />
               <h6 className="uppercase text-lg mt-6 text-[#316D69] font-bold	font-montserrat">
                 {data.title}
               </h6>

@@ -33,7 +33,7 @@ function OurVision() {
               collaborate with them to devise projects that align with their
               requirements.
             </p>
-            <p className="">
+            <p className="mt-4">
               Our heritage and expertise in the green economy allow us to
               identify the loopholes in developing net-zero strategies to reach
               sustainable development goals.

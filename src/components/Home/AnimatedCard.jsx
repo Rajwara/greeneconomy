@@ -26,7 +26,7 @@ const Card = ({ color, title, imageSrc, description }) => {
   );
 };
 
-export default function AnimatedCard() {
+function AnimatedCard() {
   return (
     <div className=" container_c animated_container mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] ">
       <Card
@@ -56,3 +56,4 @@ export default function AnimatedCard() {
     </div>
   );
 }
+export default AnimatedCard;

@@ -1,12 +1,5 @@
 import React from "react";
 import deforestation from "../../../src/images/What-is-Deforestation.png";
-import bg1 from "../../../src/images/backgroun1.webp";
-
-const divStyle = {
-  backgroundImage: `url(${bg1})`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover", // You can adjust this property as needed
-};
 
 function WhatISDeforestation() {
   return (
@@ -29,12 +22,12 @@ function WhatISDeforestation() {
                 What is Deforestation?
               </h2>
               <div className="font-poppins text-lg text-black">
-                <p className=" pb-[5px]">
+                <p className=" ">
                   Deforestation is the widespread cutting of forests for many
                   reasons. This could be done for converting forested land for
-                  uses such as industrial activities, urban development, 
+                  uses such as industrial activities, urban development,
                 </p>
-                <p className=" ">
+                <p className="mt-4 ">
                   and agriculture. The trees are usually cut on a large scale,
                   disrupting the rich biodiversity that forests support.
                 </p>

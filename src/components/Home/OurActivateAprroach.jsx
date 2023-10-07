@@ -16,7 +16,7 @@ const OurActivateAprroach = () => {
           terms of emissions by 2050 and increasing renewable energy sources to
           power all of our facilities by then as well.
         </p>
-        <p className="">
+        <p className="mt-4">
           We will focus on conserving forestry and maintaining healthy levels of
           greenhouse gases in our atmosphere. By implementing these measures
           now, we can be prepared for what lies ahead while also reducing our

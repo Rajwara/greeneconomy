@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import {
   Tabs,
   TabsHeader,
@@ -12,12 +11,12 @@ import { FcMoneyTransfer } from "react-icons/fc";
 import { GiGreenhouse } from "react-icons/gi";
 import { GiGreenPower } from "react-icons/gi";
 import { PiSuitcaseSimpleDuotone } from "react-icons/pi";
-
 import ParisAgreement from "../../../src/images/Paris-Agreement.jpg";
 import CapandTrade from "../../../src/images/Cap-and-Trade.jpg";
 import Greenhouse from "../../../src/images/Greenhouse.jpg";
 import Countries from "../../../src/images/Countries-have-set-ambitious.jpg";
 import Pledges from "../../../src/images/Pledges.jpg";
+
 const TabsCustomAnimation = () => {
   const data = [
     {
@@ -57,9 +56,7 @@ const TabsCustomAnimation = () => {
       value: "year2030",
       icon: MdAccountBalance,
       desc: `Countries have set ambitious climate goals for 2030. These include advancement toward carbon neutrality by investing in carbon capture technologies. 
-          The development efforts in this decade will lead to breakthroughs in cost-effective solutions in reducing CO2 from the atmosphere. 
-           
-          `,
+          The development efforts in this decade will lead to breakthroughs in cost-effective solutions in reducing CO2 from the atmosphere. `,
       imagedec: Countries,
     },
     {
@@ -67,10 +64,7 @@ const TabsCustomAnimation = () => {
       label: "Pledges",
       value: "year2050",
       icon: PiSuitcaseSimpleDuotone,
-      desc: `Pledges to achieve net-zero emissions by 2050 have been made by the top seven emitters (China, the United States of America, India, the European Union, Indonesia, the Russian Federation, Brazi)
-
-           
-          `,
+      desc: `Pledges to achieve net-zero emissions by 2050 have been made by the top seven emitters (China, the United States of America, India, the European Union, Indonesia, the Russian Federation, Brazi) `,
       imagedec: Pledges,
     },
   ];

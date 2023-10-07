@@ -1,5 +1,5 @@
 import React from "react";
-import EffectsofDeforestation from "../../../src/images/challenges-effectsofdeforestation.png";
+import EffectsofDeforestation from "../../../src/images/How-Does-Our-GEP-Carbon-Program-Work.png";
 import BulletPointarrow from "../../../src/images/Bullet-Point-arrow.svg";
 
 const GEPCarbonProgram = () => {
@@ -10,7 +10,8 @@ const GEPCarbonProgram = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
             <div className="container text-white  flex flex-col justify-center  h-full">
               <h2 className="text-left text-4xl  font-montserrat  font-bold text-[#BAB220] pb-6">
-                How Does Our GEP Carbon <span className="text-[#3c3c3c]">Program Work?</span>
+                How Does Our GEP Carbon{" "}
+                <span className="text-[#3c3c3c]">Program Work?</span>
               </h2>
 
               <div className="mt-14 font-poppins text-lg text-black">

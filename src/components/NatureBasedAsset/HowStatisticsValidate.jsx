@@ -1,8 +1,4 @@
 import React from "react";
-// import img1 from "../../../src/images/agro.jpg";
-// import img2 from "../../../src/images/6.jpg";
-// import img3 from "../../../src/images/plantation.jpg";
-// import img5 from "../../../src/images/background.jpg";
 import StatisticsValidate from "../../../src/images/How-Statistics-Validate-These-Facts.png";
 
 const HowStatisticsValidate = () => {
@@ -20,12 +16,6 @@ const HowStatisticsValidate = () => {
               are grounded in compelling statistics. Here’s how numbers confirm
               the importance of these nature-based assets:
             </p>
-            {/* <a
-            href="/"
-            className="inline-flex items-center font-montserrat justify-center px-[25px] py-3 mt-6 text-white bg-[#316D69] font-semibold hover:bg-transparent hover:border-2 hover:border-[#316D69] hover:text-[#316D69] transition duration-300 rounded-lg"
-          >
-            Find out more
-          </a> */}
             <div>
               <h6 className="mt-6 text-2xl font-bold font-montserrat leading-7 tracking-normal text-[#316D69]">
                 Sustainable Forestry

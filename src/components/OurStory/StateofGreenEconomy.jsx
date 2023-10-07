@@ -9,16 +9,6 @@ function StateAbout() {
         Our story
       </h6>
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lg:gap-x-[50px] ">
-        {/* <div className=" pb-[20px] lg:hidden flex flex-col justify-center items-center h-full">
-          <div className=" container flex justify-center items-center">
-            <img
-              className="w-full md:h-[400px] h-auto rounded-lg"
-              src={WMImg2}
-              alt="gep"
-            ></img>
-          </div>
-        </div> */}
-
         <div
           className="container text-left flex flex-col items-center align-middle justify-center
           h-full"
@@ -37,7 +27,7 @@ function StateAbout() {
               Verra’s Verified Carbon Standard, paving the way for sustainable
               development where progress and sustainability coexist.
             </p>
-            <p className="mt-2">
+            <p className="mt-4">
               GEP is all about leaving a legacy for its future generations.
               That’s why its experts have taken an oath of net zero carbon
               emissions. As leaders in the race of net zero emissions of UAE,

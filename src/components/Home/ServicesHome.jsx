@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ServicesHome() {
+function ServicesHome() {
   return (
     <div>
       <div className="mx-auto  text-center mt-20 px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
@@ -21,7 +21,7 @@ export default function ServicesHome() {
             proving to be a viable and cleaner alternative form of
             transportation for the public.
           </p>
-          <p className="">
+          <p className="mt-4">
             Nature Based Assets such as these give us the ability to tackle
             climate change and reduce dependence on carbon-based energy
             resources. Therefore it is essential that we capitalise on Nature
@@ -33,3 +33,4 @@ export default function ServicesHome() {
     </div>
   );
 }
+export default ServicesHome;

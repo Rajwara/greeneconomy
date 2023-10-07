@@ -2,7 +2,6 @@ import React from "react";
 import ExploreBanner from "../../components/Projects/ExploreBanner";
 import SyntropicFarming from "../../components/Projects/SyntropicFarming";
 import ZoomSyntropicExplore from "../../components/Projects/ZoomSyntropicExplore";
-import BNativeExplore from "../../components/Projects/BNativeExplore";
 import LetNatureNurture from "../../components/Projects/LetNatureNurture";
 import CoverTheSoil from "../../components/Projects/CoverTheSoil";
 import PlantIntelligentConsortiums from "../../components/Projects/PlantIntelligentConsortiums";
@@ -20,7 +19,6 @@ const Projects = () => {
       <NativeForestConservationAndFacts />
       <ZoomSyntropicExplore />
       <ProjectsMission />
-      {/* <BNativeExplore /> */}
     </div>
   );
 };

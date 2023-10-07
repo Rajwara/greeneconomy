@@ -12,10 +12,6 @@ function GepComePlay() {
               <h2 className="text-left text-4xl  font-montserrat  font-bold text-[#BAB220] pb-6">
                 Where does GEP Come into Play?
               </h2>
-              {/* <p className="text-[#3C3C3C] text-base font-normal font-poppins ">
-                Here is how deforestation negatively affects us and our
-                surroundings:
-              </p> */}
               <div className="mt-14 flex flex-wrap flex-col font-poppins text-lg text-black">
                 <div className="flex flex-col">
                   <ul className=" flex flex-col gap-2">

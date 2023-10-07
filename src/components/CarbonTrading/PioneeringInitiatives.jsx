@@ -19,7 +19,7 @@ const PioneeringInitiatives = () => {
           individual quotas of CO2 emissions, and our carbon credit trading
           platforms help them throughout the process.
         </p>
-        <p className="text-[#3C3C3C] text-lg font-normal font-poppins leading-7  mt-2">
+        <p className="text-[#3C3C3C] text-lg font-normal font-poppins leading-7  mt-4">
           It is through carbon trading that the government wants the businesses
           to opt for less polluting technologies, and persuades them in doing
           so. GEP experts help you reduce carbon emissions, calculate your

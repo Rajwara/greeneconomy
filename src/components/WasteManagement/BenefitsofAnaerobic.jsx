@@ -8,9 +8,6 @@ import BulletPointsix from "../../../src/images/BulletPointsix.svg";
 
 function BenefitsofAnaerobic() {
   return (
-    // <section className="  py-12 text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] ">
-
-    // </section>
     <div className="  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[50px] pb-[100px]">
       <h2 className="text-2xl md:text-4xl text-center text-[#316D69] leading-7 tracking-normal font-montserrat font-bold mb-4">
         The Benefits of Turning Waste to Energy
@@ -62,10 +59,3 @@ function BenefitsofAnaerobic() {
 }
 
 export default BenefitsofAnaerobic;
-
-<div className="lg:flex lg:space-x-8 justify-center items-center">
-  <div className=" mt-8 md:mt-0 mb-5">
-    {/* <div className=" "> */}
-    <ul className=" flex justify-evenly "></ul>
-  </div>
-</div>;

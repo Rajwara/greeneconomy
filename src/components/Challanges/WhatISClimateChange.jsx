@@ -15,9 +15,8 @@ function WhatIsClimateChange() {
               weather patterns of the Earth, and global climate systems. Climate
               change is considered the key global challenge over the decade.
             </p>
-            <p className="mt-2 ">
-            It
-              is done mostly due to industrial processes, burning of fossil
+            <p className="mt-4 ">
+              It is done mostly due to industrial processes, burning of fossil
               fuels, and other destructive human activities. It results in the
               abrupt rise in global temperature, resulting in social,
               economical, and environmental effects.
