@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white dark:bg-gray-900 sticky w-full z-30 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-      <div className="flex flex-wrap items-center justify-between px-[10px] sm:px-[30px] md:px-[40px] lg:px-[60px] xl:px-[78px]">
+      <div className="flex flex-wrap items-center justify-between px-[10px] sm:px-[30px] md:px-[40px] lg:px-[60px] xl:pl-[75px] xl:pr-[100px]">
         <Link to="/" className="flex items-center">
           <img
             src={Logo}
@@ -304,7 +304,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/carbon-credits"
-                className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
+                className={`block py-2 font-montserrat font-semibold  text-base pl-3 sm:pl-0 pr-4 sm:pr-0 ${
                   activeLink === "CarbonCredits"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"
