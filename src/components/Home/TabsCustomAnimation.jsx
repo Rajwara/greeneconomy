@@ -20,8 +20,8 @@ import Pledges from "../../../src/images/Pledges.jpg";
 const TabsCustomAnimation = () => {
   const data = [
     {
-      label: "Paris Agreement",
-      value: "Paris",
+      label: "2015",
+      value: "2015",
       icon: GiGreenPower,
       heading: "2015",
       desc: `  It was adopted by 196 nations at the 21st session of the Conference of Parties (COP21). In this agreement, the goal  was set to limit global warming to well below 2 degrees Celsius above pre-industrial levels to limit the increase in temperature to 1.5 degrees Celsius. 
@@ -30,8 +30,8 @@ const TabsCustomAnimation = () => {
       imagedec: ParisAgreement,
     },
     {
-      label: "Cap and Trade ",
-      value: "profile",
+      label: "2015 - 2017 ",
+      value: "2015 - 2017",
       icon: FcMoneyTransfer,
       desc: `There was implementation of cap-and-trade systems, aimed to create financial incentives to encourage industries to reduce their carbon footprint. 
           There was also significant advancement in electric vehicle technology, contributing to zero emission transportation goals. 
@@ -42,8 +42,8 @@ const TabsCustomAnimation = () => {
     },
     {
       heading: "2020- 2021 ",
-      label: "Greenhouse",
-      value: "Greenhouse",
+      label: "2020- 2021",
+      value: "2020- 2021",
       icon: GiGreenhouse,
       desc: `Global greenhouse gas emission reduced in the pandemic. It highlighted the potential for emission reductions, and encouraged discussions to increase carbon capture.
           Renewable energy installations also continued to grow in these years, demonstrating the importance of renewable energy in achieving long-term zero emissions goals. 
@@ -52,8 +52,8 @@ const TabsCustomAnimation = () => {
     },
     {
       heading: "2030 ",
-      label: "Countries",
-      value: "year2030",
+      label: "2030",
+      value: "2030",
       icon: MdAccountBalance,
       desc: `Countries have set ambitious climate goals for 2030. These include advancement toward carbon neutrality by investing in carbon capture technologies. 
           The development efforts in this decade will lead to breakthroughs in cost-effective solutions in reducing CO2 from the atmosphere. `,
@@ -61,8 +61,8 @@ const TabsCustomAnimation = () => {
     },
     {
       heading: "2050",
-      label: "Pledges",
-      value: "year2050",
+      label: "2050",
+      value: "2050",
       icon: PiSuitcaseSimpleDuotone,
       desc: `Pledges to achieve net-zero emissions by 2050 have been made by the top seven emitters (China, the United States of America, India, the European Union, Indonesia, the Russian Federation, Brazi) `,
       imagedec: Pledges,
@@ -86,7 +86,7 @@ const TabsCustomAnimation = () => {
               >
                 <div className="flex items-center  gap-2">
                   {React.createElement(icon, {
-                    className: "w-5 h-5 text-[#316D69]",
+                    className: "w-5 h-5 text-[#316D69] ",
                   })}
                   {label}
                 </div>

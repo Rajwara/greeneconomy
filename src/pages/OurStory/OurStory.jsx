@@ -6,7 +6,7 @@ import OurStoryOrigination from "../../components/OurStory/OurStoryOrigination";
 import StateAbout from "../../components/OurStory/StateofGreenEconomy";
 import GepComePlay from "../../components/OurStory/GepComePlay";
 import HowDoGepExpert from "../../components/OurStory/HowDoGepExpert";
-import OurStoryMission from "../../components/OurStory/OurStoryMission";
+import ContactFooterUperButton from "../../components/ContactFooterUperComponent/ContactFooterUperButton";
 
 const OurStory = () => {
   return (
@@ -18,7 +18,7 @@ const OurStory = () => {
       <GepComePlay />
       <OurStoryOrigination />
       <OurStoryCards2 />
-      <OurStoryMission />
+      <ContactFooterUperButton />
     </div>
   );
 };

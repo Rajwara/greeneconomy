@@ -4,7 +4,7 @@ import InitiativesWindandSolar from "../../components/RenewableEnergy/Initiative
 import RenewableEnergyLi from "../../components/RenewableEnergy/RenewableEnergyLi";
 import RethinkingFossilFuels from "../../components/RenewableEnergy/RethinkingFossilFuels";
 import StatsPowerrenewable from "../../components/RenewableEnergy/StatsPowerrenewable";
-import RenewableEnergyMission from "../../components/RenewableEnergy/RenewableEnergyMission";
+import ContactFooterUperButton from "../../components/ContactFooterUperComponent/ContactFooterUperButton";
 
 const RenewableEnergy = () => {
   return (
@@ -14,7 +14,7 @@ const RenewableEnergy = () => {
       <InitiativesWindandSolar />
       <RethinkingFossilFuels />
       <StatsPowerrenewable />
-      <RenewableEnergyMission />
+      <ContactFooterUperButton />
     </div>
   );
 };

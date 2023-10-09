@@ -4,7 +4,7 @@ import BenefitsofAnaerobic from "../../components/WasteManagement/BenefitsofAnae
 import DigestionConsultancy from "../../components/WasteManagement/AnaerobicDigestionConsultancy";
 import AnaerobicDigestionGlance from "../../components/WasteManagement/AnaerobicDigestionGlance";
 import StatsAnaerobic from "../../components/WasteManagement/StatsAnaerobic";
-import WasteManagementMission from "../../components/WasteManagement/WasteManagementMission";
+import ContactFooterUperButton from "../../components/ContactFooterUperComponent/ContactFooterUperButton";
 
 const WasteManagement = () => {
   return (
@@ -14,7 +14,7 @@ const WasteManagement = () => {
       <DigestionConsultancy />
       <BenefitsofAnaerobic />
       <StatsAnaerobic />
-      <WasteManagementMission />
+      <ContactFooterUperButton />
     </div>
   );
 };

@@ -8,25 +8,20 @@ function ServicesHome() {
           Services
         </h6>
         <h2 className="text-4xl xs:text-start font-montserrat font-bold text-[#316D69]">
-          Towards a sustainable and smarter future
+          Towards a Sustainable and Smarter Future
         </h2>
         <div className="lg:w-8/12 xs:text-start mx-auto text-lg font-poppins mt-10 text-[#3c3c3c]">
           <p className=" ">
             Our aim of crafting a sustainable and smarter future is achievable
-            through numerous services that utilise Nature Based Assets such as
-            wind, solar, and anaerobic digestion. For instance, renewable energy
-            technologies including those powered by wind turbines, solar panels
-            and anaerobic digestion are becoming increasingly cost-effective
-            forms of energy generation. Furthermore, hydrogen vehicles are
-            proving to be a viable and cleaner alternative form of
-            transportation for the public.
+            through numerous services that utilize Nature Based Assets such as
+            wind, solar, and anaerobic digestion.
           </p>
           <p className="mt-4">
-            Nature Based Assets such as these give us the ability to tackle
+            Nature-Based-Assets such as these give us the ability to tackle
             climate change and reduce dependence on carbon-based energy
-            resources. Therefore it is essential that we capitalise on Nature
-            Based Assets along with other innovative services in order to move
-            towards a sustainable future.
+            resources. Therefore it is essential that we capitalise on
+            Nature-Based-Assets along with other innovative services in order to
+            move towards a sustainable future.
           </p>
         </div>
       </div>

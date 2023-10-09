@@ -5,7 +5,7 @@ import NatureBaseSolutionSecond from "../../components/NatureBasedAsset/NatureBa
 import GovermentBiodiversity from "../../components/NatureBasedAsset/GovermentBiodiversity";
 import UnSecretaryQuote from "../../components/NatureBasedAsset/UnSecretaryQuote";
 import HowStatisticsValidate from "../../components/NatureBasedAsset/HowStatisticsValidate";
-import NatureBasedAssetMission from "../../components/NatureBasedAsset/NatureBasedAssetMission";
+import ContactFooterUperButton from "../../components/ContactFooterUperComponent/ContactFooterUperButton";
 
 const NatureBasedAsset = () => {
   return (
@@ -16,7 +16,7 @@ const NatureBasedAsset = () => {
       <GovermentBiodiversity />
       <UnSecretaryQuote />
       <HowStatisticsValidate />
-      <NatureBasedAssetMission />
+      <ContactFooterUperButton />
     </div>
   );
 };

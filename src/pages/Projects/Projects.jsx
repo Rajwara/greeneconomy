@@ -6,7 +6,7 @@ import LetNatureNurture from "../../components/Projects/LetNatureNurture";
 import CoverTheSoil from "../../components/Projects/CoverTheSoil";
 import PlantIntelligentConsortiums from "../../components/Projects/PlantIntelligentConsortiums";
 import NativeForestConservationAndFacts from "../../components/Projects/NativeForestConservationAndFacts";
-import ProjectsMission from "../../components/Projects/ProjectsMission";
+import ContactFooterUperButton from "../../components/ContactFooterUperComponent/ContactFooterUperButton";
 
 const Projects = () => {
   return (
@@ -18,7 +18,7 @@ const Projects = () => {
       <PlantIntelligentConsortiums />
       <NativeForestConservationAndFacts />
       <ZoomSyntropicExplore />
-      <ProjectsMission />
+      <ContactFooterUperButton />
     </div>
   );
 };

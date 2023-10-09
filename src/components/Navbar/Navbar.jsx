@@ -51,6 +51,7 @@ const Navbar = () => {
             alt="Green Economy Logo"
           />
         </Link>
+
         <button
           data-collapse-toggle="navbar-multi-level"
           type="button"
@@ -209,7 +210,7 @@ const Navbar = () => {
                 >
                   <li className=" pl-3">
                     <Link
-                      to="/blue-carbon"
+                      to="/carbon-trading"
                       className={`block font-montserrat  text-base py-2  pr-4  sm:pr-0 ${
                         activeLink === "CarbonCredits"
                           ? "text-[#316D69] font-bold"
@@ -241,7 +242,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      to="/wind-and-solar"
+                      to="/renewable-energy"
                       className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "WindandSolar"
                           ? "text-[#316D69] font-bold"
@@ -257,7 +258,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      to="/anaerobic-digestion"
+                      to="/waste-management"
                       className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "AnaerobicDigestion"
                           ? "text-[#316D69] font-bold"
@@ -315,7 +316,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/contact"
+                to="/contact-us"
                 className={`block py-2 font-montserrat font-semibold text-base pl-3 pr-4 sm:pr-0 ${
                   activeLink === "Contact"
                     ? "text-[#316D69] font-bold"

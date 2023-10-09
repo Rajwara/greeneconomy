@@ -31,7 +31,7 @@ const Slider = () => {
       id: 1,
       imgUrl:
         "https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      desc: "At Green Economy Partnership, we aim to achieve net-zero carbon emissions by 2050. Our experts help you prevent climate change through nature- based solutions, renewable energy sources, and carbon trading. ",
+      desc: "At Green Economy Partnership, we aim to achieve net-zero carbon emissions by 2050. Our experts help you prevent climate change through nature-based solutions, renewable energy sources, and carbon trading. ",
       name: "Welcome to Green Economy Partnership",
       buttontext: "Go Green Now!",
     },

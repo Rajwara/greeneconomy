@@ -47,7 +47,7 @@ const DrivingForcesBehind = () => {
               <img
                 src={items.image}
                 alt=""
-                className="h-[200px] w-[200px] rounded-full mx-auto"
+                className="h-[200px] w-[200px] rounded-full shadow-2xl hover:rounded-lg hover:shadow-2xl mx-auto"
               />
               <h4 className="font-montserrat text-xl font-bold text-[#bab220] mt-10 h-[40px]">
                 {items.title}

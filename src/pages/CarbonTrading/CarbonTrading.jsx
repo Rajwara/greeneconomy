@@ -6,7 +6,7 @@ import KeyPoint from "../../components/CarbonTrading/KeyPoint";
 import DrivingForcesBehind from "../../components/CarbonTrading/DrivingForcesBehind";
 import WhyCarbonCredits from "../../components/CarbonTrading/WhyCarbonCredits";
 import ClimateFriendlyInvestment from "../../components/CarbonTrading/ClimateFriendlyInvestment";
-import CarbonTradingMission from "../../components/CarbonTrading/CarbonTradingMission";
+import ContactFooterUperButton from "../../components/ContactFooterUperComponent/ContactFooterUperButton";
 
 const CarbonTrading = () => {
   return (
@@ -18,7 +18,7 @@ const CarbonTrading = () => {
       <DrivingForcesBehind />
       <WhyCarbonCredits />
       <ClimateFriendlyInvestment />
-      <CarbonTradingMission />
+      <ContactFooterUperButton />
     </div>
   );
 };

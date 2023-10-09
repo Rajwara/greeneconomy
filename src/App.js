@@ -27,12 +27,12 @@ const App = () => {
         <Route exact path="/news-and-media" element={<Media />} />{" "}
         <Route exact path="/challenges" element={<Challenges />} />{" "}
         <Route exact path="/naturebasedasset" element={<NatureBasedAsset />} />{" "}
-        <Route exact path="/blue-carbon" element={<CarbonTrading />} />{" "}
-        <Route exact path="/wind-and-solar" element={<RenewableEnergy />} />{" "}
-        <Route exact path="/anaerobic-digestion" element={<WasteManagement />} />{" "}
+        <Route exact path="/carbon-trading" element={<CarbonTrading />} />{" "}
+        <Route exact path="/renewable-energy" element={<RenewableEnergy />} />{" "}
+        <Route exact path="/waste-management" element={<WasteManagement />} />{" "}
         <Route exact path="/projects" element={<Projects />} />{" "}
         <Route exact path="/carbon-credits" element={<CarbonCredits />} />{" "}
-        <Route exact path="/contact" element={<ContactUs />} />
+        <Route exact path="/contact-us" element={<ContactUs />} />
       </Routes>{" "}
       <Footer />
       <ShortFooter />

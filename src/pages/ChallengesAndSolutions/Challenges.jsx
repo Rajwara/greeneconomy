@@ -6,7 +6,7 @@ import WhatIsClimateChange from "../../components/Challanges/WhatISClimateChange
 import SolutionHighStandardCarbon from "../../components/Challanges/SolutionHighStandardCarbon";
 import HowCarbonOffsetsWork from "../../components/Challanges/HowCarbonOffsetsWork";
 import EffectsOfDeferestionCards from "../../components/Challanges/EffectsOfDeferestionCards";
-import MissionButton from "../../components/Challanges/MissionButton";
+import ContactFooterUperButton from "../../components/ContactFooterUperComponent/ContactFooterUperButton";
 
 const Challanges = () => {
   return (
@@ -18,7 +18,7 @@ const Challanges = () => {
       <WhatIsClimateChange />
       <SolutionHighStandardCarbon />
       <HowCarbonOffsetsWork />
-      <MissionButton />
+      <ContactFooterUperButton />
     </div>
   );
 };

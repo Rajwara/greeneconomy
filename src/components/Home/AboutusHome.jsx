@@ -11,15 +11,15 @@ function AboutusHome() {
             About us
           </h6>
           <h2 className="text-4xl mb-6 font-montserrat  font-bold text-[#3c3c3c]">
-            Green Economy Partnership: Going green by 2050
+            Green Economy Partnership: Going Green by 2050
           </h2>
           <div className="font-poppins text-lg text-[#3c3c3c] font-normal leading-7">
             <p className=" ">
               Welcome to{" "}
               <span className="text-[#D3CA28] font-bold">
-                Green Economy Partnership{" "}
+                Green Economy Partnership,{" "}
               </span>
-              , a gateway to sustainable development. Our goal is to find
+              a gateway to sustainable development. Our goal is to find
               practical solutions to the effects of climate change such as
               carbon emissions, sea level rise, and global warming which call
               for the dire need for a net-zero carbon world. The climate crisis
@@ -45,9 +45,9 @@ function AboutusHome() {
             <p className=" mt-4 text-[#3c3c3c]">
               The team at Green Economy, therefore, is dedicated to addressing
               the rising challenges imposed by carbon emissions and greenhouse
-              gasses. Our goal is to achieve net-zero carbon emissions by 2050
+              gases. Our goal is to achieve net-zero carbon emissions by 2050
               through sustainable practices, innovative technologies, and
-              strategic partnership.
+              strategic partnerships.
             </p>
           </div>
           <div className="flex-col align-middle gap-4">
@@ -55,9 +55,9 @@ function AboutusHome() {
 
             <p className=" mt-4 leading-7 text-[#3c3c3c]">
               By investing in carbon offset projects, GEP helps individuals,
-              organizations, and companies to play their part to prevent climate
-              change by balancing out the carbon emissions and becoming members
-              of a more sustainable future.
+              organizations, and companies to play their part in preventing
+              climate change by balancing out the carbon emissions and becoming
+              members of a more sustainable future.
             </p>
           </div>
 
