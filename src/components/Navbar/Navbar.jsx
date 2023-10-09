@@ -42,7 +42,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white dark:bg-gray-900 sticky w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <nav className="bg-white dark:bg-gray-900 sticky w-full z-30 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
       <div className="flex flex-wrap items-center justify-between px-[10px] sm:px-[30px] md:px-[40px] lg:px-[60px] xl:px-[78px]">
         <Link to="/" className="flex items-center">
           <img
@@ -167,19 +167,6 @@ const Navbar = () => {
                 </ul>
               </div>
             </li>
-            {/* <li>
-              <NavLink
-                to="/challenges"
-                className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
-                  activeLink === "Challenges"
-                    ? "text-[#316D69] font-bold"
-                    : "text-[#3c3c3c]"
-                } hover:text-[#316D69] rounded `}
-                onClick={() => handleLinkClick("Challenges")}
-              >
-                Challenges
-              </NavLink>
-            </li> */}
             <li>
               <button
                 id="dropdownNavbarLink2"
@@ -252,39 +239,6 @@ const Navbar = () => {
                       Nature Based Assets
                     </Link>
                   </li>
-                  {/* <li className="flex flex-row pl-4">
-                    <p className="text-[#3c3c3c] font-montserrat font-medium text-base pt-2">
-                      1.
-                    </p>
-                    <Link
-                      to="/forest"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
-                        activeLink === "Forest"
-                          ? "text-[#316D69] font-bold"
-                          : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("Forest")}
-                    >
-                      Forest
-                    </Link>
-                  </li> */}
-                  {/*
-                  <li className="flex flex-row pl-4">
-                    <p className="text-[#3c3c3c] font-montserrat font-medium text-base pt-2">
-                      3.
-                    </p>
-                    <Link
-                      to="/agriculture"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
-                        activeLink === "Agriculture"
-                          ? "text-[#316D69] font-bold"
-                          : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
-                      onClick={() => handleLinkClick("Agriculture")}
-                    >
-                      Agriculture
-                    </Link>
-                  </li> */}
                   <li>
                     <Link
                       to="/wind-and-solar"

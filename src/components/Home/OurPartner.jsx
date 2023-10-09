@@ -25,7 +25,7 @@ const OurPartner = () => {
               Goverment of Guinea- Bissau
             </h4>
           </div>
-          <div className="shadow-2xl bg-white shadow-[#BAB220] h-full hover:shadow-[#316D69]   px-14 py-4 rounded-lg">
+          <div className="shadow-2xl bg-white shadow-[#BAB220] h-full hover:shadow-[#316D69]   px-14 py-6 mb-6 rounded-lg">
             <img
               className="w-[100%] h-[250px] text-start "
               src={ugandalogo}
@@ -35,7 +35,7 @@ const OurPartner = () => {
               Goverment of Uganda
             </h4>
           </div>
-          <div className="shadow-2xl bg-white shadow-[#BAB220] h-full hover:shadow-[#316D69]   px-14 py-4 rounded-lg">
+          <div className="shadow-2xl bg-white shadow-[#BAB220] h-full hover:shadow-[#316D69]   px-14 py-6 rounded-lg">
             <img
               className="w-[100%] h-[250px] text-start "
               src={zanzibarlogo}

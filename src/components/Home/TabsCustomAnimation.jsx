@@ -77,14 +77,14 @@ const TabsCustomAnimation = () => {
           The Route to Carbon Neutrality
         </h2>
         <Tabs value={activeTab}>
-          <TabsHeader>
+          <TabsHeader className="main flex flex-col  md:flex-row lg:flex-row xl:flex-row">
             {data.map(({ label, value, icon }) => (
               <Tab
                 key={value}
                 value={value}
                 onClick={() => setActiveTab(value)} // Set the active tab on click
               >
-                <div className="flex items-center gap-2">
+                <div className="flex items-center  gap-2">
                   {React.createElement(icon, {
                     className: "w-5 h-5 text-[#316D69]",
                   })}
@@ -96,8 +96,8 @@ const TabsCustomAnimation = () => {
           <TabsBody className="active">
             {data.map((items) => (
               <TabPanel key={items.value} value={items.value}>
-                <div className="grid grid-cols-2 justify-around mt-8">
-                  <div className="justify-center flex flex-col">
+                <div className="grid grid-cols-1 lg:grid-cols-2 justify-around mt-8">
+                  <div className="justify-center flex flex-col flex-wrap">
                     <h5 className="uppercase text-2xl text-[#316D69] font-bold	font-montserrat mt-5">
                       {items.heading}
                     </h5>
@@ -105,7 +105,7 @@ const TabsCustomAnimation = () => {
                       {items.desc}
                     </p>
                   </div>
-                  <div className="pl-10">
+                  <div className="pl-0 lg:pl-10 xl:pl-10 mt-8 md:mt-8 lg:mt-0 xl:mt-0">
                     <img
                       src={items.imagedec}
                       alt=""
