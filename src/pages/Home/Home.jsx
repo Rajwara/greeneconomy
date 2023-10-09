@@ -19,9 +19,9 @@ const Home = () => {
       <AboutusHome />
       <ServicesHome />
       <AnimatedCard />
-      <TabsCustomAnimation />
-      <GovernmentofUganda />
       <FlowChart />
+      <GovernmentofUganda />
+      <TabsCustomAnimation />
       <OurActivateAprroach />
       <OurPartner />
       <ContactFooterUperButton />

@@ -6,7 +6,7 @@ const ContactButton = () => {
     <>
       <ContactFooterUperButton
         titlebtn="Feel Free to Contact Us!"
-        descriptionbtn="This is a longer description to test the component."
+        descriptionbtn="Have questions? Reach out to us without hesitation."
         buttontextbtn="Get Started"
       />
     </>
