@@ -272,6 +272,22 @@ const Navbar = () => {
                       Waste Management
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      to="/anaerobic-digestion"
+                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                        activeLink === "AnaerobicDigestion"
+                          ? "text-[#316D69] font-bold"
+                          : "text-[#3c3c3c]"
+                      } hover:text-[#316D69] rounded `}
+                      onClick={() => {
+                        handleLinkClick("AnaerobicDigestion");
+                        closeDropdown("dropdownNavbarLink2");
+                      }}
+                    >
+                      Anaerobic Digestion
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </li>
