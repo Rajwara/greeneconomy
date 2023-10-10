@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Switch } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import OurStory from "./pages/OurStory/OurStory";
@@ -22,17 +22,19 @@ const App = () => {
       <ScrollToTop />
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />{" "}
-        <Route exact path="/our-story" element={<OurStory />} />{" "}
-        <Route exact path="/news-and-media" element={<Media />} />{" "}
-        <Route exact path="/challenges" element={<Challenges />} />{" "}
-        <Route exact path="/naturebasedasset" element={<NatureBasedAsset />} />{" "}
-        <Route exact path="/carbon-trading" element={<CarbonTrading />} />{" "}
-        <Route exact path="/renewable-energy" element={<RenewableEnergy />} />{" "}
-        <Route exact path="/waste-management" element={<WasteManagement />} />{" "}
-        <Route exact path="/projects" element={<Projects />} />{" "}
-        <Route exact path="/carbon-credits" element={<CarbonCredits />} />{" "}
-        <Route exact path="/contact-us" element={<ContactUs />} />
+        <Switch>
+          <Route exact path="/" element={<Home />} />{" "}
+          <Route exact path="/our-story" element={<OurStory />} />{" "}
+          <Route exact path="/news-and-media" element={<Media />} />{" "}
+          <Route exact path="/challenges" element={<Challenges />} />{" "}
+          <Route exact path="/naturebasedasset" element={<NatureBasedAsset />} />{" "}
+          <Route exact path="/carbon-trading" element={<CarbonTrading />} />{" "}
+          <Route exact path="/renewable-energy" element={<RenewableEnergy />} />{" "}
+          <Route exact path="/waste-management" element={<WasteManagement />} />{" "}
+          <Route exact path="/projects" element={<Projects />} />{" "}
+          <Route exact path="/carbon-credits" element={<CarbonCredits />} />{" "}
+          <Route exact path="/contact-us" element={<ContactUs />} />
+        </Switch>
       </Routes>{" "}
       <Footer />
       <ShortFooter />

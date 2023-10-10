@@ -77,7 +77,7 @@ const Navbar = () => {
           </svg>
         </button>
         <div
-          className="w-full md:block md:w-auto sm:pl-[10px]"
+          className="w-full md:block md:w-auto sm:pl-[10px] hidden"
           id="navbar-multi-level"
         >
           <ul className="flex flex-col flex-wrap font-medium p-4 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">

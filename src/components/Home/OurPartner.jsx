@@ -21,7 +21,7 @@ const OurPartner = () => {
               src={guineabissau}
               alt=""
             />
-            <h4 className="font-montserrat font-xl font-bold mt-10">
+            <h4 className="font-montserrat font-xl font-bold mt-10 h-10">
               Goverment of Guinea- Bissau
             </h4>
           </div>
@@ -31,7 +31,7 @@ const OurPartner = () => {
               src={ugandalogo}
               alt=""
             />
-            <h4 className="font-montserrat font-xl h-10 font-bold mt-10">
+            <h4 className="font-montserrat font-xl h-10 font-bold mt-10 ">
               Goverment of Uganda
             </h4>
           </div>
