@@ -21,15 +21,20 @@ const FlowChart = () => {
               According to the United Nations, the seven biggest emitters of
               greenhouse gasses are the United States of America, India, China,
               Indonesia, the European Union, Russian Federation, and Brazil. In
-              2020, they accounted for half of the global greenhouse gas
-              emissions.
+               <a
+                href="https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data"
+                className="text-[#D3CA28] font-bold underline ml-1"
+              >
+                 2020,
+              </a>{" "}
+              they accounted for half of the global greenhouse gas emissions.
             </p>
             <p className="mt-4">
               The rest of the countries including Argentina, Republic of Korea,
               Mexico, Russia, Saudi Arabia, South Africa, Turkey, the United
               Kingdom, the United States, and the European UnionAustralia,
               Brazil, Canada, China, France, Germany, India, Indonesia, Italy,
-              Japan are responsible for 75% of the global greenhouse gas
+              Japan are responsible for <a className="text-[#D3CA28] font-bold underline " href="https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors#:~:text=China%20is%20the%20biggest%20emitter,the%20European%20Union%20at%207.03%25.">75%</a> of the global greenhouse gas
               emission.
             </p>
           </div>

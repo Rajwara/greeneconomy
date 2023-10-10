@@ -55,7 +55,7 @@ const TabsCustomAnimation = () => {
       label: "2030",
       value: "2030",
       icon: MdAccountBalance,
-      desc: `Countries have set ambitious climate goals for 2030. These include advancement toward carbon neutrality by investing in carbon capture technologies. 
+      desc: `Countries have set <a  href="https://www.un.org/en/climatechange/net-zero-coalition" style="color: #D3CA28 ; font-weight:bold; text-decoration: underline;"> ambitious climate goals for 2030</a>. These include advancement toward carbon neutrality by investing in carbon capture technologies. 
           The development efforts in this decade will lead to breakthroughs in cost-effective solutions in reducing CO2 from the atmosphere. `,
       imagedec: Countries,
     },
@@ -64,7 +64,7 @@ const TabsCustomAnimation = () => {
       label: "2050",
       value: "2050",
       icon: PiSuitcaseSimpleDuotone,
-      desc: `Pledges to achieve net-zero emissions by 2050 have been made by the top seven emitters (China, the United States of America, India, the European Union, Indonesia, the Russian Federation, Brazi) `,
+      desc: `Pledges to achieve <a href="https://www.iea.org/reports/net-zero-by-2050" style="color: #D3CA28 ; font-weight:bold; text-decoration: underline;"> net-zero emissions by 2050</a> have been made by the top seven emitters (China, the United States of America, India, the European Union, Indonesia, the Russian Federation, Brazi) `,
       imagedec: Pledges,
     },
   ];
@@ -101,9 +101,8 @@ const TabsCustomAnimation = () => {
                     <h5 className="uppercase text-2xl text-[#316D69] font-bold	font-montserrat mt-5">
                       {items.heading}
                     </h5>
-                    <p className="font-poppins text-lg text-[#3c3c3c] font-normal leading-7 mt-3">
-                      {items.desc}
-                    </p>
+                    <p className="font-poppins text-lg text-[#3c3c3c] font-normal leading-7 mt-3 " dangerouslySetInnerHTML={{ __html: items.desc }}>
+                                        </p>
                   </div>
                   <div className="pl-0 lg:pl-10 xl:pl-10 mt-8 md:mt-8 lg:mt-0 xl:mt-0">
                     <img

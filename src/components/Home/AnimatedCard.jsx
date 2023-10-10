@@ -31,7 +31,7 @@ function AnimatedCard() {
     <div className=" container_c animated_container mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] ">
       <Card
         color="#316D69"
-        title="Nature- Based Solutions "
+        title="Nature- Based Assets  "
         imageSrc={image1}
         description="The  Nature-Based Solutions utilize assets like sustainable forestry, blue carbon, and climate-smart agriculture for a sustainable future."
       />
@@ -43,7 +43,7 @@ function AnimatedCard() {
       />
       <Card
         color="#316D69"
-        title="Waste Management "
+        title="Waste Management  "
         imageSrc={image3}
         description="Anaerobic digestion is a sustainable process converting organics to efficient gas and nutrient-rich digestate, supporting waste management."
       />
