@@ -15,6 +15,7 @@ import Footer from "./components/Footer/Footer";
 import ShortFooter from "./components/ShortFooter/ShortFooter";
 import CarbonCredits from "./pages/CarbonCredits/CarbonCredits";
 import ScrollToTop from "./components/ScrollForTop/ScrollForTop";
+import AnaerobicDigestion from "./pages/AnaerobicDigestion/AnaerobicDigestion";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         <Route exact path="/carbon-trading" element={<CarbonTrading />} />{" "}
         <Route exact path="/renewable-energy" element={<RenewableEnergy />} />{" "}
         <Route exact path="/waste-management" element={<WasteManagement />} />{" "}
+        <Route exact path="/anaerobic-digestion" element={<AnaerobicDigestion />} />
         <Route exact path="/projects" element={<Projects />} />{" "}
         <Route exact path="/carbon-credits" element={<CarbonCredits />} />{" "}
         <Route exact path="/contact-us" element={<ContactUs />} />
