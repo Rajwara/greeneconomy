@@ -46,7 +46,7 @@ function AnimatedCard() {
         color="#316D69"
         title="Waste Management  "
         imageSrc={image3}
-        description="Anaerobic digestion is a sustainable process converting organics to efficient gas and nutrient-rich digestate, supporting waste management."
+        description="Anaerobic digestion is a sustainable process converting organic matter to efficient gas and nutrient-rich digestate, supporting waste management."
       />
       <Card
         color="#316D69"

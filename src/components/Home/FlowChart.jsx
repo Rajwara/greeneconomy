@@ -18,7 +18,7 @@ const FlowChart = () => {
 
           <div className="text-lg font-poppins">
             <p className="">
-              According to the United Nations, the seven biggest emitters of
+              According to the <a className="text-[#D3CA28] font-bold underline " href="https://www.un.org/en/">United Nations</a>, the seven biggest emitters of
               greenhouse gasses are the United States of America, India, China,
               Indonesia, the European Union, Russian Federation, and Brazil. In
                <a
@@ -30,12 +30,7 @@ const FlowChart = () => {
               they accounted for half of the global greenhouse gas emissions.
             </p>
             <p className="mt-4">
-              The rest of the countries including Argentina, Republic of Korea,
-              Mexico, Russia, Saudi Arabia, South Africa, Turkey, the United
-              Kingdom, the United States, and the European UnionAustralia,
-              Brazil, Canada, China, France, Germany, India, Indonesia, Italy,
-              Japan are responsible for <a className="text-[#D3CA28] font-bold underline " href="https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors#:~:text=China%20is%20the%20biggest%20emitter,the%20European%20Union%20at%207.03%25.">75%</a> of the global greenhouse gas
-              emission.
+            The rest of the countries including Argentina, the Republic of Korea, Mexico, Russia, Saudi Arabia, South Africa, Turkey, the United Kingdom, the United States, the European Union, Australia, Brazil, Canada, China, France, Germany, India, Indonesia, Italy, Japan are responsible for <a className="text-[#D3CA28] font-bold underline " href="https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors#:~:text=China%20is%20the%20biggest%20emitter,the%20European%20Union%20at%207.03%25.">75%</a> of the global greenhouse gas emissions.
             </p>
           </div>
         </div>

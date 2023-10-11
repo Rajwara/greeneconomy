@@ -13,11 +13,11 @@ function ServicesHome() {
         <div className="lg:w-8/12 xs:text-start mx-auto text-lg font-poppins mt-10 text-[#3c3c3c]">
           <p className=" ">
             Our aim of crafting a sustainable and smarter future is achievable
-            through numerous services that utilize Nature Based Assets such as
+            through numerous services that utilize Nature-Based Assets such as
             wind, solar, and anaerobic digestion.
           </p>
           <p className="mt-4">
-            Nature-Based-Assets such as these give us the ability to tackle
+            Nature-Based Assets such as these give us the ability to tackle
             climate change and reduce dependence on carbon-based energy
             resources. Therefore it is essential that we capitalise on
             Nature-Based-Assets along with other innovative services in order to

@@ -25,7 +25,7 @@ const Slider = () => {
         "https://images.unsplash.com/photo-1491982883790-ead7c97a047e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       desc: "The experts at GEP help businesses reduce emissions; they identify suitable projects, ensure compliance with Article 6.2 standards, develop project plans, and seek certification from recognized carbon standards. ",
       name: "Carbon Credits",
-      buttontext: "Go Green Now!",
+      buttontext: "Offset Emissions ",
     },
     {
       id: 1,
@@ -33,7 +33,7 @@ const Slider = () => {
         "https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       desc: "At Green Economy Partnership, we aim to achieve net-zero carbon emissions by 2050. Our experts help you prevent climate change through nature-based solutions, renewable energy sources, and carbon trading. ",
       name: "Welcome to Green Economy Partnership",
-      buttontext: "Go Green Now!",
+      buttontext: "Accelerate a Sustainable Future! ",
     },
     {
       id: 3,
@@ -49,7 +49,7 @@ const Slider = () => {
         "https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       desc: "GEP supports wind and solar energy incentives within local communities, helping you contribute to a sustainable future. Our initiatives empower local communities, ensuring a sustainable, cost-efficient, and greener future.",
       name: "Renewable Energy",
-      buttontext: "Go Green Now!",
+      buttontext: "Embrace Green Living",
     },
     {
       id: 5,
@@ -57,7 +57,7 @@ const Slider = () => {
         "https://images.unsplash.com/photo-1508333509220-c13101299e68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       desc: "Anaerobic digestion is gaining popularity in waste management, particularly in Dubai. GEP offers consultancy to harness its potential, cut carbon footprints, and establish cost-effective power generation systems for a greener future.",
       name: "Waste Management ",
-      buttontext: "Go Green Now!",
+      buttontext: "Embrace the Green Life!      ",
     },
   ];
 

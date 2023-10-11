@@ -45,7 +45,7 @@ const TabsCustomAnimation = () => {
       label: "2020- 2021",
       value: "2020- 2021",
       icon: GiGreenhouse,
-      desc: `Global greenhouse gas emission reduced in the pandemic. It highlighted the potential for emission reductions, and encouraged discussions to increase carbon capture.
+      desc: `Global greenhouse gas emissions reduced in the pandemic. It highlighted the potential for emission reductions, and encouraged discussions to increase carbon capture.
           Renewable energy installations also continued to grow in these years, demonstrating the importance of renewable energy in achieving long-term zero emissions goals. 
           `,
       imagedec: Greenhouse,
@@ -64,7 +64,7 @@ const TabsCustomAnimation = () => {
       label: "2050",
       value: "2050",
       icon: PiSuitcaseSimpleDuotone,
-      desc: `Pledges to achieve <a href="https://www.iea.org/reports/net-zero-by-2050" style="color: #D3CA28 ; font-weight:bold; text-decoration: underline;"> net-zero emissions by 2050</a> have been made by the top seven emitters (China, the United States of America, India, the European Union, Indonesia, the Russian Federation, Brazi) `,
+      desc: `Pledges to achieve <a href="https://www.iea.org/reports/net-zero-by-2050" style="color: #D3CA28 ; font-weight:bold; text-decoration: underline;"> net-zero emissions by 2050</a> have been made by the top seven emitters - China, the United States of America, India, the European Union, Indonesia, the Russian Federation, Brazil.`,
       imagedec: Pledges,
     },
   ];

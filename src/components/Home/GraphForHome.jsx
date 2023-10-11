@@ -100,7 +100,7 @@ const GraphForHome = () => {
     <div>
       <div class="bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
         <div class="flex justify-between mb-3 px-[200px]">
-          <div class="flex justify-center items-center">
+          {/* <div class="flex justify-center items-center">
             <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white pr-1">
               Website traffic
             </h5>
@@ -164,8 +164,8 @@ const GraphForHome = () => {
               </div>
               <div data-popper-arrow></div>
             </div>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <button
               type="button"
               data-tooltip-target="data-tooltip"
@@ -197,10 +197,10 @@ const GraphForHome = () => {
               Download CSV
               <div class="tooltip-arrow" data-popper-arrow></div>
             </div>
-          </div>
+          </div> */}
         </div>
 
-        <div>
+        {/* <div>
           <div class="flex" id="devices">
             <div class="flex items-center mr-4">
               <input
@@ -245,7 +245,7 @@ const GraphForHome = () => {
               </label>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div class="py-6" id="donut-chart">
           <div className="py-6">
@@ -259,7 +259,7 @@ const GraphForHome = () => {
           </div>
         </div>
 
-        <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
+        {/* <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
           <div class="flex justify-between items-center pt-5">
             <button
               id="dropdownDefaultButton"
@@ -357,7 +357,7 @@ const GraphForHome = () => {
               </svg>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
