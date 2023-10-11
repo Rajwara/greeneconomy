@@ -16,7 +16,7 @@ function OurVision() {
             </h6>
             
             <h2 className="text-[#BAB220]">
-            On the Road to Build a Climate Resilient Future and Sustainable Development
+            On the Road to Building a Climate Resilient Future and Sustainable Development
             </h2>
           </div>
 

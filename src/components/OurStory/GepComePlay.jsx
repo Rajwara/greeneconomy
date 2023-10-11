@@ -62,7 +62,7 @@ function GepComePlay() {
                         alt="location"
                       />
                       <p>
-                        Project is in alignment with Article 6.2 which requires
+                        The project is in alignment with Article 6.2 which requires
                         the emission reductions to be real, permanent, and
                         measurable, making sure that they are credible in the
                         carbon credit market.
