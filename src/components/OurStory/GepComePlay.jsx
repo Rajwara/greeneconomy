@@ -22,8 +22,8 @@ function GepComePlay() {
                         alt="location"
                       />
                       <p>
-                        A partnership is formed through the framework Emission
-                        Reduction Agreement (FERA) between GEP and the
+                        A partnership is formed through the framework <a className="text-[#D3CA28] font-bold underline" href="https://www.worldbank.org/en/news/feature/2021/05/19/what-you-need-to-know-about-emission-reductions-payment-agreements">Emission
+                        Reduction Agreement (ERPA)</a>  between GEP and the
                         government agency.
                       </p>
                     </li>

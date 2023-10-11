@@ -4,15 +4,16 @@ import WMImg2 from "../../../src/images/ourstory-aboutus.png";
 function StateAbout() {
   return (
     <div className="bg-[#F7F5F2]  px-[30px] md:px[60] lg:px-[80px] xl:px-[100px] relative md:py-[20px] xl:py-[30px]  pt-[50px]  pb-[100px] md:pb-[100px] ">
-      <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat mb-8 mt-8 text-center">
+     
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lg:gap-x-[50px] ">
+        <div
+          className="container flex flex-col   align-middle justify-center
+          h-full"
+        >
+           <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat mb-8 mt-8 ">
         {" "}
         Our story
       </h6>
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lg:gap-x-[50px] ">
-        <div
-          className="container text-left flex flex-col items-center align-middle justify-center
-          h-full"
-        >
           <h2 className=" text-[#BAB220]  text-4xl mb-8 font-montserrat font-bold">
             State of the Green Economy with Forestry
           </h2>
@@ -31,7 +32,7 @@ function StateAbout() {
               GEP is all about leaving a legacy for its future generations.
               That’s why its experts have taken an oath of net zero carbon
               emissions. As leaders in the race of net zero emissions of UAE,
-              and as active participants of COP28 Dubai, our one goal is to
+              and as active participants of <a href="https://www.cop28.com/" className="text-[#D3CA28] font-bold underline">COP28 Dubai,</a>  our one goal is to
               ensure that our efforts for the net zero emissions are not just
               impactful, but transparent. So, let’s build the legacy of
               sustainability together!

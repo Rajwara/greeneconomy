@@ -6,8 +6,8 @@ const OurStoryBanner = () => {
   return (
     <div>
       <Banner
-        title="About Us"
-        description="its description"
+        title="Our Story"
+        description="Welcome to Green Economy Partnership, your gateway to sustainable climate solutions, dedicated to addressing the climate crisis, and achieving net-zero carbon emissions by 2050 through innovative solutions and strategic partnership."
         backgroundImage={banner2}
         buttonText="Contact Us"
       />

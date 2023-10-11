@@ -1,8 +1,9 @@
 import React from "react";
 import "./AnimatedCard.css";
-import image1 from "../../../src/images/1.jpg";
-import image2 from "../../../src/images/2.jpg";
-import image3 from "../../../src/images/3.jpg";
+import image1 from "../../../src/images/Nature-Based-Solutions-Card.jpg";
+import image2 from "../../../src/images/Renewable-Energy-Card.jpg";
+import image3 from "../../../src/images/waste-management-Card.jpg";
+import image4 from "../../../src/images/Carbon-credits-Card.jpg";
 
 const Card = ({ color, title, imageSrc, description }) => {
   return (
@@ -50,7 +51,7 @@ function AnimatedCard() {
       <Card
         color="#316D69"
         title="Carbon Credits  "
-        imageSrc={image3}
+        imageSrc={image4}
         description="GEP specializes in carbon trading that transforms CO2 into an economic commodity, driving sustainability by reducing global GHG emissions."
       />
     </div>
