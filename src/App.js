@@ -17,6 +17,8 @@ import CarbonCredits from "./pages/CarbonCredits/CarbonCredits";
 import ScrollToTop from "./components/ScrollForTop/ScrollForTop";
 import AnaerobicDigestion from "./pages/AnaerobicDigestion/AnaerobicDigestion";
 import Agriculture from './pages/Agriculture/Agriculture';
+import BlueCarbon from "./pages/BlueCarbon/BlueCarbon";
+import Forestry from "./pages/Forestry/Forestry";
 
 const App = () => {
   return (
@@ -34,6 +36,8 @@ const App = () => {
         <Route exact path="/renewable-energy" element={<RenewableEnergy />} />{" "}
         <Route exact path="/waste-management" element={<WasteManagement />} />{" "}
         <Route exact path="/agriculture" element={<Agriculture />} />
+        <Route exact path="/forestry" element={<Forestry />} />
+        <Route exact path="/blue-carbon" element={<BlueCarbon />} />
         <Route exact path="/anaerobic-digestion" element={<AnaerobicDigestion />} />
         <Route exact path="/projects" element={<Projects />} />{" "}
         <Route exact path="/carbon-credits" element={<CarbonCredits />} />{" "}
