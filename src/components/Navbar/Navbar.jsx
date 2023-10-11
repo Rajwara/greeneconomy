@@ -288,6 +288,38 @@ const Navbar = () => {
                       Anaerobic Digestion
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      to="/agriculture"
+                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                        activeLink === "Agriculture"
+                          ? "text-[#316D69] font-bold"
+                          : "text-[#3c3c3c]"
+                      } hover:text-[#316D69] rounded `}
+                      onClick={() => {
+                        handleLinkClick("Agriculture");
+                        closeDropdown("dropdownNavbarLink2");
+                      }}
+                    >
+                      Agriculture
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/blue-carbon"
+                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                        activeLink === "BlueCarbon"
+                          ? "text-[#316D69] font-bold"
+                          : "text-[#3c3c3c]"
+                      } hover:text-[#316D69] rounded `}
+                      onClick={() => {
+                        handleLinkClick("BlueCarbon");
+                        closeDropdown("dropdownNavbarLink2");
+                      }}
+                    >
+                      Blue Carbon
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </li>
