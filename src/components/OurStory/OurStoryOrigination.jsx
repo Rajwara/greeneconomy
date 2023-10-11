@@ -15,15 +15,18 @@ function OurStoryOrigination() {
             </h2>
             <div className="text-lg mx-auto font-poppins text-[#3c3c3c] font-normal">
               <p className="">
-                The Green Economy Partnership initiatives are initiatives in
-                Africa, the fruits of which are visible today.
+                The experts at the Green Economy Partnership have made a
+                noteworthy contribution to enhancing the ability of the
+                communities and regions to cope with and bounce back from
+                climate disasters. This signifies a holistic approach to
+                sustainability.
               </p>
               <p className="mt-4">
-                Those initiatives are making a real impact in Africa as it is
-                helping the project originators to grasp carbon finance
-                revenues. GEP is setting good examples through our environmental
-                certifications, delivering revolutionary results for all the
-                stakeholders involved.{" "}
+                The Green Economy Partnership initiatives are making a real
+                impact in Africa as it’s helping the project originators grasp
+                carbon finance revenues. With our environmental certifications,
+                we are leading by example, delivering ground-breaking results
+                for all the stakeholders involved.{" "}
               </p>
             </div>
           </div>

@@ -14,11 +14,9 @@ function OurVision() {
             <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat">
               Our Vision
             </h6>
-            <h2 className="   text-black border-neutral-950	underline mb-4 ">
-              On the Road to Build a
-            </h2>
+            
             <h2 className="text-[#BAB220]">
-              Climate Resilient Future and Sustainable Development
+            On the Road to Build a Climate Resilient Future and Sustainable Development
             </h2>
           </div>
 
@@ -27,7 +25,7 @@ function OurVision() {
               Our vision is to accelerate the transition to a green economy that
               promotes sustainable development. To achieve this, our company
               helps the government and clients design and implement carbon
-              reduction strategies in accordance with the Paris Agreement. Our
+              reduction strategies in accordance with the <a href="https://www.un.org/en/climatechange/paris-agreement" className="text-[#D3CA28] font-bold underline">Paris Agreement.</a>  Our
               experts believe that changing ways for economic sustainability
               requires efforts from all the stakeholders involved. Hence, they
               collaborate with them to devise projects that align with their

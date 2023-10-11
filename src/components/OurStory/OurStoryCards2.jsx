@@ -25,17 +25,17 @@ function OurStoryCards2() {
     {
       image: img1,
       heading: "Project Identification ",
-      text: "Our proficiency lies in assessment (identification) of carbon credit opportunities. The experts utilize a range of carbon mitigation approaches, including renewable energy, forestry, and sustainable agriculture. The solutions that our experts provide aligns with The Green Economy’s objectives, paving the path for sustainable initiatives.",
+      text: "GEP experts provide solutions that align with the green economy’s objectives, paving the path for sustainable initiatives.      ",
     },
     {
       image: img2,
       heading: "Project Valuation",
-      text: "At Green Economy, our experts have a comprehensive approach toward project valuation, ensuring it aligns with internationally recognized carbon credit standards such as Gold Standard, and Verra. They precisely evaluate the carbon credit potential of every project within these standards, and then integrate carbon credit generation into your projects. ",
+      text: "The GEP experts precisely evaluate the carbon credit potential of every project within certain standards such as Gold standard or Verra. ",
     },
     {
       image: img3,
       heading: "Certification Support",
-      text: "The Green Economy Partnership supports carbon certification from drafting project design documents to the validation, registration, verifications, and issuances milestones.",
+      text: "GEP supports carbon certification from drafting project design documents to the validation, registration, verification, and issuance milestones.      ",
     },
   ];
 
