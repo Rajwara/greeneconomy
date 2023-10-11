@@ -208,6 +208,22 @@ const Navbar = () => {
                   className="py-2 text-sm text-[#3c3c3c] dark:text-gray-400"
                   aria-labelledby="dropdownLargeButton2"
                 >
+                      <li>
+                    <Link
+                      to="/naturebasedasset"
+                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                        activeLink === "NatureBasedAssets"
+                          ? "text-[#316D69] font-bold"
+                          : "text-[#3c3c3c]"
+                      } hover:text-[#316D69] rounded `}
+                      onClick={() => {
+                        handleLinkClick("NatureBasedAssets");
+                        closeDropdown("dropdownNavbarLink2");
+                      }}
+                    >
+                      Nature Based Assets
+                    </Link>
+                  </li>
                   <li className=" pl-3">
                     <Link
                       to="/carbon-trading"
@@ -224,22 +240,7 @@ const Navbar = () => {
                       Carbon Trading
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      to="/naturebasedasset"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
-                        activeLink === "NatureBasedAssets"
-                          ? "text-[#316D69] font-bold"
-                          : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
-                      onClick={() => {
-                        handleLinkClick("NatureBasedAssets");
-                        closeDropdown("dropdownNavbarLink2");
-                      }}
-                    >
-                      Nature Based Assets
-                    </Link>
-                  </li>
+              
                   <li>
                     <Link
                       to="/renewable-energy"
