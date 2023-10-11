@@ -11,15 +11,15 @@ function WhatIsClimateChange() {
           </h2>
           <div className="font-poppins text-lg text-[#3c3c3c]">
             <p className="">
-              Climate change is the long-term alteration of typical patterns of
-              weather patterns of the Earth, and global climate systems. Climate
-              change is considered the key global challenge over the decade.
+              Climate change is the long-term alteration of typical weather
+              patterns of the Earth and global climate systems. Climate change
+              is considered the key global challenge over the decade.
             </p>
             <p className="mt-4 ">
-              It is done mostly due to industrial processes, burning of fossil
-              fuels, and other destructive human activities. It results in the
-              abrupt rise in global temperature, resulting in social,
-              economical, and environmental effects.
+              It is primarily driven by industrial processes, the burning of
+              fossil fuels, and other destructive human activities. Climate
+              change leads to a rapid increase in global temperature, resulting
+              in social, economic, and environmental effects.
             </p>
           </div>
         </div>

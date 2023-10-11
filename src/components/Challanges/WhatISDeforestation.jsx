@@ -25,12 +25,10 @@ function WhatISDeforestation() {
                 <p className=" ">
                   Deforestation is the widespread cutting of forests for many
                   reasons. This could be done for converting forested land for
-                  uses such as industrial activities, urban development,
-                </p>
-                <p className="mt-4 ">
-                  and agriculture. The trees are usually cut on a large scale,
+                  uses such as industrial activities, urban development, and agriculture. The trees are usually cut on a large scale,
                   disrupting the rich biodiversity that forests support.
                 </p>
+              
               </div>
             </div>
           </div>

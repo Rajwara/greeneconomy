@@ -24,7 +24,7 @@ function DeforestationClimate() {
               <p className="mt-6">
                 The Green Economy Partnership gets that covered as it takes the
                 required initiatives for afforestation, reforestation, and using
-                sustainable energy sources like hydroelectricity, solar, and
+                sustainable energy sources like hydropower, solar, and
                 wind power; all of this paves the way toward a climate-resilient
                 future.
               </p>
