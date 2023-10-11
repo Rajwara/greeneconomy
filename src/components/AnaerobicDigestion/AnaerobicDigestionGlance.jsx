@@ -5,7 +5,7 @@ const AnaerobicDigestionGlance = () => {
   return (
     <section className="  py-12 text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[50px] ">
       <div className=" mx-auto">
-        <div className="lg:flex lg:space-x-8 justify-center items-center">
+        <div className="lg:flex lg:space-x-8 justify-center items-center gap-8">
           <div className="lg:w-1/2">
             <img
               src={img2}

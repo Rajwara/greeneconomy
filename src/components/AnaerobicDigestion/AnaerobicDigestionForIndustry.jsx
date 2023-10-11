@@ -6,10 +6,10 @@ function AnaerobicDigestionForIndustry() {
     <div className=" bg-[#f7f5f2] flex justify-center gap-8  flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] p-5 md:p-20 mt-[50px]">
       {/* Left Column - Headings */}
       <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 ">
-        <h1 className="text-[#BAB220] text-xl mb-4 md:text-2xl lg:text-3xl leading-7 tracking-normal font-montserrat font-bold">
+        <h2 className="text-[#BAB220] text-xl mb-4 md:text-2xl lg:text-4xl leading-7 tracking-normal font-montserrat font-bold">
           Anaerobic Digestion For{" "}
           <span className="text-[#316D69]">Industry</span>
-        </h1>
+        </h2>
         <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
           Anaerobic digestion when used in conjunction with other advanced
           technologies, optimized resources effectively. It delivers valuable

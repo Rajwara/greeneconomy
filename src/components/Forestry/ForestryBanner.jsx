@@ -2,17 +2,17 @@ import React from "react";
 import background from "../../../src/images/agriculture-main-banner.jpg";
 import Banner from "../BannerForAllPages/Banner";
 
-const AgricultureBanner = () => {
+const ForestryBanner = () => {
   return (
     <>
       <Banner
         backgroundImage={background}
-        title="Blue Carbon"
-        description="Blue carbon stored in coastal ecosystems like seagrasses, mangroves, and tidal marshes act as a potent carbon sink. "
+        title="Forestry"
+        description=" Forestry conserves nature’s treasures, balancing biodiversity, carbon storage, and versatile resource management. "
         buttonText="Register Your Interest"
       />
     </>
   );
 };
 
-export default AgricultureBanner;
+export default ForestryBanner;
