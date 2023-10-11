@@ -20,11 +20,14 @@ import Pledges from "../../../src/images/Pledges.jpg";
 const TabsCustomAnimation = () => {
   const data = [
     {
+
+      
+
       label: "2015",
       value: "2015",
       icon: GiGreenPower,
       heading: "2015",
-      desc: `  It was adopted by 196 nations at the 21st session of the Conference of Parties (COP21). In this agreement, the goal  was set to limit global warming to well below 2 degrees Celsius above pre-industrial levels to limit the increase in temperature to 1.5 degrees Celsius. 
+      desc: `  It was adopted by 196 nations at the 21st session of the <a  href="https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop" style="color: #D3CA28 ; font-weight:bold; text-decoration: underline;"> Conference of Parties</a> (COP21). In this agreement, the goal  was set to limit global warming to well below 2 degrees Celsius above pre-industrial levels to limit the increase in temperature to 1.5 degrees Celsius. 
           From 2015 onwards, there was a rapid expansion of renewable energy capacity, advancing the transition to zero emissions. 
           `,
       imagedec: ParisAgreement,
