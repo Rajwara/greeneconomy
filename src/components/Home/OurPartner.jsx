@@ -9,9 +9,9 @@ const OurPartner = () => {
       <div className=" mx-auto font-roboto text-center  ">
         <div>
           <h2 className="text-4xl  font-montserrat font-bold text-[#316D69]">
-            Our Partner
+            Our Partners
           </h2>
-          <p className="mt-4 font-poppins text-lg">Our Happy Clients</p>
+          {/* <p className="mt-4 font-poppins text-lg">Our Happy Clients</p> */}
         </div>
 
         <div className="lg:grid-cols-2 flex flex-wrap mx-auto justify-evenly mt-10">
@@ -22,7 +22,7 @@ const OurPartner = () => {
               alt=""
             />
             <h4 className="font-montserrat font-xl font-bold mt-10 h-10">
-              Goverment of Guinea- Bissau
+              Government of Guinea-Bissau
             </h4>
           </div>
           <div className="shadow-2xl bg-white shadow-[#BAB220] h-full hover:shadow-[#316D69]   px-14 py-6 mb-6 rounded-lg">
@@ -32,7 +32,7 @@ const OurPartner = () => {
               alt=""
             />
             <h4 className="font-montserrat font-xl h-10 font-bold mt-10 ">
-              Goverment of Uganda
+            Government of Uganda
             </h4>
           </div>
           <div className="shadow-2xl bg-white shadow-[#BAB220] h-full hover:shadow-[#316D69]   px-14 py-6 rounded-lg">
@@ -42,7 +42,7 @@ const OurPartner = () => {
               alt=""
             />
             <h4 className="font-montserrat font-xl h-10 font-bold mt-10">
-              Goverment of Zanzibar
+            Government of Zanzibar
             </h4>
           </div>
         </div>

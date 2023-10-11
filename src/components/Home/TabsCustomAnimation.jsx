@@ -20,11 +20,14 @@ import Pledges from "../../../src/images/Pledges.jpg";
 const TabsCustomAnimation = () => {
   const data = [
     {
+
+      
+
       label: "2015",
       value: "2015",
       icon: GiGreenPower,
       heading: "2015",
-      desc: `  It was adopted by 196 nations at the 21st session of the Conference of Parties (COP21). In this agreement, the goal  was set to limit global warming to well below 2 degrees Celsius above pre-industrial levels to limit the increase in temperature to 1.5 degrees Celsius. 
+      desc: `  It was adopted by 196 nations at the 21st session of the <a  href="https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop" style="color: #D3CA28 ; font-weight:bold; text-decoration: underline;"> Conference of Parties</a> (COP21). In this agreement, the goal  was set to limit global warming to well below 2 degrees Celsius above pre-industrial levels to limit the increase in temperature to 1.5 degrees Celsius. 
           From 2015 onwards, there was a rapid expansion of renewable energy capacity, advancing the transition to zero emissions. 
           `,
       imagedec: ParisAgreement,
@@ -45,7 +48,7 @@ const TabsCustomAnimation = () => {
       label: "2020- 2021",
       value: "2020- 2021",
       icon: GiGreenhouse,
-      desc: `Global greenhouse gas emission reduced in the pandemic. It highlighted the potential for emission reductions, and encouraged discussions to increase carbon capture.
+      desc: `Global greenhouse gas emissions reduced in the pandemic. It highlighted the potential for emission reductions, and encouraged discussions to increase carbon capture.
           Renewable energy installations also continued to grow in these years, demonstrating the importance of renewable energy in achieving long-term zero emissions goals. 
           `,
       imagedec: Greenhouse,
@@ -55,7 +58,7 @@ const TabsCustomAnimation = () => {
       label: "2030",
       value: "2030",
       icon: MdAccountBalance,
-      desc: `Countries have set ambitious climate goals for 2030. These include advancement toward carbon neutrality by investing in carbon capture technologies. 
+      desc: `Countries have set <a  href="https://www.un.org/en/climatechange/net-zero-coalition" style="color: #D3CA28 ; font-weight:bold; text-decoration: underline;"> ambitious climate goals for 2030</a>. These include advancement toward carbon neutrality by investing in carbon capture technologies. 
           The development efforts in this decade will lead to breakthroughs in cost-effective solutions in reducing CO2 from the atmosphere. `,
       imagedec: Countries,
     },
@@ -64,7 +67,7 @@ const TabsCustomAnimation = () => {
       label: "2050",
       value: "2050",
       icon: PiSuitcaseSimpleDuotone,
-      desc: `Pledges to achieve net-zero emissions by 2050 have been made by the top seven emitters (China, the United States of America, India, the European Union, Indonesia, the Russian Federation, Brazi) `,
+      desc: `Pledges to achieve <a href="https://www.iea.org/reports/net-zero-by-2050" style="color: #D3CA28 ; font-weight:bold; text-decoration: underline;"> net-zero emissions by 2050</a> have been made by the top seven emitters - China, the United States of America, India, the European Union, Indonesia, the Russian Federation, Brazil.`,
       imagedec: Pledges,
     },
   ];
@@ -101,9 +104,8 @@ const TabsCustomAnimation = () => {
                     <h5 className="uppercase text-2xl text-[#316D69] font-bold	font-montserrat mt-5">
                       {items.heading}
                     </h5>
-                    <p className="font-poppins text-lg text-[#3c3c3c] font-normal leading-7 mt-3">
-                      {items.desc}
-                    </p>
+                    <p className="font-poppins text-lg text-[#3c3c3c] font-normal leading-7 mt-3 " dangerouslySetInnerHTML={{ __html: items.desc }}>
+                                        </p>
                   </div>
                   <div className="pl-0 lg:pl-10 xl:pl-10 mt-8 md:mt-8 lg:mt-0 xl:mt-0">
                     <img

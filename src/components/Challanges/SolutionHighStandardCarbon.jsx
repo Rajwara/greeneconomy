@@ -1,5 +1,5 @@
 import React from "react";
-import HighStandardCarbonBackgroundimg from "../../../src/images/HighStandardCarbonBackgroundimg.jpg";
+import HighStandardCarbonBackgroundimg from "../../../src/images/SolutionHighStandardCarbonbg.png";
 
 const divStyle1 = {
   backgroundImage: `url(${HighStandardCarbonBackgroundimg})`,

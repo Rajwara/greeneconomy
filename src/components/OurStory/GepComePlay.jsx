@@ -22,8 +22,8 @@ function GepComePlay() {
                         alt="location"
                       />
                       <p>
-                        A partnership is formed through the framework Emission
-                        Reduction Agreement (FERA) between GEP and the
+                        A partnership is formed through the framework <a className="text-[#D3CA28] font-bold underline" href="https://www.worldbank.org/en/news/feature/2021/05/19/what-you-need-to-know-about-emission-reductions-payment-agreements">Emission
+                        Reduction Agreement (ERPA)</a>  between GEP and the
                         government agency.
                       </p>
                     </li>
@@ -62,7 +62,7 @@ function GepComePlay() {
                         alt="location"
                       />
                       <p>
-                        Project is in alignment with Article 6.2 which requires
+                        The project is in alignment with Article 6.2 which requires
                         the emission reductions to be real, permanent, and
                         measurable, making sure that they are credible in the
                         carbon credit market.

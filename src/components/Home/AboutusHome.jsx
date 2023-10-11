@@ -27,7 +27,7 @@ function AboutusHome() {
             </p>
             <p className="mt-4">
               From 1880 to 2012, the average global temperature increased by a
-              staggering 0.85 degrees. Carbon emissions which are the driving
+              staggering <a className="text-[#D3CA28] font-bold underline" href="https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/201813">0.85 degrees</a>. Carbon emissions which are the driving
               force behind such a drastic increase also experienced exponential
               growth between 2000 and 2010, exceeding the cumulative emissions
               of the previous decades. These figures keep alarming us for

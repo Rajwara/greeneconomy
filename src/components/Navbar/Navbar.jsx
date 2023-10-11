@@ -211,7 +211,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/naturebasedasset"
-                      className={`block font-montserrat  text-base py-2 border-b-2  rounded-none pl-3 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat  text-base py-2 pl-3 border-b-2  rounded-none pr-4 sm:pr-0 ${
                         activeLink === "NatureBasedAssets"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -222,6 +222,22 @@ const Navbar = () => {
                       }}
                     >
                       Nature Based Assets
+                    </Link>
+                  </li>
+                  <li className=" pl-3">
+                    <Link
+                      to="/carbon-trading"
+                      className={`block font-montserrat  text-base py-2  pr-4  sm:pr-0 ${
+                        activeLink === "CarbonCredits"
+                          ? "text-[#316D69] font-bold"
+                          : "text-[#3c3c3c]"
+                      } hover:text-[#316D69] rounded `}
+                      onClick={() => {
+                        handleLinkClick("CarbonCredits");
+                        closeDropdown("dropdownNavbarLink2");
+                      }}
+                    >
+                      Carbon Trading
                     </Link>
                   </li>
                   <li>
