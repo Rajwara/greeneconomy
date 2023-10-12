@@ -45,7 +45,7 @@ const GreenEconomyCanHelp = () => {
     },
   ];
   return (
-    <div className="flex justify-center gap-8  flex-col px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] mb-[50px]">
+    <div className="flex justify-center gap-8 flex-col px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] mb-[50px]">
       <div className="heading">
         <h2 className="text-[#316D69] text-xl mb-8 md:text-2xl lg:text-4xl leading-7 tracking-normal font-montserrat font-bold">
           GEP Paves the Way for Various{" "}
@@ -53,7 +53,7 @@ const GreenEconomyCanHelp = () => {
         </h2>
       </div>
 
-      <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
+      <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {data.map((item) => (
           <div className="cards-text rounded-lg" key={item.id}>
             <img src={item.img} alt="" className="w-full h-[300px]" />
