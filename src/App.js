@@ -1,10 +1,4 @@
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-} from "react-router-dom";
-
+import { Route, Routes} from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import OurStory from "./pages/OurStory/OurStory";
@@ -27,34 +21,36 @@ import BlueCarbon from "./pages/BlueCarbon/BlueCarbon";
 import Forestry from "./pages/Forestry/Forestry";
 import Agroforestry from "./pages/Agroforestry/Agroforestry";
 import ForestAsset from "./pages/ForestAssets/ForestAsset";
+import Page404 from "./pages/Page404/Page404";
 
 const App = () => {
   return (
     <>
       <ScrollToTop />
       <Navbar />
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/our-story" element={<OurStory />} />
-          <Route path="/news-and-media" element={<Media />} />
-          <Route path="/challenges" element={<Challenges />} />
-          <Route path="/naturebasedasset" element={<NatureBasedAsset />} />
-          <Route path="/carbon-trading" element={<CarbonTrading />} />
-          <Route path="/renewable-energy" element={<RenewableEnergy />} />
-          <Route path="/waste-management" element={<WasteManagement />} />
-          <Route path="/agriculture" element={<Agriculture />} />
-          <Route path="/forestry" element={<Forestry />} />
-          <Route path="/agroforestry" element={<Agroforestry />} />
-          <Route path="/forest-assets" element={<ForestAsset />} />
-          <Route path="/blue-carbon" element={<BlueCarbon />} />
-          <Route path="/anaerobic-digestion" element={<AnaerobicDigestion />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/carbon-credits" element={<CarbonCredits />} />
-          <Route path="/contact-us" element={<ContactUs />} />
-        </Routes>
-      </Router>
-      <Footer />
+      <Routes>
+        <Route exact path="/" element={<Home />} />{" "}
+        <Route exact path="/our-story" element={<OurStory />} />{" "}
+        <Route exact path="/news-and-media" element={<Media />} />{" "}
+        <Route exact path="/challenges" element={<Challenges />} />{" "}
+        <Route exact path="/naturebasedasset" element={<NatureBasedAsset />} />{" "}
+        <Route exact path="/carbon-trading" element={<CarbonTrading />} />{" "}
+        <Route exact path="/renewable-energy" element={<RenewableEnergy />} />{" "}
+        <Route exact path="/waste-management" element={<WasteManagement />} />{" "}
+        <Route exact path="/agriculture" element={<Agriculture />} />
+        <Route exact path="/forestry" element={<Forestry />} />
+        <Route exact path="/agroforestry" element={<Agroforestry />} />
+        <Route exact path="/forest-assets" element={<ForestAsset />} />
+        <Route exact path="/blue-carbon" element={<BlueCarbon />} />
+        <Route exact path="/anaerobic-digestion" element={<AnaerobicDigestion />} />
+        <Route exact path="/projects" element={<Projects />} />{" "}
+        <Route exact path="/carbon-credits" element={<CarbonCredits />} />{" "}
+        <Route exact path="/contact-us" element={<ContactUs />} />
+        <Route exact path="*" element={<Page404/>} />
+
+
+      </Routes > {" "}
+      < Footer />
       <ShortFooter />
     </>
   );

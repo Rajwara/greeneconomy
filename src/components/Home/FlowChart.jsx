@@ -1,12 +1,14 @@
 import React from "react";
 import GraphForHome from "./GraphForHome";
+import graphimage from "../../images/Graph1.png"
 
 const FlowChart = () => {
   return (
     <div>
       <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4 mx-auto mt-20  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] items-center">
         <div className="flex">
-          <GraphForHome />
+          {/* <GraphForHome /> */}
+          <img src={graphimage} alt="" />
         </div>
 
         <div className="flex flex-col flex-wrap">
