@@ -19,6 +19,8 @@ import AnaerobicDigestion from "./pages/AnaerobicDigestion/AnaerobicDigestion";
 import Agriculture from './pages/Agriculture/Agriculture';
 import BlueCarbon from "./pages/BlueCarbon/BlueCarbon";
 import Forestry from "./pages/Forestry/Forestry";
+import Agroforestry from "./pages/Agroforestry/Agroforestry";
+import ForestAsset from "./pages/ForestAssets/ForestAsset";
 
 const App = () => {
   return (
@@ -26,7 +28,6 @@ const App = () => {
       <ScrollToTop />
       <Navbar />
       <Routes>
-
         <Route exact path="/" element={<Home />} />{" "}
         <Route exact path="/our-story" element={<OurStory />} />{" "}
         <Route exact path="/news-and-media" element={<Media />} />{" "}
@@ -37,6 +38,8 @@ const App = () => {
         <Route exact path="/waste-management" element={<WasteManagement />} />{" "}
         <Route exact path="/agriculture" element={<Agriculture />} />
         <Route exact path="/forestry" element={<Forestry />} />
+        <Route exact path="/agroforestry" element={<Agroforestry />} />
+        <Route exact path="/forest-assets" element={<ForestAsset />} />
         <Route exact path="/blue-carbon" element={<BlueCarbon />} />
         <Route exact path="/anaerobic-digestion" element={<AnaerobicDigestion />} />
         <Route exact path="/projects" element={<Projects />} />{" "}
