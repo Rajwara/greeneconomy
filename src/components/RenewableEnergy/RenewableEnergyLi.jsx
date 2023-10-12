@@ -32,10 +32,16 @@ const RenewableEnergyLi = () => {
                 generators, and solar panels are playing a crucial role. They
                 offer a prominent solution to combat climate change. GEP
                 embraces solar and wind energy as cost-effective renewable
-                energy resources. According to the latest report by the
-                International Renewable Energy Agency (IREA), unsubsidized
-                renewable energy is now the cheapest source to generate energy.
-                These renewable resources are also gaining momentum because:
+                energy resources. According to the latest report by the{" "}
+                <a
+                  href="https://www.irena.org/"
+                  className="text-[#D3CA28] font-bold underline"
+                >
+                  International Renewable Energy Agency
+                </a>{" "}
+                (IREA), unsubsidized renewable energy is now the cheapest source
+                to generate energy. These renewable resources are also gaining
+                momentum because:
               </p>
               <div className="mt-8 font-poppins text-lg text-black">
                 <ul className=" flex flex-col gap-2">
@@ -46,11 +52,12 @@ const RenewableEnergyLi = () => {
                         src={BulletPointone}
                         alt="location"
                       />
-                      Wind power will never run out. Due to this governments are
-                      investing in such renewable energy sources, as 26% of the
-                      electricity is being made by these clean energy sources.
+                    <p>  Wind power will never run out. Due to this governments are investing in such renewable energy sources, as <a className="text-[#D3CA28] font-bold underline" href="https://www.edfenergy.com/energywise/renewable-energy-sources#:~:text=Renewable%20energy%20sources%20make%20up,to%20reach%2030%25%20by%202024.">26%</a> of the electricity is being made by these clean energy
+                      sources.
+                      </p>
                     </li>
-
+                  
+                  
                     <br />
                   </div>
                 </ul>
@@ -62,9 +69,9 @@ const RenewableEnergyLi = () => {
                         src={BulletPointtwo}
                         alt="location"
                       />
-                      No emission of greenhouse gasses as wind turbines do not
+                     <p> No emission of greenhouse gasses as wind turbines do not
                       require fossil fuels to work, energy is produced with no
-                      harmful impact to the environment.{" "}
+                      harmful impact to the environment.{" "}</p>
                     </li>
                     <br />
                   </div>
@@ -77,9 +84,9 @@ const RenewableEnergyLi = () => {
                         src={BulletPointhree}
                         alt="location"
                       />
-                      Offshore wind turbines are energy efficient, and can
-                      generate 18 times more wind energy than the current
-                      demand.
+                     <p> Offshore wind turbines are energy efficient and can
+                      generate <a className="text-[#D3CA28] font-bold underline" href="https://www.power-and-beyond.com/wind-power-could-meet-entire-worlds-electricity-needs-18-times-over-a-899359/#:~:text=Worldwide%2C%20offshore%20wind%20has%20the,to%20the%20International%20Energy%20Agency">18 times</a> more wind energy than the current
+                      demand.</p>
                     </li>
                     <br />
                   </div>

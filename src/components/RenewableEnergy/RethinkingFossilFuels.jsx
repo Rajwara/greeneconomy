@@ -18,9 +18,9 @@ const RethinkingFossilFuels = () => {
             <thead class="text-xs text-gray-700 uppercase border-t-2 border-[#316D69] bg-[#f7f5f2] dark:bg-gray-700 dark:text-gray-400">
               <tr className="font-montserrat font-bold text-xl text-[#316D69]">
                 <th scope="col" class="px-6 py-3 ">
-                  Fossil Fuels
+                  Classification
                 </th>
-                <th scope="col" class="px-6 py-3"></th>
+                <th scope="col" class="px-6 py-3">Fossil Fuels</th>
                 <th scope="col" class="px-6 py-3">
                   Renewable Energy
                 </th>
@@ -32,9 +32,9 @@ const RethinkingFossilFuels = () => {
                   scope="row"
                   class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                 >
-                  Oil, coal, gas
+                  Types
                 </th>
-                <td class="px-6 py-4">Types</td>
+                <td class="px-6 py-4"> Oil, coal, gas</td>
                 <td class="px-6 py-4">Solar wind, geothermal, hydropower,</td>
               </tr>
               <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 font-poppins text-[#3c3c3c] text-base font-normal">
@@ -42,9 +42,9 @@ const RethinkingFossilFuels = () => {
                   scope="row"
                   class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                 >
-                  Fossilized remains of plants and animals{" "}
+                  Origins{" "}
                 </th>
-                <td class="px-6 py-4">Origins</td>
+                <td class="px-6 py-4">Fossilized remains of plants and animals</td>
                 <td class="px-6 py-4">Naturally renewable sources</td>
               </tr>
               <tr class="bg-white  border-b dark:bg-gray-800 font-poppins text-[#3c3c3c] text-base font-normal">
@@ -52,9 +52,9 @@ const RethinkingFossilFuels = () => {
                   scope="row"
                   class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                 >
-                  Millions of years
+                  Time to form
                 </th>
-                <td class="px-6 py-4">Time to form</td>
+                <td class="px-6 py-4">Millions of years</td>
                 <td class="px-6 py-4">Constantly self- replenishing</td>
               </tr>
               <tr class="bg-white  border-b dark:bg-gray-800 font-poppins text-[#3c3c3c] text-base font-normal">
@@ -62,9 +62,9 @@ const RethinkingFossilFuels = () => {
                   scope="row"
                   class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                 >
-                  Limited
+                  Available supply
                 </th>
-                <td class="px-6 py-4">Available supply</td>
+                <td class="px-6 py-4">Limited</td>
                 <td class="px-6 py-4">Abundant</td>
               </tr>
               <tr class="bg-whit  border-b dark:bg-gray-800 font-poppins text-[#3c3c3c] text-base font-normal">
@@ -72,9 +72,9 @@ const RethinkingFossilFuels = () => {
                   scope="row"
                   class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                 >
-                  Very high
+                 Carbon content
                 </th>
-                <td class="px-6 py-4">Carbon content</td>
+                <td class="px-6 py-4"> Very high</td>
                 <td class="px-6 py-4">None</td>
               </tr>
               <tr class="bg-white  border-b dark:bg-gray-800 font-poppins text-[#3c3c3c] text-base font-normal">
@@ -82,9 +82,9 @@ const RethinkingFossilFuels = () => {
                   scope="row"
                   class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                 >
-                  More global warming, market stocks, loss and damage
+                  Long-term outlook
                 </th>
-                <td class="px-6 py-4">Long-term outlook</td>
+                <td class="px-6 py-4"> More global warming, market stocks, loss and damage</td>
                 <td class="px-6 py-4">
                   More job opportunities, healthier planet
                 </td>
@@ -94,9 +94,9 @@ const RethinkingFossilFuels = () => {
                   scope="row"
                   class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                 >
-                  Getting more expensive with time
+                  Cost
                 </th>
-                <td class="px-6 py-4">Cost</td>
+                <td class="px-6 py-4">Getting more expensive with time</td>
                 <td class="px-6 py-4">Stable, and inexpensive</td>
               </tr>
             </tbody>
