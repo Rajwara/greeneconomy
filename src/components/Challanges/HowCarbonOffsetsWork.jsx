@@ -47,7 +47,7 @@ function HowCarbonOffsetsWork() {
                 When an organization buys carbon credit, they compensate for
                 their own emissions or offset their carbon footprint. By buying
                 a carbon offset, they are actually paying to have equivalent
-                amount of carbon dioxide removed from the atmosphere either
+                amount of carbon dioxide removed from the atmosphere either :
               </p>
               <ol class="list-disc pl-[30px]  font-poppins text-lg">
                 <li class=" font-poppins text-lg  ">
@@ -60,7 +60,7 @@ function HowCarbonOffsetsWork() {
                   <p className="">Or through carbon emissions</p>{" "}
                 </li>
               </ol>
-              <p className="text-[14px] md:text-[16px] lg:text-[18px]  leading-[24px]  2xl:pb-[15px] pl-[30px] font-poppins text-lg ">
+              <p className="text-[14px] md:text-[16px] lg:text-[18px]  leading-[24px]  2xl:pb-[15px] pl-[30px] font-poppins text-lg mt-4  ">
                 A third-party organization ensures that carbon offset projects
                 align with the standards of the Article 6.2 of the Paris
                 Agreement. Carbon credits are then issued. The cost of carbon
