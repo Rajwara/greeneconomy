@@ -107,7 +107,7 @@ function GepComePlay() {
                         Under the Article 6.2 of Paris Agreement, the government
                         can sell off their carbon credits to other organizations
                         or governments. These are called ITMOs or
-                        internationally Transferred Mitigation Outcomes. The
+                        Internationally Transferred Mitigation Outcomes. The
                         final step is to auction these off during COP28 in Dubai{" "}
                       </p>
                     </li>

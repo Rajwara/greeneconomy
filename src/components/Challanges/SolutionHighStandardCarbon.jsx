@@ -1,5 +1,5 @@
 import React from "react";
-import HighStandardCarbonBackgroundimg from "../../../src/images/SolutionHighStandardCarbonbg.png";
+import HighStandardCarbonBackgroundimg from "../../../src/images/SolutionHighStandardCarbonbg.jpg";
 
 const divStyle1 = {
   backgroundImage: `url(${HighStandardCarbonBackgroundimg})`,
@@ -10,18 +10,21 @@ const divStyle1 = {
 function SolutionHighStandardCarbon() {
   return (
     <div className="relative" style={divStyle1}>
-      <div className="mx-auto px-[30px] py-8 md:px-[60px] lg:px-[80px] xl:px-[100px] bg-cover bg-center bg-no-repeat bg-[#3c3c3c] bg-opacity-50">
+      <div className="mx-auto px-[30px] py-8 md:px-[60px] lg:px-[80px] xl:px-[100px] bg-cover bg-center bg-no-repeat relative inset-0 bg-[rgba(0,0,0,0.5)]">
+        {/* Add the background overlay */}
+        <div className="absolute "></div>
+
         <div className="flex flex-col justify-center items-center h-full overflow-hidden xs:py-[20px] lg:py-[50px]">
           <h6 className="uppercase text-lg text-[#F7F5F2] font-bold	font-montserrat">
             Solution
           </h6>
           <div className="">
-            <div className=" container ">
-              <h2 className="text-[#BAB220] text-center text-4xl mb-6 font-montserrat  font-bold pb-6]">
+            <div className="container">
+              <h2 className="text-[#BAB220] text-center text-4xl mb-6 font-montserrat font-bold pb-6">
                 High Standard Carbon Offsets
               </h2>
               <div className="font-poppins text-center text-lg text-[#F7F5F2]">
-                <p className=" ">
+                <p className="">
                   Mitigating climate change and addressing deforestation are
                   crucial challenges in the pursuit of a climate-resilient
                   future. Afforestation or intentional restocking of existing
