@@ -6,6 +6,7 @@ import HarvestingNature from "../../components/Agroforestry/HarvestingNature";
 import LeveragingLocal from "../../components/Agroforestry/LeveragingLocal";
 import EmpoweringMutualEnvironmental from "../../components/Agroforestry/EmpoweringMutualEnvironmental";
 import AgroforestryFarReaching from "../../components/Agroforestry/AgroforestryFarReaching";
+import ContactFooterUperButton from "../../components/ContactFooterUperComponent/ContactFooterUperButton";
 
 const Agroforestry = () => {
   return (
@@ -17,6 +18,7 @@ const Agroforestry = () => {
       <LeveragingLocal />
       <EmpoweringMutualEnvironmental />
       <AgroforestryFarReaching />
+      <ContactFooterUperButton />
     </div>
   );
 };
