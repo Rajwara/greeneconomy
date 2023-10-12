@@ -13,6 +13,8 @@ import KeyArrangements from "../../components/ForestAssets/KeyArrangements";
 import ConcessionManagement from "../../components/ForestAssets/ConcessionManagement";
 import ConservationConcession from "../../components/ForestAssets/ConservationConcession";
 import NonTimberForestProducts from "../../components/ForestAssets/NonTimberForestProducts";
+import ForestBackedBondsProof from "../../components/ForestAssets/ForestBackedBondsProof";
+import FurtherDropdownContent from "../../components/ForestAssets/FurtherDropdownContent";
 
 const ForestAsset = () => {
   return (
@@ -30,6 +32,8 @@ const ForestAsset = () => {
       <ConcessionManagement />
       <ConservationConcession />
       <NonTimberForestProducts />
+      <ForestBackedBondsProof />
+      <FurtherDropdownContent />
       <ContactFooterUperButton />
     </div>
   );
