@@ -1,8 +1,8 @@
 import React from "react";
 import Footerlogo from "../../../src/images/greenlogo.png";
-import Facebook from "../../../src/images/fbf.svg";
-import Twitter from "../../../src/images/twitterf.svg";
-import LinkedIn from "../../../src/images/Linkedinf.svg";
+import Facebook from "../../../src/images/Fb-icon.svg";
+import Twitter from "../../../src/images/X-icon.svg";
+import LinkedIn from "../../../src/images/Linkedin-icon.svg";
 import Location from "../../../src/images/Locationf.svg";
 import Email from "../../../src/images/Emailf.svg";
 
@@ -21,21 +21,21 @@ const mainfooter = () => {
             <ul className=" flex gap-4">
               <li className="flex space-y-2">
                 <img
-                  className="w-6 h-6  rounded-full hover:scale-110 transition duration-700 ease-in-out"
+                  className="w-8 h-8  rounded-full hover:scale-110 transition duration-700 ease-in-out"
                   src={Facebook}
                   alt="facebook"
                 />
               </li>
               <li className="flex space-y-2">
                 <img
-                  className="w-6 h-6  rounded-full hover:scale-110 transition duration-700 ease-in-out"
+                  className="w-8 h-8  rounded-full hover:scale-110 transition duration-700 ease-in-out"
                   src={Twitter}
                   alt="twitter"
                 />
               </li>
               <li className="flex space-y-2">
                 <img
-                  className="w-6 h-6  rounded-full hover:scale-110 transition duration-700 ease-in-out"
+                  className="w-8 h-8  rounded-full hover:scale-110 transition duration-700 ease-in-out"
                   src={LinkedIn}
                   alt="linkedin"
                 />
