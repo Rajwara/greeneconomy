@@ -7,9 +7,9 @@ const AgricultureBanner = () => {
     <>
       <Banner
         backgroundImage={background}
-        title="Blue Carbon"
-        description="Blue carbon stored in coastal ecosystems like seagrasses, mangroves, and tidal marshes act as a potent carbon sink. "
-        buttonText="Register Your Interest"
+        title="Agriculture"
+        description="The role of agriculture in carbon sequestration helps in climate change mitigation by enhancing soil health and fertility, increasing crop yields, and offering other environmental benefits."
+        buttonText="Get Started"
       />
     </>
   );
