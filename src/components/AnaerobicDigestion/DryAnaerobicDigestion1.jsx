@@ -15,7 +15,7 @@ function DryAnaerobicDigestion1() {
               Organic material is digested anaerobically in the absence of
               water, reducing methane emissions that are otherwise released into
               the atmosphere. The process uses organic material with a
-              consistency of 20-40% dry matter or more.
+              consistency of 20%-40% dry matter or more.
             </p>
           </div>
         </div>

@@ -14,7 +14,7 @@ const AnaerobicDigestionofBenefits = () => {
               <p className=" ">
                 In Anaerobic Digestion, biogas is produced which is a mixture of
                 methane and carbon dioxide. In addition, what we also get is a
-                nutrient-rich substance; digestate. The process is becoming very
+                nutrient-rich substance; digestate. This process is becoming very
                 popular for waste management solutions, especially in Dubai from
                 the point of view of renewable energy sources.
               </p>
@@ -24,13 +24,13 @@ const AnaerobicDigestionofBenefits = () => {
                 Here are a few benefits of anaerobic digestion:
               </h6>
               <li className="ml-8 mb-2">Energy independence</li>
-              <li className="ml-8 mb-2">and Sustainable food production </li>
+              <li className="ml-8 mb-2">Sustainable food production </li>
               <li className="ml-8 mb-2">Conservation of agricultural land</li>
               <li className="ml-8 mb-2">
-                Provides energy with no net increase in atmospheric CO2
+                Energy production with no net increase in atmospheric CO2
               </li>
               <li className="ml-8 mb-2">Sustainable agriculture</li>
-              <li className="ml-8 mb-2">Facilitates jobs</li>
+              <li className="ml-8 mb-2">Job Creation</li>
             </ul>
             <div className="mb-3 text-[#3c3c3c] text-lg leading-7 font-normal font-poppins">
               <p className=" ">

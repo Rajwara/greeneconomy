@@ -18,7 +18,7 @@ const GEPAnaerobicDigestionConsultancy = () => {
           </p>
           <p className=" mt-4">
             Through anaerobic digestion, you will not only contribute to
-            reducing the global carbon footprint but also establish such an
+            reducing the global carbon footprint but also establish an
             economical system to generate power. Our team of experts will help
             you make well-informed decisions, as they are dedicated to enhancing
             your quality of life
