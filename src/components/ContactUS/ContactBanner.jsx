@@ -6,8 +6,8 @@ const MainBanner = () => {
   return (
     <>
       <Banner
-        title="Welcome to Our Website"
-        description="Discover amazing content here!"
+        title="Contact us today."
+        description="We are here to answer your questions and hear your thoughts. "
         backgroundImage={banner}
         buttonText="Learn More"
       />

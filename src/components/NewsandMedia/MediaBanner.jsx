@@ -6,7 +6,7 @@ const MediaBanner = () => {
   return (
     <Banner
       title="News and Media"
-      description="This is Blog Page Banner."
+      description="Your eco-update hub: Stay connected with Green Economy Partnership news and media updates."
       backgroundImage={backgroundImage}
       buttonText="Contact Us"
     />
