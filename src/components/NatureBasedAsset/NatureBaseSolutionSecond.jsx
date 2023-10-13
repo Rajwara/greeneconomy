@@ -10,8 +10,8 @@ const NatureBaseSolutionSecond = () => {
         </div>
         <div className="text-lg font-normal mt-4 font-poppins leading-7 text-[#3c3c3c]">
           <p className="">
-            According to the World Bank, nature-based solutions can provide 37%
-            of the mitigation needed until 2030 to meet the goals outlined by
+            According to the World Bank, nature-based solutions can provide <a className="text-[#D3CA28] font-bold underline" href="https://www.worldbank.org/en/news/feature/2022/05/19/what-you-need-to-know-about-nature-based-solutions-to-climate-change">37%
+            of the mitigation</a> needed until 2030 to meet the goals outlined by
             the Paris Agreement. GEP has an open approach towards climate
             investments, contributing towards the dire need to reach the target
             of zero emissions by 2050.
