@@ -7,7 +7,7 @@ const Seagrasses = () => {
       <div className="img ">
         <img src={Mangroves1} alt="" className="w-full h-[450px]" />
       </div>
-      <div className="flex flex-col  ">
+      <div className="flex flex-col  justify-center">
         {" "}
         <h2 className="text-[#BAB220] text-xl mb-8 md:text-2xl lg:text-4xl leading-7 tracking-normal font-montserrat font-bold">
           Seagrasses
