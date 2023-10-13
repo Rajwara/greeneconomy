@@ -60,8 +60,7 @@ const BenefitsforFarmers = () => {
                     <li className="font-poppins text-lg pl-14 ">
                       <p>
                         Effective farming practices can reduce the expenses
-                        linked with pesticides, water, and fertilizers, leading
-                        to saving costs.
+                        linked with pesticides, water, and fertilizers, lowering the variable costs.
                       </p>
                     </li>
                     <br />
@@ -103,7 +102,7 @@ const BenefitsforFarmers = () => {
                     </li>
                     <li className="font-poppins text-lg pl-14 ">
                       <p>
-                        Accessing valuable agricultural knowledge and engaging
+                        Having access to valuable agricultural knowledge and engaging
                         with a supportive farming community can lead to informed
                         decisions.
                       </p>

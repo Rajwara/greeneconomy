@@ -5,7 +5,7 @@ const WhyPartnerWithGep = () => {
   return (
     <div className=" flex flex-row mt-[50px] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] sm:mt-[50px] lg:mt-[100px] pb-8">
       <div className="grid grid-cols-1 md:gris-cols-1 lg:grid-cols-2 xl:grid-cols-2 ">
-        <div className="flex flex-col mr-0 md:mr-0 lg:mr-[50px] xl:mr-[50px]">
+        <div className="flex flex-col mr-0 md:mr-0 lg:mr-[50px] xl:mr-[50px] justify-center">
           <h2 className="text-2xl font-bold tracking-normal leading-7 text-[#3c3c3c] font-montserrat dark:text-white lg:text-4xl">
             <span className="text-[#316D69]">Why Partner With</span> GEP?
           </h2>
@@ -13,12 +13,12 @@ const WhyPartnerWithGep = () => {
             Integrating carbon solutions into your business model presents a{" "}
             <span className="font-extrabold">complimentary revenue system</span>{" "}
             that allows you to have a positive impact on the planet while
-            highlighting key advantages. Firstly, it adds
+            highlighting key advantages. Firstly, it provides
             <span className="font-extrabold">
               {" "}
               additional value to your clients,
             </span>{" "}
-            helping them gain a competitive edge by fulfilling their
+            helping them gain a competitive advantage by fulfilling their
             environmental responsibilities, particularly in sectors where few
             companies offer carbon opportunities to farmers, positioning you as
             a pioneer. Secondly, this strategic move can help{" "}
@@ -33,9 +33,9 @@ const WhyPartnerWithGep = () => {
                 What Do We Offer?
               </h6>
               <ol className="text-lg font-poppins list-decimal ml-10 mt-2  ">
-                <li className="mt-2">Carbon offset projects</li>
-                <li className="mt-2">Expertise and support </li>
-                <li className="mt-2">Competitive edge </li>
+                <li className="mt-2">Carbon Offset Projects</li>
+                <li className="mt-2">Expertise And Support </li>
+                <li className="mt-2">Competitive Edge </li>
               </ol>
             </div>
           </div>

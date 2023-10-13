@@ -10,7 +10,7 @@ const GEPCarbonProgram = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
             <div className="container text-white  flex flex-col justify-center  h-full">
               <h2 className="text-left text-4xl  font-montserrat  font-bold text-[#BAB220] pb-6">
-                How Does Our GEP Carbon{" "}
+                How Does GEP Carbon{" "}
                 <span className="text-[#3c3c3c]">Program Work?</span>
               </h2>
 
@@ -29,9 +29,8 @@ const GEPCarbonProgram = () => {
                     </li>
                     <li className="font-poppins text-lg pl-8 ">
                       <p>
-                        A magnifying glass over carbon emissions sources. GEP
-                        project managers assess your carbon emissions to get an
-                        understanding of your current environmental impact.{" "}
+                        GEP project managers assess your carbon emissions to get
+                        an understanding of your current environmental impact.{" "}
                       </p>
                     </li>
                     <br />
@@ -51,9 +50,8 @@ const GEPCarbonProgram = () => {
                     </li>
                     <li className="font-poppins text-lg pl-8 ">
                       <p>
-                        A handshake symbolizing an agreement. We establish
-                        sustainable practices and agreements to reduce
-                        emissions.{" "}
+                        We establish sustainable practices and agreements to
+                        reduce emissions.{" "}
                       </p>
                     </li>
                     <br />
@@ -73,9 +71,8 @@ const GEPCarbonProgram = () => {
                     </li>
                     <li className="font-poppins text-lg pl-8 ">
                       <p>
-                        Soil samples being collected. We measure your starting
-                        reference point, and collect soil data for future
-                        reference.
+                        We measure your starting reference point, and collect
+                        soil data for future reference.
                       </p>
                     </li>
                     <br />
@@ -95,8 +92,7 @@ const GEPCarbonProgram = () => {
                     </li>
                     <li className="font-poppins text-lg pl-8 ">
                       <p>
-                        A credit certificate with a "1st Year" stamp. We help
-                        initiate carbon credit sales based on your early
+                        We help initiate carbon credit sales based on your early
                         efforts.{" "}
                       </p>
                     </li>
@@ -135,8 +131,7 @@ const GEPCarbonProgram = () => {
                     </li>
                     <li className="font-poppins text-lg pl-8 ">
                       <p>
-                        A calendar with "Year 5" and "Year 10" marked. After
-                        thorough verification, carbon credits are issued.
+                        After thorough verification, carbon credits are issued.
                       </p>
                     </li>
                     <br />
@@ -151,8 +146,7 @@ const GEPCarbonProgram = () => {
                         alt="location"
                       />
                       <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat">
-                        Selling certified credits any icon to highlight
-                        “certified”
+                        Selling certified credits
                       </h6>
                     </li>
                     <li className="font-poppins text-lg pl-8 ">

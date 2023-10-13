@@ -24,7 +24,7 @@ const CriteriaforSelecting = () => {
       id: 3,
       icon: MeasurabilityIcon,
       title: "Measurability  ",
-      desc: "Emissions removal should be measurable, allowing for precise quantification of the carbon reduction achieved.",
+      desc: "Emissions removal should be measurable, allowing for precise quantification of the achieved carbon reduction.",
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ const CriteriaforSelecting = () => {
       id: 6,
       icon: SustainabilityIcon,
       title: "Sustainability ",
-      desc: "Carbon credits should be permanent, ensuring the sustained removal of greenhouse gases from the atmosphere. ",
+      desc: "Carbon Projects should be permanent, ensuring the sustained removal of greenhouse gases from the atmosphere. ",
     },
   ];
   return (
