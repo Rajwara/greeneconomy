@@ -4,7 +4,7 @@ import Mangroves1 from "../../../src/images/agriculture-trac.jpg";
 const EmpoweringClimateImpacted = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8  flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] mb-[50px]">
-      <div className="flex flex-col  ">
+      <div className="flex flex-col justify-center ">
         {" "}
         <h2 className="text-[#316D69] text-xl mb-8 md:text-2xl lg:text-4xl leading-7 tracking-normal font-montserrat font-bold">
           Empowering Climate-Impacted{" "}

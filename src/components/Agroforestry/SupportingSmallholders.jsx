@@ -7,19 +7,20 @@ const SupportingSmallholders = () => {
       <div className="img ">
         <img src={Mangroves1} alt="" className="w-full h-[450px]" />
       </div>
-      <div className="flex flex-col  ">
+      <div className="flex flex-col  justify-center">
         {" "}
         <h2 className="text-[#BAB220] text-xl mb-8 md:text-2xl lg:text-4xl leading-7 tracking-normal font-montserrat font-bold">
-          Seagrasses
+          Supporting Smallholders with Agroforestry in the Carbon Market
         </h2>
         <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal mt-4 ">
-          They are found in shallow salty and brackish waters in many parts of
-          the world. Seagrasses are underwater plants that evolved from land
-          plants and are the world’s only flowering plants that live underwater.
-          They provide important habitats for many marine species and play a
-          crucial role in carbon sequestration.
+          By measuring and certifying the sequestered carbon in a low-cost
+          manner, GEP enables smallholders to access the voluntary market and
+          empowers them to establish an extra source of income by receiving
+          compensation for sequestering additional carbon on their land. Through
+          financial incentives, we encourage them to engage in agroforestry
+          where the trees they plant on their land capture excess carbon.
         </p>
-        <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal ">
+        {/* <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal ">
           Some of the seagrass species are enhalus, eelgrass, turtle grass, and
           manati grass. Every year, the seagrass population is declining at a
           pace of approximately
@@ -32,7 +33,7 @@ const SupportingSmallholders = () => {
           </a>{" "}
           which is equal to losing 2 football fields every hour. It is declining
           due to boat traffic, coastal development, and pollution.
-        </p>
+        </p> */}
       </div>
     </div>
   );

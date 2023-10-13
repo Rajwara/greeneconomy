@@ -7,7 +7,7 @@ const SupportingSmallholders = () => {
       <div className="img ">
         <img src={Mangroves1} alt="" className="w-full h-[450px]" />
       </div>
-      <div className="flex flex-col  ">
+      <div className="flex flex-col justify-center  ">
         {" "}
         <h2 className="text-[#BAB220] text-xl mb-8 md:text-2xl lg:text-4xl leading-7 tracking-normal font-montserrat font-bold">
           Leveraging Local <span className="text-[#316D69]"> Expertise </span>
@@ -18,8 +18,8 @@ const SupportingSmallholders = () => {
           local experts to ensure that our agroforestry initiatives thrive.
         </p>
         <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal ">
-          This partnership not only represents our committment to a shared
-          environment, but also as a tangible investment in the well-being of
+          This partnership not only represents our commitment to a shared
+          environment but also as a tangible investment in the well-being of
           farming communities.
         </p>
       </div>
