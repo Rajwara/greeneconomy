@@ -18,8 +18,7 @@ const WhatisForestry = () => {
           and timber production underscores the versatility of forestry.
         </p>
         <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 mt-4 font-poppins font-normal w-4/5">
-          By imitating natural patterns of disturbance and regeneration,
-          sustainable forestry harmonizes the needs of ecosystems, communities,
+          Sustainable forestry harmonizes the needs of ecosystems, communities,
           and wildlife, preserving the forests for future generations and
           protecting the benefits they provide, such as water regulation, carbon
           sequestration, and habitat for wildlife. Sustainable forestry

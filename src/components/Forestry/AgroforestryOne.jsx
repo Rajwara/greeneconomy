@@ -13,7 +13,7 @@ const AgroforestryOne = () => {
           It is an intensive land management system that maximizes the
           advantages of the intentional integration of trees with crops and/or
           livestock on the same land. The main goal of agroforestry is to
-          increase productivity, reduce environmental degradation, enhance
+          increase yeild, reduce environmental degradation, enhance
           animal forage production, and promote tree growth. In North America,
           five fundamental agroforestry practices have emerged which include
           alley cropping, silvopasture, riparian buffers, windbreaks, and forest
