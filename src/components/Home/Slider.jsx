@@ -25,7 +25,7 @@ const Slider = () => {
         "https://images.unsplash.com/photo-1491982883790-ead7c97a047e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       desc: "The experts at GEP help businesses reduce emissions; they identify suitable projects, ensure compliance with Article 6.2 standards, develop project plans, and seek certification from recognized carbon standards. ",
       name: "Carbon Credits",
-      buttontext: "Offset Emissions ",
+      buttontext: "Offset Emissions! ",
     },
     {
       id: 1,
@@ -49,7 +49,7 @@ const Slider = () => {
         "https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       desc: "GEP supports wind and solar energy incentives within local communities, helping you contribute to a sustainable future. Our initiatives empower local communities, ensuring a sustainable, cost-efficient, and greener future.",
       name: "Renewable Energy",
-      buttontext: "Embrace Green Living",
+      buttontext: "Embrace Green Living!",
     },
     {
       id: 5,
