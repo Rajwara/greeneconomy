@@ -224,7 +224,7 @@ const Navbar = () => {
                       Nature Based Assets
                     </Link>
                   </li>
-                  <li className=" pl-3">
+                  {/* <li className=" pl-3">
                     <Link
                       to="/carbon-trading"
                       className={`block font-montserrat  text-base py-2  pr-4  sm:pr-0 ${
@@ -239,7 +239,7 @@ const Navbar = () => {
                     >
                       Carbon Trading
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       to="/forestry"
@@ -293,7 +293,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      to="/renewable-energy"
+                      to="/wind-and-solar"
                       className={`block font-montserrat  text-base border-b-2  rounded-none py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "WindandSolar"
                           ? "text-[#316D69] font-bold"
@@ -304,10 +304,10 @@ const Navbar = () => {
                         closeDropdown("dropdownNavbarLink2");
                       }}
                     >
-                      Renewable Energy
+                      Wind and Solar
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       to="/waste-management"
                       className={`block font-montserrat  text-base py-2 border-b-2  rounded-none pl-3 pr-4 sm:pr-0 ${
@@ -322,7 +322,7 @@ const Navbar = () => {
                     >
                       Waste Management
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       to="/anaerobic-digestion"
