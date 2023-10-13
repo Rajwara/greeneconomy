@@ -1,3 +1,4 @@
+
 import React from "react";
 import SolarBanner from "../../components/RenewableEnergy/SolarBanner";
 import InitiativesWindandSolar from "../../components/RenewableEnergy/InitiativesWindandSolar";
@@ -6,17 +7,22 @@ import RethinkingFossilFuels from "../../components/RenewableEnergy/RethinkingFo
 import StatsPowerrenewable from "../../components/RenewableEnergy/StatsPowerrenewable";
 import ContactFooterUperButton from "../../components/ContactFooterUperComponent/ContactFooterUperButton";
 
-const RenewableEnergy = () => {
+const WindandSolar = () => {
   return (
     <div>
-      <SolarBanner />
+          <SolarBanner />
       <RenewableEnergyLi />
       <InitiativesWindandSolar />
       <RethinkingFossilFuels />
       <StatsPowerrenewable />
       <ContactFooterUperButton />
     </div>
-  );
-};
+  )
+}
 
-export default RenewableEnergy;
+export default WindandSolar
+
+
+
+
+
