@@ -9,7 +9,7 @@ const LetNatureNurture = () => {
     {
       id: 1,
       img: Img1,
-      headinglist: "A .",
+      headinglist: "i .",
       headingtext: "Grow dense rows ",
       description:
         "Strategically grow dense rows, fostering a thriving ecosystem ",
@@ -17,7 +17,7 @@ const LetNatureNurture = () => {
     {
       id: 2,
       img: Img2,
-      headinglist: "B .",
+      headinglist: "ii .",
       headingtext: "Prune for biomass ",
       description:
         "Expertly prune for optimized biomass production, ensuring environmental stewardship. ",
@@ -25,7 +25,7 @@ const LetNatureNurture = () => {
     {
       id: 3,
       img: Img3,
-      headinglist: "C .",
+      headinglist: "iii .",
       headingtext: "Enjoy rapid growth  ",
       description: "Maximize your farming yield and enjoy exponential growth. ",
     },
@@ -33,22 +33,18 @@ const LetNatureNurture = () => {
   return (
     <div className="main flex flex-col px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
       <div className="flex flex-col  ">
-        <div className="text-center">
-          <h2 className="text-4xl mb-6 font-montserrat  font-bold text-[#3c3c3c]">
-            <span className="text-[#bab220] border-b-4 border-[#3c3c3c]">
-              {" "}
-              Let Nature{" "}
-            </span>
-            Nurture
+        <div className="">
+      
+         
+          <h2 className="uppercase text-4xl text-[#316D69] font-bold	font-montserrat">
+            3 Keys to Syntropic Farming
           </h2>
         </div>
-        <div className="flex flex-col items-start mt-6">
-          <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat">
-            3 Keys to Syntropic Farming
-          </h6>
-          <div className="flex gap-2 text-4xl font-montserrat  font-bold text-[#3c3c3c] mt-2">
+        <div className="flex flex-col items-center mt-6">
+         
+          <div className="flex gap-2 text-xl font-montserrat  font-bold text-[#3c3c3c] mt-2 ">
             <h2 className="mb-6 text-[#bab220]">1.</h2>
-            <h2 className="mb-6">Prune to stimulate new growth</h2>
+            <h2 className="mb-6 ">Prune to stimulate new growth</h2>
           </div>
         </div>
         <div className="card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 text-center gap-10 py-10 ">

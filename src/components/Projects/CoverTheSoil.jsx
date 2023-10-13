@@ -17,11 +17,14 @@ const CoverTheSoil = () => {
     },
   ];
   return (
+
+    
+
     <div className="cover-the-soil flex flex-col mt-[50px] text-center items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
-      <h2 className="text-4xl font-montserrat uppercase mb-14 font-bold text-[#3c3c3c] ">
-        <span className="text-[#bab220]">2. </span>
-        Cover the Soil
-      </h2>
+      <div className="flex gap-2 text-xl font-montserrat  font-bold text-[#3c3c3c] mt-2">
+            <h2 className="mb-6 text-[#bab220]">2.</h2>
+            <h2 className="mb-6">Cover the Soil</h2>
+          </div>
       <div className="cardsforsoil grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-10">
         {coverdata.map((item) => (
           <div className="card-inner p-8" key={item.id}>

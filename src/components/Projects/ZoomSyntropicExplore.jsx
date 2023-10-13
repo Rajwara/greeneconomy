@@ -29,7 +29,7 @@ const ZoomSyntropicExplore = () => {
                 </div>
 
                 <p className="leading-7 text-xl text-[#3c3c3c] font-normal font-poppins dark:text-gray-300">
-                  Support people from climate vulnerable communities
+                  Support people from climate-vulnerable communities.
                 </p>
               </li>
               <li className="flex items-center ">
@@ -41,7 +41,7 @@ const ZoomSyntropicExplore = () => {
 
                 <p className="leading-7 text-xl text-[#3c3c3c] font-normal font-poppins dark:text-gray-300">
                   Ensure that major carbon sinks; mangroves, seagrasses, and
-                  tidal marshes are protected
+                  tidal marshes are protected.
                 </p>
               </li>
               <li className="flex items-center ">
@@ -52,7 +52,7 @@ const ZoomSyntropicExplore = () => {
                 </div>
 
                 <p className="leading-7 text-xl text-[#3c3c3c] font-normal font-poppins dark:text-gray-300">
-                  Fight deforestation globally
+                  Fight deforestation globally.
                 </p>
               </li>
               <li className="flex items-center ">
@@ -63,7 +63,7 @@ const ZoomSyntropicExplore = () => {
                 </div>
 
                 <p className="leading-7 text-xl text-[#3c3c3c] font-normal font-poppins dark:text-gray-300">
-                  Secure ecosystems that contain irrecoverable carbon
+                  Secure ecosystems that contain irrecoverable carbon.
                 </p>
               </li>
               <li className="flex items-center">
@@ -75,7 +75,7 @@ const ZoomSyntropicExplore = () => {
 
                 <p className="leading-7 text-xl text-[#3c3c3c] font-normal font-poppins dark:text-gray-300">
                   Help countries evaluate potential of nature to combat climate
-                  change
+                  change.
                 </p>
               </li>
             </ul>
