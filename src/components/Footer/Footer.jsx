@@ -35,7 +35,7 @@ const mainfooter = () => {
               </li>
               <li className="flex space-y-2">
                 <img
-                  className="w-8 h-8  rounded-full hover:scale-110 transition duration-700 ease-in-out"
+                  className="w-8- h-8  rounded-full hover:scale-110 transition duration-700 ease-in-out"
                   src={LinkedIn}
                   alt="linkedin"
                 />
