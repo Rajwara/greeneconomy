@@ -1,25 +1,51 @@
-import React, { Component } from "react";
+import React from "react";
 
-class InnerCard extends Component {
-  render() {
-    return (
-      <div className="xs:mx-[10px] xs:mb-[10px] rounded-md bg-white shadow-lg  text-center flex content-center items-center justify-center shadow-[#BAB220] ">
-        <div className="xs:px-[15px] xs:py-[22px] md:py-[50px]">
-          <span className="flex items-center justify-center content-center xs:mb-[15px] ">
-            <img src={this.props.image} alt="icon" />
-          </span>
-          <h3
-            className={`xs:mt-[8px] md:py-[30px] xs:text-[14px] md:text-[18px] font-[800] ${
-              this.props.heading === "Wind and Solar"
-                ? "text-[#316D69]"
-                : "text-[#BAB220]"
-            }`}
+const InnerCard = () => {
+  const data = [
+    {
+      id: 1,
+      heading: "Wind Turbines",
+      description:
+        "They utilize the wind’s energy to generate renewable power for your home or business. ",
+    },
+    {
+      id: 2,
+      heading: "Solar Panels ",
+      description:
+        "They cut costs and contribute to environmental preservation through the adoption of solar energy.",
+    },
+    {
+      id: 3,
+      heading: "Clean Energy ",
+      description:
+        "Our commitment to clean energy aims to minimize your ecological footprint. ",
+    },
+    {
+      id: 4,
+      heading: "Sustainable Power ",
+      description:
+        "We help you save the environment with sustainable practices. ",
+    },
+  ];
+  return (
+    <div className="  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] pb-10">
+      <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8 ">
+        {data.map((item) => (
+          <div
+            className="inner-cards text-center shadow-lg shadow-[#bab220] p-8"
+            key={item.id}
           >
-            {this.props.heading}
-          </h3>
-        </div>
+            <h6 className="uppercase text-lg text-[#BAB220] font-bold	font-montserrat">
+              {item.heading}
+            </h6>
+            <p className=" mt-4 text-[#3c3c3c] font-poppins text-lg leading-7 font-normal">
+              {item.description}
+            </p>
+          </div>
+        ))}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
 export default InnerCard;

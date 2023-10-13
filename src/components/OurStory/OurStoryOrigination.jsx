@@ -3,7 +3,7 @@ import WMImg2 from "../../../src/images/ourstory-origination.png";
 
 function OurStoryOrigination() {
   return (
-    <div className="bg-[#F7F5F2]  px-[30px] md:px[60] lg:px-[80px] xl:px-[100px]  relative md:py-[20px] xl:py-[30px] pb-[100px] md:pb-[100px] xl:pb-[120px]">
+    <div className="bg-[#F7F5F2]  px-[30px] md:px[60] lg:px-[80px] xl:px-[100px] pt-[50px] pb-[50px]">
       <div className=" py-[20px] md:py-[10px] lg:py-[30px]">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
           <div
@@ -31,8 +31,8 @@ function OurStoryOrigination() {
             </div>
           </div>
 
-          <div className="hidden lg:block ">
-            <div className="  relative  container flex flex-col justify-center items-center h-full">
+          <div className="">
+            <div className=" flex flex-col justify-center items-center h-full">
               <img
                 className=" rounded-lg"
                 src={WMImg2}
