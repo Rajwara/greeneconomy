@@ -23,7 +23,7 @@ const WhyCarbonCredits = () => {
           </h6>
           <p className="font-poppins text-lg text-[#3c3c3c] font-normal leading-7">
             {" "}
-            Capitalizing on the 20% growth in the carbon credit market from the
+            Capitalizing on the <a className="text-[#BAB220] underline font-bold" href="https://www.spglobal.com/commodityinsights/en/market-insights/latest-news/coal/012721-global-carbon-market-grows-20-to-272-billion-in-2020-refinitiv">20%</a> growth in the carbon credit market from the
             previous year is a strategic move that you don't want to miss at any
             cost.
           </p>

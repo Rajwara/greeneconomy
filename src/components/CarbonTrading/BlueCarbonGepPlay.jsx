@@ -102,11 +102,11 @@ const BlueCarbonGepPlay = () => {
                         alt="location"
                       />
                       <p>
-                        Under the Article 6.2 of Paris Agreement, the government
+                        Under the <a className="text-[#BAB220] font-bold underline" href="https://www.undp.org/energy/blog/what-article-6-paris-agreement-and-why-it-important#:~:text=Article%206.2%20outlines%20the%20possibility,sector%20companies%2C%20through%20bilateral%20agreements">Article 6.2</a> of Paris Agreement, the government
                         can sell off their carbon credits to other organizations
                         or governments. These are called ITMOs or
-                        internationally Transferred Mitigation Outcomes. The
-                        final step is to auction these off during COP28 in
+                        Internationally Transferred Mitigation Outcomes. The
+                        final step is to auction these off during <a href="https://www.cop28.com/" className="text-[#BAB220] font-bold underline">COP28</a> in
                         Dubai.{" "}
                       </p>
                     </li>
