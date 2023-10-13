@@ -7,7 +7,7 @@ const ExploreBanner = () => {
     <>
       <Banner
         title="Work With Nature and Nature Will Work for You."
-        description="This is Explore Projects."
+        description="Explore our Syntropic Farming and Native Forest Conservation Projects dedicated to nurturing a greener future."
         backgroundImage={banner}
         buttonText="Contact Us"
       />
