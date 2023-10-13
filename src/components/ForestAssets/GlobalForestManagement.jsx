@@ -21,11 +21,11 @@ const GlobalForestManagement = () => {
           hectares fall under government management while{" "}
           <a
             href="https://www.forest-trends.org/wp-content/uploads/imported/tenurereport_whoowns.pdf"
-            className="text-[#D3CA28] font-bold underline"
+            className="text-[#D3CA28] font-bold underline mr-1"
           >
-            246 million hectares
+            246 million hectares 
           </a>
-          are owned by indigenous groups and local communities, and{" "}
+           are owned by indigenous groups and local communities, and{" "}
           <a
             href="https://crsreports.congress.gov/product/pdf/IF/IF12001"
             className="text-[#D3CA28] font-bold underline"

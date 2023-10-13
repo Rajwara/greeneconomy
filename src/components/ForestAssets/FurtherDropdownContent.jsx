@@ -324,7 +324,7 @@ function FurtherDropdownContent() {
                 approval, certification, or issuance.
               </li>
             </ul>
-            <p className="mt-4">
+            {/* <p className="mt-4">
               While the voluntary market is considerably smaller at{" "}
               <a
                 href="https://www.washingtonpost.com/business/energy/why-carbon-offsets-dont-do-all-that-they-promise/2020/08/15/4480f11a-deb4-11ea-b4f1-25b762cdbbf4_story.html"
@@ -338,7 +338,7 @@ function FurtherDropdownContent() {
               asset. However, the increased number of offset providers in the
               voluntary carbon market has raised worries about the environmental
               credibility of certain voluntary carbon offsets.
-            </p>
+            </p> */}
           </div>
         </AccordionBody>
       </Accordion>
@@ -374,10 +374,10 @@ function FurtherDropdownContent() {
             Adhering to best practices in forestry project design can enhance
             credit appeal to buyers, boosting demand and reducing the risk of
             project failure. Potential buyers are willing to pay a premium for
-            credits from projects certified to the
+            credits from projects certified to the 
             <a
               href="https://www.climate-standards.org/ccb-standards/"
-              className="text-[#D3CA28] font-bold underline"
+              className="text-[#D3CA28] font-bold underline ml-1"
             >
               Climate and Community Biodiversity Alliance Standard (CCBA).
             </a>{" "}

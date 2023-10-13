@@ -43,10 +43,10 @@ const KeyArrangements = () => {
             </h6>
           </li>
         </ul>
-        <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
+        {/* <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
           Here, we delve deeper into the actions taken by the forest managers,
           shedding light on the commercial and financial aspects of each.
-        </p>
+        </p> */}
       </div>
       <div className="img">
         <img src={Agro} alt="" className="w-full h-[400px]" />

@@ -17,9 +17,9 @@ const ConcessionManagement = () => {
           analysis carried out by
           <a
             href="https://www.scirp.org/(S(i43dyn45te-exjx455qlt3d2q))/reference/referencespapers.aspx?referenceid=1499085"
-            className="text-[#D3CA28] font-bold underline"
+            className="text-[#D3CA28] font-bold underline mx-1"
           >
-            White and Martin
+             White and Martin 
           </a>
           , data from 16 countries indicated that approximately 400 million
           hectares were allocated to concessions. In most cases, the profits or
@@ -33,7 +33,7 @@ const ConcessionManagement = () => {
           and Ghana, as reported by
           <a
             href="https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=C1D86E06EFD5A2356EEE68533ADBF30F?doi=10.1.1.515.3706&rep=rep1&type=pdf"
-            className="text-[#D3CA28] font-bold underline"
+            className="text-[#D3CA28] font-bold underline ml-1"
           >
             Mendes and Macqueen in 2006.
           </a>

@@ -5,7 +5,7 @@ const ConservationConcession = () => {
     <div className=" px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[50px] mb-[50px]">
       <div className="flex flex-col">
         {" "}
-        <div className="concessionmanagement">
+        {/* <div className="concessionmanagement">
           <h2 className="text-[#316D69] text-xl mb-6 md:text-2xl lg:text-4xl leading-7 tracking-normal font-montserrat font-bold">
             Concession
             <span className="text-[#bab220]">Management </span>
@@ -39,7 +39,7 @@ const ConservationConcession = () => {
               Mendes and Macqueen in 2006.
             </a>
           </p>
-        </div>
+        </div> */}
         <div className="conservationconcessions">
           <h2 className="text-[#316D69] text-xl mb-6 md:text-2xl lg:text-4xl leading-7 mt-4 tracking-normal font-montserrat font-bold">
             Conservation
@@ -68,12 +68,12 @@ const ConservationConcession = () => {
             <span className="text-[#bab220]"> WWF Heart of Borneo</span>
           </h2>
           <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 mt-4 font-poppins font-normal ">
-            The Heart of Borneo spans approximately
+            The Heart of Borneo spans approximately 
             <a
               href="https://www.insideasiatours.com/us/borneo/overview"
-              className="text-[#D3CA28] font-bold underline"
+              className="text-[#D3CA28] font-bold underline mx-1"
             >
-              220,000
+               220,000
             </a>
             square kilometers, equivalent in size to the entire United Kingdom.
             This region covers about one-third of the vast island of Borneo,
@@ -83,14 +83,14 @@ const ConservationConcession = () => {
             is quite extraordinary as it serves as the origin of
             <a
               href="https://encyclopedia.pub/entry/14397"
-              className="text-[#D3CA28] font-bold underline"
+              className="text-[#D3CA28] font-bold underline mx-1"
             >
               14-20
             </a>
             major rivers on the island. This area houses up to
             <a
               href="https://wwf.panda.org/discover/knowledge_hub/where_we_work/borneo_forests/#:~:text=What%20is%20the%20Heart%20of,pitcher%20plants%20and%20Rafflesia%20flowers."
-              className="text-[#D3CA28] font-bold underline"
+              className="text-[#D3CA28] font-bold underline mx-1"
             >
               6%
             </a>
@@ -99,9 +99,9 @@ const ConservationConcession = () => {
             initiative, officially declared on
             <a
               href="https://wwf.panda.org/discover/knowledge_hub/where_we_work/borneo_forests/#:~:text=What%20is%20the%20Heart%20of,pitcher%20plants%20and%20Rafflesia%20flowers."
-              className="text-[#D3CA28] font-bold underline"
+              className="text-[#D3CA28] font-bold underline mx-1"
             >
-              February 12,2007
+              February 12, 2007
             </a>
             , signifies a commitment from the three countries involved to
             preserve and sustainably manage the Heart of Borneo.
@@ -151,14 +151,7 @@ const ConservationConcession = () => {
             historical ties to these lands. The extent of this transformation in
             forest ownership is illustrated by the fact that, since 1985, Amazon
             basin countries have transferred one million square kilometers of
-            forest land to community ownership.The Conservation Concession is an
-            innovative approach that reconciles the imperative need for resource
-            preservation and development. Within the framework of this
-            innovative conservation agreement, either national authorities or
-            local resource custodians enter into a solemn pact, obliging
-            themselves to safeguard natural ecosystems in return for a
-            consistent and methodically structured compensation disbursed by
-            dedicated conservationists or investors.
+            forest land to community ownership.
           </p>
           <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 mt-4 font-poppins font-normal ">
             These associations enhance governmental awareness or representation
@@ -203,7 +196,7 @@ const ConservationConcession = () => {
               involvement in plantation management.
             </p>
             <p className=" mt-4  ">
-              3. Land lease arrangements in which some additional benefits
+              4. Land lease arrangements in which some additional benefits
               accrue to the landowner.
             </p>
           </div>

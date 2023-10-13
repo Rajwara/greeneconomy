@@ -11,7 +11,7 @@ const ForestBackedBondsProof = () => {
           <span className="text-[#bab220]"> Future & EnviroMarket</span>
         </h2>
         <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
-          According to the 2007 UN report on sustainable bioenergy, even
+          According to the <a className="text-[#bab220] underline" href="https://press.un.org/en/2007/envdev937.doc.htm">2007 UN report</a> on sustainable bioenergy, even
           biofuels produced under "sustainable" practices could have adverse
           effects if they replace primary forests. This replacement may lead to
           substantial carbon releases from the soil and forest biomass, negating

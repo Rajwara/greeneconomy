@@ -7,7 +7,7 @@ const PublicandPrivateOwnership = () => {
       <div className="img">
         <img src={Agro} alt="" className="w-full h-full" />
       </div>
-      <div className="flex flex-col  ">
+      <div className="flex flex-col justify-center ">
         {" "}
         <h2 className="text-[#316D69] text-xl mb-8 md:text-2xl lg:text-4xl leading-7 tracking-normal font-montserrat font-bold">
           Public and Private <span className="text-[#bab220]"> Ownership</span>
