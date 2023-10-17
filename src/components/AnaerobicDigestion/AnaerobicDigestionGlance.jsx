@@ -1,5 +1,5 @@
 import React from "react";
-import img2 from "../../../src/images/Anaerobic-Digestion-at-a-Glance.png";
+import img2 from "../../../src/images/anaerobic-glance.png";
 
 const AnaerobicDigestionGlance = () => {
   return (
@@ -10,15 +10,15 @@ const AnaerobicDigestionGlance = () => {
             <img
               src={img2}
               alt="About Green Economy"
-              className="rounded-lg shadow-md"
+              className="rounded-lg h-full w-full"
             />
           </div>
 
           <div className="lg:w-1/2 mt-8 md:mt-0 mb-8">
-            <h2 className="text-4xl  text-[#316D69] leading-7 tracking-normal font-montserrat font-bold mb-4">
+            <h2 className=" text-2xl md:text-3xl lg:text-4xl  text-[#316D69] leading-10 font-montserrat font-bold mb-4">
               Anaerobic Digestion at a Glance
             </h2>
-            <div className="mb-3 text-[#3c3c3c] text-lg leading-7 font-normal font-poppins">
+            <div className="mb-3 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 font-normal font-poppins">
               <p className=" ">
                 It is a sustainable process that converts organic matter into
                 energy-efficient gas and digestate in the absence of oxygen. As
