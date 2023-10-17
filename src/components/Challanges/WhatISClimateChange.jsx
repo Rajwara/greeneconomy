@@ -6,10 +6,10 @@ function WhatIsClimateChange() {
     <div className="py-[50px] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] bg-[#EFEDD1] ">
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
         <div className=" container text-left flex flex-col justify-center h-full">
-          <h2 className=" text-[#316D69] text-4xl mb-6 font-montserrat  font-bold pb-6">
+          <h2 className=" text-[#316D69] text-2xl md:text-3xl lg:text-4xl mb-6 leading-10 font-montserrat  font-bold pb-6">
             What is Climate Change?
           </h2>
-          <div className="font-poppins text-lg text-[#3c3c3c]">
+          <div className="font-poppins text-sm md:text-base lg:text-lg leading-7 font-normal text-[#3c3c3c]">
             <p className="">
               Climate change is the long-term alteration of typical weather
               patterns of the Earth and global climate systems. Climate change

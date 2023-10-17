@@ -15,15 +15,15 @@ function SolutionHighStandardCarbon() {
         <div className="absolute "></div>
 
         <div className="flex flex-col justify-center items-center h-full overflow-hidden xs:py-[20px] lg:py-[50px]">
-          <h6 className="uppercase text-lg text-[#F7F5F2] font-bold	font-montserrat">
+          <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#F7F5F2] font-bold leading-9	font-montserrat">
             Solution
           </h6>
           <div className="">
             <div className="container">
-              <h2 className="text-[#BAB220] text-center text-4xl mb-6 font-montserrat font-bold pb-6">
+              <h2 className="text-[#BAB220] text-center text-2xl md:text-3xl lg:text-4xl leading-10 mb-6 font-montserrat font-bold pb-6">
                 High Standard Carbon Offsets
               </h2>
-              <div className="font-poppins text-center text-lg text-[#F7F5F2]">
+              <div className="font-poppins text-center text-sm md:text-base lg:text-lg leading-7 font-normal text-[#F7F5F2]">
                 <p className="">
                   Mitigating climate change and addressing deforestation are
                   crucial challenges in the pursuit of a climate-resilient

@@ -18,17 +18,17 @@ function WhatISDeforestation() {
             </div>
 
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="text-left text-4xl mb-6 font-montserrat  font-bold text-[#316D69] pb-6">
+              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl leading-10 mb-6 font-montserrat  font-bold text-[#316D69] pb-6">
                 What is Deforestation?
               </h2>
-              <div className="font-poppins text-lg text-black">
+              <div className="font-poppins text-sm md:text-base lg:text-lg font-normal leading-7 text-[#3c3c3c]">
                 <p className=" ">
                   Deforestation is the widespread cutting of forests for many
                   reasons. This could be done for converting forested land for
-                  uses such as industrial activities, urban development, and agriculture. The trees are usually cut on a large scale,
+                  uses such as industrial activities, urban development, and
+                  agriculture. The trees are usually cut on a large scale,
                   disrupting the rich biodiversity that forests support.
                 </p>
-              
               </div>
             </div>
           </div>
