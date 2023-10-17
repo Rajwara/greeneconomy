@@ -10,10 +10,10 @@ function OurStoryOrigination() {
             className="container text-left lg:text-left flex flex-col 
          justify-center  h-full"
           >
-            <h2 className="text-left text-4xl  font-montserrat  font-bold text-[#BAB220] pb-6 ">
+            <h2 className="text-left text-2xl md:text-3xl lg:text-4xl leading-10 font-montserrat  font-bold text-[#BAB220] pb-6 ">
               Origination{" "}
             </h2>
-            <div className="text-lg mx-auto font-poppins text-[#3c3c3c] font-normal">
+            <div className="text-sm md:text-base lg:text-lg  mx-auto font-poppins text-[#3c3c3c] font-normal">
               <p className="">
                 The experts at the Green Economy Partnership have made a
                 noteworthy contribution to enhancing the ability of the

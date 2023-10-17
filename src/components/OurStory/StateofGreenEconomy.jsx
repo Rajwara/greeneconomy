@@ -9,33 +9,29 @@ function StateAbout() {
           className="container flex flex-col   align-middle justify-center
           h-full"
         >
-          <h6 className="uppercase text-lg text-[#316D69] font-bold	font-montserrat mb-8 mt-8 ">
+          <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-9	font-montserrat mb-8 mt-8 ">
             {" "}
             Our story
           </h6>
-          <h2 className=" text-[#BAB220]  text-4xl mb-8 font-montserrat font-bold">
+          <h2 className=" text-[#BAB220]  text-2xl md:text-3xl lg:text-4xl mb-8 font-montserrat leading-10 font-bold">
             State of the Green Economy with Forestry
           </h2>
-          <div className="text-[14px] text-[#3c3c3c] md:text-[16px] lg:text-[18px] pb-[10PX]">
+          <div className="text-sm md:text-base lg:text-lg font-normal text-[#3c3c3c] pb-[10px] leading-7">
             <p>
               The experts at Green Economy only have one promise: to achieve
               net-zero carbon emissions. GEP is a firm believer of the fact that
               the climate crisis is an urgent call that’s why our journey to
               achieve net zero emissions by 2050 has already started. GEP
               encourages carbon offset practices for a sustainable future. It
-              holds the highest level of accountability through <a
+              holds the highest level of accountability through{" "}
+              <a
                 href="https://verra.org/"
                 className="text-[#D3CA28] font-bold underline"
               >
                 Verra’s
-              </a> Verified
-              Carbon Standard, paving the way for sustainable development where
-              progress and sustainability coexist.
-
-
-
-
-              
+              </a>{" "}
+              Verified Carbon Standard, paving the way for sustainable
+              development where progress and sustainability coexist.
             </p>
             <p className="mt-4">
               GEP is all about leaving a legacy for its future generations.

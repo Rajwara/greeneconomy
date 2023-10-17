@@ -9,10 +9,10 @@ function InnerCard(props) {
       <div className="p-8">
         <img src={props.image} alt="icon" className="mx-auto mb-4 w-20 h-20" />{" "}
         {/* Center the image */}
-        <h3 className=" text-[18px] text-[#316D69] font-bold mb-4 h-[20px]">
+        <h3 className=" text-sm md:text-base lg:text-lg text-[#316D69] font-bold mb-4 h-[20px]">
           {props.heading}
         </h3>
-        <p className="xs:mt-[8px] text-[14px] md:text-[16px] lg:text-[18px] font-[400] lg:px-[20px] h-[130px]">
+        <p className="xs:mt-[8px] text-sm md:text-base lg:text-lg text-[#3c3c3c] font-[400] lg:px-[20px] h-[130px]">
           {props.text}
         </p>
       </div>

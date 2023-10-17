@@ -9,10 +9,10 @@ function GepComePlay() {
         <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] py-[20px] md:py-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="text-left text-4xl  font-montserrat  font-bold text-[#BAB220] pb-6">
+              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl leading-10  font-montserrat  font-bold text-[#BAB220] pb-6">
                 Where does GEP Come into Play?
               </h2>
-              <div className="mt-14 flex flex-wrap flex-col font-poppins text-lg text-black">
+              <div className="mt-14 flex flex-wrap flex-col font-poppins text-sm md:text-base lg:text-lg  font-normal leading-7 text-[#3c3c3c]">
                 <div className="flex flex-col">
                   <ul className=" flex flex-col gap-2">
                     <li className="flex gap-3 align-middle">
@@ -22,9 +22,14 @@ function GepComePlay() {
                         alt="location"
                       />
                       <p>
-                        A partnership is formed through the framework <a className="text-[#D3CA28] font-bold underline" href="https://www.worldbank.org/en/news/feature/2021/05/19/what-you-need-to-know-about-emission-reductions-payment-agreements">Emission
-                        Reduction Agreement (ERPA)</a>  between GEP and the
-                        government agency.
+                        A partnership is formed through the framework{" "}
+                        <a
+                          className="text-[#D3CA28] font-bold underline"
+                          href="https://www.worldbank.org/en/news/feature/2021/05/19/what-you-need-to-know-about-emission-reductions-payment-agreements"
+                        >
+                          Emission Reduction Agreement (ERPA)
+                        </a>{" "}
+                        between GEP and the government agency.
                       </p>
                     </li>
 
@@ -62,10 +67,10 @@ function GepComePlay() {
                         alt="location"
                       />
                       <p>
-                        The project is in alignment with Article 6.2 which requires
-                        the emission reductions to be real, permanent, and
-                        measurable, making sure that they are credible in the
-                        carbon credit market.
+                        The project is in alignment with Article 6.2 which
+                        requires the emission reductions to be real, permanent,
+                        and measurable, making sure that they are credible in
+                        the carbon credit market.
                       </p>
                     </li>
                   </ul>
