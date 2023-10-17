@@ -149,9 +149,12 @@ function FurtherDropdownContent() {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] mb-[50px]">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] mb-[100px]">
       <Accordion open={open === 1}>
-        <AccordionHeader onClick={() => handleOpen(1)}>
+        <AccordionHeader
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          onClick={() => handleOpen(1)}
+        >
           The Regulated Carbon Market
         </AccordionHeader>
         <AccordionBody>
@@ -214,7 +217,10 @@ function FurtherDropdownContent() {
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 2}>
-        <AccordionHeader onClick={() => handleOpen(2)}>
+        <AccordionHeader
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          onClick={() => handleOpen(2)}
+        >
           Voluntary Carbon Market
         </AccordionHeader>
         <AccordionBody>
@@ -236,7 +242,12 @@ function FurtherDropdownContent() {
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 3}>
-        <AccordionHeader onClick={() => handleOpen(3)}>Costs</AccordionHeader>
+        <AccordionHeader
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          onClick={() => handleOpen(3)}
+        >
+          Costs
+        </AccordionHeader>
         <AccordionBody>
           <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
             Revenue mechanisms for carbon reduction entail upfront costs that
@@ -269,7 +280,10 @@ function FurtherDropdownContent() {
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 4}>
-        <AccordionHeader onClick={() => handleOpen(4)}>
+        <AccordionHeader
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          onClick={() => handleOpen(4)}
+        >
           Forestry Carbon as an Asset
         </AccordionHeader>
         <AccordionBody>
@@ -343,7 +357,12 @@ function FurtherDropdownContent() {
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 5}>
-        <AccordionHeader onClick={() => handleOpen(5)}>Leakage</AccordionHeader>
+        <AccordionHeader
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          onClick={() => handleOpen(5)}
+        >
+          Leakage
+        </AccordionHeader>
         <AccordionBody>
           <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
             A significant aspect of designing forestry carbon projects is to
@@ -360,7 +379,10 @@ function FurtherDropdownContent() {
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 6}>
-        <AccordionHeader onClick={() => handleOpen(6)}>
+        <AccordionHeader
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          onClick={() => handleOpen(6)}
+        >
           Quality Assurance
         </AccordionHeader>
         <AccordionBody>
@@ -374,7 +396,7 @@ function FurtherDropdownContent() {
             Adhering to best practices in forestry project design can enhance
             credit appeal to buyers, boosting demand and reducing the risk of
             project failure. Potential buyers are willing to pay a premium for
-            credits from projects certified to the 
+            credits from projects certified to the
             <a
               href="https://www.climate-standards.org/ccb-standards/"
               className="text-[#D3CA28] font-bold underline ml-1"
@@ -385,7 +407,10 @@ function FurtherDropdownContent() {
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 7}>
-        <AccordionHeader onClick={() => handleOpen(7)}>
+        <AccordionHeader
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          onClick={() => handleOpen(7)}
+        >
           Ownership & Transfer
         </AccordionHeader>
         <AccordionBody>

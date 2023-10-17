@@ -5,7 +5,7 @@ const BridgingSustainability = () => {
     <div className=" px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] mb-[50px]">
       <div className="flex flex-col  text-center items-center">
         {" "}
-        <h2 className="text-[#316D69] text-xl mb-8 md:text-2xl lg:text-4xl leading-7 tracking-normal font-montserrat font-bold">
+        <h2 className="text-[#316D69] text-2xl mb-8 md:text-3xl lg:text-4xl leading-10  font-montserrat font-bold">
           Bridging Sustainability and{" "}
           <span className="text-[#bab220]">Profitability</span>
         </h2>
