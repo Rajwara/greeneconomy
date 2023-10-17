@@ -8,13 +8,18 @@ const NatureBaseSolutionSecond = () => {
         <div className="flex items-center  ">
           <img src={NatureBasedAssets2} className="h-[90%] w-full" alt="Tree" />
         </div>
-        <div className="text-lg font-normal mt-4 font-poppins leading-7 text-[#3c3c3c]">
+        <div className="text-sm md:text-base lg:text-lg font-normal mt-4 font-poppins leading-7 text-[#3c3c3c]">
           <p className="">
-            According to the World Bank, nature-based solutions can provide <a className="text-[#D3CA28] font-bold underline" href="https://www.worldbank.org/en/news/feature/2022/05/19/what-you-need-to-know-about-nature-based-solutions-to-climate-change">37%
-            of the mitigation</a> needed until 2030 to meet the goals outlined by
-            the Paris Agreement. GEP has an open approach towards climate
-            investments, contributing towards the dire need to reach the target
-            of zero emissions by 2050.
+            According to the World Bank, nature-based solutions can provide{" "}
+            <a
+              className="text-[#D3CA28] font-bold underline"
+              href="https://www.worldbank.org/en/news/feature/2022/05/19/what-you-need-to-know-about-nature-based-solutions-to-climate-change"
+            >
+              37% of the mitigation
+            </a>{" "}
+            needed until 2030 to meet the goals outlined by the Paris Agreement.
+            GEP has an open approach towards climate investments, contributing
+            towards the dire need to reach the target of zero emissions by 2050.
           </p>
           <p className="mt-4">
             {" "}
@@ -30,7 +35,7 @@ const NatureBaseSolutionSecond = () => {
             <div className="mt-12 inline-flex rounded-lg shadow">
               <button
                 type="button"
-                className="py-3 px-[25px] font-montserrat text-lg text-white border-2 border-[#316D69] hover:text-white bg-[#316D69] font-semibold hover:bg-[#BAB220] transition duration-300 rounded-lg"
+                className="py-3 px-[25px] font-montserrat text-sm md:text-base lg:text-lg text-white border-2 border-[#316D69] hover:text-white bg-[#316D69] font-semibold hover:bg-[#BAB220] transition duration-300 rounded-lg"
               >
                 Get started
               </button>

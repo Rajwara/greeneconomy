@@ -211,7 +211,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/naturebasedasset"
-                      className={`block font-montserrat  text-base py-2 pl-3 border-b-2  rounded-none pr-4 sm:pr-0 ${
+                      className={`block font-montserrat  text-base py-2 pl-3 border-b-2   rounded-none pr-4 sm:pr-0 ${
                         activeLink === "NatureBasedAssets"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -277,7 +277,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/agriculture"
-                      className={`block font-montserrat  text-base py-2 pl-6 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat border-b-2 rounded-none  text-base py-2 pl-6 pr-4 sm:pr-0 ${
                         activeLink === "Agriculture"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
