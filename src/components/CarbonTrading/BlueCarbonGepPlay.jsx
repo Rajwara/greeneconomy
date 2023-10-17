@@ -23,10 +23,10 @@ const BlueCarbonGepPlay = () => {
               </div>
             </div>
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="text-left text-4xl  font-montserrat  font-bold text-[#BAB220] pb-6">
+              <h2 className="text-left text-2xl md:text3xl lg:text-4xl  font-montserrat  leading-10 font-bold text-[#BAB220] pb-8">
                 Where does GEP Come into Play?
               </h2>
-              <div className="mt-14 font-poppins text-lg text-black">
+              <div className="mt-14 font-poppins text-sm md:text-base lg:text-lg text-[#3c3c3c] font-normal leading-7">
                 <ul className=" flex flex-col gap-2">
                   <div className="	">
                     <li className="flex gap-3 align-middle ">
@@ -102,12 +102,25 @@ const BlueCarbonGepPlay = () => {
                         alt="location"
                       />
                       <p>
-                        Under the <a className="text-[#BAB220] font-bold underline" href="https://www.undp.org/energy/blog/what-article-6-paris-agreement-and-why-it-important#:~:text=Article%206.2%20outlines%20the%20possibility,sector%20companies%2C%20through%20bilateral%20agreements">Article 6.2</a> of Paris Agreement, the government
-                        can sell off their carbon credits to other organizations
-                        or governments. These are called ITMOs or
-                        Internationally Transferred Mitigation Outcomes. The
-                        final step is to auction these off during <a href="https://www.cop28.com/" className="text-[#BAB220] font-bold underline">COP28</a> in
-                        Dubai.{" "}
+                        Under the{" "}
+                        <a
+                          className="text-[#BAB220] font-bold underline"
+                          href="https://www.undp.org/energy/blog/what-article-6-paris-agreement-and-why-it-important#:~:text=Article%206.2%20outlines%20the%20possibility,sector%20companies%2C%20through%20bilateral%20agreements"
+                        >
+                          Article 6.2
+                        </a>{" "}
+                        of Paris Agreement, the government can sell off their
+                        carbon credits to other organizations or governments.
+                        These are called ITMOs or Internationally Transferred
+                        Mitigation Outcomes. The final step is to auction these
+                        off during{" "}
+                        <a
+                          href="https://www.cop28.com/"
+                          className="text-[#BAB220] font-bold underline"
+                        >
+                          COP28
+                        </a>{" "}
+                        in Dubai.{" "}
                       </p>
                     </li>
                     <br />
