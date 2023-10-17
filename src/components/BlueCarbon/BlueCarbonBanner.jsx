@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../../../src/images/agriculture-main-banner.jpg";
+import background from "../../../src/images/bluecarbon-banner.png";
 import Banner from "../BannerForAllPages/Banner";
 
 const BlueCarbonBanner = () => {
