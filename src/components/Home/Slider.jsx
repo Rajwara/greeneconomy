@@ -72,9 +72,13 @@ const Slider = () => {
             style={{ backgroundImage: `url(${item.imgUrl})` }}
           >
             <div className="content">
-              <div className="name">{item.name}</div>
-              <div className="des">{item.desc}</div>
-              <button className="capitalize bg-[#316D69] text-white px-6 py-2 rounded font-montserrat">
+              <div className="name text-3xl md:text-4xl lg:text-5xl ">
+                {item.name}
+              </div>
+              <div className="des text-sm md:text-base lg:text-lg">
+                {item.desc}
+              </div>
+              <button className="capitalize bg-[#316D69] text-sm md:text-base lg:text-lg text-white px-6 py-2 rounded font-montserrat">
                 {item.buttontext}
               </button>
             </div>
