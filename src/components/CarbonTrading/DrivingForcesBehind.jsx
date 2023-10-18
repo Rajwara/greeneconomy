@@ -1,8 +1,8 @@
 import React from "react";
-import grassland from "../../../src/images/grassland.jpg";
-import bushland from "../../../src/images/bushland.jpg";
-import wetland from "../../../src/images/wetland.jpg";
-import woodland from "../../../src/images/woodland.jpg";
+import grassland from "../../../src/images/paris-agreement.png";
+import bushland from "../../../src/images/consumer-demand.png";
+import wetland from "../../../src/images/technological-advancements.png";
+import woodland from "../../../src/images/time-gaps.png";
 
 const DrivingForcesBehind = () => {
   const DrivingForcesBehindCards = [
@@ -36,8 +36,8 @@ const DrivingForcesBehind = () => {
     },
   ];
   return (
-    <div className="   my-14 px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
-      <h2 className="mb-14  font-montserrat text-[#316D69] text-3xl leading-7 font-bold tracking-wide text-center ">
+    <div className="   mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+      <h2 className="mb-10  font-montserrat text-[#316D69] text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-bold tracking-wide text-center ">
         Driving Forces Behind Carbon Offset Market
       </h2>
       <div className="grid gird-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 text-center items-center">
@@ -49,10 +49,10 @@ const DrivingForcesBehind = () => {
                 alt=""
                 className="h-[200px] w-[200px] rounded-full shadow-2xl hover:rounded-lg hover:shadow-2xl mx-auto"
               />
-              <h4 className="font-montserrat text-xl font-bold text-[#bab220] mt-10 h-[40px]">
+              <h4 className="font-montserrat text-lg md:text-lg lg:text-xl leading-7 lg:leading-9 font-bold text-[#bab220] mt-10 h-[60px] md:h-[40px] lg:h-[40px]">
                 {items.title}
               </h4>
-              <p className="text-lg font-poppins font-normal text-[#3c3c3c] leading-7 h-[100px] ">
+              <p className="text-sm md:text-base lg:text-lg font-poppins font-normal text-[#3c3c3c] leading-5 lg:leading-7 h-[100px] ">
                 {items.description}
               </p>
             </div>

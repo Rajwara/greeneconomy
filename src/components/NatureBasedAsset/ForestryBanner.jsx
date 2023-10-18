@@ -7,7 +7,7 @@ const ForestryBanner = () => {
     <>
       <Banner
         title="State of Green-Economy"
-        description="Assets like sustainable forestry, blue carbon, and climate-smart agriculture offer a powerful ally in the fight against climate change. Our experts help you reduce your carbon footprint through sustainable forest management."
+        description="Assets like sustainable forestry, blue carbon, and climate-smart agriculture are power allies in the fight against climate change. Our experts help you reduce your carbon footprint through sustainable forest management."
         backgroundImage={banner}
         buttonText="Plant a Tree"
       />

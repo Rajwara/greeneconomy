@@ -1,22 +1,22 @@
 import React from "react";
-import banner from "../../../src/images/GEPs-Anaerobic-Digestion-Consultancy.png";
+import banner from "../../../src/images/forestassets-forestry.png";
 
 const ForestAssets = () => {
   return (
-    <div className="  py-12 text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[0px] ">
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lg:space-x-8 justify-center items-center gap-8">
-        <div className="">
+    <div className="   text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[100px]">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2  justify-center items-center gap-8">
+        <div className="hidden md:hidden lg:block">
           <img
             src={banner}
             alt="About Green Economy"
-            className="rounded-lg shadow-md"
+            className="rounded-lg h-full w-full"
           />
         </div>
-        <div className=" mb-8">
-          <h2 className="text-4xl  text-[#316D69] leading-7 tracking-normal font-montserrat font-bold mb-8">
+        <div className="">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl  text-[#316D69] leading-7 lg:leading-10 font-montserrat font-bold mb-4 md:mb-6 lg:mb-8">
             Forest Assets
           </h2>
-          <div className="mb-6 text-[#3c3c3c] text-lg leading-7 font-normal font-poppins">
+          <div className="mb-6 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins">
             <p className=" ">
               Forests cover{" "}
               <a
@@ -29,9 +29,9 @@ const ForestAssets = () => {
               benefits, and resources derived from forests including:
             </p>
           </div>
-          <ul className="text-[#3c3c3c] text-lg leading-7 font-normal font-poppins list-disc">
+          <ul className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins list-disc">
             <li className="ml-8 mb-2">
-              Timber and non-timber forest products (NTFPs)
+              Timber and Non-Timber Forest Products (NTFPs)
             </li>
             <li className="ml-8 mb-2">
               Ecosystem services such as carbon sequestration, water management,
@@ -43,13 +43,20 @@ const ForestAssets = () => {
             </li>
             <li className="ml-8 mb-2">Cultural and spiritual values </li>
           </ul>
-          <div className="mb-3 text-[#3c3c3c] text-lg leading-7 font-normal font-poppins">
+          <div className="mb-3 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal ">
             <a href="/forest-assets">
-              <button className="capitalize bg-[#BAB220] mt-6 w-[170px] text-[#F7F5F2] px-6 py-2 rounded font-montserrat text-lg hover:bg-[#EFEDD1] hover:text-[#316D69]	">
+              <button className="capitalize bg-[#BAB220] mt-6 w-[170px] text-[#F7F5F2] px-6 py-2 rounded font-montserrat text-sm md:text-base lg:text-lg hover:bg-[#EFEDD1] hover:text-[#316D69]	">
                 Learn More...
               </button>
             </a>
           </div>
+        </div>
+        <div className="lg:hidden xl:hidden">
+          <img
+            src={banner}
+            alt="About Green Economy"
+            className="rounded-lg h-full w-full"
+          />
         </div>
       </div>
     </div>

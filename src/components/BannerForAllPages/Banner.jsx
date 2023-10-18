@@ -8,20 +8,20 @@ const Banner = ({ title, description, backgroundImage, buttonText }) => {
   };
 
   return (
-
-<div className="relative">
+    <div className="relative">
       <div style={bannerStyle}>
         <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] flex flex-col justify-center text-start	h-[400px]  bg-[#000000] bg-opacity-60 ">
-          <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-5xl leading-tight font-[900] text-[#BAB220] font-montserrat" >
-          {title}
+          <h1 className="text-2xl md:text-4xl lg:text-5xl leading-9 lg:leading-10 font-[900] text-[#BAB220] font-montserrat">
+            {title}
           </h1>
-          <p className="font-poppins text-lg text-[#EFEDD1] mt-6">{description}</p>
+          <p className="font-poppins leading-5 lg:leading-7 text-sm md:text-base lg:text-lg font-normal text-[#EFEDD1] mt-6">
+            {description}
+          </p>
 
           <div className="pt-[20px]">
-            <button className="py-[12px] px-[25px]   hover:border-[#F7F5F2] bg-[#EFEDD1] hover:bg-[#F7F5F2] hover:text-[#316D69]  border border-white border-3  rounded-lg text-[#316D69] font-montserrat font-medium ">
-             { buttonText}
+            <button className="py-[12px] px-[25px] leading-5 lg:leading-7 text-sm md:text-base lg:text-lg  hover:border-[#F7F5F2] bg-[#EFEDD1] hover:bg-[#F7F5F2] hover:text-[#316D69]  border border-white border-3  rounded-lg text-[#316D69] font-montserrat font-medium ">
+              {buttonText}
             </button>
-           
           </div>
         </div>
       </div>

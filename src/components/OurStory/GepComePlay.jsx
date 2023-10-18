@@ -9,10 +9,10 @@ function GepComePlay() {
         <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] py-[20px] md:py-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="text-left text-4xl  font-montserrat  font-bold text-[#BAB220] pb-6">
+              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat  font-bold text-[#BAB220] pb-0 md:pb-6 lg:pb-6">
                 Where does GEP Come into Play?
               </h2>
-              <div className="mt-14 flex flex-wrap flex-col font-poppins text-lg text-black">
+              <div className="mt-8 md:mt-12 lg:mt-14 flex flex-wrap flex-col font-poppins text-sm md:text-base lg:text-lg  font-normal leading-5 lg:leading-7 text-[#3c3c3c]">
                 <div className="flex flex-col">
                   <ul className=" flex flex-col gap-2">
                     <li className="flex gap-3 align-middle">
@@ -22,9 +22,14 @@ function GepComePlay() {
                         alt="location"
                       />
                       <p>
-                        A partnership is formed through the framework <a className="text-[#D3CA28] font-bold underline" href="https://www.worldbank.org/en/news/feature/2021/05/19/what-you-need-to-know-about-emission-reductions-payment-agreements">Emission
-                        Reduction Agreement (ERPA)</a>  between GEP and the
-                        government agency.
+                        A partnership is formed through the{" "}
+                        <a
+                          className="text-[#D3CA28] font-bold underline"
+                          href="https://www.worldbank.org/en/news/feature/2021/05/19/what-you-need-to-know-about-emission-reductions-payment-agreements"
+                        >
+                          Emission Reduction Purchase Agreement (ERPA)
+                        </a>{" "}
+                        between GEP and the government agency.
                       </p>
                     </li>
 
@@ -62,10 +67,16 @@ function GepComePlay() {
                         alt="location"
                       />
                       <p>
-                        The project is in alignment with Article 6.2 which requires
-                        the emission reductions to be real, permanent, and
-                        measurable, making sure that they are credible in the
-                        carbon credit market.
+                        The project is in alignment with{" "}
+                        <a
+                          className="text-[#D3CA28] font-bold underline"
+                          href="https://unfccc.int/process/the-paris-agreement/cooperative-implementation"
+                        >
+                          Article 6.2{" "}
+                        </a>{" "}
+                        which requires the emission reductions to be real,
+                        permanent, and measurable, making sure that they are
+                        credible in the carbon credit market.
                       </p>
                     </li>
                   </ul>
@@ -108,7 +119,14 @@ function GepComePlay() {
                         can sell off their carbon credits to other organizations
                         or governments. These are called ITMOs or
                         Internationally Transferred Mitigation Outcomes. The
-                        final step is to auction these off during COP28 in Dubai{" "}
+                        final step is to auction these off during{" "}
+                        <a
+                          className="text-[#D3CA28] font-bold underline"
+                          href="https://www.cop28.com/"
+                        >
+                          COP28
+                        </a>{" "}
+                        in Dubai{" "}
                       </p>
                     </li>
 
@@ -129,7 +147,7 @@ function GepComePlay() {
                 </div>
               </div>
             </div>
-            <div className="pb-[20px] flex flex-col justify-center items-center h-full">
+            <div className="pb-[20px] mt-6 md:mt-0 lg:mt-0 flex flex-col justify-center items-center h-full">
               <div className=" container flex  items-center">
                 <img
                   className=" mx-auto "

@@ -1,24 +1,24 @@
 import React from "react";
-import img2 from "../../../src/images/Anaerobic-Digestion-at-a-Glance.png";
+import img2 from "../../../src/images/anaerobic-glance.png";
 
 const AnaerobicDigestionGlance = () => {
   return (
-    <section className="  py-12 text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[50px] ">
+    <section className=" text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px]  mb-[50px]">
       <div className=" mx-auto">
         <div className="lg:flex lg:space-x-8 justify-center items-center gap-8">
           <div className="lg:w-1/2">
             <img
               src={img2}
               alt="About Green Economy"
-              className="rounded-lg shadow-md"
+              className="rounded-lg h-full w-full"
             />
           </div>
 
-          <div className="lg:w-1/2 mt-8 md:mt-0 mb-8">
-            <h2 className="text-4xl  text-[#316D69] leading-7 tracking-normal font-montserrat font-bold mb-4">
+          <div className="lg:w-1/2 mt-8 md:mt-8 mb-8">
+            <h2 className=" text-2xl md:text-3xl lg:text-4xl  text-[#316D69] leading-7 lg:leading-10 font-montserrat font-bold mb-4 md:mb-6 lg:mb-8">
               Anaerobic Digestion at a Glance
             </h2>
-            <div className="mb-3 text-[#3c3c3c] text-lg leading-7 font-normal font-poppins">
+            <div className=" text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins">
               <p className=" ">
                 It is a sustainable process that converts organic matter into
                 energy-efficient gas and digestate in the absence of oxygen. As

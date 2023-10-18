@@ -4,10 +4,10 @@ const RethinkingFossilFuels = () => {
   return (
     <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] pb-10 mt-10">
       <div className=" ">
-        <h2 className="text-4xl mb-6 font-montserrat  font-bold text-[#bab220]">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 lg:mb-8 font-montserrat leading-7 lg:leading-10  font-bold text-[#bab220]">
           Rethinking Fossil Fuels With Renewables
         </h2>
-        <p className="mt-4 text-lg font-normal font-poppins leading-7 text-[#3c3c3c]">
+        <p className=" text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c]">
           To mitigate climate change, it is essential to transition to clean and
           renewable energy, while phasing out fossil fuels.
         </p>
@@ -20,7 +20,9 @@ const RethinkingFossilFuels = () => {
                 <th scope="col" class="px-6 py-3 ">
                   Classification
                 </th>
-                <th scope="col" class="px-6 py-3">Fossil Fuels</th>
+                <th scope="col" class="px-6 py-3">
+                  Fossil Fuels
+                </th>
                 <th scope="col" class="px-6 py-3">
                   Renewable Energy
                 </th>
@@ -44,7 +46,9 @@ const RethinkingFossilFuels = () => {
                 >
                   Origins{" "}
                 </th>
-                <td class="px-6 py-4">Fossilized remains of plants and animals</td>
+                <td class="px-6 py-4">
+                  Fossilized remains of plants and animals
+                </td>
                 <td class="px-6 py-4">Naturally renewable sources</td>
               </tr>
               <tr class="bg-white  border-b dark:bg-gray-800 font-poppins text-[#3c3c3c] text-base font-normal">
@@ -72,7 +76,7 @@ const RethinkingFossilFuels = () => {
                   scope="row"
                   class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
                 >
-                 Carbon content
+                  Carbon content
                 </th>
                 <td class="px-6 py-4"> Very high</td>
                 <td class="px-6 py-4">None</td>
@@ -84,7 +88,10 @@ const RethinkingFossilFuels = () => {
                 >
                   Long-term outlook
                 </th>
-                <td class="px-6 py-4"> More global warming, market stocks, loss and damage</td>
+                <td class="px-6 py-4">
+                  {" "}
+                  More global warming, market stocks, loss and damage
+                </td>
                 <td class="px-6 py-4">
                   More job opportunities, healthier planet
                 </td>

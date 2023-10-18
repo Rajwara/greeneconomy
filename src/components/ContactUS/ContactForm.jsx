@@ -3,18 +3,18 @@ import React from "react";
 const ContactForm = () => {
   return (
     <>
-      <section className="mt-20  dark:bg-gray-800 px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+      <section className="mt-[30px] md:mt-[50px] lg:mt-[100px]  dark:bg-gray-800 px-[0px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
         <div className="container">
           <div className="flex flex-wrap  lg:justify-between">
             <div className="w-full  lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0">
-                <span className="block mb-4 text-base font-semibold text-[#BAB220] text-primary font-montserrat tracking-normal leading-7">
+                <span className="block mb-0 md:mb-2 lg:mb-4 text-sm md:text-base lg:text-lg  font-semibold text-[#BAB220] text-primary font-montserrat  leading-5 lg:leading-7">
                   Feel free to...
                 </span>
-                <h2 className="mb-6 text-[32px] font-bold uppercase text-[#316D69] text-dark sm:text-[40px] lg:text-[36px] xl:text-3xl font-montserrat tracking-normal leading-7">
+                <h2 className="mb-4 md:mb-6 lg:mb-8 text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-bold uppercase text-[#316D69] text-dark   font-montserrat ">
                   CONTACT US
                 </h2>
-                <p className="text-lg leading-7 mb-9 text-[#3c3c3c] font-poppins font-normal">
+                <p className="text-sm md:text-base lg:text-lg  leading-5 lg:leading-7 mb-4 md:mb-6 lg:mb-8 text-[#3c3c3c] font-poppins font-normal">
                   For any questions about Green Economy, please do not hesitate
                   to contact us.
                 </p>
@@ -30,10 +30,10 @@ const ContactForm = () => {
                     </svg>
                   </div>
                   <div className="w-full">
-                    <h4 className="mb-1 text-xl font-bold text-[#316D69] font-montserrat tracking-normal leading-7">
+                    <h4 className="mb-1 text-base md:text-lg lg:text-xl font-bold text-[#316D69] font-montserrat tracking-normal leading-7 lg:leading-9">
                       Our Location
                     </h4>
-                    <p className="text-lg leading-7 text-[#3c3c3c] font-poppins font-normal">
+                    <p className="text-sm md:text-base lg:text-lg leading-5 lg:leading-7 text-[#3c3c3c] font-poppins font-normal">
                       99 S.t Jomblo Park Pekanbaru 28292. Indonesia
                     </p>
                   </div>
@@ -52,10 +52,10 @@ const ContactForm = () => {
                     </svg>
                   </div>
                   <div className="w-full">
-                    <h4 className="mb-1 text-xl font-bold text-[#316D69] font-montserrat tracking-normal leading-7">
+                    <h4 className="mb-1 text-base md:text-lg lg:text-xl font-bold text-[#316D69] font-montserrat  leading-7 lg:leading-9">
                       Phone Number
                     </h4>
-                    <p className="text-lg leading-7 text-[#3c3c3c] font-poppins font-normal">
+                    <p className="text-sm md:text-base lg:text-lg  leading-5 lg:leading-7 text-[#3c3c3c] font-poppins font-normal">
                       (+62)81 414 257 9980
                     </p>
                   </div>
@@ -72,10 +72,10 @@ const ContactForm = () => {
                     </svg>
                   </div>
                   <div className="w-full">
-                    <h4 className="mb-1 text-xl font-bold text-[#316D69] font-montserrat tracking-normal leading-7">
+                    <h4 className="mb-1 text-base md:text-lg lg:text-xl font-bold text-[#316D69] font-montserrat leading-7 lg:leading-9">
                       Email Address
                     </h4>
-                    <p className="text-lg leading-7 text-[#3c3c3c] font-poppins font-normal">
+                    <p className="text-sm md:text-base lg:text-lg  leading-5 lg:leading-7 text-[#3c3c3c] font-poppins font-normal">
                       info@yourdomain.com
                     </p>
                   </div>
@@ -114,7 +114,7 @@ const ContactForm = () => {
                   <div>
                     <button
                       type="submit"
-                      className="py-3 px-5  text-[#EFEDD1] bg-[#316D69] font-semibold hover:bg-[#BAB220] transition duration-300 rounded-lg"
+                      className="py-3 px-5 text-sm md:text-base lg:text-lg   text-[#EFEDD1] bg-[#316D69] font-semibold hover:bg-[#BAB220] transition duration-300 rounded-lg"
                     >
                       Send Message
                     </button>
@@ -157,7 +157,7 @@ const ContactTextArea = ({ row, placeholder, name, defaultValue }) => {
           rows={row}
           placeholder={placeholder}
           name={name}
-          className="border-l-0 border-r-0 border-t-0 border-[#316D69] w-full resize-none border-b-2 font-montserrat py-3 px-[14px] text-base text-[#3c3c3c] outline-none focus:border-primary focus-visible:shadow-none"
+          className="border-l-0 border-r-0 border-t-0 border-[#316D69] leading-5 lg:leading-7 w-full resize-none border-b-2 font-montserrat py-3 px-[14px] text-sm md:text-base lg:text-lg  text-[#3c3c3c] outline-none focus:border-primary focus-visible:shadow-none"
           defaultValue={defaultValue}
         />
       </div>
@@ -173,7 +173,7 @@ const ContactInputBox = ({ type, placeholder, name }) => {
           type={type}
           placeholder={placeholder}
           name={name}
-          className="border-b-2 border-l-0 border-r-0 border-t-0 border-[#316D69] font-montserrat w-full py-3 px-[14px] text-base text-body-color outline-none "
+          className="border-b-2 border-l-0 border-r-0 border-t-0 leading-5 lg:leading-7 border-[#316D69] font-montserrat w-full py-3 px-[14px] text-sm md:text-base lg:text-lg  text-body-color outline-none "
         />
       </div>
     </>

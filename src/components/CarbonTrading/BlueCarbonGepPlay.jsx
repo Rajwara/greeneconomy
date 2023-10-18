@@ -11,7 +11,7 @@ const BlueCarbonGepPlay = () => {
   return (
     <div className="relative ">
       <div>
-        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] py-[20px] md:py-[50px]">
+        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
             <div className="pb-[20px] flex flex-col justify-center items-center h-full">
               <div className=" container flex  items-center">
@@ -23,10 +23,10 @@ const BlueCarbonGepPlay = () => {
               </div>
             </div>
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="text-left text-4xl  font-montserrat  font-bold text-[#BAB220] pb-6">
+              <h2 className="text-left text-2xl md:text3xl lg:text-4xl  font-montserrat  leading-7 lg:leading-10 font-bold text-[#BAB220] pb-4 md:pb-6 lg:pb-8">
                 Where does GEP Come into Play?
               </h2>
-              <div className="mt-14 font-poppins text-lg text-black">
+              <div className="mt-8 md:mt-10 lg:mt-14 font-poppins text-sm md:text-base lg:text-lg text-[#3c3c3c] font-normal leading-5 lg:leading-7">
                 <ul className=" flex flex-col gap-2">
                   <div className="	">
                     <li className="flex gap-3 align-middle ">
@@ -35,11 +35,19 @@ const BlueCarbonGepPlay = () => {
                         src={BulletPointone}
                         alt="location"
                       />
-                      A partnership is formed through the Framework Emission
-                      Reduction Agreement (FERA) between GEP and the government
-                      agency. GEP brings in expertise and resources required to
-                      implement the project, including strategies to reduce
-                      greenhouse gas emissions and carbon emissions.
+                      <p>
+                        A partnership is formed through the{" "}
+                        <a
+                          className="text-[#BAB220] font-bold underline"
+                          href="a.	https://www.worldbank.org/en/news/feature/2021/05/19/what-you-need-to-know-about-emission-reductions-payment-agreements"
+                        >
+                          Emission Reduction Purchase Agreement (ERPA)
+                        </a>{" "}
+                        between GEP and the government agency. GEP brings in
+                        expertise and resources required to implement the
+                        project, including strategies to reduce greenhouse gas
+                        emissions and carbon emissions.
+                      </p>
                     </li>
                     <br />
                   </div>
@@ -102,12 +110,25 @@ const BlueCarbonGepPlay = () => {
                         alt="location"
                       />
                       <p>
-                        Under the <a className="text-[#BAB220] font-bold underline" href="https://www.undp.org/energy/blog/what-article-6-paris-agreement-and-why-it-important#:~:text=Article%206.2%20outlines%20the%20possibility,sector%20companies%2C%20through%20bilateral%20agreements">Article 6.2</a> of Paris Agreement, the government
-                        can sell off their carbon credits to other organizations
-                        or governments. These are called ITMOs or
-                        Internationally Transferred Mitigation Outcomes. The
-                        final step is to auction these off during <a href="https://www.cop28.com/" className="text-[#BAB220] font-bold underline">COP28</a> in
-                        Dubai.{" "}
+                        Under the{" "}
+                        <a
+                          className="text-[#BAB220] font-bold underline"
+                          href="https://www.undp.org/energy/blog/what-article-6-paris-agreement-and-why-it-important#:~:text=Article%206.2%20outlines%20the%20possibility,sector%20companies%2C%20through%20bilateral%20agreements"
+                        >
+                          Article 6.2
+                        </a>{" "}
+                        of Paris Agreement, the government can sell off their
+                        carbon credits to other organizations or governments.
+                        These are called ITMOs or Internationally Transferred
+                        Mitigation Outcomes. The final step is to auction these
+                        off during{" "}
+                        <a
+                          href="https://www.cop28.com/"
+                          className="text-[#BAB220] font-bold underline"
+                        >
+                          COP28
+                        </a>{" "}
+                        in Dubai.{" "}
                       </p>
                     </li>
                     <br />

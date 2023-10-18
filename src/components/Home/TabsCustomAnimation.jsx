@@ -20,14 +20,11 @@ import Pledges from "../../../src/images/Pledges.jpg";
 const TabsCustomAnimation = () => {
   const data = [
     {
-
-      
-
       label: "2015",
       value: "2015",
       icon: GiGreenPower,
       heading: "2015",
-      desc: `  It was adopted by 196 nations at the 21st session of the <a  href="https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop" style="color: #D3CA28 ; font-weight:bold; text-decoration: underline;"> Conference of Parties</a> (COP21). In this agreement, the goal  was set to limit global warming to well below 2 degrees Celsius above pre-industrial levels to limit the increase in temperature to 1.5 degrees Celsius. 
+      desc: `  It was adopted by 196 nations at the 21st session of the <a  href="https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop" style="color: #D3CA28 ; font-weight:bold; text-decoration: underline;"> Conference of Parties</a> (COP21). In this agreement, the goal  was set to limit global warming to well below 2°C Celsius above pre-industrial levels to limit the increase in temperature to 1.5°C  Celsius. 
           From 2015 onwards, there was a rapid expansion of renewable energy capacity, advancing the transition to zero emissions. 
           `,
       imagedec: ParisAgreement,
@@ -75,8 +72,8 @@ const TabsCustomAnimation = () => {
 
   return (
     <div className="">
-      <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mx-auto mt-10">
-        <h2 className="text-2xl md:text-3xl text-[#316D69] leading-7 tracking-normal font-montserrat font-bold mb-16 text-center">
+      <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mx-auto mt-0 md:mt-8 lg:mt-10">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl text-[#316D69] leading-7 lg:leading-10 font-montserrat font-bold mb-4 md:mb-6 lg:mb-8 text-center">
           The Route to Carbon Neutrality
         </h2>
         <Tabs value={activeTab}>
@@ -101,11 +98,13 @@ const TabsCustomAnimation = () => {
               <TabPanel key={items.value} value={items.value}>
                 <div className="grid grid-cols-1 lg:grid-cols-2 justify-around mt-8">
                   <div className="justify-center flex flex-col flex-wrap">
-                    <h5 className="uppercase text-2xl text-[#316D69] font-bold	font-montserrat mt-5">
+                    <h5 className="uppercase text-lg md:text-xl lg:text-2xl text-[#316D69] leading-7 lg:leading-9 font-bold	font-montserrat mt-5">
                       {items.heading}
                     </h5>
-                    <p className="font-poppins text-lg text-[#3c3c3c] font-normal leading-7 mt-3 " dangerouslySetInnerHTML={{ __html: items.desc }}>
-                                        </p>
+                    <p
+                      className="font-poppins text-sm md:text-base lg:text-lg text-[#3c3c3c] font-normal leading-5 lg:leading-7 mt-3 "
+                      dangerouslySetInnerHTML={{ __html: items.desc }}
+                    ></p>
                   </div>
                   <div className="pl-0 lg:pl-10 xl:pl-10 mt-8 md:mt-8 lg:mt-0 xl:mt-0">
                     <img

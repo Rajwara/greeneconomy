@@ -1,20 +1,20 @@
 import React from "react";
-import img1 from "../../../src/images/agriculture-trac.jpg";
+import img1 from "../../../src/images/agriculture-role-mitigating.png";
 
 function AgricultureThree() {
   return (
-    <section className="flex items-center flex-col-reverse lg:flex-row justify-center mt-[80px] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+    <section className="flex items-center flex-col-reverse lg:flex-row justify-center mt-[30px] md:mt-[50px] lg:mt-[100px] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
       {/* left Column - Heading and Paragraph */}
-      <div className="lg:w-1/2 px-8 md:px-10 lg:px-12 my-10 lg:my-0">
-        <h2 className=" mb-3 text-[#316D69] font-bold text-4xl tracking-normal font-montserrat">
+      <div className="lg:w-1/2  lg:px-12 my-10 lg:my-0">
+        <h2 className=" mb-4 md:mb-6 lg:mb-8 text-[#316D69] font-bold text-2xl md:text-3xl lg:text-4xl  leading-7 lg:leading-10 font-montserrat">
           Agriculture's Role in Mitigating
           <span className="text-[#bab220]"> Carbon Emissions</span>
         </h2>
-        <p className="font-normal text-[#3c3c3c] font-poppins leading-7 text-lg mt-6 mb-4">
+        <p className="font-normal text-[#3c3c3c] font-poppins leading-5 lg:leading-7 text-sm md:text-base lg:text-lg  ">
           Agriculture is instrumental in curbing carbon emissions due to the
           following factors:
         </p>
-        <ul className="list-none text-[#3c3c3c] font-normal text-lg list-inside leading-7 mb-6 font-poppins ml-4">
+        <ul className="list-none text-[#3c3c3c] font-normal text-sm md:text-base lg:text-lg list-inside leading-5 lg:leading-7 mb-4 md:mb-4 lg:mb-6 font-poppins ml-4">
           <li className=" mt-2">
             <span className="text-[#316D69] font-bold">
               1. Carbon Sequestration:
@@ -60,7 +60,7 @@ function AgricultureThree() {
         <img
           src={img1}
           alt="Example"
-          className="w-full h-[600px] transform hover:scale-105 transition-transform duration-300"
+          className="w-full h-full transform hover:scale-105 transition-transform duration-300"
         />
       </div>
     </section>

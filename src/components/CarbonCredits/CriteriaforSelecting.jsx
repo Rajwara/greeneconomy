@@ -47,10 +47,10 @@ const CriteriaforSelecting = () => {
   ];
   return (
     <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mx-auto">
-      <h2 className="text-center text-4xl  font-montserrat  font-bold text-[#316D69] pb-6">
+      <h2 className="text-center text-2xl md:text-3xl lg:text-4xl leading-10 font-montserrat  font-bold text-[#316D69] mb-4 md:mb-6 lg:mb-8">
         Criteria for Selecting High-Standard Carbon Offset Project{" "}
       </h2>
-      <div className="grid grid-cols-1 mt-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 mt-6 md:mt-8 lg:mt-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
         {CriteriaData.map((data) => (
           <div
             className="inner-card border-2 border-[#316D69] rounded-lg shadow-2xl shadow-[#316D69] pl-6 pr-6 pb-12"
@@ -58,10 +58,10 @@ const CriteriaforSelecting = () => {
           >
             <div className="cards-data text-left mt-10 ">
               <img src={data.icon} alt="" className="w-[20%] h-[20%] " />
-              <h6 className="uppercase text-lg mt-6 text-[#316D69] font-bold	font-montserrat">
+              <h6 className="uppercase text-sm md:text-base lg:text-lg leading-7 lg:leading-9  mt-6 text-[#316D69] font-bold	font-montserrat">
                 {data.title}
               </h6>
-              <p className="text-[14px] md:text-[16px] mt-4 lg:text-[18px]  leading-[24px]   font-poppins text-lg ">
+              <p className="text-sm md:text-base lg:text-lg  mt-0 md:mt-2 lg:mt-4 text-[#3c3c3c]   leading-5 lg:leading-7 font-normal  font-poppins  ">
                 {data.desc}
               </p>
             </div>

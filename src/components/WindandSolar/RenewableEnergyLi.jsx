@@ -11,8 +11,8 @@ const RenewableEnergyLi = () => {
   return (
     <div className="relative ">
       <div>
-        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] py-[20px] md:py-[20px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] pt-[50px]">
+        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] ">
             <div className="pb-[20px] flex flex-col justify-center items-center h-full">
               <div className=" container flex  items-center">
                 <img
@@ -23,11 +23,11 @@ const RenewableEnergyLi = () => {
               </div>
             </div>
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className=" text-left text-[#316D69] font-montserrat tracking-normal leading-9 mb-6 text-4xl font-bold">
+              <h2 className=" text-left text-[#316D69] font-montserrat  leading-7 lg:leading-10 mb-4 md:mb-6 lg:mb-8 text-2xl md:text-3xl lg:text-4xl font-bold">
                 What{" "}
                 <span className="text-[#BAB220]">is Renewable Energy ?</span>
               </h2>
-              <p className="text-[#3C3C3C] text-lg font-normal font-poppins ">
+              <p className="text-[#3C3C3C] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins ">
                 In GEP’s pursuit of a sustainable energy future, wind
                 generators, and solar panels are playing a crucial role. They
                 offer a prominent solution to combat climate change. GEP
@@ -43,7 +43,7 @@ const RenewableEnergyLi = () => {
                 to generate energy. These renewable resources are also gaining
                 momentum because:
               </p>
-              <div className="mt-8 font-poppins text-lg text-black">
+              <div className="mt-4 md:mt-6 lg:mt-8 font-poppins text-sm md:text-base lg:text-lg leading-5 lg:leading-7 text-[#3c3c3c]">
                 <ul className=" flex flex-col gap-2">
                   <div className="	">
                     <li className="flex gap-3 align-middle">
@@ -52,12 +52,21 @@ const RenewableEnergyLi = () => {
                         src={BulletPointone}
                         alt="location"
                       />
-                    <p>  Wind power will never run out. Due to this governments are investing in such renewable energy sources, as <a className="text-[#D3CA28] font-bold underline" href="https://www.edfenergy.com/energywise/renewable-energy-sources#:~:text=Renewable%20energy%20sources%20make%20up,to%20reach%2030%25%20by%202024.">26%</a> of the electricity is being made by these clean energy
-                      sources.
+                      <p>
+                        {" "}
+                        Wind power will never run out. Due to this governments
+                        are investing in such renewable energy sources, as{" "}
+                        <a
+                          className="text-[#D3CA28] font-bold underline"
+                          href="https://www.edfenergy.com/energywise/renewable-energy-sources#:~:text=Renewable%20energy%20sources%20make%20up,to%20reach%2030%25%20by%202024."
+                        >
+                          26%
+                        </a>{" "}
+                        of the electricity is being made by these clean energy
+                        sources.
                       </p>
                     </li>
-                  
-                  
+
                     <br />
                   </div>
                 </ul>
@@ -69,9 +78,12 @@ const RenewableEnergyLi = () => {
                         src={BulletPointtwo}
                         alt="location"
                       />
-                     <p> No emission of greenhouse gasses as wind turbines do not
-                      require fossil fuels to work, energy is produced with no
-                      harmful impact to the environment.{" "}</p>
+                      <p>
+                        {" "}
+                        No emission of greenhouse gasses as wind turbines do not
+                        require fossil fuels to work, energy is produced with no
+                        harmful impact to the environment.{" "}
+                      </p>
                     </li>
                     <br />
                   </div>
@@ -84,9 +96,18 @@ const RenewableEnergyLi = () => {
                         src={BulletPointhree}
                         alt="location"
                       />
-                     <p> Offshore wind turbines are energy efficient and can
-                      generate <a className="text-[#D3CA28] font-bold underline" href="https://www.power-and-beyond.com/wind-power-could-meet-entire-worlds-electricity-needs-18-times-over-a-899359/#:~:text=Worldwide%2C%20offshore%20wind%20has%20the,to%20the%20International%20Energy%20Agency">18 times</a> more wind energy than the current
-                      demand.</p>
+                      <p>
+                        {" "}
+                        Offshore wind turbines are energy efficient and can
+                        generate{" "}
+                        <a
+                          className="text-[#D3CA28] font-bold underline"
+                          href="https://www.power-and-beyond.com/wind-power-could-meet-entire-worlds-electricity-needs-18-times-over-a-899359/#:~:text=Worldwide%2C%20offshore%20wind%20has%20the,to%20the%20International%20Energy%20Agency"
+                        >
+                          18 times
+                        </a>{" "}
+                        more wind energy than the current demand.
+                      </p>
                     </li>
                     <br />
                   </div>
