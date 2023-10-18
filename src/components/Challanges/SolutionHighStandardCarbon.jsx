@@ -15,15 +15,15 @@ function SolutionHighStandardCarbon() {
         <div className="absolute "></div>
 
         <div className="flex flex-col justify-center items-center h-full overflow-hidden xs:py-[20px] lg:py-[50px]">
-          <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#F7F5F2] font-bold leading-9	font-montserrat">
+          <h2 className="text-[#f7f5f2] text-center text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 mb-4 md:mb-6 lg:mb-8 font-montserrat font-bold">
             Solution
-          </h6>
+          </h2>
           <div className="">
             <div className="container">
-              <h2 className="text-[#BAB220] text-center text-2xl md:text-3xl lg:text-4xl leading-10 mb-6 font-montserrat font-bold pb-6">
+              <h2 className="text-[#bab220] text-center text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 mb-4 md:mb-6 lg:mb-8 font-montserrat font-bold ">
                 High Standard Carbon Offsets
               </h2>
-              <div className="font-poppins text-center text-sm md:text-base lg:text-lg leading-7 font-normal text-[#F7F5F2]">
+              <div className="font-poppins text-center text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal text-[#F7F5F2]">
                 <p className="">
                   Mitigating climate change and addressing deforestation are
                   crucial challenges in the pursuit of a climate-resilient
@@ -31,11 +31,11 @@ function SolutionHighStandardCarbon() {
                   forests has the capacity to diminish the net carbon footprint,
                   hence playing a significant role in combating the
                   ever-increasing threat of global warming. This will also
-                  promote net carbon sequestration in the biosphere as a way to
+                  promote carbon sequestration in the biosphere as a way to
                   capture and store carbon dioxide, resulting in the
                   rejuvenation of habitats that have been compromised. All in
                   all, afforestation is a proposition where both the parties
-                  benefit from the outcome, safeguarding the future generation
+                  benefit from the outcome, safeguarding the future generations'
                   interests.
                 </p>
                 <p className="mt-4">

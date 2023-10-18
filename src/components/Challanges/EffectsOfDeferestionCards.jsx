@@ -9,14 +9,14 @@ function EffectsOfDeferestionCards() {
         <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] py-[20px] md:py-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl leading-10  font-montserrat  font-bold text-[#BAB220] pb-6">
+              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat  font-bold text-[#BAB220] mb-4 md:mb-6 lg:mb-8">
                 Effects of Deforestation
               </h2>
-              <p className="text-[#3C3C3C] text-sm md:text-base lg:text-lg leading-7 font-normal font-poppins ">
+              <p className="text-[#3C3C3C] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins ">
                 Here is how deforestation negatively affects us and our
                 surroundings:
               </p>
-              <div className="mt-14 font-poppins text-sm md:text-base lg:text-lg font-normal leading-7 text-[#3c3c3c]">
+              <div className="mt-8 md:mt-12 lg:mt-14 font-poppins text-sm md:text-base lg:text-lg font-normal leading-5 lg:leading-7 text-[#3c3c3c]">
                 <ul className=" flex flex-col gap-2">
                   <div className="	">
                     <li className="flex gap-3 align-middle">
@@ -25,7 +25,7 @@ function EffectsOfDeferestionCards() {
                         src={BulletPointarrow}
                         alt="location"
                       />
-                      <h6 className="uppercase leading-9  text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 lg:leading-9  text-[#316D69] font-bold	font-montserrat">
                         Climate Change:
                       </h6>
                     </li>
@@ -47,7 +47,7 @@ function EffectsOfDeferestionCards() {
                         src={BulletPointarrow}
                         alt="location"
                       />
-                      <h6 className="uppercase leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Soil Erosion:
                       </h6>
                     </li>
@@ -69,7 +69,7 @@ function EffectsOfDeferestionCards() {
                         src={BulletPointarrow}
                         alt="location"
                       />
-                      <h6 className="uppercase leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Ecological Disturbance:
                       </h6>
                     </li>
@@ -91,7 +91,7 @@ function EffectsOfDeferestionCards() {
                         src={BulletPointarrow}
                         alt="location"
                       />
-                      <h6 className="uppercase leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Impact on Water Cycle:
                       </h6>
                     </li>
@@ -113,7 +113,7 @@ function EffectsOfDeferestionCards() {
                         src={BulletPointarrow}
                         alt="location"
                       />
-                      <h6 className="uppercase leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Loss of Carbon Sinks :
                       </h6>
                     </li>
@@ -136,14 +136,14 @@ function EffectsOfDeferestionCards() {
                         src={BulletPointarrow}
                         alt="location"
                       />
-                      <h6 className="uppercase leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Social Impact:
                       </h6>
                     </li>
                     <li className=" pl-9 ">
                       <p>
                         Deforestation has a direct impact on the local
-                        inhabitants, and increased conflicts over natural
+                        inhabitants, and increases conflicts over natural
                         resources.
                       </p>
                     </li>

@@ -5,10 +5,13 @@ function DeforestationClimate() {
       <div className="flex flex-col justify-center items-center h-full overflow-hidden xs:py-[20px] lg:py-[50px]">
         <div className="py-8 ">
           <div className="text-left lg:text-center container ">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl mb-6 font-montserrat leading-10  font-bold text-[#316D69] pb-6">
+            <h2 className="text-3xl md:text-3xl lg:text-4xl font-montserrat leading-7 lg:leading-10  font-bold text-[#bab220] mb-4 md:mb-6 lg:mb-8">
+              Challenges:
+            </h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-montserrat leading-7 lg:leading-10  font-bold text-[#316D69] mb-4 md:mb-6 lg:mb-8">
               Deforestation & Climate Change
             </h2>
-            <div className="font-poppins text-sm md:text-base lg:text-lg font-normal leading-7 text-[#3c3c3c]">
+            <div className="font-poppins text-sm md:text-base lg:text-lg font-normal leading-5 lg:leading-7 text-[#3c3c3c]">
               <p className=" ">
                 <span className="text-[#D3CA28] font-bold">
                   {" "}

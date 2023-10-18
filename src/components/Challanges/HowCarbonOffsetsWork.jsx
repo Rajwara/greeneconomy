@@ -12,12 +12,12 @@ function HowCarbonOffsetsWork() {
   return (
     <div className="relative">
       <div>
-        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  py-[20px] md:py-[50px] mt-10">
+        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  py-[20px] md:py-[50px] mt-4 md:mt-8 lg:mt-10">
           <div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl leading-10 mb-10 font-montserrat  font-bold text-[#316D69] text-center">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 mb-4 md:mb-6 lg:mb-8 font-montserrat  font-bold text-[#316D69] text-center">
               How Carbon Offsets Work
             </h2>
-            <div className="text-sm md:text-base lg:text-lg  leading-7 text-center 2xl:pb-[15px] pl-[30px] font-poppins xl:w-4/5 mx-auto ">
+            <div className="text-sm md:text-base lg:text-lg  leading-5 lg:leading-7 text-center 2xl:pb-[15px] lg:pl-[30px] font-poppins xl:w-4/5 mx-auto ">
               <p>
                 Carbon offsetting means that businesses and individuals extract
                 the same amount of carbon from the atmosphere that they produce,
@@ -38,11 +38,11 @@ function HowCarbonOffsetsWork() {
           </div>
 
           <div className="grid grid-cols-1 lg:gap-x-[50px] lg:grid-cols-2 xl:grid-cols-2 gap-2 ">
-            <div className=" text-left font-poppins text-sm md:text-base lg:text-lg leading-7  text-[#3C3C3C]  flex flex-col justify-center h-full grid-cols-8">
-              <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-9	font-montserrat pb-4">
+            <div className=" text-left font-poppins text-sm md:text-base lg:text-lg leading-5 lg:leading-7  text-[#3C3C3C]  flex flex-col justify-center h-full grid-cols-8">
+              <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat pb-4">
                 Now, how do these carbon offset projects work?
               </h6>
-              <p className=" pl-[30px]  text-lg ">
+              <p className=" pl-[30px]  ">
                 When an organization buys carbon credit, they compensate for
                 their own emissions or offset their carbon footprint. By buying
                 a carbon offset, they are actually paying to have equivalent
