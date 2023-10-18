@@ -4,10 +4,10 @@ const RethinkingFossilFuels = () => {
   return (
     <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] pb-10 mt-10">
       <div className=" ">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl mb-6 font-montserrat leading-10  font-bold text-[#bab220]">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 lg:mb-8 font-montserrat leading-7 lg:leading-10  font-bold text-[#bab220]">
           Rethinking Fossil Fuels With Renewables
         </h2>
-        <p className="mt-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-7 text-[#3c3c3c]">
+        <p className=" text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c]">
           To mitigate climate change, it is essential to transition to clean and
           renewable energy, while phasing out fossil fuels.
         </p>

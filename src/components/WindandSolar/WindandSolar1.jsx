@@ -2,13 +2,13 @@ import React from "react";
 
 const WindandSolar1 = () => {
   return (
-    <div className="flex flex-col justify-center text-center items-center  mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] pb-10">
+    <div className="flex flex-col justify-center text-center items-center  mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] pb-10">
       <div className="text-center flex flex-col items-center">
-        <h2 className="text-[#316D69] mb-8 leading-10  font-montserrat font-bold text-2xl md:text-3xl lg:text-4xl ">
+        <h2 className="text-[#316D69] mb-4 md:mb-6 lg:mb-8 leading-7 lg:leading-10  font-montserrat font-bold text-2xl md:text-3xl lg:text-4xl ">
           Wind and
           <span className="text-[#bab220]"> Solar</span>
         </h2>
-        <div className="text-sm md:text-base lg:text-lg font-normal  text-[#3c3c3c] font-poppins leading-7  w-4/5">
+        <div className="text-sm md:text-base lg:text-lg font-normal  text-[#3c3c3c] font-poppins leading-5 lg:leading-7  lg:w-4/5">
           <p className="mt-0">
             Due to their potential for making a positive impact, wind and solar
             energy have started becoming more popular. Both solar and wind
