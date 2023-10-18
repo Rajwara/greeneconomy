@@ -3,21 +3,21 @@ import StatisticsValidate from "../../../src/images/How-Statistics-Validate-Thes
 
 const HowStatisticsValidate = () => {
   return (
-    <div className="container-fluid pt-[80px] pb-[100px]  bg-[#f7f5f2] dark:bg-gray-800 py-26  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+    <div className="container-fluid pt-[40px] md:pt-[60px] lg:pt-[80px] pb-[100px]  bg-[#f7f5f2] dark:bg-gray-800 py-26  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
       <div className="relative">
         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center">
           <div className="ml-auto lg:col-start-2 ">
-            <h2 className="mt-2 text-2xl ma:text-3xl lg:text-4xl font-bold leading-10 font-montserrat tracking-normal text-[#3c3c3c] dark:text-white sm:text-3xl sm:leading-9">
+            <h2 className="mt-2 text-2xl ma:text-3xl lg:text-4xl font-bold leading-7 lg:leading-10 font-montserrat tracking-normal text-[#3c3c3c] dark:text-white sm:text-3xl sm:leading-9">
               How Statistics Validate
               <span className="text-[#bab220]"> These Facts?</span>
             </h2>
-            <p className="mt-4 text-lg leading-7 font-normal font-poppins text-[#3c3c3c] dark:text-gray-300">
+            <p className="mt-4 text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins text-[#3c3c3c] dark:text-gray-300">
               Nature-based solutions represent more than just a concept, they
               are grounded in compelling statistics. Here’s how numbers confirm
               the importance of these nature-based assets:
             </p>
             <div>
-              <h6 className="mt-6 text-2xl font-bold font-montserrat leading-7 tracking-normal text-[#316D69]">
+              <h6 className="mt-6 text-lg md:text-xl lg:text-2xl font-bold font-montserrat leading-7 lg:leading-9 tracking-normal text-[#316D69]">
                 Sustainable Forestry
               </h6>
 
@@ -37,7 +37,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-lg font-normal font-poppins leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
                       Sustainable forestry practices can offset nearly{" "}
                       <a
                         className="underline font-bold text-[#bab220]"
@@ -65,7 +65,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-lg font-normal font-poppins leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
                       Forests cover{" "}
                       <a
                         className="underline font-bold text-[#bab220]"
@@ -75,8 +75,7 @@ const HowStatisticsValidate = () => {
                         31%
                       </a>{" "}
                       of the Earth’s land area, containing more than 80% of the
-                      world's terrestrial biodiversity that stores more carbon
-                      than the entire atmosphere.
+                      world's terrestrial biodiversity.
                     </span>
                   </div>
                 </li>
@@ -95,7 +94,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-base font-normal font-poppins leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
                       Sustainable forestry can generate jobs for at least{" "}
                       <a
                         className="underline font-bold text-[#bab220]"
@@ -111,7 +110,7 @@ const HowStatisticsValidate = () => {
             </div>
 
             <div>
-              <h6 className="mt-6 text-2xl font-bold font-montserrat leading-7 tracking-normal text-[#316D69]">
+              <h6 className="mt-6 text-lg md:text-xl lg:text-2xl font-bold font-montserrat leading-7 lg:leading-9 tracking-normal text-[#316D69]">
                 Blue Carbon
               </h6>
 
@@ -131,7 +130,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-lg font-normal font-poppins leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
                       Mangroves and coastal wetlands annually sequester carbon
                       at a rate{" "}
                       <a
@@ -159,15 +158,15 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-lg font-normal font-poppins leading-7 text-[#3c3c3c] dark:text-gray-200">
-                      Though seagrass covers{" "}
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
+                      Though seagrass cover only{" "}
                       <a
                         href="https://www.padi.com/seagrass-grow#:~:text=Seagrasses%20occupy%200.1%25%20of%20the,of%20life%20in%20our%20oceans"
                         className="underline font-bold text-[#bab220]"
                       >
                         0.1%
                       </a>{" "}
-                      of the world's seafloor, but stores{" "}
+                      of the world's seafloor, they store{" "}
                       <a
                         className="underline font-bold text-[#bab220]"
                         href="https://coast.noaa.gov/states/fast-facts/blue-carbon.html#:~:text=11%20Percent%20of%20Buried%20Carbon&text=Seagrass%20meadows%20account%20for%20just,carbon%20buried%20in%20the%20ocean"
@@ -182,7 +181,7 @@ const HowStatisticsValidate = () => {
             </div>
 
             <div>
-              <h6 className="mt-6 text-2xl font-bold font-montserrat leading-7 tracking-normal text-[#316D69]">
+              <h6 className="mt-6 text-lg md:text-xl lg:text-2xl font-bold font-montserrat leading-7 lg:leading-9 tracking-normal text-[#316D69]">
                 Climate Smart Agriculture
               </h6>
 
@@ -202,7 +201,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-lg font-normal font-poppins leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
                       In 2018, emissions from agriculture, and associated land
                       use comprised{" "}
                       <a
@@ -231,7 +230,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-lg font-normal font-poppins leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
                       According to{" "}
                       <a
                         href="https://www.weforum.org/"
@@ -261,7 +260,7 @@ const HowStatisticsValidate = () => {
               </ul>
             </div>
           </div>
-          <div className="">
+          <div className="mt-4 md:mt-0 lg:mt-0">
             <img
               className="w-full h-full rounded-lg  "
               src={StatisticsValidate}
