@@ -258,7 +258,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/forestry"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat  text-base py-2 pl-6 pr-4 sm:pr-0 ${
                         activeLink === "Forestry"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -269,13 +269,13 @@ const Navbar = () => {
                         setActiveTopLink("Services");
                       }}
                     >
-                      Forestry
+                      1. Forestry
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/blue-carbon"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat  text-base py-2 pl-6 pr-4 sm:pr-0 ${
                         activeLink === "BlueCarbon"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -286,13 +286,13 @@ const Navbar = () => {
                         setActiveTopLink("Services");
                       }}
                     >
-                      Blue Carbon
+                      2. Blue Carbon
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/agriculture"
-                      className={`block font-montserrat text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat text-base border-b-2   rounded-none py-2 pl-6 pr-4 sm:pr-0 ${
                         activeLink === "Agriculture"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -303,13 +303,13 @@ const Navbar = () => {
                         setActiveTopLink("Services");
                       }}
                     >
-                      Agriculture
+                      3. Agriculture
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/wind-and-solar"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat border-b-2   rounded-none  text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "WindandSolar"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -327,7 +327,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/anaerobic-digestion"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat border-b-2   rounded-none  text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "AnaerobicDigestion"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
