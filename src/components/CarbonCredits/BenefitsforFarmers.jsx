@@ -7,7 +7,7 @@ const BenefitsforFarmers = () => {
       <div>
         <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] py-[20px] md:py-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
-            <div className="pb-[20px] flex flex-col justify-center items-center h-full">
+            <div className="pb-[20px] hidden md:hidden lg:block xl:block flex-col  justify-center items-center h-full">
               <div className=" container flex  items-center">
                 <img
                   className=" mx-auto "
@@ -16,13 +16,13 @@ const BenefitsforFarmers = () => {
                 ></img>
               </div>
             </div>
-            <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl  font-montserrat leading-10 font-bold text-[#316D69] pb-6">
+            <div className="container text-white  flex flex-col  justify-center  h-full">
+              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl  font-montserrat leading-7 lg:leading-10 font-bold text-[#316D69] mb-4 md:mb-6 lg:mb-8">
                 Benefits for
                 <span className="text-[#3c3c3c]"> Farmers</span>
               </h2>
 
-              <div className="mt-8 font-poppins text-sm md:text-base lg:text-lg font-normal leading-7  text-[#3c3c3c]">
+              <div className="mt-4 md:mt-6 lg:mt-8 font-poppins text-sm md:text-base lg:text-lg font-normal leading-5 lg:leading-7  text-[#3c3c3c]">
                 <ul className=" flex flex-col gap-2">
                   <div className="	">
                     <li className="flex gap-3 align-middle">
@@ -31,7 +31,7 @@ const BenefitsforFarmers = () => {
                           1
                         </span>
                       </div>
-                      <h6 className="uppercase  text-[#316D69] font-bold leading-9	font-montserrat">
+                      <h6 className="uppercase  text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat">
                         Higher quality soil:
                       </h6>
                     </li>
@@ -53,7 +53,7 @@ const BenefitsforFarmers = () => {
                           2
                         </span>
                       </div>
-                      <h6 className="uppercase leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Lower input costs:
                       </h6>
                     </li>
@@ -75,7 +75,7 @@ const BenefitsforFarmers = () => {
                           3
                         </span>
                       </div>
-                      <h6 className="uppercase leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Higher profits in the long term:
                       </h6>
                     </li>
@@ -97,7 +97,7 @@ const BenefitsforFarmers = () => {
                           4
                         </span>
                       </div>
-                      <h6 className="uppercase leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Access to strong community and knowledge:
                       </h6>
                     </li>
@@ -111,6 +111,15 @@ const BenefitsforFarmers = () => {
                     <br />
                   </div>
                 </ul>
+              </div>
+            </div>
+            <div className="pb-[20px] lg:hidden flex flex-col  justify-center items-center h-full">
+              <div className=" container flex  items-center">
+                <img
+                  className=" mx-auto "
+                  src={EffectsofDeforestation}
+                  alt="EffectsofDeforestation"
+                ></img>
               </div>
             </div>
           </div>
