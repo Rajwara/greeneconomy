@@ -16,15 +16,16 @@ const Navbar = () => {
 
   const handleLinkClick = (linkText) => {
     setActiveLink(linkText);
-    // Close the menu when a link is clicked
-    setMenuOpen(false);
-
+    // Close the menu when a link is clicked, except for "About Us" and "Services" in mobile view
+    if (linkText !== "About Us" && linkText !== "Services") {
+      setMenuOpen(false);
+    }
     if (linkText !== "About Us") {
       // Change the color of "About Us" when a different link is clicked
       setActiveTopLink("Other");
     }
     if (linkText !== "Services") {
-      // Change the color of "About Us" when a different link is clicked
+      // Change the color of "Services" when a different link is clicked
       setActiveTopLink("Other");
     }
   };
@@ -46,6 +47,7 @@ const Navbar = () => {
       return updatedDropdowns;
     });
   };
+
   // Function to close a specific dropdown
   const closeDropdown = (dropdownId) => {
     setDropdowns((prevState) => ({
@@ -253,22 +255,6 @@ const Navbar = () => {
                       Nature Based Assets
                     </Link>
                   </li>
-                  {/* <li className=" pl-3">
-                    <Link
-                      to="/carbon-trading"
-                      className={`block font-montserrat  text-base py-2  pr-4  sm:pr-0 ${
-                        activeLink === "CarbonCredits"
-                          ? "text-[#316D69] font-bold"
-                          : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
-                      onClick={() => {
-                        handleLinkClick("CarbonCredits");
-                        closeDropdown("dropdownNavbarLink2");
-                      }}
-                    >
-                      Carbon Trading
-                    </Link>
-                  </li> */}
                   <li>
                     <Link
                       to="/forestry"
@@ -276,15 +262,14 @@ const Navbar = () => {
                         activeLink === "Forestry"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
+                      } hover:text-[#316d69] rounded `}
                       onClick={() => {
                         handleLinkClick("Forestry");
                         closeDropdown("dropdownNavbarLink2");
                         setActiveTopLink("Services");
                       }}
                     >
-                      <span className="text-[#3c3c3c] font-normal">1. </span>
-                      Forestry
+                      1. Forestry
                     </Link>
                   </li>
                   <li>
@@ -301,14 +286,13 @@ const Navbar = () => {
                         setActiveTopLink("Services");
                       }}
                     >
-                      <span className="text-[#3c3c3c] font-normal">2. </span>
-                      Blue Carbon
+                      2. Blue Carbon
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/agriculture"
-                      className={`block font-montserrat border-b-2 rounded-none  text-base py-2 pl-6 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat text-base border-b-2   rounded-none py-2 pl-6 pr-4 sm:pr-0 ${
                         activeLink === "Agriculture"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -319,14 +303,13 @@ const Navbar = () => {
                         setActiveTopLink("Services");
                       }}
                     >
-                      <span className="text-[#3c3c3c] font-normal">3. </span>
-                      Agriculture
+                      3. Agriculture
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/wind-and-solar"
-                      className={`block font-montserrat  text-base border-b-2  rounded-none py-2 pl-3 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat border-b-2   rounded-none  text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "WindandSolar"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -344,7 +327,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/anaerobic-digestion"
-                      className={`block font-montserrat  text-base py-2 pl-3 border-b-2  rounded-none pr-4 sm:pr-0 ${
+                      className={`block font-montserrat border-b-2   rounded-none  text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "AnaerobicDigestion"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
