@@ -3,13 +3,13 @@ import Nature from "../../../src/images/Pioneering-Initiatives-in-Carbon-Trading
 
 const PioneeringInitiatives = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]  py-16 px-[30px] md:px-[60px] font-roboto lg:px-[80px] xl:px-[100px]">
+    <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]  mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px] px-[30px] md:px-[60px] font-roboto lg:px-[80px] xl:px-[100px]">
       <div className="container text-left text-white flex flex-col justify-center  h-full">
-        <h2 className=" mb-8  font-montserrat text-[#316D69] text-2xl md:text-3xl lg:text-4xl leading-10 font-bold ">
+        <h2 className=" mb-4 md:mb-6 lg:mb-8  font-montserrat text-[#316D69] text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-bold ">
           Pioneering Initiatives in
           <span className="text-[#BAB220]"> Carbon Trading</span>
         </h2>
-        <div className="text-[#3C3C3C] font-poppins text-sm md:text-base lg:text-lg font-normal leading-7">
+        <div className="text-[#3C3C3C] font-poppins text-sm md:text-base lg:text-lg font-normal leading-5 lg:leading-7">
           <p className="">
             Green Economy Partnership specializes in the dynamics of carbon
             trading. Carbon trading is a process that transforms carbon dioxide

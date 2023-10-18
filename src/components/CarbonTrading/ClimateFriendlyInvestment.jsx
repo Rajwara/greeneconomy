@@ -4,11 +4,11 @@ const ClimateFriendlyInvestment = () => {
   return (
     <div className="flex flex-col flex-wrap bg-[#F7F5F2]  justify-center text-center px-[30px] md:px-[60px] font-roboto lg:px-[80px] xl:px-[100px] pt-[50px] pb-[100px]">
       <div className="flex flex-col">
-        <h2 className="mb-4  text-[#316D69] font-montserrat text-2xl md:text-3xl lg:text-4xl font-bold leading-10 ">
+        <h2 className="mb-4 md:mb-6 lg:mb-8  text-[#316D69] font-montserrat text-2xl md:text-3xl lg:text-4xl font-bold leading-7 lg:leading-10 ">
           <span className="text-[#BAB220]">Climate-Friendly </span> Investment
         </h2>
-        <div className="text-[#3C3C3C] text-sm md:text-base lg:text-lg font-normal font-poppins leading-7">
-          <p className="mt-4">
+        <div className="text-[#3C3C3C] text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7">
+          <p className="">
             In{" "}
             <a
               href="https://www.imf.org/en/Blogs/Articles/2022/06/30/greenhouse-emissions-rise-to-record-erasing-drop-during-pandemic#:~:text=The%20latest%20data%20from%20the,Dashboard%20provides%20a%20worrying%20picture.&text=Emissions%20of%20carbon%20dioxide%20and,mobility%20and%20hampered%20economic%20activity"
