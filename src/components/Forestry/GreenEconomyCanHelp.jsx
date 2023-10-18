@@ -52,9 +52,9 @@ const GreenEconomyCanHelp = () => {
     },
   ];
   return (
-    <div className="flex justify-center gap-8 flex-col px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] mb-[50px]">
+    <div className="flex justify-center gap-8 flex-col px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
       <div className="heading">
-        <h2 className="text-[#316D69] text-2xl mb-8 md:text-3xl lg:text-4xl leading-10  font-montserrat font-bold">
+        <h2 className="text-[#316D69] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
           GEP Paves the Way for Various{" "}
           <span className="text-[#bab220]"> Projects to Flourish</span>
         </h2>
@@ -64,7 +64,7 @@ const GreenEconomyCanHelp = () => {
         {data.map((item) => (
           <div className="cards-text rounded-lg" key={item.id}>
             <img src={item.img} alt="" className="w-full h-full rounded-lg" />
-            <p className="text-[#f7f5f2] bg-[#316D69] p-2 text-sm md:text-base lg:text-lg leading-7 font-normal font-poppins relative bottom-[80px]">
+            <p className="text-[#f7f5f2] bg-[#316D69] p-2 text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins relative bottom-[80px]">
               {item.description}
             </p>
           </div>
