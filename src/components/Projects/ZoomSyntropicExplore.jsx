@@ -5,10 +5,10 @@ const ZoomSyntropicExplore = () => {
   return (
     <section>
       <div className="container-fluid  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mx-auto bg-[#f7f5f2]  dark:bg-gray-800">
-        <div className="flex flex-wrap items-center align-middle pt-20 ">
+        <div className="flex flex-wrap items-center align-middle pt-20 pb-8">
           <div className="w-full lg:w-1/2">
-            <div className="pb-12 mb-12 border-b lg:mb-0 lg:pb-0 lg:border-b-0">
-              <h2 className="mb-4 text-2xl md:text-3xl font-bold lg:text-4xl leading-10 font-montserrat font-heading text-[#316D69] dark:text-white">
+            <div className=" border-b  lg:border-b-0">
+              <h2 className="mb-4 text-2xl md:text-3xl font-bold lg:text-4xl leading-7 lg:leading-10 font-montserrat font-heading text-[#316D69] dark:text-white">
                 <p className="text-[#bab220]">
                   <h2>The Goal of Our Native Forest </h2>
                 </p>{" "}
@@ -20,60 +20,60 @@ const ZoomSyntropicExplore = () => {
             </div>
           </div>
           <div className="w-full lg:w-1/2">
-            <ul className="space-y-4">
-              <li className="flex items-center ">
-                <div className="px-4">
-                  <span className="flex items-center justify-center w-10 h-10 mx-auto text-sm md:text-base lg:text-lg  leading-7  font-bold text-[#bab220] rounded-full font-heading border-2 border-[#BAB220]">
+            <ul className="space-y-4 leading-5 lg:leading-7 text-sm md:text-base lg:text-lg text-[#3c3c3c] font-normal font-poppins">
+              <li className="flex   ">
+                <div className="px-4 ">
+                  <span className="flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10 mx-auto   font-bold text-[#bab220] rounded-full  border-2 border-[#BAB220]">
                     1
                   </span>
                 </div>
 
-                <p className="leading-7 text-sm md:text-base lg:text-lg  text-[#3c3c3c] font-normal font-poppins dark:text-gray-300">
+                <p className="  dark:text-gray-300">
                   Support people from climate-vulnerable communities.
                 </p>
               </li>
-              <li className="flex items-center ">
-                <div className="px-4">
-                  <span className="flex items-center justify-center w-10 h-10 mx-auto text-sm md:text-base lg:text-lg leading-7 font-bold text-[#bab220] rounded-full font-heading border-2 border-[#BAB220]">
+              <li className="flex  ">
+                <div className="px-4 ">
+                  <span className="flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10 mx-auto  font-bold text-[#bab220] rounded-full border-2 border-[#BAB220]">
                     2
                   </span>
                 </div>
 
-                <p className="leading-7 text-sm md:text-base lg:text-lg  text-[#3c3c3c] font-normal font-poppins dark:text-gray-300">
+                <p className="   dark:text-gray-300">
                   Ensure that major carbon sinks; mangroves, seagrasses, and
                   tidal marshes are protected.
                 </p>
               </li>
-              <li className="flex items-center ">
-                <div className="px-4">
-                  <span className="flex items-center justify-center w-10 h-10 mx-auto text-sm md:text-base lg:text-lg leading-7 font-bold text-[#bab220] rounded-full font-heading border-2 border-[#BAB220]">
+              <li className="flex  ">
+                <div className="px-4 ">
+                  <span className="flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10 mx-auto  font-bold text-[#bab220] rounded-full  border-2 border-[#BAB220]">
                     3
                   </span>
                 </div>
 
-                <p className="leading-7 text-sm md:text-base lg:text-lg  text-[#3c3c3c] font-normal font-poppins dark:text-gray-300">
+                <p className=" dark:text-gray-300">
                   Fight deforestation globally.
                 </p>
               </li>
-              <li className="flex items-center ">
-                <div className="px-4">
-                  <span className="flex items-center justify-center w-10 h-10 mx-auto text-sm md:text-base lg:text-lg leading-7 font-bold text-[#bab220] rounded-full font-heading border-2 border-[#BAB220]">
+              <li className="flex ">
+                <div className="px-4 ">
+                  <span className="flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10 mx-auto font-bold text-[#bab220] rounded-full  border-2 border-[#BAB220]">
                     4
                   </span>
                 </div>
 
-                <p className="leading-7 text-sm md:text-base lg:text-lg  text-[#3c3c3c] font-normal font-poppins dark:text-gray-300">
+                <p className=" dark:text-gray-300">
                   Secure ecosystems that contain irrecoverable carbon.
                 </p>
               </li>
-              <li className="flex items-center">
-                <div className="px-4">
-                  <span className="flex items-center justify-center w-10 h-10 leading-7 mx-auto text-sm md:text-base lg:text-lg  font-bold text-[#bab220] rounded-full font-heading border-2 border-[#BAB220]">
+              <li className="flex ">
+                <div className="px-4 ">
+                  <span className="flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10  mx-auto   font-bold text-[#bab220] rounded-full  border-2 border-[#BAB220]">
                     5
                   </span>
                 </div>
 
-                <p className="leading-7 text-sm md:text-base lg:text-lg  text-[#3c3c3c] font-normal font-poppins dark:text-gray-300">
+                <p className=" dark:text-gray-300">
                   Help countries evaluate potential of nature to combat climate
                   change.
                 </p>
