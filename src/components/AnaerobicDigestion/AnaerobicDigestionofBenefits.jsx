@@ -3,14 +3,14 @@ import banner from "../../../src/images/anaerobic-benefits.png";
 
 const AnaerobicDigestionofBenefits = () => {
   return (
-    <div className="  py-12 text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[0px] ">
+    <div className="  text-[#3C3C3C] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
       <div className=" mx-auto">
         <div className="lg:flex lg:space-x-8 justify-center items-center gap-8">
           <div className="lg:w-1/2 mt-8 md:mt-0 mb-5">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl  text-[#316D69] leading-10  font-montserrat font-bold mb-8">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl  text-[#316D69] leading-7 lg:leading-10  font-montserrat font-bold mb-4 md:mb-6 lg:mb-8">
               Benefits of Anaerobic Digestion
             </h2>
-            <div className="mb-6 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 font-normal font-poppins">
+            <div className="mb-6 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins">
               <p className=" ">
                 In Anaerobic Digestion, biogas is produced which is a mixture of
                 methane and carbon dioxide. In addition, what we also get is a
@@ -19,8 +19,8 @@ const AnaerobicDigestionofBenefits = () => {
                 from the point of view of renewable energy sources.
               </p>
             </div>
-            <ul className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 font-normal font-poppins list-disc">
-              <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-9	font-montserrat mb-4">
+            <ul className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins list-disc">
+              <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat mb-4">
                 Here are a few benefits of anaerobic digestion:
               </h6>
               <li className="ml-8 mb-2">Energy independence</li>
@@ -32,7 +32,7 @@ const AnaerobicDigestionofBenefits = () => {
               <li className="ml-8 mb-2">Sustainable agriculture</li>
               <li className="ml-8 mb-2">Job Creation</li>
             </ul>
-            <div className="mb-3 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 font-normal font-poppins">
+            <div className="mb-3 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins">
               <p className=" ">
                 With{" "}
                 <a
