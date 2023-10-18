@@ -149,16 +149,16 @@ function FurtherDropdownContent() {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] mb-[100px]">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
       <Accordion open={open === 1}>
         <AccordionHeader
-          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-7 lg:leading-9"
           onClick={() => handleOpen(1)}
         >
           The Regulated Carbon Market
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
+          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7  font-poppins font-normal">
             The regulated carbon market, valued at approximately{" "}
             <a
               href="https://www.forest-trends.org/wp-content/uploads/2018/09/State-of-the-Voluntary-Carbon-Market-2007.pdf"
@@ -218,13 +218,13 @@ function FurtherDropdownContent() {
       </Accordion>
       <Accordion open={open === 2}>
         <AccordionHeader
-          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-7 lg:leading-9"
           onClick={() => handleOpen(2)}
         >
           Voluntary Carbon Market
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
+          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7  font-poppins font-normal">
             While the voluntary market is considerably smaller at{" "}
             <a
               href="https://www.washingtonpost.com/business/energy/why-carbon-offsets-dont-do-all-that-they-promise/2020/08/15/4480f11a-deb4-11ea-b4f1-25b762cdbbf4_story.html"
@@ -243,13 +243,13 @@ function FurtherDropdownContent() {
       </Accordion>
       <Accordion open={open === 3}>
         <AccordionHeader
-          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-7 lg:leading-9"
           onClick={() => handleOpen(3)}
         >
           Costs
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
+          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7  font-poppins font-normal">
             Revenue mechanisms for carbon reduction entail upfront costs that
             can be significant for smaller and medium operators aiming to access
             regulated markets. Meeting environmental additionality requirements
@@ -259,13 +259,13 @@ function FurtherDropdownContent() {
             substantial scale to offset these expenses and meet financial
             requirements.
           </p>
-          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 mt-4  font-poppins font-normal">
+          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-4  font-poppins font-normal">
             Working with us at Green Economy, we acknowledge the potential
             challenges posed by startup costs. Under the Clean Development
             Mechanism (CDM), typical transaction costs for regular-sized
             projects encompass:
           </p>
-          <ul className="flex flex-col text-[#3c3c3c] list-disc text-sm md:text-base lg:text-lg leading-7 ml-6 mt-4  font-poppins font-normal">
+          <ul className="flex flex-col text-[#3c3c3c] list-disc text-sm md:text-base lg:text-lg leading-5 lg:leading-7 ml-6 mt-4  font-poppins font-normal">
             <li>Project preparation</li>
             <li>Validation</li>
             <li>Registration fees</li>
@@ -273,7 +273,7 @@ function FurtherDropdownContent() {
             <li>Issuance fees</li>
             <li>Taxes </li>
           </ul>
-          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 mt-4  font-poppins font-normal">
+          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-4  font-poppins font-normal">
             Project-based carbon mechanisms highlight the need to consider
             revenue-generating opportunities early in a project.
           </p>
@@ -281,13 +281,13 @@ function FurtherDropdownContent() {
       </Accordion>
       <Accordion open={open === 4}>
         <AccordionHeader
-          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-7 lg:leading-9"
           onClick={() => handleOpen(4)}
         >
           Forestry Carbon as an Asset
         </AccordionHeader>
         <AccordionBody>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
+          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7  font-poppins font-normal">
             <p className="">
               The inclusion of forestry-based carbon credits, whether in
               Forest-Backed Bonds or other contexts, depends on the reliability
@@ -338,33 +338,18 @@ function FurtherDropdownContent() {
                 approval, certification, or issuance.
               </li>
             </ul>
-            {/* <p className="mt-4">
-              While the voluntary market is considerably smaller at{" "}
-              <a
-                href="https://www.washingtonpost.com/business/energy/why-carbon-offsets-dont-do-all-that-they-promise/2020/08/15/4480f11a-deb4-11ea-b4f1-25b762cdbbf4_story.html"
-                className="text-[#D3CA28] font-bold underline"
-              >
-                $100 million
-              </a>{" "}
-              compared to the regulated market, a larger share of its projects
-              is related to forestry. Over time, various methodologies have been
-              used, with the voluntary market's flexibility seen as a unique
-              asset. However, the increased number of offset providers in the
-              voluntary carbon market has raised worries about the environmental
-              credibility of certain voluntary carbon offsets.
-            </p> */}
           </div>
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 5}>
         <AccordionHeader
-          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-7 lg:leading-9"
           onClick={() => handleOpen(5)}
         >
           Leakage
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
+          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7  font-poppins font-normal">
             A significant aspect of designing forestry carbon projects is to
             prevent emissions reductions/ avoidance within the project's scope
             from causing emissions to rise elsewhere. Regulated markets address
@@ -380,19 +365,19 @@ function FurtherDropdownContent() {
       </Accordion>
       <Accordion open={open === 6}>
         <AccordionHeader
-          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-7 lg:leading-9"
           onClick={() => handleOpen(6)}
         >
           Quality Assurance
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
+          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7  font-poppins font-normal">
             Forestry carbon projects have faced extensive scrutiny from NGOs and
             civil society concerning issues like permanence and perceived
             support for less ecologically beneficial industrial plantations
             compared to natural forests.
           </p>
-          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
+          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7  font-poppins font-normal">
             Adhering to best practices in forestry project design can enhance
             credit appeal to buyers, boosting demand and reducing the risk of
             project failure. Potential buyers are willing to pay a premium for
@@ -408,13 +393,13 @@ function FurtherDropdownContent() {
       </Accordion>
       <Accordion open={open === 7}>
         <AccordionHeader
-          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-9"
+          className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-7 lg:leading-9"
           onClick={() => handleOpen(7)}
         >
           Ownership & Transfer
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal">
+          <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7  font-poppins font-normal">
             A lack of clearly defined ownership of forestry carbon rights,
             especially concerning local communities, continues to be a
             significant concern for NGOs. Considering that one of the primary

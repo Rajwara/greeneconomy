@@ -2,14 +2,14 @@ import React from "react";
 
 const ConservationConcession = () => {
   return (
-    <div className=" px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[50px] mb-[50px]">
+    <div className=" px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
       <div className="flex flex-col">
         <div className="conservationconcessions">
-          <h2 className="text-[#316D69] text-2xl mb-8 md:text-3xl lg:text-4xl leading-10 mt-4  font-montserrat font-bold">
+          <h2 className="text-[#316D69] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10   font-montserrat font-bold">
             Conservation
             <span className="text-[#bab220]"> Concessions </span>
           </h2>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 mt-4 font-poppins font-normal ">
+          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-4 font-poppins font-normal ">
             <p className="">
               The Conservation Concession is an innovative approach that
               reconciles the imperative need for resource preservation and
@@ -30,11 +30,11 @@ const ConservationConcession = () => {
           </div>
         </div>
         <div className="wwfheartofborneo">
-          <h2 className="text-[#316D69] text-2xl mb-6 md:text-3xl lg:text-4xl leading-10 mt-4 tracking-normal font-montserrat font-bold">
+          <h2 className="text-[#316D69] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10 mt-4 tracking-normal font-montserrat font-bold">
             Conservation Management:
             <span className="text-[#bab220]"> WWF Heart of Borneo</span>
           </h2>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 mt-4 font-poppins font-normal ">
+          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-4 font-poppins font-normal ">
             <p className="">
               The Heart of Borneo spans approximately
               <a
@@ -91,7 +91,7 @@ const ConservationConcession = () => {
               concessions provide:
             </p>
           </div>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 mt-4 font-poppins font-normal  ml-6">
+          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-4 font-poppins font-normal  ml-6">
             <p className=" mt-4  ">
               1. A stable source of funds for economic development, delivering
               regular, low-risk payments in a stable currency.
@@ -109,11 +109,11 @@ const ConservationConcession = () => {
           </div>
         </div>
         <div className="communityforestsandforestryassociations">
-          <h2 className="text-[#316D69] text-2xl mb-6 md:text-3xl lg:text-4xl leading-10 mt-4 tracking-normal font-montserrat font-bold">
+          <h2 className="text-[#316D69] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10 mt-4 tracking-normal font-montserrat font-bold">
             Community Forests and
             <span className="text-[#bab220]"> Forestry Associations </span>
           </h2>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 mt-4 font-poppins font-normal ">
+          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-4 font-poppins font-normal ">
             <p className="">
               Traditionally, governments owned the forests, but it is changing.
               Political and legal reforms are propelling the transfer of land
@@ -135,11 +135,11 @@ const ConservationConcession = () => {
           </div>
         </div>
         <div className="collaborativeventuresbetweenbusinessesandcommunities">
-          <h2 className="text-[#316D69] text-2xl mb-6 md:text-3xl lg:text-4xl leading-10 mt-4 tracking-normal font-montserrat font-bold">
+          <h2 className="text-[#316D69] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10 mt-4 tracking-normal font-montserrat font-bold">
             Collaborative Ventures Between
             <span className="text-[#bab220]"> Businesses and Communities</span>
           </h2>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 mt-4 font-poppins font-normal ">
+          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-4 font-poppins font-normal ">
             <p className=" ">
               When companies find it challenging to access essential raw
               materials, they often establish a diverse array of relationships
@@ -155,7 +155,7 @@ const ConservationConcession = () => {
               outgrower arrangements can be identified:
             </p>
           </div>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7 mt-4 font-poppins font-normal  ml-6">
+          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-4 font-poppins font-normal  ml-6">
             <p className=" mt-4  ">
               1. Collaborations in which growers assume primary responsibility
               for production, relying on companies for off-take agreements.
@@ -175,10 +175,10 @@ const ConservationConcession = () => {
             </p>
           </div>
           <ul className="flex flex-col mt-4">
-            <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-9	font-montserrat mb-2">
+            <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat mb-2">
               The primary advantages for companies typically include:
             </h6>
-            <ul className="flex flex-col mt-4  text-[#3c3c3c] text-sm md:text-base list-disc lg:text-lg leading-7 font-poppins font-normal">
+            <ul className="flex flex-col mt-4  text-[#3c3c3c] text-sm md:text-base list-disc lg:text-lg leading-5 lg:leading-7 font-poppins font-normal">
               <li className="ml-6">
                 Indirect cost savings, as they are not required to purchase
                 land.

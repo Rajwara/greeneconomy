@@ -2,19 +2,19 @@ import React from "react";
 
 const GlobalForestManagement = () => {
   return (
-    <div className=" px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[100px] mb-[50px]">
+    <div className=" px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
       <div className="flex flex-col  text-center items-center">
         {" "}
-        <h2 className="text-[#316D69] text-2xl mb-8 md:text-3xl lg:text-4xl leading-10  font-montserrat font-bold">
+        <h2 className="text-[#316D69] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
           Global Forest Management{" "}
           <span className="text-[#bab220]"> Breakdown </span>
         </h2>
-        <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-7  font-poppins font-normal w-4/5">
+        <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7  font-poppins font-normal md:w-4/5 lg:w-4/5">
           <p className="">
             Approximately,{" "}
             <a
               href="https://www.cifor.org/publications/pdf_files/reports/tenurereport_whoowns.pdf"
-              className="text-[#D3CA28] font-bold underline"
+              className="text-[#D3CA28] font-bold underline mx-1"
             >
               {" "}
               2.8 billion{" "}
@@ -41,7 +41,7 @@ const GlobalForestManagement = () => {
             Currently, managed forests account for about
             <a
               href="https://www.google.com/url?q=https://research.wri.org/gfr/forest-extent-indicators/forest-extent%23:~:text%3D(2022)%252C%2520https%253A%252F%252Fdoi,percent%2520are%2520unmanaged%2520natural%2520forests.&sa=D&source=docs&ust=1697121954468244&usg=AOvVaw3M1D4pFM6ng9y2obGc58IF"
-              className="text-[#D3CA28] font-bold underline"
+              className="text-[#D3CA28] font-bold underline mx-1"
             >
               {" "}
               41%
