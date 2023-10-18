@@ -35,19 +35,19 @@ function AnimatedCard() {
     <div className=" container_c animated_container mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] ">
       <Card
         color="#316D69"
-        title="Nature- Based Assets  "
+        title="Nature-Based Assets  "
         imageSrc={image1}
         description="The  Nature-Based Solutions utilize assets like sustainable forestry, blue carbon, and climate-smart agriculture for a sustainable future."
       />
       <Card
         color="#BAB220"
-        title="Renewable Energy"
+        title="Wind and Solar"
         imageSrc={image2}
         description="GEP promotes cost-effective wind and solar solutions as vital renewable energy sources in the fight against climate change. "
       />
       <Card
         color="#316D69"
-        title="Waste Management  "
+        title=" Anaerobic Digestion "
         imageSrc={image3}
         description="Anaerobic digestion is a sustainable process converting organic matter to efficient gas and nutrient-rich digestate, supporting waste management."
       />
