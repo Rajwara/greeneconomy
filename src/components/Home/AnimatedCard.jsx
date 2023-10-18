@@ -7,17 +7,17 @@ import image4 from "../../../src/images/Carbon-credits-Card.jpg";
 
 const Card = ({ color, title, imageSrc, description }) => {
   return (
-    <div className=" ">
-      <div className="card" style={{ "--clr": color }}>
+    <div className="">
+      <div className="card " style={{ "--clr": color }}>
         <div className="img-box ">
           <img src={imageSrc} alt={title} />
         </div>
         <div className="content">
-          <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-[#316D69] leading-10 font-montserrat font">
+          <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-[#316D69] leading-7 lg:leading-10 font-montserrat font">
             {title}
           </h2>
 
-          <p className="font-poppins text-sm md:text-base lg:text-lg leading-7 font-normal text-[#3c3c3c]">
+          <p className="font-poppins text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal text-[#3c3c3c]">
             {" "}
             {description}
           </p>

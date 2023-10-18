@@ -7,13 +7,13 @@ function AboutusHome() {
     <div>
       <div class="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4 mx-auto shadow-[none] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
         <div class=" justify-center align-middle ">
-          <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-9	font-montserrat">
+          <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat">
             About us
           </h6>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl mb-6 font-montserrat  leading-10 font-bold text-[#3c3c3c]">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 lg:mb-8 font-montserrat  leading-7 lg:leading-10 font-bold text-[#3c3c3c]">
             Green Economy Partnership: Going Green by 2050
           </h2>
-          <div className="font-poppins text-sm md:text-base lg:text-lg text-[#3c3c3c] font-normal leading-7">
+          <div className="font-poppins text-sm md:text-base lg:text-lg text-[#3c3c3c] font-normal leading-5 lg:leading-7">
             <p className=" ">
               Welcome to{" "}
               <span className="text-[#D3CA28] font-bold">
@@ -44,7 +44,7 @@ function AboutusHome() {
         <div class="">
           <img src={homeaboutus} alt="" />
         </div>
-        <div class=" font-poppins text-sm md:text-base lg:text-lg  leading-7">
+        <div class=" font-poppins text-sm md:text-base lg:text-lg  leading-5 lg:leading-7">
           <div className="flex-col align-middle gap-4">
             <AiOutlineCarryOut className="mt-1 text-[50px] border-2 rounded-full border-[#316D69] bg-[#316D69] hover:bg-[#f7f5f2] hover:text-[#316D69] text-[#f7f5f2] p-2" />
 
@@ -59,7 +59,7 @@ function AboutusHome() {
           <div className="flex-col align-middle gap-4">
             <AiOutlineCarryOut className="mt-1 text-[50px] border-2 rounded-full border-[#316D69] bg-[#316D69] hover:border-[#316D69] hover:bg-[#f7f5f2] hover:text-[#316D69] text-[#f7f5f2] p-2" />
 
-            <p className=" mt-4 leading-7 text-[#3c3c3c]">
+            <p className=" mt-4 leading-5 lg:leading-7 text-[#3c3c3c]">
               By investing in carbon offset projects, GEP helps individuals,
               organizations, and companies to play their part in preventing
               climate change by balancing out the carbon emissions and becoming
