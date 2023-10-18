@@ -3,7 +3,7 @@ import img1 from "../../../src/images/agriculture-significance.png";
 
 function AgricultureTwo() {
   return (
-    <section className="flex items-center bg-[#f7f5f2] flex-col-reverse lg:flex-row justify-center py-0 lg:py-16 px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+    <section className="flex items-center bg-[#f7f5f2] flex-col-reverse lg:flex-row justify-center pb-8 py-0 lg:py-16 px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
       {/* Left Column - Image */}
       <div className="lg:w-1/2 overflow-hidden rounded-lg shadow-2xl">
         <img
@@ -14,15 +14,15 @@ function AgricultureTwo() {
       </div>
 
       {/* Right Column - Heading and Paragraph */}
-      <div className="lg:w-1/2 px-8 md:px-10 lg:px-12 my-10 lg:my-0">
-        <h2 className=" mb-8 text-[#316D69] font-bold text-2xl md:text-3xl lg:text-4xl leading-10 font-montserrat">
+      <div className="lg:w-1/2   lg:px-12 my-10 lg:my-0">
+        <h2 className=" mb-4 md:mb-6 lg:mb-8 text-[#316D69] font-bold text-2xl md:text-3xl lg:text-4xl leading-5 lg:leading-7 lg:leading-10 font-montserrat">
           The Significance of{" "}
           <span className="text-[#bab220]">Agriculture</span>
         </h2>
-        <p className="font-normal text-[#3c3c3c] font-poppins leading-7 text-sm md:text-base lg:text-lg mb-4">
+        <p className="font-normal text-[#3c3c3c] font-poppins leading-5 lg:leading-7 text-sm md:text-base lg:text-lg mb-4">
           Agriculture holds pivotal importance for various reasons:
         </p>
-        <ul className="list-none list-inside text-[#3c3c3c] font-normal text-sm md:text-base lg:text-lg leading-7 mb-8 font-poppins">
+        <ul className="list-none list-inside text-[#3c3c3c] font-normal text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mb-4 md:mb-6 lg:mb-8 font-poppins">
           <li className=" mt-2">
             <span className="text-[#bab220] font-bold">1. Food Security: </span>
             It provides essential sustenance to nourish human life and sustain
