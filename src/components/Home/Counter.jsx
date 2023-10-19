@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Counter() {
   return (
-    <div className=" Conter flex bg-current w-[60%] flex-wrap lg:w-[80%] mx-auto   border-2 border-gray-950 shadow-md rounded-lg  font-roboto sm:flex justify-center mb-12 md:mb-20 lg:mb-24   ">
+    <div className=" Conter flex bg-current w-[60%] flex-wrap lg:w-[80%] mx-auto   border-2 border-gray-950 shadow-md rounded-lg  font-roboto sm:flex justify-center mt-[70px] md:mt-0 lg:mt-0 mb-12 md:mb-20 lg:mb-24   ">
       <div className="flex justify-center  flex-col items-center p-5 xl:w-[25%] lg:w-[25%] md:w-[50%] w-[100%] leading-7 lg:leading-9 text-white">
         <h4 className="font-bold font-poppins xl:text-2xl lg:text-xl md:text-lg sm:text-sm ">
           11.4%
