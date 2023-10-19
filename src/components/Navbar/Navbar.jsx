@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState("Home");
   const [menuOpen, setMenuOpen] = useState(false);
+  const [activeTopLink, setActiveTopLink] = useState("");
 
   const [dropdowns, setDropdowns] = useState({
     dropdownNavbarLink1: false,
@@ -15,6 +16,18 @@ const Navbar = () => {
 
   const handleLinkClick = (linkText) => {
     setActiveLink(linkText);
+    // Close the menu when a link is clicked, except for "About Us" and "Services" in mobile view
+    if (linkText !== "About Us" && linkText !== "Services") {
+      setMenuOpen(false);
+    }
+    if (linkText !== "About Us") {
+      // Change the color of "About Us" when a different link is clicked
+      setActiveTopLink("Other");
+    }
+    if (linkText !== "Services") {
+      // Change the color of "Services" when a different link is clicked
+      setActiveTopLink("Other");
+    }
   };
 
   const toggleDropdown = (dropdownId) => {
@@ -34,6 +47,7 @@ const Navbar = () => {
       return updatedDropdowns;
     });
   };
+
   // Function to close a specific dropdown
   const closeDropdown = (dropdownId) => {
     setDropdowns((prevState) => ({
@@ -43,7 +57,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white dark:bg-gray-900 sticky w-full z-30 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <nav className="bg-white dark:bg-white sticky w-full z-30 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
       <div className="flex flex-wrap items-center justify-between px-[10px] sm:px-[30px] md:px-[40px] lg:px-[60px] xl:pl-[75px] xl:pr-[100px]">
         <Link to="/" className="flex items-center">
           <img
@@ -84,12 +98,12 @@ const Navbar = () => {
           }`}
           id="navbar-multi-level"
         >
-          <ul className="flex flex-col flex-wrap font-medium p-4 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col flex-wrap font-medium p-4 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-white md:dark:bg-white dark:border-gray-700">
             <li>
               <Link
                 exact
                 to="/"
-                className={`block font-montserrat font-bold text-lg py-2 pl-3 pr-4 sm:pr-0 ${
+                className={`block font-montserrat font-bold text-lg py-2 dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]  pl-3 pr-4 sm:pr-0 ${
                   activeLink === "Home" ? "text-[#316D69]" : "text-[#3c3c3c]"
                 } hover:text-[#316D69] rounded `}
                 onClick={() => handleLinkClick("Home")}
@@ -101,12 +115,17 @@ const Navbar = () => {
               <button
                 id="dropdownNavbarLink1"
                 data-dropdown-toggle="dropdownNavbar1"
-                className={`flex items-center justify-between w-full py-2 pl-3  pr-4 font-montserrat font-semibold text-base mt-[10px] text-[#3c3c3c] hover:text-[#316D69] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#316D69] md:p-0 md:w-auto dark:text-[#f7f5f2] md:dark:hover:text-[#316D69] dark:focus:text-[#f7f5f2] dark:border-gray-700 ${
+                className={`flex items-center justify-between w-full py-2 pl-3  pr-4 font-montserrat font-semibold text-base mt-[10px] ${
+                  activeTopLink === "About Us"
+                    ? "text-[#316D69]"
+                    : "text-[#3c3c3c]"
+                } border-b border-gray-100 hover:text-[#316D69] hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#316D69] md:p-0 md:w-auto dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]  dark:border-gray-700 ${
                   dropdowns.dropdownNavbarLink1 ? "" : ""
                 }`}
                 onClick={() => {
                   toggleDropdown("dropdownNavbarLink1");
-                  handleLinkClick(true);
+                  handleLinkClick("About Us");
+                  setActiveTopLink("About Us");
                 }}
               >
                 About Us
@@ -129,18 +148,18 @@ const Navbar = () => {
               {/* <!-- Dropdown menu 1 --> */}
               <div
                 id="dropdownNavbar1"
-                className={`z-20 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-52 ${
+                className={`z-20 font-normal absolute bg-white divide-y divide-gray-100 rounded-lg shadow w-52 ${
                   dropdowns.dropdownNavbarLink1 ? "block" : "hidden"
                 }`}
               >
                 <ul
-                  className="py-2 text-sm text-gray-700 dark:text-gray-400"
+                  className="py-2 text-sm "
                   aria-labelledby="dropdownLargeButton1"
                 >
                   <li>
                     <Link
                       to="/our-story"
-                      className={`block font-montserrat  text-base py-2 pl-3 border-b-2  rounded-none pr-4 sm:pr-0 ${
+                      className={`block font-montserrat dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base py-2 pl-3 border-b-2  rounded-none pr-4 sm:pr-0 ${
                         activeLink === "OurStory"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -148,6 +167,7 @@ const Navbar = () => {
                       onClick={() => {
                         handleLinkClick("OurStory");
                         closeDropdown("dropdownNavbarLink1");
+                        setActiveTopLink("About Us");
                       }}
                     >
                       Our Story
@@ -156,7 +176,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/challenges"
-                      className={`block font-montserrat  text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "ChallangesAndSolutions"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -164,6 +184,7 @@ const Navbar = () => {
                       onClick={() => {
                         handleLinkClick("ChallangesAndSolutions");
                         closeDropdown("dropdownNavbarLink1");
+                        setActiveTopLink("About Us");
                       }}
                     >
                       Challenges & Solutions
@@ -176,12 +197,17 @@ const Navbar = () => {
               <button
                 id="dropdownNavbarLink2"
                 data-dropdown-toggle="dropdownNavbar2"
-                className={`flex items-center justify-between w-full py-2 pl-3 pr-4 mt-[10px] font-montserrat font-semibold text-base text-[#3c3c3c] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-[#316D69] md:p-0 md:w-auto dark:text-white md:dark:hover:text-[#316D69] dark:focus:text-[#f7f5f2] dark:border-gray-700 ${
+                className={`flex items-center justify-between w-full py-2 pl-3 pr-4 mt-[10px] font-montserrat font-semibold text-base ${
+                  activeTopLink === "Services"
+                    ? "text-[#316D69]"
+                    : "text-[#3c3c3c]"
+                } border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-[#316D69] md:p-0 md:w-auto dark:text-white md:dark:hover:text-[#316D69]  dark:border-gray-700 ${
                   dropdowns.dropdownNavbarLink2 ? "" : ""
                 }`}
                 onClick={() => {
                   toggleDropdown("dropdownNavbarLink2");
-                  handleLinkClick(true);
+                  handleLinkClick("Services");
+                  setActiveTopLink("Services");
                 }}
               >
                 Services
@@ -204,18 +230,18 @@ const Navbar = () => {
               {/* <!-- Dropdown menu 2 --> */}
               <div
                 id="dropdownNavbar2"
-                className={`z-20 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-52 dark:bg-gray-700 dark:divide-gray-600 ${
+                className={`z-20 font-normal absolute bg-white divide-y divide-gray-100 rounded-lg shadow w-52 dark:bg-gray-700 dark:divide-gray-600 ${
                   dropdowns.dropdownNavbarLink2 ? "block" : "hidden"
                 }`}
               >
                 <ul
-                  className="py-2 text-sm text-[#3c3c3c] dark:text-gray-400"
+                  className="py-2 text-sm "
                   aria-labelledby="dropdownLargeButton2"
                 >
                   <li>
                     <Link
                       to="/naturebasedasset"
-                      className={`block font-montserrat  text-base py-2 pl-3 border-b-2  rounded-none pr-4 sm:pr-0 ${
+                      className={`block font-montserrat dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base py-2 pl-3 border-b-2   rounded-none pr-4 sm:pr-0 ${
                         activeLink === "NatureBasedAssets"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -223,33 +249,33 @@ const Navbar = () => {
                       onClick={() => {
                         handleLinkClick("NatureBasedAssets");
                         closeDropdown("dropdownNavbarLink2");
+                        setActiveTopLink("Services");
                       }}
                     >
                       Nature Based Assets
                     </Link>
                   </li>
-
                   <li>
                     <Link
                       to="/forestry"
-                      className={`block font-montserrat  text-base py-2 pl-6 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base py-2 pl-6 pr-4 sm:pr-0 ${
                         activeLink === "Forestry"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
-                      } hover:text-[#316D69] rounded `}
+                      } hover:text-[#316d69] rounded `}
                       onClick={() => {
                         handleLinkClick("Forestry");
                         closeDropdown("dropdownNavbarLink2");
+                        setActiveTopLink("Services");
                       }}
                     >
-                      <span className="text-[#3c3c3c] font-normal">1. </span>
-                      Forestry
+                      1. Forestry
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/blue-carbon"
-                      className={`block font-montserrat  text-base py-2 pl-6 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base py-2 pl-6 pr-4 sm:pr-0 ${
                         activeLink === "BlueCarbon"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -257,16 +283,16 @@ const Navbar = () => {
                       onClick={() => {
                         handleLinkClick("BlueCarbon");
                         closeDropdown("dropdownNavbarLink2");
+                        setActiveTopLink("Services");
                       }}
                     >
-                      <span className="text-[#3c3c3c] font-normal">2. </span>
-                      Blue Carbon
+                      2. Blue Carbon
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/agriculture"
-                      className={`block font-montserrat  text-base py-2 pl-6 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat text-base border-b-2 dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   rounded-none py-2 pl-6 pr-4 sm:pr-0 ${
                         activeLink === "Agriculture"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -274,16 +300,16 @@ const Navbar = () => {
                       onClick={() => {
                         handleLinkClick("Agriculture");
                         closeDropdown("dropdownNavbarLink2");
+                        setActiveTopLink("Services");
                       }}
                     >
-                      <span className="text-[#3c3c3c] font-normal">3. </span>
-                      Agriculture
+                      3. Agriculture
                     </Link>
                   </li>
                   <li>
                     <Link
                       to="/wind-and-solar"
-                      className={`block font-montserrat  text-base border-b-2  rounded-none py-2 pl-3 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat border-b-2 dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   rounded-none  text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "WindandSolar"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -291,15 +317,17 @@ const Navbar = () => {
                       onClick={() => {
                         handleLinkClick("WindandSolar");
                         closeDropdown("dropdownNavbarLink2");
+                        setActiveTopLink("Services");
                       }}
                     >
                       Wind and Solar
                     </Link>
                   </li>
+
                   <li>
                     <Link
                       to="/anaerobic-digestion"
-                      className={`block font-montserrat  text-base py-2 pl-3 border-b-2  rounded-none pr-4 sm:pr-0 ${
+                      className={`block font-montserrat border-b-2 dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   rounded-none  text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "AnaerobicDigestion"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -307,6 +335,7 @@ const Navbar = () => {
                       onClick={() => {
                         handleLinkClick("AnaerobicDigestion");
                         closeDropdown("dropdownNavbarLink2");
+                        setActiveTopLink("Services");
                       }}
                     >
                       Anaerobic Digestion
@@ -316,7 +345,7 @@ const Navbar = () => {
                   <li className=" pl-3">
                     <Link
                       to="/carbon-trading"
-                      className={`block font-montserrat  text-base py-2  pr-4  sm:pr-0 ${
+                      className={`block font-montserrat dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base py-2  pr-4  sm:pr-0 ${
                         activeLink === "CarbonCredits"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -324,6 +353,7 @@ const Navbar = () => {
                       onClick={() => {
                         handleLinkClick("CarbonCredits");
                         closeDropdown("dropdownNavbarLink2");
+                        setActiveTopLink("Services");
                       }}
                     >
                       Carbon Trading
@@ -335,7 +365,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/projects"
-                className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
+                className={`block py-2 font-montserrat font-semibold dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base pl-3 pr-4 sm:pr-0 ${
                   activeLink === "Projects"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"
@@ -348,7 +378,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/news-and-media"
-                className={`block py-2 font-montserrat font-semibold  text-base pl-3 pr-4 sm:pr-0 ${
+                className={`block py-2 font-montserrat font-semibold dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base pl-3 pr-4 sm:pr-0 ${
                   activeLink === "NewsAndMedia"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"
@@ -361,7 +391,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/carbon-credits"
-                className={`block py-2 font-montserrat font-semibold  text-base pl-3 sm:pl-0 pr-4 sm:pr-0 ${
+                className={`block py-2 font-montserrat font-semibold dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base pl-3 sm:pl-0 pr-4 sm:pr-0 ${
                   activeLink === "CarbonCredits"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"
@@ -374,7 +404,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/contact-us"
-                className={`block py-2 font-montserrat font-semibold text-base pl-3 pr-4 sm:pr-0 ${
+                className={`block py-2 font-montserrat font-semibold dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]  text-base pl-3 pr-4 sm:pr-0 ${
                   activeLink === "Contact"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"
