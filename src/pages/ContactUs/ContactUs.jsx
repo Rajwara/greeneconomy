@@ -10,7 +10,7 @@ const ContactUs = () => {
         {/* Text Content */}
         <MainBanner />
         {/* 2nd Section */}
-        <section className=" dark:bg-gray-800 mb-10 px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+        <section className=" dark:bg-white mb-10 px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
           <ContactForm />
         </section>
         <section className=" text-white  ">

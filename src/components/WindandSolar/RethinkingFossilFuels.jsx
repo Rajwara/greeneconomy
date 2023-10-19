@@ -15,7 +15,7 @@ const RethinkingFossilFuels = () => {
       <div>
         <div class="relative overflow-x-auto mt-12">
           <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
-            <thead class="text-xs text-gray-700 uppercase border-t-2 border-[#316D69] bg-[#f7f5f2] dark:bg-gray-700 dark:text-gray-400">
+            <thead class="text-xs text-[#3c3c3c] uppercase border-t-2 border-[#316D69] bg-[#f7f5f2] dark:bg-[#f7f5f2] dark:text-[#3c3c3c]">
               <tr className="font-montserrat font-bold text-xl text-[#316D69]">
                 <th scope="col" class="px-6 py-3 ">
                   Classification
@@ -29,20 +29,20 @@ const RethinkingFossilFuels = () => {
               </tr>
             </thead>
             <tbody>
-              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 font-poppins text-[#3c3c3c] text-base font-normal">
+              <tr class="bg-white border-b dark:bg-[#f7f5f2] dark:border-[#3c3c3c] font-poppins text-[#3c3c3c] text-base font-normal">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
                 >
                   Types
                 </th>
                 <td class="px-6 py-4"> Oil, coal, gas</td>
                 <td class="px-6 py-4">Solar wind, geothermal, hydropower,</td>
               </tr>
-              <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 font-poppins text-[#3c3c3c] text-base font-normal">
+              <tr class="bg-white border-b dark:bg-[#f7f5f2] dark:border-[#3c3c3c] font-poppins text-[#3c3c3c] text-base font-normal">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
                 >
                   Origins{" "}
                 </th>
@@ -51,40 +51,40 @@ const RethinkingFossilFuels = () => {
                 </td>
                 <td class="px-6 py-4">Naturally renewable sources</td>
               </tr>
-              <tr class="bg-white  border-b dark:bg-gray-800 font-poppins text-[#3c3c3c] text-base font-normal">
+              <tr class="bg-white  border-b dark:bg-[#f7f5f2] font-poppins text-[#3c3c3c] text-base font-normal">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
                 >
                   Time to form
                 </th>
                 <td class="px-6 py-4">Millions of years</td>
                 <td class="px-6 py-4">Constantly self- replenishing</td>
               </tr>
-              <tr class="bg-white  border-b dark:bg-gray-800 font-poppins text-[#3c3c3c] text-base font-normal">
+              <tr class="bg-white  border-b dark:bg-[#f7f5f2] font-poppins text-[#3c3c3c] text-base font-normal">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
                 >
                   Available supply
                 </th>
                 <td class="px-6 py-4">Limited</td>
                 <td class="px-6 py-4">Abundant</td>
               </tr>
-              <tr class="bg-whit  border-b dark:bg-gray-800 font-poppins text-[#3c3c3c] text-base font-normal">
+              <tr class="bg-whit  border-b dark:bg-[#f7f5f2] font-poppins text-[#3c3c3c] text-base font-normal">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
                 >
                   Carbon content
                 </th>
                 <td class="px-6 py-4"> Very high</td>
                 <td class="px-6 py-4">None</td>
               </tr>
-              <tr class="bg-white  border-b dark:bg-gray-800 font-poppins text-[#3c3c3c] text-base font-normal">
+              <tr class="bg-white  border-b dark:bg-[#f7f5f2] font-poppins text-[#3c3c3c] text-base font-normal">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
                 >
                   Long-term outlook
                 </th>
@@ -96,10 +96,10 @@ const RethinkingFossilFuels = () => {
                   More job opportunities, healthier planet
                 </td>
               </tr>
-              <tr class="bg-white  dark:bg-gray-800 font-poppins text-[#3c3c3c] text-base font-normal border-b-2 border-[#316D69]">
+              <tr class="bg-white  dark:bg-[#f7f5f2] font-poppins text-[#3c3c3c] text-base font-normal border-b-2 border-[#316D69]">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
                 >
                   Cost
                 </th>
