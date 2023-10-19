@@ -3,7 +3,7 @@ import React from "react";
 const ContactForm = () => {
   return (
     <>
-      <section className="mt-[30px] md:mt-[50px] lg:mt-[100px]  dark:bg-gray-800 px-[0px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+      <section className="mt-[30px] md:mt-[50px] lg:mt-[100px]  dark:bg-white px-[0px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
         <div className="container">
           <div className="flex flex-wrap  lg:justify-between">
             <div className="w-full  lg:w-1/2 xl:w-6/12">

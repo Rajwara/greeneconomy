@@ -28,7 +28,7 @@ const ZoomSyntropicExplore = () => {
                   </span>
                 </div>
 
-                <p className="  dark:text-gray-300">
+                <p className="  dark:text-[#3c3c3c]">
                   Support people from climate-vulnerable communities.
                 </p>
               </li>
@@ -39,7 +39,7 @@ const ZoomSyntropicExplore = () => {
                   </span>
                 </div>
 
-                <p className="   dark:text-gray-300">
+                <p className="   dark:text-[#3c3c3c]">
                   Ensure that major carbon sinks; mangroves, seagrasses, and
                   tidal marshes are protected.
                 </p>
@@ -51,7 +51,7 @@ const ZoomSyntropicExplore = () => {
                   </span>
                 </div>
 
-                <p className=" dark:text-gray-300">
+                <p className=" dark:text-[#3c3c3c]">
                   Fight deforestation globally.
                 </p>
               </li>
@@ -62,7 +62,7 @@ const ZoomSyntropicExplore = () => {
                   </span>
                 </div>
 
-                <p className=" dark:text-gray-300">
+                <p className=" dark:text-[#3c3c3c]">
                   Secure ecosystems that contain irrecoverable carbon.
                 </p>
               </li>
@@ -73,7 +73,7 @@ const ZoomSyntropicExplore = () => {
                   </span>
                 </div>
 
-                <p className=" dark:text-gray-300">
+                <p className=" dark:text-[#3c3c3c]">
                   Help countries evaluate potential of nature to combat climate
                   change.
                 </p>

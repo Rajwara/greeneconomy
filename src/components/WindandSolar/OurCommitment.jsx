@@ -3,7 +3,7 @@ import Powerof1 from "../../../src/images/wasolar-our-commitement.png";
 
 const OurCommitment = () => {
   return (
-    <div className="   dark:bg-gray-800  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
+    <div className="   dark:bg-white  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8 items-center">
         <div className="flex flex-col ">
           <h2 className=" text-2xl md:text-3xl font-bold mb-4 md:mb-6 lg:mb-8  font-montserrat text-[#3c3c3c] dark:text-white lg:text-4xl leading-7 lg:leading-10">

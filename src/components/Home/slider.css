@@ -259,30 +259,30 @@
         
         .item:nth-child(3) {
             left: 10%  !important;
-            top: 70%;
+            top: 55%;
         }
         
         .item:nth-child(4) {
             /* left: calc(50% + 170px); */
             left: 38% !important;
-            top: 70%;
+            top: 55%;
         }
         
         .item:nth-child(5) {
             /* left: calc(50% + 370px); */
             left: 66% !important;
-            top: 70%;
+            top: 55%;
         }
         .buttons {
             position: absolute;
-            bottom: -130px !important;
+            bottom: -50px !important;
             z-index: 1;
             text-align: end;
             width: 65% !important;
         }
         .item .content {
             position: absolute;
-            top: 65% !important;
+            top: 75% !important;
             left: 30px !important;
             width: 80% !important;
             text-align: left;
