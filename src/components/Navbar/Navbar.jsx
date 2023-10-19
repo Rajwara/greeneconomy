@@ -70,7 +70,7 @@ const Navbar = () => {
         <button
           data-collapse-toggle="navbar-multi-level"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-[#3c3c3c] rounded-lg md:hidden hover:bg-[white] dark:text-[#3c3c3c] dark:hover:bg-white"
           aria-controls="navbar-multi-level"
           aria-expanded="false"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -98,12 +98,12 @@ const Navbar = () => {
           }`}
           id="navbar-multi-level"
         >
-          <ul className="flex flex-col flex-wrap font-medium p-4 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-white md:dark:bg-white dark:border-gray-700">
+          <ul className="flex flex-col flex-wrap font-medium p-4 md:p-0 mt-4 rounded-lg bg-white md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-white md:dark:bg-white dark:border-gray-700">
             <li>
               <Link
                 exact
                 to="/"
-                className={`block font-montserrat font-bold text-lg py-2 dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]  pl-3 pr-4 sm:pr-0 ${
+                className={`block font-montserrat font-bold text-lg py-2 dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]  pl-3 pr-4 sm:pr-0 ${
                   activeLink === "Home" ? "text-[#316D69]" : "text-[#3c3c3c]"
                 } hover:text-[#316D69] rounded `}
                 onClick={() => handleLinkClick("Home")}
@@ -119,7 +119,7 @@ const Navbar = () => {
                   activeTopLink === "About Us"
                     ? "text-[#316D69]"
                     : "text-[#3c3c3c]"
-                } border-b border-gray-100 hover:text-[#316D69] hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#316D69] md:p-0 md:w-auto dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]  dark:border-gray-700 ${
+                } border-b border-gray-100 hover:text-[#316D69] hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#316D69] md:p-0 md:w-auto dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]  dark:border-gray-700 ${
                   dropdowns.dropdownNavbarLink1 ? "" : ""
                 }`}
                 onClick={() => {
@@ -148,7 +148,7 @@ const Navbar = () => {
               {/* <!-- Dropdown menu 1 --> */}
               <div
                 id="dropdownNavbar1"
-                className={`z-20 font-normal absolute bg-white divide-y divide-gray-100 rounded-lg shadow w-52 ${
+                className={`z-20 font-normal absolute bg-white divide-y divide-gray-100 rounded-lg shadow-lg shadow-[#316D69] w-52 ${
                   dropdowns.dropdownNavbarLink1 ? "block" : "hidden"
                 }`}
               >
@@ -159,7 +159,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/our-story"
-                      className={`block font-montserrat dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base py-2 pl-3 border-b-2  rounded-none pr-4 sm:pr-0 ${
+                      className={`block font-montserrat dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base py-2 pl-3 border-b-2  rounded-none pr-4 sm:pr-0 ${
                         activeLink === "OurStory"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -176,7 +176,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/challenges"
-                      className={`block font-montserrat dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "ChallangesAndSolutions"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -201,7 +201,7 @@ const Navbar = () => {
                   activeTopLink === "Services"
                     ? "text-[#316D69]"
                     : "text-[#3c3c3c]"
-                } border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-[#316D69] md:p-0 md:w-auto dark:text-white md:dark:hover:text-[#316D69]  dark:border-gray-700 ${
+                } border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-[#316D69] md:p-0 md:w-auto dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]  dark:border-gray-700 ${
                   dropdowns.dropdownNavbarLink2 ? "" : ""
                 }`}
                 onClick={() => {
@@ -230,7 +230,7 @@ const Navbar = () => {
               {/* <!-- Dropdown menu 2 --> */}
               <div
                 id="dropdownNavbar2"
-                className={`z-20 font-normal absolute bg-white divide-y divide-gray-100 rounded-lg shadow w-52 dark:bg-gray-700 dark:divide-gray-600 ${
+                className={`z-20 font-normal absolute bg-white divide-y divide-gray-100 rounded-lg shadow-lg shadow-[#316D69] w-52 dark:bg-white dark:divide-gray-600 ${
                   dropdowns.dropdownNavbarLink2 ? "block" : "hidden"
                 }`}
               >
@@ -241,7 +241,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/naturebasedasset"
-                      className={`block font-montserrat dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base py-2 pl-3 border-b-2   rounded-none pr-4 sm:pr-0 ${
+                      className={`block font-montserrat dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base py-2 pl-3 border-b-2   rounded-none pr-4 sm:pr-0 ${
                         activeLink === "NatureBasedAssets"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -258,7 +258,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/forestry"
-                      className={`block font-montserrat dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base py-2 pl-6 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base py-2 pl-6 pr-4 sm:pr-0 ${
                         activeLink === "Forestry"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -275,7 +275,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/blue-carbon"
-                      className={`block font-montserrat dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base py-2 pl-6 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base py-2 pl-6 pr-4 sm:pr-0 ${
                         activeLink === "BlueCarbon"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -292,7 +292,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/agriculture"
-                      className={`block font-montserrat text-base border-b-2 dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   rounded-none py-2 pl-6 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat text-base border-b-2 dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   rounded-none py-2 pl-6 pr-4 sm:pr-0 ${
                         activeLink === "Agriculture"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -309,7 +309,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/wind-and-solar"
-                      className={`block font-montserrat border-b-2 dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   rounded-none  text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat border-b-2 dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   rounded-none  text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "WindandSolar"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -327,7 +327,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/anaerobic-digestion"
-                      className={`block font-montserrat border-b-2 dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   rounded-none  text-base py-2 pl-3 pr-4 sm:pr-0 ${
+                      className={`block font-montserrat border-b-2 dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   rounded-none  text-base py-2 pl-3 pr-4 sm:pr-0 ${
                         activeLink === "AnaerobicDigestion"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -345,7 +345,7 @@ const Navbar = () => {
                   <li className=" pl-3">
                     <Link
                       to="/carbon-trading"
-                      className={`block font-montserrat dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base py-2  pr-4  sm:pr-0 ${
+                      className={`block font-montserrat dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base py-2  pr-4  sm:pr-0 ${
                         activeLink === "CarbonCredits"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
@@ -365,7 +365,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/projects"
-                className={`block py-2 font-montserrat font-semibold dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base pl-3 pr-4 sm:pr-0 ${
+                className={`block py-2 font-montserrat font-semibold dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base pl-3 pr-4 sm:pr-0 ${
                   activeLink === "Projects"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"
@@ -378,7 +378,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/news-and-media"
-                className={`block py-2 font-montserrat font-semibold dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base pl-3 pr-4 sm:pr-0 ${
+                className={`block py-2 font-montserrat font-semibold dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base pl-3 pr-4 sm:pr-0 ${
                   activeLink === "NewsAndMedia"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"
@@ -391,7 +391,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/carbon-credits"
-                className={`block py-2 font-montserrat font-semibold dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]   text-base pl-3 sm:pl-0 pr-4 sm:pr-0 ${
+                className={`block py-2 font-montserrat font-semibold dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base pl-3 sm:pl-0 pr-4 sm:pr-0 ${
                   activeLink === "CarbonCredits"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"
@@ -404,7 +404,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/contact-us"
-                className={`block py-2 font-montserrat font-semibold dark:text-[#f7f5f2] md:dark:hover:text-[#316D69]  text-base pl-3 pr-4 sm:pr-0 ${
+                className={`block py-2 font-montserrat font-semibold dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]  text-base pl-3 pr-4 sm:pr-0 ${
                   activeLink === "Contact"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"

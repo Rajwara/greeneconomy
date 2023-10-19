@@ -2,17 +2,17 @@ import React from "react";
 
 function ContactMap() {
   return (
-    <section className="text-gray-600 body-font relative">
-      <div className="absolute inset-0 bg-gray-300">
+    <section className="text-gray-600 body-font ">
+      <div className=" inset-0 bg-gray-300">
         <iframe
           width="100%"
-          height="100%"
+          height="400px"
           title="map"
-          src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29323098.01465027!2d39.37720866568875!3d26.21359732469668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6544884c3677%3A0x3575b8625e30396a!2sGreen%20Economy%20Partnership!5e0!3m2!1sen!2s!4v1697720612030!5m2!1sen!2s"
           style={{}}
         ></iframe>
       </div>
-      <div className="container px-5 py-24 mx-auto flex">
+      {/* <div className="container px-5 py-24 mx-auto flex">
         <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
           Feedback
         </h2>
@@ -27,7 +27,7 @@ function ContactMap() {
           Chicharrones blog helvetica normcore iceland tousled brook viral
           artisan.
         </p>
-      </div>
+      </div> */}
     </section>
   );
 }
