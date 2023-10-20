@@ -61,10 +61,16 @@ function HowCarbonOffsetsWork() {
               </ol>
               <p className=" mt-4 pl-[30px]">
                 A third-party organization ensures that carbon offset projects
-                align with the standards of the Article 6.2 of the Paris
-                Agreement. Carbon credits are then issued. The cost of carbon
-                offset varies with the type of the project and the amount of
-                carbon dioxide that has to be offset.
+                align with the standards of the{" "}
+                <a
+                  className="text-[#D3CA28] font-bold underline mx-1"
+                  href="https://unfccc.int/process/the-paris-agreement/cooperative-implementation"
+                >
+                  Article 6.2
+                </a>{" "}
+                of the Paris Agreement. Carbon credits are then issued. The cost
+                of carbon offset varies with the type of the project and the
+                amount of carbon dioxide that has to be offset.
               </p>
             </div>
             <div className="py-[20px] flex flex-col items-center grid-cols-4 h-auto">

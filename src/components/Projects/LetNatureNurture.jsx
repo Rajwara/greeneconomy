@@ -41,7 +41,7 @@ const LetNatureNurture = () => {
         <div className="flex flex-col items-center mt-4 md:mt-6 lg:mt-8">
           <div className="flex gap-2 text-base md:text-lg lg:text-xl leading-7 lg:leading-10  font-montserrat mb-2 md:mb-4 lg:mb-6 font-bold text-[#3c3c3c] mt-2 ">
             <h2 className=" text-[#bab220]">1.</h2>
-            <h2 className=" ">Prune to stimulate new growth</h2>
+            <h2 className=" ">Prune to Stimulate New Growth</h2>
           </div>
         </div>
         <div className="card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 text-center gap-10 py-10 ">

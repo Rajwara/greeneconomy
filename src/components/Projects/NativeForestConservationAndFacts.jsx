@@ -34,7 +34,7 @@ const NativeForestConservationAndFacts = () => {
   return (
     <div className="flex flex-col mt-10 md:mt-[50px] lg:mt-[100px] mb-[50px] text-center items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
       <div className="flex flex-col items-center text-center">
-        <h2 className=" text-2xl md:text-3xl font-bold text-center leading-7 lg:leading-10 lg:text-4xl font-montserrat text-[#316D69] dark:text-white">
+        <h2 className=" text-2xl md:text-3xl font-bold text-center leading-7 lg:leading-10 lg:text-4xl font-montserrat text-[#316D69] dark:text-[#316D69]">
           <span className="text-[#bab220]">B. </span>
           Native Forest Conservation
         </h2>
@@ -45,7 +45,7 @@ const NativeForestConservationAndFacts = () => {
         </p>
       </div>
       <div className="flex flex-col mt-6">
-        <h2 className=" text-2xl md:text-3xl font-bold text-center  leading-7 lg:leading-10 lg:text-4xl font-montserrat text-[#316D69] dark:text-white">
+        <h2 className=" text-2xl md:text-3xl font-bold text-center  leading-7 lg:leading-10 lg:text-4xl font-montserrat text-[#316D69] dark:text-[#316D69]">
           The Facts{" "}
         </h2>
         <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mt-8 md:mt-12 lg:mt-16 ">

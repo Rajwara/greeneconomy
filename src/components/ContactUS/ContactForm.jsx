@@ -34,11 +34,12 @@ const ContactForm = () => {
                       Our Location
                     </h4>
                     <p className="text-sm md:text-base lg:text-lg leading-5 lg:leading-7 text-[#3c3c3c] font-poppins font-normal">
-                      99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                      Unit 19319-001, Dubai Silicon Oasis, DDP, Building A2,
+                      Dubai, UAE
                     </p>
                   </div>
                 </div>
-                <div className="mb-8 flex w-full max-w-[370px]">
+                {/* <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
                     <svg
                       width={24}
@@ -59,7 +60,7 @@ const ContactForm = () => {
                       (+62)81 414 257 9980
                     </p>
                   </div>
-                </div>
+                </div> */}
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
                     <svg
@@ -76,7 +77,7 @@ const ContactForm = () => {
                       Email Address
                     </h4>
                     <p className="text-sm md:text-base lg:text-lg  leading-5 lg:leading-7 text-[#3c3c3c] font-poppins font-normal">
-                      info@yourdomain.com
+                      info@greeneconomy.ae
                     </p>
                   </div>
                 </div>

@@ -1,9 +1,17 @@
 import React, { useState } from "react";
 import Logo from "../../../src/images/greenlogo.png";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { GiConsoleController } from "react-icons/gi";
 
 const Navbar = () => {
-  const [activeLink, setActiveLink] = useState("Home");
+  const location = useLocation();
+
+  console.log("cccc", location.pathname.slice(1));
+
+  const [activeLink, setActiveLink] = useState(
+    location.pathname.slice(1) ? location.pathname.slice(1) : "Home"
+  );
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeTopLink, setActiveTopLink] = useState("");
 
@@ -117,7 +125,7 @@ const Navbar = () => {
                 data-dropdown-toggle="dropdownNavbar1"
                 className={`flex items-center justify-between w-full py-2 pl-3  pr-4 font-montserrat font-semibold text-base mt-[10px] ${
                   activeTopLink === "About Us"
-                    ? "text-[#316D69]"
+                    ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"
                 } border-b border-gray-100 hover:text-[#316D69] hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#316D69] md:p-0 md:w-auto dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]  dark:border-gray-700 ${
                   dropdowns.dropdownNavbarLink1 ? "" : ""
@@ -198,8 +206,11 @@ const Navbar = () => {
                 id="dropdownNavbarLink2"
                 data-dropdown-toggle="dropdownNavbar2"
                 className={`flex items-center justify-between w-full py-2 pl-3 pr-4 mt-[10px] font-montserrat font-semibold text-base ${
-                  activeTopLink === "Services"
-                    ? "text-[#316D69]"
+                  activeTopLink === "Services" ||
+                  activeLink === "forestry" ||
+                  activeLink === "agroforestry" ||
+                  activeLink === "forest-assets"
+                    ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"
                 } border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 hover:text-[#316D69] md:p-0 md:w-auto dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]  dark:border-gray-700 ${
                   dropdowns.dropdownNavbarLink2 ? "" : ""
@@ -379,7 +390,10 @@ const Navbar = () => {
               <Link
                 to="/news-and-media"
                 className={`block py-2 font-montserrat font-semibold dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base pl-3 pr-4 sm:pr-0 ${
-                  activeLink === "NewsAndMedia"
+                  activeLink === "NewsAndMedia" ||
+                  activeLink === "news-and-media" ||
+                  activeLink === "mou-uganda" ||
+                  activeLink === "uae-project"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"
                 } hover:text-[#316D69] rounded `}
