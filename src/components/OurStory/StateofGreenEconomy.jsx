@@ -1,13 +1,14 @@
 import React from "react";
-import WMImg2 from "../../../src/images/ourstory-aboutus.png";
+// import WMImg2 from "../../../src/images/ourstory-aboutus.png";
+import WMImg2 from "../../../src/images/testing-img.png";
 
 function StateAbout() {
   return (
     <div className="bg-[#F7F5F2]  px-[30px] md:px[60] lg:px-[80px] xl:px-[100px] relative md:py-[20px] xl:py-[30px]  pt-[50px]  pb-[50px] md:pb-[100px] ">
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lg:gap-x-[50px] ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-12 items-center justify-center align-middle  ">
         <div
-          className="container flex flex-col   align-middle justify-center
-          h-full"
+          className=" flex flex-col   align-middle justify-center
+          "
         >
           <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat  ">
             {" "}
@@ -51,10 +52,12 @@ function StateAbout() {
           </div>
         </div>
 
-        <div className="mt-6 md:mt-0 lg:mt-0 ">
-          <div className="relative  container flex flex-col justify-center items-center h-full">
-            <img className=" rounded-lg" src={WMImg2} alt="deforestation"></img>
-          </div>
+        <div className="mt-6 md:mt-0 lg:mt-0 flex items-end justify-end">
+          <img
+            className=" rounded-lg w-[80%] h-[80%]"
+            src={WMImg2}
+            alt="deforestation"
+          ></img>
         </div>
       </div>
     </div>

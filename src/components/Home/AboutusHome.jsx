@@ -57,7 +57,7 @@ function AboutusHome() {
             </p>
           </div>
           <div className="flex-col align-middle gap-4">
-            <AiOutlineCarryOut className="mt-1 text-[50px] border-2 rounded-full border-[#316D69] bg-[#316D69] hover:border-[#316D69] hover:bg-[#f7f5f2] hover:text-[#316D69] text-[#f7f5f2] p-2" />
+            <AiOutlineCarryOut className="mt-4 text-[50px] border-2 rounded-full border-[#316D69] bg-[#316D69] hover:border-[#316D69] hover:bg-[#f7f5f2] hover:text-[#316D69] text-[#f7f5f2] p-2" />
 
             <p className=" mt-4 leading-5 lg:leading-7 text-[#3c3c3c]">
               By investing in carbon offset projects, GEP helps individuals,
@@ -68,7 +68,7 @@ function AboutusHome() {
           </div>
 
           <div className="flex-col align-middle gap-4">
-            <AiOutlineCarryOut className="mt-1 text-[50px] border-2 rounded-full border-[#316D69] bg-[#316D69] hover:border-[#316D69] hover:bg-[#f7f5f2] hover:text-[#316D69] text-[#f7f5f2] p-2" />
+            <AiOutlineCarryOut className="mt-4 text-[50px] border-2 rounded-full border-[#316D69] bg-[#316D69] hover:border-[#316D69] hover:bg-[#f7f5f2] hover:text-[#316D69] text-[#f7f5f2] p-2" />
 
             <p className=" mt-4 text-[#3c3c3c]">
               As pioneers in the carbon elimination industry, our commitment to

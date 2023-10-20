@@ -4,7 +4,7 @@ import BulletPointarrow from "../../../src/images/Bullet-Point-arrow.svg";
 
 function GepComePlay() {
   return (
-    <div className="relative ">
+    <div className=" ">
       <div>
         <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] py-[20px] md:py-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
@@ -147,14 +147,13 @@ function GepComePlay() {
                 </div>
               </div>
             </div>
-            <div className="pb-[20px] mt-6 md:mt-0 lg:mt-0 flex flex-col justify-center items-center h-full">
-              <div className=" container flex  items-center">
-                <img
-                  className=" mx-auto "
-                  src={EffectsofDeforestation}
-                  alt="EffectsofDeforestation"
-                ></img>
-              </div>
+
+            <div className=" ">
+              <img
+                className=" rounded-lg w-full h-full"
+                src={EffectsofDeforestation}
+                alt="EffectsofDeforestation"
+              ></img>
             </div>
           </div>
         </div>

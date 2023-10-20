@@ -32,13 +32,11 @@ function OurStoryOrigination() {
           </div>
 
           <div className="mt-8 md:mt-0 lg:mt-0">
-            <div className=" flex flex-col justify-center items-center h-full">
-              <img
-                className=" rounded-lg"
-                src={WMImg2}
-                alt="deforestation"
-              ></img>
-            </div>
+            <img
+              className=" rounded-lg w-full h-full"
+              src={WMImg2}
+              alt="deforestation"
+            ></img>
           </div>
         </div>
       </div>

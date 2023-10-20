@@ -3,7 +3,7 @@ import React from "react";
 function ServicesHome() {
   return (
     <div>
-      <div className="mx-auto  text-center mt-10 md:mt-18  lg:mt-20 px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+      <div className="mx-auto  text-center mt-[30px] md:mt-[50px]  lg:mt-[50px] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
         <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#D3CA28] font-bold leading-7 lg:leading-9	font-montserrat	">
           Services
         </h6>
