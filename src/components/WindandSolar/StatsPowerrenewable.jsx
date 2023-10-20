@@ -3,14 +3,14 @@ import Powerof1 from "../../../src/images/The-power-of-renewables-1.png";
 
 const StatsPowerrenewable = () => {
   return (
-    <div className="relative container-fluid pt-[50px] pb-[100px]  bg-[#f7f5f2] dark:bg-gray-800 py-26  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+    <div className="relative container-fluid pt-[50px] pb-[100px]  bg-[#f7f5f2] dark:bg-[#f7f5f2] py-26  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
       <div className="relative">
         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 gap-8 lg:items-center">
           <div className="ml-auto lg:col-start-2 ">
-            <h2 className=" text-2xl md:text-3xl mb-4 md:mb-6 lg:mb-8 lg:text-4xl font-bold leading-7 lg:leading-10 font-montserrat text-[#3c3c3c] dark:text-white sm:text-3xl sm:leading-9">
+            <h2 className=" text-2xl md:text-3xl mb-4 md:mb-6 lg:mb-8 lg:text-4xl font-bold leading-7 lg:leading-10 font-montserrat text-[#3c3c3c] dark:text-[#3c3c3c] sm:text-3xl sm:leading-9">
               The Power of Renewables
             </h2>
-            <p className=" text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins text-[#3c3c3c] dark:text-gray-300">
+            <p className=" text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins text-[#3c3c3c] dark:text-[#3c3c3c]">
               The Power of Renewables We have to make the banner the same way
               it's made on this page, it should keep changing this way.
             </p>
@@ -36,7 +36,7 @@ const StatsPowerrenewable = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                       <p>
                         Solar energy employed the most of any renewable energy
                         source;{" "}
@@ -66,7 +66,7 @@ const StatsPowerrenewable = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                       About{" "}
                       <a
                         className="text-[#D3CA28] font-bold underline"
@@ -94,7 +94,7 @@ const StatsPowerrenewable = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                       About{" "}
                       <a
                         className="text-[#D3CA28] font-bold underline"

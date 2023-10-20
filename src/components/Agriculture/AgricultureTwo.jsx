@@ -15,7 +15,7 @@ function AgricultureTwo() {
 
       {/* Right Column - Heading and Paragraph */}
       <div className="lg:w-1/2   lg:px-12 my-10 lg:my-0">
-        <h2 className=" mb-4 md:mb-6 lg:mb-8 text-[#316D69] font-bold text-2xl md:text-3xl lg:text-4xl leading-5 lg:leading-7 lg:leading-10 font-montserrat">
+        <h2 className=" mb-4 md:mb-6 lg:mb-8 text-[#316D69] font-bold text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-montserrat">
           The Significance of{" "}
           <span className="text-[#bab220]">Agriculture</span>
         </h2>

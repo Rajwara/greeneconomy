@@ -3,11 +3,11 @@ import StatisticsValidate from "../../../src/images/How-Statistics-Validate-Thes
 
 const HowStatisticsValidate = () => {
   return (
-    <div className="container-fluid pt-[40px] md:pt-[60px] lg:pt-[80px] pb-[100px]  bg-[#f7f5f2] dark:bg-gray-800 py-26  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+    <div className="container-fluid pt-[40px] md:pt-[60px] lg:pt-[80px] pb-[100px]  bg-[#f7f5f2] dark:bg-[#f7f5f2] py-26  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
       <div className="relative">
         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center">
           <div className="ml-auto lg:col-start-2 ">
-            <h2 className="mt-2 text-2xl ma:text-3xl lg:text-4xl font-bold leading-7 lg:leading-10 font-montserrat tracking-normal text-[#3c3c3c] dark:text-white sm:text-3xl sm:leading-9">
+            <h2 className="mt-2 text-2xl ma:text-3xl lg:text-4xl font-bold leading-7 lg:leading-10 font-montserrat tracking-normal text-[#3c3c3c] dark:text-[#3c3c3c] sm:text-3xl sm:leading-9">
               How Statistics Validate
               <span className="text-[#bab220]"> These Facts?</span>
             </h2>
@@ -37,7 +37,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                       Sustainable forestry practices can offset nearly{" "}
                       <a
                         className="underline font-bold text-[#bab220]"
@@ -65,7 +65,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                       Forests cover{" "}
                       <a
                         className="underline font-bold text-[#bab220]"
@@ -94,7 +94,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                       Sustainable forestry can generate jobs for at least{" "}
                       <a
                         className="underline font-bold text-[#bab220]"
@@ -130,7 +130,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                       Mangroves and coastal wetlands annually sequester carbon
                       at a rate{" "}
                       <a
@@ -158,7 +158,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                       Though seagrass cover only{" "}
                       <a
                         href="https://www.padi.com/seagrass-grow#:~:text=Seagrasses%20occupy%200.1%25%20of%20the,of%20life%20in%20our%20oceans"
@@ -201,7 +201,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                       In 2018, emissions from agriculture, and associated land
                       use comprised{" "}
                       <a
@@ -230,7 +230,7 @@ const HowStatisticsValidate = () => {
                         ></path>
                       </svg>
                     </span>
-                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-gray-200">
+                    <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                       According to{" "}
                       <a
                         href="https://www.weforum.org/"

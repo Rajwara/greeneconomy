@@ -1,4 +1,4 @@
-import { Route, Routes} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import OurStory from "./pages/OurStory/OurStory";
@@ -22,6 +22,8 @@ import Agroforestry from "./pages/Agroforestry/Agroforestry";
 import ForestAsset from "./pages/ForestAssets/ForestAsset";
 import Page404 from "./pages/Page404/Page404";
 import WindandSolar from "./pages/WindandSolar/WindandSolar";
+import MouUganda from './pages/MouUgandaMedia/MouUgandaMedia';
+import UAEProject from './pages/UAEProject/UAEProject';
 
 
 const App = () => {
@@ -32,11 +34,14 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />{" "}
         <Route exact path="/our-story" element={<OurStory />} />{" "}
-        <Route exact path="/news-and-media" element={<Media />} />{" "}
+        <Route exact path="/news-and-media" element={<Media />} />
+        <Route exact path="/mou-uganda" element={<MouUganda />} />
+        <Route exact path="/uae-project" element={<UAEProject />} />
+
         <Route exact path="/challenges" element={<Challenges />} />{" "}
         <Route exact path="/naturebasedasset" element={<NatureBasedAsset />} />{" "}
         <Route exact path="/carbon-trading" element={<CarbonTrading />} />{" "}
-        <Route exact path="/wind-and-solar" element={<WindandSolar/>} />{" "}
+        <Route exact path="/wind-and-solar" element={<WindandSolar />} />{" "}
         {/* <Route exact path="/waste-management" element={<WasteManagement />} />{" "} */}
         <Route exact path="/agriculture" element={<Agriculture />} />
         <Route exact path="/forestry" element={<Forestry />} />
@@ -47,7 +52,7 @@ const App = () => {
         <Route exact path="/projects" element={<Projects />} />{" "}
         <Route exact path="/carbon-credits" element={<CarbonCredits />} />{" "}
         <Route exact path="/contact-us" element={<ContactUs />} />
-        <Route exact path="*" element={<Page404/>} />
+        <Route exact path="*" element={<Page404 />} />
 
 
       </Routes > {" "}

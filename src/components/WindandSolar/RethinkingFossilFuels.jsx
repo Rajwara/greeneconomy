@@ -14,7 +14,7 @@ const RethinkingFossilFuels = () => {
       </div>
       <div>
         <div class="relative overflow-x-auto mt-12">
-          <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 ">
+          <table class="w-full text-sm text-left text-[#3c3c3c] dark:text-[#3c3c3c] ">
             <thead class="text-xs text-[#3c3c3c] uppercase border-t-2 border-[#316D69] bg-[#f7f5f2] dark:bg-[#f7f5f2] dark:text-[#3c3c3c]">
               <tr className="font-montserrat font-bold text-xl text-[#316D69]">
                 <th scope="col" class="px-6 py-3 ">
@@ -32,7 +32,7 @@ const RethinkingFossilFuels = () => {
               <tr class="bg-white border-b dark:bg-[#f7f5f2] dark:border-[#3c3c3c] font-poppins text-[#3c3c3c] text-base font-normal">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-[#3c3c3c]"
                 >
                   Types
                 </th>
@@ -42,7 +42,7 @@ const RethinkingFossilFuels = () => {
               <tr class="bg-white border-b dark:bg-[#f7f5f2] dark:border-[#3c3c3c] font-poppins text-[#3c3c3c] text-base font-normal">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-[#3c3c3c]"
                 >
                   Origins{" "}
                 </th>
@@ -54,7 +54,7 @@ const RethinkingFossilFuels = () => {
               <tr class="bg-white  border-b dark:bg-[#f7f5f2] font-poppins text-[#3c3c3c] text-base font-normal">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-[#3c3c3c]"
                 >
                   Time to form
                 </th>
@@ -64,7 +64,7 @@ const RethinkingFossilFuels = () => {
               <tr class="bg-white  border-b dark:bg-[#f7f5f2] font-poppins text-[#3c3c3c] text-base font-normal">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-[#3c3c3c]"
                 >
                   Available supply
                 </th>
@@ -74,7 +74,7 @@ const RethinkingFossilFuels = () => {
               <tr class="bg-whit  border-b dark:bg-[#f7f5f2] font-poppins text-[#3c3c3c] text-base font-normal">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-[#3c3c3c]"
                 >
                   Carbon content
                 </th>
@@ -84,7 +84,7 @@ const RethinkingFossilFuels = () => {
               <tr class="bg-white  border-b dark:bg-[#f7f5f2] font-poppins text-[#3c3c3c] text-base font-normal">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-[#3c3c3c]"
                 >
                   Long-term outlook
                 </th>
@@ -99,7 +99,7 @@ const RethinkingFossilFuels = () => {
               <tr class="bg-white  dark:bg-[#f7f5f2] font-poppins text-[#3c3c3c] text-base font-normal border-b-2 border-[#316D69]">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#3c3c3c] whitespace-nowrap dark:text-[#3c3c3c]"
                 >
                   Cost
                 </th>

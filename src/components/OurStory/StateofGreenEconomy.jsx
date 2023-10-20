@@ -9,7 +9,7 @@ function StateAbout() {
           className="container flex flex-col   align-middle justify-center
           h-full"
         >
-          <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat mb-2 md:mb-4 lg:mb-8 ">
+          <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat  ">
             {" "}
             Our story
           </h6>

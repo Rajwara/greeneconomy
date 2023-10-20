@@ -6,7 +6,7 @@ const NatureBasedAssets = () => {
     <div className=" flex flex-row  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px]">
       <div className="grid grid-cols-1 md:gris-cols-1 lg:grid-cols-2 xl:grid-cols-2 items-center gap-8">
         <div className="flex flex-col mr-0 md:mr-0 lg:mr-[50px] xl:mr-[50px]">
-          <h2 className="text-2xl md:text-3xl font-bold tracking-normal leading-7 lg:leading-10 text-[#3c3c3c] font-montserrat dark:text-white lg:text-4xl">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-normal leading-7 lg:leading-10 text-[#3c3c3c] font-montserrat dark:text-[#3c3c3c] lg:text-4xl">
             <span className="text-[#316D69] block">Nature-Based Assets</span>
           </h2>
           <p className="text-sm md:text-base lg:text-lg  font-normal mt-4 font-poppins leading-5 lg:leading-7 text-[#3c3c3c]">

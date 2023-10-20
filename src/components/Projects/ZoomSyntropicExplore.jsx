@@ -4,7 +4,7 @@ import img1 from "../../../src/images/The-Goal-of-Our-Native-Forest.jpg";
 const ZoomSyntropicExplore = () => {
   return (
     <section>
-      <div className="container-fluid  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mx-auto bg-[#f7f5f2]  dark:bg-gray-800">
+      <div className="container-fluid  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mx-auto bg-[#f7f5f2]  dark:bg-[#f7f5f2]">
         <div className="flex flex-wrap items-center align-middle pt-20 pb-8">
           <div className="w-full lg:w-1/2">
             <div className=" border-b  lg:border-b-0">
