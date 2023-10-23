@@ -2,10 +2,10 @@ import React from "react";
 
 const GlobalForestManagement = () => {
   return (
-    <div className=" px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
+    <div className=" px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
       <div className="flex flex-col  text-center items-center">
         {" "}
-        <h2 className="text-[#316D69] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
+        <h2 className="text-[#316D69] text-2xl mb-2 md:mb-4 lg:mb-6 md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
           Global Forest Management{" "}
           <span className="text-[#bab220]"> Breakdown </span>
         </h2>
@@ -37,7 +37,7 @@ const GlobalForestManagement = () => {
             underestimations for non-government categories, suggest that around
             77% of the world's forested land is overseen by governments.
           </p>
-          <p className=" mt-4 ">
+          <p className=" mt-2 lg:mt-4 ">
             Currently, managed forests account for about
             <a
               href="https://www.google.com/url?q=https://research.wri.org/gfr/forest-extent-indicators/forest-extent%23:~:text%3D(2022)%252C%2520https%253A%252F%252Fdoi,percent%2520are%2520unmanaged%2520natural%2520forests.&sa=D&source=docs&ust=1697121954468244&usg=AOvVaw3M1D4pFM6ng9y2obGc58IF"

@@ -3,9 +3,9 @@ import Gep from "../../../src/images/anaerobic-consultancy.png";
 
 const GEPAnaerobicDigestionConsultancy = () => {
   return (
-    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[100px] grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[0px] lg:mt-[50px] mb-[50px] grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
       <div className="flex flex-col">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl text-[#316D69] leading-7 lg:leading-10  font-montserrat font-bold mb-4 md:mb-6 lg:mb-8">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl text-[#316D69] leading-7 lg:leading-10  font-montserrat font-bold  mb-2 md:mb-4 lg:mb-6 ">
           GEP’s Anaerobic Digestion{" "}
           <span className="text-[#bab220]">Consultancy</span>
         </h2>
@@ -16,7 +16,7 @@ const GEPAnaerobicDigestionConsultancy = () => {
             efficient solution to address waste management challenges and
             harness renewable energy resources.
           </p>
-          <p className=" mt-4">
+          <p className=" mt-2 lg:mt-4">
             Through anaerobic digestion, you will not only contribute to
             reducing the global carbon footprint but also establish an
             economical system to generate power. Our team of experts will help

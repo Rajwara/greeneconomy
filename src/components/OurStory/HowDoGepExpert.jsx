@@ -3,7 +3,7 @@ import React from "react";
 const HowDoGepExpert = () => {
   return (
     <div className="px-[30px] bg-[#f7f5f2] py-10 md:px-[60px] lg:px-[80px] xl:px-[100px] mx-auto text-center mt-20">
-      <h2 className="text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 mb-4 md:mb-6 lg:mb-8 font-montserrat font-bold text-[#316D69]">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 mb-2 md:mb-4 lg:mb-6 font-montserrat font-bold text-[#316D69]">
         How Do GEP Experts Help You Combat Climate Change?
       </h2>
       <div className="text-sm md:text-base lg:text-lg xl:w-8/12 mx-auto font-poppins leading-5 lg:leading-7 text-[#3c3c3c] font-normal">
@@ -15,7 +15,7 @@ const HowDoGepExpert = () => {
           could be emitted by each industrial sector which is where CO2 sensor
           technology monitors emissions.
         </p>
-        <p className=" mt-4">
+        <p className="mt-2  lg:mt-4">
           Each year, industries are given individual quotas of CO2 emissions,
           and our carbon credit trading platforms help them throughout the
           process. It is through carbon trading that the government wants the

@@ -28,7 +28,7 @@ const InnerCard = () => {
     },
   ];
   return (
-    <div className="  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] pb-10">
+    <div className="  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] pb-[50px]">
       <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8 ">
         {data.map((item) => (
           <div
@@ -38,7 +38,7 @@ const InnerCard = () => {
             <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#BAB220] font-bold leading-7 lg:leading-9	font-montserrat">
               {item.heading}
             </h6>
-            <p className=" mt-4 text-[#3c3c3c] font-poppins text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal">
+            <p className=" mt-2 lg:mt-4 text-[#3c3c3c] font-poppins text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal">
               {item.description}
             </p>
           </div>

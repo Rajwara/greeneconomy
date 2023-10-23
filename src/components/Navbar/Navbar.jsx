@@ -357,12 +357,12 @@ const Navbar = () => {
                     <Link
                       to="/carbon-trading"
                       className={`block font-montserrat dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base py-2  pr-4  sm:pr-0 ${
-                        activeLink === "CarbonCredits"
+                        activeLink === "CarbonTrading"
                           ? "text-[#316D69] font-bold"
                           : "text-[#3c3c3c]"
                       } hover:text-[#316D69] rounded `}
                       onClick={() => {
-                        handleLinkClick("CarbonCredits");
+                        handleLinkClick("CarbonTrading");
                         closeDropdown("dropdownNavbarLink2");
                         setActiveTopLink("Services");
                       }}

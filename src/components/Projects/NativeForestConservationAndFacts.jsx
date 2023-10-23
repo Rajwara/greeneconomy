@@ -32,23 +32,23 @@ const NativeForestConservationAndFacts = () => {
     },
   ];
   return (
-    <div className="flex flex-col mt-10 md:mt-[50px] lg:mt-[100px] mb-[50px] text-center items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+    <div className="flex flex-col mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px] text-center items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
       <div className="flex flex-col items-center text-center">
-        <h2 className=" text-2xl md:text-3xl font-bold text-center leading-7 lg:leading-10 lg:text-4xl font-montserrat text-[#316D69] dark:text-[#316D69]">
+        <h2 className=" text-2xl md:text-3xl font-bold text-center  mb-2 md:mb-4 lg:mb-6  leading-7 lg:leading-10 lg:text-4xl font-montserrat text-[#316D69] dark:text-[#316D69]">
           <span className="text-[#bab220]">B. </span>
           Native Forest Conservation
         </h2>
         <span className="border-2 border-[#3c3c3c] w-[50%] mt-4"> </span>
-        <p className="text-sm md:text-base lg:text-lg  mt-4 text-[#3c3c3c] font-normal font-poppins leading-5 lg:leading-7 ">
+        <p className="text-sm md:text-base lg:text-lg  mt-2 lg:mt-4 text-[#3c3c3c] font-normal font-poppins leading-5 lg:leading-7 ">
           In the time it takes you to read this sentence, hundreds of trees have
           been cut down.{" "}
         </p>
       </div>
-      <div className="flex flex-col mt-6">
-        <h2 className=" text-2xl md:text-3xl font-bold text-center  leading-7 lg:leading-10 lg:text-4xl font-montserrat text-[#316D69] dark:text-[#316D69]">
+      <div className="flex flex-col mt-2 md:mt-4 lg:mt-6">
+        <h2 className=" text-2xl md:text-3xl font-bold text-center    leading-7 lg:leading-10 lg:text-4xl font-montserrat text-[#316D69] dark:text-[#316D69]">
           The Facts{" "}
         </h2>
-        <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mt-8 md:mt-12 lg:mt-16 ">
+        <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mt-4 md:mt-6 lg:mt-8 ">
           {factdata.map((item) => (
             <div
               className="card-inner flex flex-row  border-4 border-[#316D69] rounded-lg p-8 "
@@ -60,14 +60,14 @@ const NativeForestConservationAndFacts = () => {
                   alt="LetNatureNurture"
                   className="w-[30%] h-[30%]"
                 />
-                <h4 className="text-lg md:text-xl lg:text-2xl text-[#3c3c3c]  font-montserrat font-semibold leading-7 lg:leading-9 mt-4">
+                <h4 className="text-lg md:text-xl lg:text-2xl text-[#3c3c3c]  font-montserrat font-semibold leading-7 lg:leading-9 mt-2 lg:mt-4">
                   {item.number}
                 </h4>
                 <h6 className="uppercase text-sm md:text-base lg:text-lg  text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat">
                   {item.smallheading}
                 </h6>
 
-                <p className="text-sm md:text-base lg:text-lg  mt-4 text-[#3c3c3c] font-normal font-poppins leading-5 lg:leading-7">
+                <p className="text-sm md:text-base lg:text-lg  mt-2 lg:mt-4 text-[#3c3c3c] font-normal font-poppins leading-5 lg:leading-7">
                   {item.description}
                 </p>
               </div>

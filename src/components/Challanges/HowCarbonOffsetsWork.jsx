@@ -10,11 +10,11 @@ const divStyle = {
 
 function HowCarbonOffsetsWork() {
   return (
-    <div className="relative">
+    <div className="">
       <div>
-        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  py-[20px] md:py-[50px] mt-4 md:mt-8 lg:mt-10">
+        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
           <div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 mb-4 md:mb-6 lg:mb-8 font-montserrat  font-bold text-[#316D69] text-center">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 mb-2 md:mb-4 lg:mb-6 font-montserrat  font-bold text-[#316D69] text-center">
               How Carbon Offsets Work
             </h2>
             <div className="text-sm md:text-base lg:text-lg  leading-5 lg:leading-7 text-center 2xl:pb-[15px] lg:pl-[30px] font-poppins xl:w-4/5 mx-auto ">
@@ -27,7 +27,7 @@ function HowCarbonOffsetsWork() {
                 all the excess carbon dioxide being released into the
                 atmosphere, the effects of climate change have escalated.{" "}
               </p>
-              <p className="mt-2">
+              <p className="mt-2 lg:mt-4">
                 Carbon offsetting is where businesses contribute money to
                 counteract the carbons they emit. This money is used to reduce
                 the carbon in the atmosphere around the world. Nonetheless, some
@@ -49,7 +49,7 @@ function HowCarbonOffsetsWork() {
                 amount of carbon dioxide removed from the atmosphere either :
               </p>
               <ol class="list-disc pl-[30px] ">
-                <li class=" mt-4  ">
+                <li class="mt-2 lg:mt-4  ">
                   <p className=" ">
                     Through removal of carbon dioxide that is already present in
                     the atmosphere
@@ -59,7 +59,7 @@ function HowCarbonOffsetsWork() {
                   <p className="">Or through carbon emissions</p>{" "}
                 </li>
               </ol>
-              <p className=" mt-4 pl-[30px]">
+              <p className=" mt-2 lg:mt-4 pl-[30px]">
                 A third-party organization ensures that carbon offset projects
                 align with the standards of the{" "}
                 <a
@@ -73,9 +73,9 @@ function HowCarbonOffsetsWork() {
                 amount of carbon dioxide that has to be offset.
               </p>
             </div>
-            <div className="py-[20px] flex flex-col items-center grid-cols-4 h-auto">
+            <div className="">
               <img
-                className=" rounded-lg h-full w-[60%] "
+                className=" rounded-lg h-[90%]  lg:w-[100%] xl:w-[90%] "
                 src={carbon}
                 alt="carbon"
               ></img>

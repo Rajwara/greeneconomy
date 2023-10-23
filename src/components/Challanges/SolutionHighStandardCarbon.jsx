@@ -10,17 +10,14 @@ const divStyle1 = {
 function SolutionHighStandardCarbon() {
   return (
     <div className="relative" style={divStyle1}>
-      <div className="mx-auto px-[30px] py-8 md:px-[60px] lg:px-[80px] xl:px-[100px] bg-cover bg-center bg-no-repeat relative inset-0 bg-[rgba(0,0,0,0.5)]">
-        {/* Add the background overlay */}
-        <div className="absolute "></div>
-
-        <div className="flex flex-col justify-center items-center h-full overflow-hidden xs:py-[20px] lg:py-[50px]">
-          <h2 className="text-[#f7f5f2] text-center text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 mb-4 md:mb-6 lg:mb-8 font-montserrat font-bold">
+      <div className="mx-auto px-[30px]  md:px-[60px] lg:px-[80px] xl:px-[100px] pt-[30px] md:pt-[50px] lg:pt-[50px] pb-[50px] bg-cover bg-center bg-no-repeat  inset-0 bg-[rgba(0,0,0,0.5)]">
+        <div className="flex flex-col justify-center items-center h-full overflow-hidden">
+          <h2 className="text-[#f7f5f2] text-center text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 mb-2 md:mb-4 lg:mb-4 font-montserrat font-bold">
             Solution
           </h2>
           <div className="">
             <div className="container">
-              <h2 className="text-[#bab220] text-center text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 mb-4 md:mb-6 lg:mb-8 font-montserrat font-bold ">
+              <h2 className="text-[#bab220] text-center text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 mb-2 md:mb-4 lg:mb-6 font-montserrat font-bold ">
                 High Standard Carbon Offsets
               </h2>
               <div className="font-poppins text-center text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal text-[#F7F5F2]">
@@ -38,7 +35,7 @@ function SolutionHighStandardCarbon() {
                   benefit from the outcome, safeguarding the future generations'
                   interests.
                 </p>
-                <p className="mt-4">
+                <p className="mt-2 lg:mt-4">
                   Renewable energy sources are the cornerstone of the global
                   energy transition. Shifting ultimately towards cleaner energy
                   alternatives will reduce the carbon footprint. The Green

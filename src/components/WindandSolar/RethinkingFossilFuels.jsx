@@ -4,7 +4,7 @@ const RethinkingFossilFuels = () => {
   return (
     <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] pb-10 mt-10">
       <div className=" ">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 lg:mb-8 font-montserrat leading-7 lg:leading-10  font-bold text-[#bab220]">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl  mb-2 md:mb-4 lg:mb-6  font-montserrat leading-7 lg:leading-10  font-bold text-[#bab220]">
           Rethinking Fossil Fuels With Renewables
         </h2>
         <p className=" text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c]">
@@ -13,7 +13,7 @@ const RethinkingFossilFuels = () => {
         </p>
       </div>
       <div>
-        <div class="relative overflow-x-auto mt-12">
+        <div class="relative overflow-x-auto mt-4 md:mt-6 lg:mt-8">
           <table class="w-full text-sm text-left text-[#3c3c3c] dark:text-[#3c3c3c] ">
             <thead class="text-xs text-[#3c3c3c] uppercase border-t-2 border-[#316D69] bg-[#f7f5f2] dark:bg-[#f7f5f2] dark:text-[#3c3c3c]">
               <tr className="font-montserrat font-bold text-xl text-[#316D69]">

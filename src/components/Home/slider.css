@@ -41,6 +41,88 @@
         border-radius: 20px;
         box-shadow: 0 30px 50px #505050;
     }
+    @media screen and (min-width:1025px) and (max-width: 1440px){
+        .container_slider {
+            height: 600px !important ;
+            /* box-shadow: 0 30px 50px #a9a8a8; */
+        }
+        
+        /* #slide {
+            width: max-content;
+            margin-top: 50px;
+            height: 1600px !important;
+        } */
+        
+        .item {
+            width: 200px;
+            height: 300px;
+            background-position: 50% 50%;
+            display: inline-block;
+            transition: 0.8s;
+            background-size: cover;
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            transform: translate(0, -50%);
+            border-radius: 20px;
+            box-shadow: 0 30px 50px #505050;
+        }
+    }
+
+    @media screen and (min-width:1921px) and (max-width: 2560px){
+        .container_slider {
+            height: 1000px !important ;
+            /* box-shadow: 0 30px 50px #a9a8a8; */
+        }
+        
+        /* #slide {
+            width: max-content;
+            margin-top: 50px;
+            height: 1600px !important;
+        } */
+        
+        .item {
+            width: 200px;
+            height: 300px;
+            background-position: 50% 50%;
+            display: inline-block;
+            transition: 0.8s;
+            background-size: cover;
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            transform: translate(0, -50%);
+            border-radius: 20px;
+            box-shadow: 0 30px 50px #505050;
+        }
+    }
+    @media screen and (min-width:1441px) and (max-width: 1920px){
+        .container_slider {
+            height: 750px !important ;
+            /* box-shadow: 0 30px 50px #a9a8a8; */
+        }
+        
+        /* #slide {
+            width: max-content;
+            margin-top: 50px;
+            height: 1600px !important;
+        } */
+        
+        .item {
+            width: 200px;
+            height: 300px;
+            background-position: 50% 50%;
+            display: inline-block;
+            transition: 0.8s;
+            background-size: cover;
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            transform: translate(0, -50%);
+            border-radius: 20px;
+            box-shadow: 0 30px 50px #505050;
+        }
+    }
     @media screen and (min-width:1000px) and (max-width: 1024px) {
         .container_slider {
             height: 650px !important ;
@@ -141,7 +223,7 @@
         }
         .item {
             width: 150px;
-            height: 250px;
+            height: 230px;
             background-position: 50% 50%;
             display: inline-block;
             transition: 0.8s;
@@ -188,7 +270,7 @@
         }
         .item .content {
             position: absolute;
-            top: 50%;
+            top: 40%;
             left: 60px !important;
             width: 40%;
             text-align: left;

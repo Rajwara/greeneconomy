@@ -3,10 +3,10 @@ import indurtry from "../../../src/images/anaerobic-industry.png";
 
 function AnaerobicDigestionForIndustry() {
   return (
-    <div className=" bg-[#f7f5f2] flex justify-center gap-8  flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] p-5 md:p-20 mt-[50px]">
+    <div className=" bg-[#f7f5f2] flex justify-center gap-8  flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] pt-[30px] md:pt-[50px] lg:pt-[50px] mt-[50px] pb-[50px]">
       {/* Left Column - Headings */}
       <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 ">
-        <h2 className="text-[#BAB220] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-montserrat font-bold">
+        <h2 className="text-[#BAB220] text-2xl  mb-2 md:mb-4 lg:mb-6  md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-montserrat font-bold">
           Anaerobic Digestion For{" "}
           <span className="text-[#316D69]">Industry</span>
         </h2>
@@ -45,7 +45,7 @@ function AnaerobicDigestionForIndustry() {
             communities.
           </p>
         </div>
-        <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 tracking-normal font-poppins font-normal mt-4">
+        <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 tracking-normal font-poppins font-normal mt-2 lg:mt-4">
           Thus, the adoption of anaerobic digestion aligns with environmental
           and economic interests, serving the goals and objectives of both
           sectors alike.

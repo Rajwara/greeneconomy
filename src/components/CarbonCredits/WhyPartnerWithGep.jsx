@@ -3,10 +3,10 @@ import NatureBasedAssetsimg from "../../../src/images/Why-Partner-With.png";
 
 const WhyPartnerWithGep = () => {
   return (
-    <div className=" flex flex-row mt-[50px] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] sm:mt-[50px] lg:mt-[100px] pb-8">
+    <div className=" flex flex-row mt-[50px] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] sm:mt-[50px] lg:mt-[50px] pb-[50px]">
       <div className="grid grid-cols-1 md:gris-cols-1 lg:grid-cols-2 xl:grid-cols-2 ">
         <div className="flex flex-col mr-0 md:mr-0 lg:mr-[50px] xl:mr-[50px] justify-center">
-          <h2 className="text-2xl md:text-3xl font-bold  leading-7 lg:leading-10 text-[#3c3c3c] font-montserrat dark:text-white mb-4 md:mb-6 lg:mb-8 lg:text-4xl">
+          <h2 className="text-2xl md:text-3xl font-bold  leading-7 lg:leading-10 text-[#3c3c3c] font-montserrat dark:text-white mb-2 md:mb-4 lg:mb-6 lg:text-4xl">
             <span className="text-[#316D69]">Why Partner With</span> GEP?
           </h2>
           <p className="text-sm md:text-base lg:text-lg  font-normal  font-poppins leading-5 lg:leading-7 text-[#3c3c3c]">
@@ -28,7 +28,7 @@ const WhyPartnerWithGep = () => {
             new revenue streams for sustainable growth.
           </p>
           <div className="flex flex-wrap justify-between">
-            <div className="flex flex-col mt-6">
+            <div className="flex flex-col mt-2 md:mt-4 lg:mt-4">
               <h6 className="uppercase text-sm md:text-base lg:text-lg  leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
                 What Do We Offer?
               </h6>

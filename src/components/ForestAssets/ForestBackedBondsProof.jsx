@@ -3,10 +3,10 @@ import Agro from "../../../src/images/Family-farm.jpeg";
 
 const ForestBackedBondsProof = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-8  flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
+    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-8  flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
       <div className="flex flex-col  forestbackedbondsproof">
         {" "}
-        <h2 className="text-[#316D69] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
+        <h2 className="text-[#316D69] text-2xl  mb-2 md:mb-4 lg:mb-6  md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
           Forest-Backed Bonds Proof of Concept Study by Forum for the{" "}
           <span className="text-[#bab220]"> Future & EnviroMarket</span>
         </h2>
@@ -23,7 +23,7 @@ const ForestBackedBondsProof = () => {
           This replacement may lead to substantial carbon releases from the soil
           and forest biomass, negating any benefits from biofuels for decades.
         </p>
-        <p className="mt-4 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-poppins font-normal">
+        <p className="mt-2 lg:mt-4 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-poppins font-normal">
           While the greatest demand for biofuels is concentrated in
           industrialized countries, the most significant production potential
           exists in tropical countries (such as South America, sub-Saharan
@@ -35,7 +35,7 @@ const ForestBackedBondsProof = () => {
         </p>
       </div>
       <div className="carbon text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7  font-poppins font-normal">
-        <h2 className="text-[#316D69] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
+        <h2 className="text-[#316D69] text-2xl  mb-2 md:mb-4 lg:mb-6  md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
           Carbon
         </h2>
         <p className="">
@@ -43,7 +43,7 @@ const ForestBackedBondsProof = () => {
           toward the reduction of carbon dioxide emissions. Forestry initiatives
           contribute to carbon reductions in two fundamental ways.
         </p>
-        <ul className="flex flex-col  list-disc   ml-10 mt-4  ">
+        <ul className="flex flex-col  list-disc   ml-10 mt-2 lg:mt-4  ">
           <li>
             Firstly, by planting and nurturing new trees to absorb and sequester
             carbon from the atmosphere.{" "}
@@ -60,7 +60,7 @@ const ForestBackedBondsProof = () => {
         </p>
       </div>
       <div className="challengesfacedbycarbonreductionmarket text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-poppins font-normal">
-        <h2 className="text-[#316D69] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
+        <h2 className="text-[#316D69] text-2xl  mb-2 md:mb-4 lg:mb-6  md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
           Challenges Faced by Carbon{" "}
           <span className="text-[#bab220]"> Reduction Market </span>
         </h2>
@@ -69,12 +69,12 @@ const ForestBackedBondsProof = () => {
           forestry faces notable challenges, primarily stemming from issues
           related to:
         </p>
-        <ul className="flex flex-col  list-disc  ml-10 mt-4  ">
+        <ul className="flex flex-col  list-disc  ml-10 mt-2 lg:mt-4  ">
           <li>Permanence</li>
           <li>Leakage</li>
           <li>Concerns regarding quality and ownership</li>
         </ul>
-        <p className=" mt-4  ">
+        <p className="mt-2 lg:mt-4  ">
           Carbon stored in forests is dynamic and not constant, forestry carbon
           projects must rigorously adhere to comprehensive methodologies to
           ensure the environmental integrity of the carbon credits they
@@ -85,7 +85,7 @@ const ForestBackedBondsProof = () => {
         </p>
       </div>
       <div className="carboncreditmarkets text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7  font-poppins font-normal">
-        <h2 className="text-[#316D69] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
+        <h2 className="text-[#316D69] text-2xl  mb-2 md:mb-4 lg:mb-6  md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
           Carbon Credit
           <span className="text-[#bab220]"> Markets </span>
         </h2>
@@ -93,7 +93,7 @@ const ForestBackedBondsProof = () => {
           Forestry carbon credits are both generated and traded in two distinct
           markets:
         </p>
-        <ul className="flex flex-col list-none  ml-6 mt-4  ">
+        <ul className="flex flex-col list-none  ml-6 mt-2 lg:mt-4  ">
           <li>
             1. The regulated carbon market, where rules and standards are set
             and enforced by legal authorities, and buyers are obliged to meet

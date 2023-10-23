@@ -2,8 +2,8 @@ import React from "react";
 
 const WasteManagementSolutions = () => {
   return (
-    <div className="px-[30px] mb-12 md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] flex flex-col text-center justify-center items-center">
-      <h2 className="text-2xl md:text-3xl lg:text-4xl text-[#316D69] leading-7 lg:leading-10 font-montserrat font-bold mb-4 md:mb-6 lg:mb-8">
+    <div className="px-[30px] mb-[50px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[0px] lg:mt-[0px] flex flex-col text-center justify-center items-center">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl text-[#316D69] leading-7 lg:leading-10 font-montserrat font-bold  mb-2 md:mb-4 lg:mb-6 ">
         Waste Management <span className="text-[#bab220]">Solution</span>
       </h2>
       <div className="mb-3 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins lg:w-4/5">
@@ -14,7 +14,7 @@ const WasteManagementSolutions = () => {
           become the most famous one. This process operates in an oxygen-free
           environment to produce biogas that is then used as an energy source.
         </p>
-        <p className="mt-4">
+        <p className="mt-2 lg:mt-4">
           It offers a sustainable avenue for clean energy production. Anaerobic
           digestion has the potential for even more applications due to its
           ability to break down organic matter in an efficient way. This

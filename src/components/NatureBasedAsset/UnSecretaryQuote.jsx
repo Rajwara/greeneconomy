@@ -9,8 +9,12 @@ const UnSecretaryQuote = () => {
         The UN Secretary General further added to this in the following words :
       </h6>
 
-      <div className="mt-16 bg-[#316D69] hover:bg-[#3c3c3c] p-10 text-center w-[80%] mx-auto rounded-3xl">
-        <img src={quote_upper_column} className="w-20 h-20 mb-4 " alt="" />
+      <div className="mt-[30px] md:mt-[50px] lg:mt-[50px]  bg-[#316D69] hover:bg-[#3c3c3c] p-10 text-center lg:w-[80%] mx-auto rounded-3xl">
+        <img
+          src={quote_upper_column}
+          className="w-12 md:w-16 lg:w-20 h-12 md:h-16 lg:h-20 mb-4 "
+          alt=""
+        />
         <p className="font-poppins text-sm md:text-base lg:text-lg font-normal leading-5 lg:leading-7 text-[#f7f5f2]">
           An ambitious and effective post-2020 global biodiversity framework,
           with clear targets and benchmarks, can put nature and people back on
@@ -19,7 +23,11 @@ const UnSecretaryQuote = () => {
           desertification and oceans.
         </p>
         <div className="  justify-end flex">
-          <img src={quote_lower_column} className="w-20 h-20  " alt="" />
+          <img
+            src={quote_lower_column}
+            className="w-12 md:w-16 lg:w-20 h-12 md:h-16 lg:h-20  mt-4 "
+            alt=""
+          />
         </div>
       </div>
     </div>
