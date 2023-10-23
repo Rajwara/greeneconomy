@@ -2,10 +2,10 @@ import React from "react";
 
 const SmallPowerfulSink = () => {
   return (
-    <div className="flex justify-center gap-8  flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
+    <div className="flex justify-center gap-8  flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
       <div className="flex flex-col text-center items-center ">
         {" "}
-        <h2 className="text-[#BAB220] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-montserrat font-bold">
+        <h2 className="text-[#BAB220] text-2xl  mb-2 md:mb-4 lg:mb-6  md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-montserrat font-bold">
           A Small But
           <span className="text-[#316D69]"> Powerful Sink</span>
         </h2>

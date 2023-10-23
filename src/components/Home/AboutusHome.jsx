@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineCarryOut } from "react-icons/ai";
-import homeaboutus from "../../../src/images/AboutusHome.png";
+import homeaboutus from "../../../src/images/home-about-us.png";
 
 function AboutusHome() {
   return (
@@ -10,7 +10,7 @@ function AboutusHome() {
           <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat">
             About us
           </h6>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 lg:mb-8 font-montserrat  leading-7 lg:leading-10 font-bold text-[#3c3c3c]">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl mb-2 md:mb-4 lg:mb-6 font-montserrat  leading-7 lg:leading-10 font-bold text-[#3c3c3c]">
             Green Economy Partnership: Going Green by 2050
           </h2>
           <div className="font-poppins text-sm md:text-base lg:text-lg text-[#3c3c3c] font-normal leading-5 lg:leading-7">
@@ -25,7 +25,7 @@ function AboutusHome() {
               for the dire need for a net-zero carbon world. The climate crisis
               can’t be ignored, especially when the numbers speak volumes.
             </p>
-            <p className="mt-4">
+            <p className="mt-2 lg:mt-4">
               From 1880 to 2012, the average global temperature increased by a
               staggering{" "}
               <a

@@ -3,16 +3,16 @@ import banner from "../../../src/images/forestassets-forestry.png";
 
 const ForestAssets = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8  flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
+    <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8  flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
       <div className="img">
         <img src={banner} alt="" className="w-full h-full rounded-lg" />
       </div>
       <div className="flex flex-col  ">
         {" "}
-        <h2 className="text-2xl md:text-3xl lg:text-4xl  text-[#316D69] leading-7 lg:leading-10 font-montserrat font-bold mb-4 md:mb-6 lg:mb-8">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl  text-[#316D69] leading-7 lg:leading-10 font-montserrat font-bold mb-2 md:mb-4 lg:mb-6">
           Forest Assets
         </h2>
-        <div className="mb-6 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins">
+        <div className="mb-4 lg:mb-6 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins">
           <p className=" ">
             Forests cover{" "}
             <a
@@ -41,7 +41,7 @@ const ForestAssets = () => {
         </ul>
         <div className="mb-3 text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal ">
           <a href="/forest-assets">
-            <button className="capitalize bg-[#BAB220] mt-6 w-[170px] text-[#F7F5F2] px-6 py-2 rounded font-montserrat text-sm md:text-base lg:text-lg hover:bg-[#EFEDD1] hover:text-[#316D69]	">
+            <button className="capitalize bg-[#BAB220] mt-4 lg:mt-6 w-[170px] text-[#F7F5F2] px-6 py-2 rounded font-montserrat text-sm md:text-base lg:text-lg hover:bg-[#EFEDD1] hover:text-[#316D69]	">
               Learn More...
             </button>
           </a>

@@ -149,7 +149,7 @@ function FurtherDropdownContent() {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
       <Accordion open={open === 1}>
         <AccordionHeader
           className="text-xl md:text-2xl lg:text-3xl text-[#316D69] font-montserrat font-bold leading-7 lg:leading-9"

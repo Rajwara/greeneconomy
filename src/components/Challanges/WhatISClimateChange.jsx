@@ -3,10 +3,10 @@ import climate from "../../../src/images/climate-change.jpeg";
 
 function WhatIsClimateChange() {
   return (
-    <div className="py-[50px] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] bg-[#EFEDD1] ">
+    <div className="pt-[30px] md:pt-[50px] lg:pt-[50px] pb-[50px] px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] bg-[#EFEDD1] ">
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
         <div className=" container text-left flex flex-col justify-center h-full">
-          <h2 className=" text-[#316D69] text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 lg:mb-8 leading-7 lg:leading-10 font-montserrat  font-bold ">
+          <h2 className=" text-[#316D69] text-2xl md:text-3xl lg:text-4xl mb-2 md:mb-4 lg:mb-6 leading-7 lg:leading-10 font-montserrat  font-bold ">
             What is Climate Change?
           </h2>
           <div className="font-poppins text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal text-[#3c3c3c]">
@@ -15,7 +15,7 @@ function WhatIsClimateChange() {
               patterns of the Earth and global climate systems. Climate change
               is considered the key global challenge over the decade.
             </p>
-            <p className="mt-4 ">
+            <p className="mt-2 lg:mt-4 ">
               It is primarily driven by industrial processes, the burning of
               fossil fuels, and other destructive human activities. Climate
               change leads to a rapid increase in global temperature, resulting
@@ -23,10 +23,12 @@ function WhatIsClimateChange() {
             </p>
           </div>
         </div>
-        <div className="pt-[20px] flex flex-col justify-center items-center h-full">
-          <div className=" container flex  items-center">
-            <img className=" rounded-lg" src={climate} alt="climate"></img>
-          </div>
+        <div className="mt-6 md:mt-6  lg:mt-0">
+          <img
+            className="w-full h-full rounded-lg"
+            src={climate}
+            alt="climate"
+          ></img>
         </div>
       </div>
     </div>

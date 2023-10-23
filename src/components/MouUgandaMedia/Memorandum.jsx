@@ -3,9 +3,9 @@ import videoFile from "../../../src/images/FeasibilityPartnership.MP4";
 
 const Memorandum = () => {
   return (
-    <div className="px-[30px]  md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
+    <div className="px-[30px]  md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
       <div className="flex flex-col text-center justify-center items-center">
-        <h2 className="pb-4 md:pb-6 lg:mb-8 text-center text-[#316D69] leading-7  font-bold text-2xl md:text-3xl lg:text-4xl font-montserrat ">
+        <h2 className="pb-2 md:pb-4 lg:pb-6 text-center text-[#316D69] leading-7  font-bold text-2xl md:text-3xl lg:text-4xl font-montserrat ">
           Memorandum of Understanding{" "}
           <span className="text-[#3c3c3c]"> Signing Ceremony</span>
         </h2>

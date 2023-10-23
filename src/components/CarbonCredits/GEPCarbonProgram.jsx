@@ -6,15 +6,15 @@ const GEPCarbonProgram = () => {
   return (
     <div className="relative ">
       <div>
-        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[50px]">
+        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-montserrat  font-bold text-[#BAB220] pb-0 md:pb-0 lg:pb-6">
+              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-montserrat  font-bold text-[#BAB220] ">
                 How Does GEP Carbon{" "}
                 <span className="text-[#3c3c3c]">Program Work?</span>
               </h2>
 
-              <div className="mt-8 md:mt-10 lg:mt-14 font-poppins text-sm md:text-base lg:text-lg leading-5 lg:leading-7  text-[#3c3c3c]">
+              <div className="mt-4 md:mt-6 lg:mt-8 font-poppins text-sm md:text-base lg:text-lg leading-5 lg:leading-7  text-[#3c3c3c]">
                 <ul className=" flex flex-col gap-2">
                   <div className="	">
                     <li className="flex gap-3 align-middle">
@@ -157,14 +157,13 @@ const GEPCarbonProgram = () => {
                 </ul>
               </div>
             </div>
-            <div className="pb-[20px] flex flex-col justify-center items-center h-full">
-              <div className=" container flex  items-center">
-                <img
-                  className=" mx-auto "
-                  src={EffectsofDeforestation}
-                  alt="EffectsofDeforestation"
-                ></img>
-              </div>
+
+            <div className="">
+              <img
+                className=" w-full h-full rounded-lg "
+                src={EffectsofDeforestation}
+                alt="EffectsofDeforestation"
+              ></img>
             </div>
           </div>
         </div>

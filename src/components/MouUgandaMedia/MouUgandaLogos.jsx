@@ -79,7 +79,7 @@ const MouUgandaLogos = () => {
     },
   ];
   return (
-    <div className="px-[30px]  md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px] md:mt-[50px] lg:mt-[100px] mb-[100px]">
+    <div className="px-[30px]  md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[100px]">
       <div className="logo grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 justify-center items-center m-auto">
         {data.map((item) => (
           <div

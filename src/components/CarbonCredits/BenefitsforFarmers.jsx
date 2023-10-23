@@ -5,19 +5,17 @@ const BenefitsforFarmers = () => {
   return (
     <div className="relative ">
       <div>
-        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] py-[20px] md:py-[50px]">
+        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] pt-0px pb-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
-            <div className="pb-[20px] hidden md:hidden lg:block xl:block flex-col  justify-center items-center h-full">
-              <div className=" container flex  items-center">
-                <img
-                  className=" mx-auto "
-                  src={EffectsofDeforestation}
-                  alt="EffectsofDeforestation"
-                ></img>
-              </div>
+            <div className=" ">
+              <img
+                className=" w-full h-full rounded-lg "
+                src={EffectsofDeforestation}
+                alt="EffectsofDeforestation"
+              ></img>
             </div>
-            <div className="container text-white  flex flex-col  justify-center  h-full">
-              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl  font-montserrat leading-7 lg:leading-10 font-bold text-[#316D69] mb-4 md:mb-6 lg:mb-8">
+            <div className=" text-white  flex flex-col  justify-center  h-full mt-4 md:mt-4 lg:mt-0">
+              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl  font-montserrat leading-7 lg:leading-10 font-bold text-[#316D69] ">
                 Benefits for
                 <span className="text-[#3c3c3c]"> Farmers</span>
               </h2>

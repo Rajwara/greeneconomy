@@ -4,13 +4,13 @@ import SolutionsHomeimg2 from "../../../src/images/ourstory-ourvision.png";
 function OurVision() {
   return (
     <div>
-      <div className=" grid grid-cols-1  lg:grid-cols-2 gap-14 mx-auto mt-[30px] md:mt-[50px] lg:mt-[100px]   px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+      <div className=" grid grid-cols-1  lg:grid-cols-2 gap-14 mx-auto mt-[30px] md:mt-[50px] lg:mt-[50px]  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
         <div className="flex align-middle">
-          <img src={SolutionsHomeimg2} alt="" className="h-auto" />
+          <img src={SolutionsHomeimg2} alt="" className="h-auto w-full" />
         </div>
 
         <div className="flex flex-col flex-wrap">
-          <div className=" mb-4 md:mb-6 lg:mb-8 ">
+          <div className=" mb-2 md:mb-4 lg:mb-6 ">
             <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat">
               Our Vision
             </h6>
@@ -38,7 +38,7 @@ function OurVision() {
               collaborate with them to devise projects that align with their
               requirements.
             </p>
-            <p className="mt-4">
+            <p className="mt-2 lg:mt-4">
               Our heritage and expertise in the green economy allow us to
               identify the loopholes in developing net-zero strategies to reach
               Sustainable Development Goals (SDGs).

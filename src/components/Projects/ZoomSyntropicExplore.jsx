@@ -5,18 +5,22 @@ const ZoomSyntropicExplore = () => {
   return (
     <section>
       <div className="container-fluid  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mx-auto bg-[#f7f5f2]  dark:bg-[#f7f5f2]">
-        <div className="flex flex-wrap items-center align-middle pt-20 pb-8">
+        <div className="flex flex-wrap items-center align-middle pt-[30px] md:pt-[50px] lg:pt-[50px] pb-[50px]">
           <div className="w-full lg:w-1/2">
             <div className=" border-b  lg:border-b-0">
-              <h2 className="mb-4 text-2xl md:text-3xl font-bold lg:text-4xl leading-7 lg:leading-10 font-montserrat font-heading text-[#316D69] dark:text-white">
+              <h2 className=" mb-2 md:mb-4 lg:mb-6  text-2xl md:text-3xl font-bold lg:text-4xl leading-7 lg:leading-10 font-montserrat font-heading text-[#316D69] dark:text-white">
                 <p className="text-[#bab220]">
                   <h2>The Goal of Our Native Forest </h2>
                 </p>{" "}
                 Conservation Project Is to:
               </h2>
             </div>
-            <div className=" gap-8 p-8 lg:p-24">
-              <img src={img1} className=" rounded-lg" alt="Tree" />
+            <div className=" gap-8 p-4">
+              <img
+                src={img1}
+                className=" rounded-lg h-full w-full"
+                alt="Tree"
+              />
             </div>
           </div>
           <div className="w-full lg:w-1/2">

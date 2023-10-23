@@ -11,14 +11,14 @@ const ContactForm = () => {
                 <span className="block mb-0 md:mb-2 lg:mb-4 text-sm md:text-base lg:text-lg  font-semibold text-[#BAB220] text-primary font-montserrat  leading-5 lg:leading-7">
                   Feel free to...
                 </span>
-                <h2 className="mb-4 md:mb-6 lg:mb-8 text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-bold uppercase text-[#316D69] text-dark   font-montserrat ">
+                <h2 className="mb-2 md:mb-4 lg:mb-6 text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-bold uppercase text-[#316D69] text-dark   font-montserrat ">
                   CONTACT US
                 </h2>
-                <p className="text-sm md:text-base lg:text-lg  leading-5 lg:leading-7 mb-4 md:mb-6 lg:mb-8 text-[#3c3c3c] font-poppins font-normal">
+                <p className="text-sm md:text-base lg:text-lg  leading-5 lg:leading-7 mb-2 md:mb-4 lg:mb-6 text-[#3c3c3c] font-poppins font-normal">
                   For any questions about Green Economy, please do not hesitate
                   to contact us.
                 </p>
-                <div className="mb-8 flex w-full max-w-[370px]">
+                <div className="mb-2 md:mb-4 lg:mb-6 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
                     <svg
                       width={24}

@@ -3,10 +3,10 @@ import Digestate from "../../../src/images/anaerobic-digestion-management.png";
 
 const DigestateManagement = () => {
   return (
-    <div className="  flex justify-center gap-8 flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] p-5 md:p-20">
+    <div className="  flex justify-center gap-8 flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] pt-[30px] md:pt-[50px] lg:pt-[50px] pb-[50px]">
       <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 ">
         <div>
-          <h1 className="text-[#BAB220] text-2xl mb-4 md:mb-6 lg:mb-8 md:text-3xl lg:text-3xl leading-7 lg:leading-10 font-montserrat font-bold">
+          <h1 className="text-[#BAB220] text-2xl  mb-2 md:mb-4 lg:mb-6  md:text-3xl lg:text-3xl leading-7 lg:leading-10 font-montserrat font-bold">
             Digestate
             <span className="text-[#316D69]"> Management </span>
           </h1>
@@ -25,7 +25,7 @@ const DigestateManagement = () => {
             practices.
           </p>
         </div>
-        <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 tracking-normal font-poppins mt-4 font-normal">
+        <p className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 tracking-normal font-poppins mt-2 lg:mt-4 font-normal">
           The sustainable approach reduces greenhouse gas emissions and improves
           soil health by nurturing its nutrients in the most economical way.
           Anaerobic digestion and digestate management are being employed to

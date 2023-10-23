@@ -5,7 +5,7 @@ import graphimage from "../../images/Graph1.png";
 const FlowChart = () => {
   return (
     <div>
-      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4 mx-auto mt-10 md:mt-18 lg:mt-20  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] items-center">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4 mx-auto mt-6 md:mt-6 lg:mt-6  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] items-center">
         <div className="flex">
           {/* <GraphForHome /> */}
           <img src={graphimage} alt="" />
@@ -13,7 +13,7 @@ const FlowChart = () => {
 
         <div className="flex flex-col flex-wrap">
           <div className="text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-montserrat font-bold">
-            <h2 className="   text-[#316D69] border-neutral-950	mb-4 md:mb-6 lg:mb-8 ">
+            <h2 className="   text-[#316D69] border-neutral-950	mb-2 md:mb-4 lg:mb-6 ">
               Emission Giants
             </h2>
           </div>
@@ -38,7 +38,7 @@ const FlowChart = () => {
               </a>{" "}
               they accounted for half of the global greenhouse gas emissions.
             </p>
-            <p className="mt-4">
+            <p className="mt-2 lg:mt-4">
               The rest of the countries including Argentina, the Republic of
               Korea, Mexico, Saudi Arabia, South Africa, Turkey, the United
               Kingdom, Australia, Canada, France, Germany, Italy, Japan are

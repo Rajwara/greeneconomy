@@ -3,10 +3,10 @@ import NatureBasedAssets2 from "../../../src/images/Nature-Based-Assets-2.png";
 
 const NatureBaseSolutionSecond = () => {
   return (
-    <div className=" flex flex-row lg:items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] lg:mt-[100px] mt-[50px]">
+    <div className=" flex flex-row lg:items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] md:mt-[50px] lg:mt-[50px] mt-[30px] mb-[50px]">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
         <div className="flex items-center  ">
-          <img src={NatureBasedAssets2} className="h-[90%] w-full" alt="Tree" />
+          <img src={NatureBasedAssets2} className="h-full w-full" alt="Tree" />
         </div>
         <div className="text-sm md:text-base lg:text-lg font-normal mt-4 font-poppins leading-5 lg:leading-7 text-[#3c3c3c]">
           <p className="">
@@ -21,7 +21,7 @@ const NatureBaseSolutionSecond = () => {
             GEP has an open approach towards climate investments, contributing
             towards the dire need to reach the target of zero emissions by 2050.
           </p>
-          <p className="mt-4">
+          <p className="mt-2 lg:mt-4">
             {" "}
             The Sustainable Forest Management (SFM) operators and investors seek
             to develop new income streams from natural forests such as carbon,
@@ -32,7 +32,7 @@ const NatureBaseSolutionSecond = () => {
           </p>
 
           <div className="lg:mt-0 lg:flex-shrink-0">
-            <div className="mt-6 md:mt-10 lg:mt-12 inline-flex rounded-lg shadow">
+            <div className="mt-4 md:mt-4 lg:mt-6 inline-flex rounded-lg shadow">
               <button
                 type="button"
                 className="py-3 px-[25px] font-montserrat text-sm md:text-base lg:text-lg text-white border-2 border-[#316D69] hover:text-white bg-[#316D69] font-semibold hover:bg-[#BAB220] transition duration-300 rounded-lg"

@@ -31,7 +31,7 @@ const CoverTheSoil = () => {
                 alt=""
                 className="w-[100%] h-[100%] rounded-lg"
               />
-              <p className="text-sm md:text-base lg:text-lg  mt-6 text-[#316D69] font-bold font-poppins leading-5 lg:leading-7">
+              <p className="text-sm md:text-base lg:text-lg  mt-4 lg:mt-6 text-[#316D69] font-bold font-poppins leading-5 lg:leading-7">
                 {item.description}
               </p>
             </div>
