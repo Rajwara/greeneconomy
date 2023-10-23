@@ -48,7 +48,7 @@ const Slider = () => {
       imgUrl:
         "https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       desc: "GEP supports wind and solar energy incentives within local communities, helping you contribute to a sustainable future. Our initiatives empower local communities, ensuring a sustainable, cost-efficient, and greener future.",
-      name: "Renewable Energy",
+      name: "Wind and Solar",
       buttontext: "Embrace Green Living!",
     },
     {
@@ -56,7 +56,7 @@ const Slider = () => {
       imgUrl:
         "https://images.unsplash.com/photo-1508333509220-c13101299e68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       desc: "Anaerobic digestion is gaining popularity in waste management, particularly in Dubai. GEP offers consultancy to harness its potential, cut carbon footprints, and establish cost-effective power generation systems for a greener future.",
-      name: "Waste Management ",
+      name: " Anaerobic Digestion",
       buttontext: "Embrace the Green Life!      ",
     },
   ];
