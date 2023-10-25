@@ -5,20 +5,19 @@ import graphimage from "../../images/Graph1.png";
 const FlowChart = () => {
   return (
     <div>
-      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4 mx-auto mt-6 md:mt-6 lg:mt-6  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] items-center">
-        <div className="flex">
-          {/* <GraphForHome /> */}
-          <img src={graphimage} alt="" />
+      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4 mx-auto mt-[30px] lg:mt-[50px] mb-[30px] xl:mb-[50px]  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] items-center">
+        <div className="hidden md:hidden lg:block xl:block">
+          <img src={graphimage} alt="" className="h-full w-full rounded-lg"/>
         </div>
 
         <div className="flex flex-col flex-wrap">
-          <div className="text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10 font-montserrat font-bold">
-            <h2 className="   text-[#316D69] border-neutral-950	mb-2 md:mb-4 lg:mb-6 ">
+          <div className="text-2xl md:text-3xl xl:text-4xl leading-7 xl:leading-10 font-montserrat font-bold">
+            <h2 className="   text-[#316D69] border-neutral-950	mb-2 md:mb-4 xl:mb-6 ">
               Emission Giants
             </h2>
           </div>
 
-          <div className="text-sm md:text-base lg:text-lg text-[#3c3c3c] leading-5 lg:leading-7 font-normal font-poppins">
+          <div className="text-sm md:text-base xl:text-lg text-[#3c3c3c] leading-5 xl:leading-7 font-normal font-poppins">
             <p className="">
               According to the{" "}
               <a
@@ -38,7 +37,7 @@ const FlowChart = () => {
               </a>{" "}
               they accounted for half of the global greenhouse gas emissions.
             </p>
-            <p className="mt-2 lg:mt-4">
+            <p className="mt-2 xl:mt-4">
               The rest of the countries including Argentina, the Republic of
               Korea, Mexico, Saudi Arabia, South Africa, Turkey, the United
               Kingdom, Australia, Canada, France, Germany, Italy, Japan are
@@ -52,6 +51,9 @@ const FlowChart = () => {
               of the global greenhouse gas emissions
             </p>
           </div>
+        </div>
+        <div className="lg:hidden xl:hidden">
+          <img src={graphimage} alt="" className="h-full w-full rounded-lg"/>
         </div>
       </div>
     </div>
