@@ -34,12 +34,12 @@ const LetNatureNurture = () => {
     <div className="main flex flex-col px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] ">
       <div className="flex flex-col  ">
         <div className="">
-          <h2 className="uppercase text-2xl md:text-3xl lg:text-4xl text-[#316D69] leading-7 lg:leading-10 font-bold	font-montserrat">
+          <h2 className="uppercase text-2xl md:text-3xl xl:text-4xl text-[#316D69] leading-7 xl:leading-10 font-bold	font-montserrat">
             3 Keys to Syntropic Farming
           </h2>
         </div>
-        <div className="flex flex-col items-center mt-4 md:mt-4 lg:mt-4">
-          <div className="flex gap-2 text-base md:text-lg lg:text-xl leading-7 lg:leading-10  font-montserrat mb-2 md:mb-4 lg:mb-6 font-bold text-[#3c3c3c] mt-2 ">
+        <div className="flex flex-col items-center mt-4 md:mt-4 xl:mt-4">
+          <div className="flex gap-2 text-base md:text-lg xl:text-xl leading-7 xl:leading-10  font-montserrat mb-2 md:mb-4 xl:mb-6 font-bold text-[#3c3c3c] mt-2 ">
             <h2 className=" text-[#bab220]">1.</h2>
             <h2 className=" ">Prune to Stimulate New Growth</h2>
           </div>
@@ -54,17 +54,17 @@ const LetNatureNurture = () => {
                 <img
                   src={item.img}
                   alt="LetNatureNurture"
-                  className="w-[100%] h-[250px] "
+                  className="w-[100%] h-full lg:h-[200px] xl:h-[250px] "
                 />
                 <div className="flex gap-2 mt-2 lg:mt-4">
-                  <h6 className="uppercase text-sm md:text-base lg:text-lg  text-[#bab220] font-bold	font-montserrat leading-7 lg:leading-9 border-b-4 border-[#316D69]">
+                  <h6 className="uppercase text-sm md:text-base xl:text-lg  text-[#bab220] font-bold	font-montserrat leading-7 xl:leading-9 border-b-4 border-[#316D69]">
                     {item.headinglist}
                   </h6>
-                  <h6 className="uppercase text-sm md:text-base lg:text-lg  text-[#316D69] font-bold	font-montserrat leading-7 lg:leading-9">
+                  <h6 className="uppercase text-sm md:text-base xl:text-lg  text-[#316D69] font-bold	font-montserrat leading-7 xl:leading-9">
                     {item.headingtext}
                   </h6>
                 </div>
-                <p className="text-sm md:text-base lg:text-lg  mt-2 lg:mt-4 text-[#3c3c3c] font-normal font-poppins leading-5 lg:leading-7">
+                <p className="text-sm md:text-base xl:text-lg  mt-2 xl:mt-4 text-[#3c3c3c] font-normal font-poppins leading-5 xl:leading-7">
                   {item.description}
                 </p>
               </div>

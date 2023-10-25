@@ -5,10 +5,10 @@ const ZoomSyntropicExplore = () => {
   return (
     <section>
       <div className="container-fluid  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mx-auto bg-[#f7f5f2]  dark:bg-[#f7f5f2]">
-        <div className="flex flex-wrap items-center align-middle pt-[30px] md:pt-[50px] lg:pt-[50px] pb-[50px]">
+        <div className="flex flex-wrap items-center align-middle pt-[30px]  lg:pt-[50px] pb-[30px] xl:pb-[50px]">
           <div className="w-full lg:w-1/2">
             <div className=" border-b  lg:border-b-0">
-              <h2 className=" mb-2 md:mb-4 lg:mb-6  text-2xl md:text-3xl font-bold lg:text-4xl leading-7 lg:leading-10 font-montserrat font-heading text-[#316D69] dark:text-white">
+              <h2 className=" mb-2 md:mb-4 xl:mb-6  text-2xl md:text-3xl font-bold xl:text-4xl leading-7 xl:leading-10 font-montserrat font-heading text-[#316D69] dark:text-white">
                 <p className="text-[#bab220]">
                   <h2>The Goal of Our Native Forest </h2>
                 </p>{" "}
@@ -24,10 +24,10 @@ const ZoomSyntropicExplore = () => {
             </div>
           </div>
           <div className="w-full lg:w-1/2">
-            <ul className="space-y-4 leading-5 lg:leading-7 text-sm md:text-base lg:text-lg text-[#3c3c3c] font-normal font-poppins">
+            <ul className="space-y-4 leading-5 xl:leading-7 text-sm md:text-base xl:text-lg text-[#3c3c3c] font-normal font-poppins">
               <li className="flex   ">
                 <div className="px-4 ">
-                  <span className="flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10 mx-auto   font-bold text-[#bab220] rounded-full  border-2 border-[#BAB220]">
+                  <span className="flex items-center justify-center w-6 h-6 xl:w-10 xl:h-10 mx-auto   font-bold text-[#bab220] rounded-full  border-2 border-[#BAB220]">
                     1
                   </span>
                 </div>
@@ -38,7 +38,7 @@ const ZoomSyntropicExplore = () => {
               </li>
               <li className="flex  ">
                 <div className="px-4 ">
-                  <span className="flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10 mx-auto  font-bold text-[#bab220] rounded-full border-2 border-[#BAB220]">
+                  <span className="flex items-center justify-center w-6 h-6 xl:w-10 xl:h-10 mx-auto  font-bold text-[#bab220] rounded-full border-2 border-[#BAB220]">
                     2
                   </span>
                 </div>
@@ -50,7 +50,7 @@ const ZoomSyntropicExplore = () => {
               </li>
               <li className="flex  ">
                 <div className="px-4 ">
-                  <span className="flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10 mx-auto  font-bold text-[#bab220] rounded-full  border-2 border-[#BAB220]">
+                  <span className="flex items-center justify-center w-6 h-6 xl:w-10 xl:h-10 mx-auto  font-bold text-[#bab220] rounded-full  border-2 border-[#BAB220]">
                     3
                   </span>
                 </div>
@@ -61,7 +61,7 @@ const ZoomSyntropicExplore = () => {
               </li>
               <li className="flex ">
                 <div className="px-4 ">
-                  <span className="flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10 mx-auto font-bold text-[#bab220] rounded-full  border-2 border-[#BAB220]">
+                  <span className="flex items-center justify-center w-6 h-6 xl:w-10 xl:h-10 mx-auto font-bold text-[#bab220] rounded-full  border-2 border-[#BAB220]">
                     4
                   </span>
                 </div>
@@ -72,7 +72,7 @@ const ZoomSyntropicExplore = () => {
               </li>
               <li className="flex ">
                 <div className="px-4 ">
-                  <span className="flex items-center justify-center w-6 h-6 lg:w-10 lg:h-10  mx-auto   font-bold text-[#bab220] rounded-full  border-2 border-[#BAB220]">
+                  <span className="flex items-center justify-center w-6 h-6 xl:w-10 xl:h-10  mx-auto   font-bold text-[#bab220] rounded-full  border-2 border-[#BAB220]">
                     5
                   </span>
                 </div>
