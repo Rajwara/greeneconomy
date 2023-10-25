@@ -5,7 +5,6 @@ import AgricultureOne from "../../components/Agriculture/AgricultureOne";
 import AgricultureTwo from "../../components/Agriculture/AgricultureTwo";
 import AgricultureThree from "../../components/Agriculture/AgricultureThree";
 import ContactFooterUperButton from "../../components/ContactFooterUperComponent/ContactFooterUperButton";
-// import AgricultureSix from "../../components/Agriculture/AgricultureSix";
 
 const Agriculture = () => {
   return (
@@ -15,7 +14,6 @@ const Agriculture = () => {
       <AgricultureTwo />
       <AgricultureThree />
       <AgricultureAssets />
-      {/* <AgricultureSix /> */}
       <ContactFooterUperButton />
     </div>
   );

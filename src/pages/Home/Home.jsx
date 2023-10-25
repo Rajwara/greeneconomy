@@ -4,7 +4,6 @@ import AboutusHome from "../../components/Home/AboutusHome";
 import ServicesHome from "../../components/Home/ServicesHome";
 import AnimatedCard from "../../components/Home/AnimatedCard";
 import GovernmentofUganda from "../../components/Home/GovernmentofUganda";
-import OurActivateAprroach from "../../components/Home/OurActivateAprroach";
 import OurPartner from "../../components/Home/OurPartner";
 import Counter from "../../components/Home/Counter";
 import TabsCustomAnimation from "../../components/Home/TabsCustomAnimation";
@@ -22,7 +21,6 @@ const Home = () => {
       <TabsCustomAnimation />
       <FlowChart />
       <GovernmentofUganda />
-      {/* <OurActivateAprroach /> */}
       <OurPartner />
       <ContactFooterUperButton />
     </div>
