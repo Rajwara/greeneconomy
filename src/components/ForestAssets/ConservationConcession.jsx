@@ -2,14 +2,14 @@ import React from "react";
 
 const ConservationConcession = () => {
   return (
-    <div className=" px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
+    <div className=" px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] lg:mt-[50px] mb-[30px] xl:mb-[50px]">
       <div className="flex flex-col">
         <div className="conservationconcessions">
-          <h2 className="text-[#316D69] text-2xl mb-2 md:mb-4 lg:mb-6 md:text-3xl lg:text-4xl leading-7 lg:leading-10   font-montserrat font-bold">
+          <h2 className="text-[#316D69] text-2xl mb-2 md:mb-4 xl:mb-6 md:text-3xl xl:text-4xl leading-7 xl:leading-10   font-montserrat font-bold">
             Conservation
             <span className="text-[#bab220]"> Concessions </span>
           </h2>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-4 font-poppins font-normal ">
+          <div className="text-[#3c3c3c] text-sm md:text-base xl:text-lg leading-5 xl:leading-7 mt-4 font-poppins font-normal ">
             <p className="">
               The Conservation Concession is an innovative approach that
               reconciles the imperative need for resource preservation and
@@ -20,7 +20,7 @@ const ConservationConcession = () => {
               methodically structured compensation disbursed by dedicated
               conservationists or investors.
             </p>
-            <p className=" mt-2 lg:mt-4  ">
+            <p className=" mt-2 xl:mt-4  ">
               In this context, a conservation concession can be envisioned akin
               to the conventional timber concessions. However, a remarkable
               distinction prevails. Rather than exploiting the concession area
@@ -30,11 +30,11 @@ const ConservationConcession = () => {
           </div>
         </div>
         <div className="wwfheartofborneo">
-          <h2 className="text-[#316D69] text-2xl  mb-2 md:mb-4 lg:mb-6  md:text-3xl lg:text-4xl leading-7 lg:leading-10 mt-4 tracking-normal font-montserrat font-bold">
+          <h2 className="text-[#316D69] text-2xl  mb-2 md:mb-4 xl:mb-6  md:text-3xl xl:text-4xl leading-7 xl:leading-10 mt-4  font-montserrat font-bold">
             Conservation Management:
             <span className="text-[#bab220]"> WWF Heart of Borneo</span>
           </h2>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-4 font-poppins font-normal ">
+          <div className="text-[#3c3c3c] text-sm md:text-base xl:text-lg leading-5 xl:leading-7 mt-4 font-poppins font-normal ">
             <p className="">
               The Heart of Borneo spans approximately
               <a
@@ -74,7 +74,7 @@ const ConservationConcession = () => {
               , signifies a commitment from the three countries involved to
               preserve and sustainably manage the Heart of Borneo.
             </p>
-            <p className=" mt-2 lg:mt-4  ">
+            <p className=" mt-2 xl:mt-4  ">
               As of{" "}
               <a
                 href="https://www.cbd.int/financial/interdevinno/g-interdevconcession.pdf"
@@ -91,17 +91,17 @@ const ConservationConcession = () => {
               concessions provide:
             </p>
           </div>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-2 lg:mt-4 font-poppins font-normal  ml-6">
+          <div className="text-[#3c3c3c] text-sm md:text-base xl:text-lg leading-5 xl:leading-7 mt-2 xl:mt-4 font-poppins font-normal  ml-6">
             <p className="   ">
               1. A stable source of funds for economic development, delivering
               regular, low-risk payments in a stable currency.
             </p>
-            <p className=" mt-2 lg:mt-4  ">
+            <p className=" mt-2 xl:mt-4  ">
               2. Direct, transparent investments in conservation, demonstrating
               clear benefits to potential biodiversity investors within an
               outcome-oriented framework.
             </p>
-            <p className=" mt-2 lg:mt-4  ">
+            <p className=" mt-2 xl:mt-4  ">
               3. A market-based mechanism, making conservation a product that
               can be directly purchased and provided based on well-defined
               criteria.
@@ -109,11 +109,11 @@ const ConservationConcession = () => {
           </div>
         </div>
         <div className="communityforestsandforestryassociations">
-          <h2 className="text-[#316D69] text-2xl  mb-2 md:mb-4 lg:mb-6  md:text-3xl lg:text-4xl leading-7 lg:leading-10 mt-4 tracking-normal font-montserrat font-bold">
+          <h2 className="text-[#316D69] text-2xl  mb-2 md:mb-4 xl:mb-6  md:text-3xl xl:text-4xl leading-7 xl:leading-10 mt-4 font-montserrat font-bold">
             Community Forests and
             <span className="text-[#bab220]"> Forestry Associations </span>
           </h2>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-2 lg:mt-4 font-poppins font-normal ">
+          <div className="text-[#3c3c3c] text-sm md:text-base xl:text-lg leading-5 xl:leading-7 mt-2 xl:mt-4 font-poppins font-normal ">
             <p className="">
               Traditionally, governments owned the forests, but it is changing.
               Political and legal reforms are propelling the transfer of land
@@ -123,7 +123,7 @@ const ConservationConcession = () => {
               Amazon basin countries have transferred one million square
               kilometers of forest land to community ownership.
             </p>
-            <p className=" mt-2 lg:mt-4  ">
+            <p className=" mt-2 xl:mt-4  ">
               These associations enhance governmental awareness or
               representation but also hold the potential to access a resource
               base of sufficient scale to support the issuance of forest-backed
@@ -135,11 +135,11 @@ const ConservationConcession = () => {
           </div>
         </div>
         <div className="collaborativeventuresbetweenbusinessesandcommunities">
-          <h2 className="text-[#316D69] text-2xl  mb-2 md:mb-4 lg:mb-6  md:text-3xl lg:text-4xl leading-7 lg:leading-10 mt-4 tracking-normal font-montserrat font-bold">
+          <h2 className="text-[#316D69] text-2xl  mb-2 md:mb-4 xl:mb-6  md:text-3xl xl:text-4xl leading-7 xl:leading-10 mt-4 font-montserrat font-bold">
             Collaborative Ventures Between
             <span className="text-[#bab220]"> Businesses and Communities</span>
           </h2>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-2 lg:mt-4 font-poppins font-normal ">
+          <div className="text-[#3c3c3c] text-sm md:text-base xl:text-lg leading-5 xl:leading-7 mt-2 xl:mt-4 font-poppins font-normal ">
             <p className=" ">
               When companies find it challenging to access essential raw
               materials, they often establish a diverse array of relationships
@@ -150,35 +150,35 @@ const ConservationConcession = () => {
               role in nearly every aspect, from planting to harvesting, and even
               encompass tasks like arranging financing and providing training.
             </p>
-            <p className="mt-2 lg:mt-4">
+            <p className="mt-2 xl:mt-4">
               In the context of the Green Economy, four broad categories of
               outgrower arrangements can be identified:
             </p>
           </div>
-          <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 mt-2 lg:mt-4 font-poppins font-normal  ml-6">
+          <div className="text-[#3c3c3c] text-sm md:text-base xl:text-lg leading-5 xl:leading-7 mt-2 xl:mt-4 font-poppins font-normal  ml-6">
             <p className="   ">
               1. Collaborations in which growers assume primary responsibility
               for production, relying on companies for off-take agreements.
             </p>
-            <p className=" mt-2 lg:mt-4  ">
+            <p className=" mt-2 xl:mt-4  ">
               2. Collaborations in which companies take on the primary role in
               production, compensating landowners with market-related prices for
               the wood they produce.
             </p>
-            <p className=" mt-2 lg:mt-4  ">
+            <p className=" mt-2 xl:mt-4  ">
               3. Land lease arrangements in which landowners have limited
               involvement in plantation management.
             </p>
-            <p className=" mt-2 lg:mt-4  ">
+            <p className=" mt-2 xl:mt-4  ">
               4. Land lease arrangements in which some additional benefits
               accrue to the landowner.
             </p>
           </div>
-          <ul className="flex flex-col mt-2  lg:mt-4">
-            <h6 className="uppercase text-sm md:text-base lg:text-lg text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat mb-2">
+          <ul className="flex flex-col mt-2  xl:mt-4">
+            <h6 className="uppercase text-sm md:text-base xl:text-lg text-[#316D69] font-bold leading-7 xl:leading-9	font-montserrat mb-2">
               The primary advantages for companies typically include:
             </h6>
-            <ul className="flex flex-col mt-2 lg:mt-4  text-[#3c3c3c] text-sm md:text-base list-disc lg:text-lg leading-5 lg:leading-7 font-poppins font-normal">
+            <ul className="flex flex-col mt-2 xl:mt-4  text-[#3c3c3c] text-sm md:text-base list-disc xl:text-lg leading-5 xl:leading-7 font-poppins font-normal">
               <li className="ml-6">
                 Indirect cost savings, as they are not required to purchase
                 land.
