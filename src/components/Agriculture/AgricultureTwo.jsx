@@ -3,9 +3,9 @@ import img1 from "../../../src/images/agriculture-significance.png";
 
 function AgricultureTwo() {
   return (
-    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px]">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lg:gap-x-[50px] ">
-        <div className="">
+        <div className="hidden md:hidden lg:block xl:block">
           <img className="h-full w-full rounded-lg" src={img1} alt=""></img>
         </div>
         <div className=" text-white  flex flex-col justify-center  ">
@@ -43,6 +43,9 @@ function AgricultureTwo() {
               and biodiversity.
             </li>
           </ul>
+        </div>
+        <div className="mt-6 md:mt-6 lg:mt-0 lg:hidden xl:hidden">
+          <img className="h-full w-full rounded-lg" src={img1} alt=""></img>
         </div>
       </div>
     </div>
