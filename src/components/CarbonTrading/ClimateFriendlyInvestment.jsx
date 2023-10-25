@@ -2,12 +2,12 @@ import React from "react";
 
 const ClimateFriendlyInvestment = () => {
   return (
-    <div className="flex flex-col flex-wrap bg-[#F7F5F2]  justify-center text-center px-[30px] md:px-[60px] font-roboto lg:px-[80px] xl:px-[100px] pt-[50px] pb-[50px]">
+    <div className="flex flex-col flex-wrap bg-[#F7F5F2]  justify-center text-center px-[30px] md:px-[60px] font-roboto lg:px-[80px] xl:px-[100px] pt-[30px] lg:pt-[50px] pb-[30px] xl:pb-[50px]">
       <div className="flex flex-col">
-        <h2 className=" mb-2 md:mb-4 lg:mb-6   text-[#316D69] font-montserrat text-2xl md:text-3xl lg:text-4xl font-bold leading-7 lg:leading-10 ">
+        <h2 className=" mb-2 md:mb-4 xl:mb-6   text-[#316D69] font-montserrat text-2xl md:text-3xl xl:text-4xl font-bold leading-7 xl:leading-10 ">
           <span className="text-[#BAB220]">Climate-Friendly </span> Investment
         </h2>
-        <div className="text-[#3C3C3C] text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7">
+        <div className="text-[#3C3C3C] text-sm md:text-base xl:text-lg font-normal font-poppins leading-5 xl:leading-7">
           <p className="">
             In{" "}
             <a
@@ -24,7 +24,7 @@ const ClimateFriendlyInvestment = () => {
             protect blue carbon.
           </p>
 
-          <p className="mt-2 lg:mt-4">
+          <p className="mt-2 xl:mt-4">
             This initiative is in compliance with Article 6.2 of the Paris
             Agreement named, Internationally Transferred Mitigation Outcomes
             (ITMOs). GEP helps governments or organizations generate revenues
@@ -33,7 +33,7 @@ const ClimateFriendlyInvestment = () => {
             other climate mitigation projects, thus reaching the carbon emission
             reduction target under the Paris Agreement.
           </p>
-          <p className="mt-2 lg:mt-4">
+          <p className="mt-2 xl:mt-4">
             The coastal ecosystems are vital for mitigating climate change
             through carbon sequestration. By harnessing the power of Blue
             Carbon, GEP experts are also enriching the marine ecosystems. With

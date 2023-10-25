@@ -5,22 +5,22 @@ const BenefitsforFarmers = () => {
   return (
     <div className="relative ">
       <div>
-        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] pt-0px pb-[50px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
-            <div className=" ">
+        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] pt-0px pb-[30px] xl:pb-[50px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] items-center">
+            <div className=" hidden md:hidden lg:block xl:block">
               <img
-                className=" w-full h-full rounded-lg "
+                className=" w-full h-full lg:h-[450px] xl:h-full rounded-lg "
                 src={EffectsofDeforestation}
                 alt="EffectsofDeforestation"
               ></img>
             </div>
             <div className=" text-white  flex flex-col  justify-center  h-full mt-4 md:mt-4 lg:mt-0">
-              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl  font-montserrat leading-7 lg:leading-10 font-bold text-[#316D69] ">
+              <h2 className="text-left text-2xl md:text-3xl xl:text-4xl  font-montserrat leading-7 xl:leading-10 font-bold text-[#316D69] ">
                 Benefits for
                 <span className="text-[#3c3c3c]"> Farmers</span>
               </h2>
 
-              <div className="mt-4 md:mt-6 lg:mt-8 font-poppins text-sm md:text-base lg:text-lg font-normal leading-5 lg:leading-7  text-[#3c3c3c]">
+              <div className="mt-4 md:mt-6 xl:mt-8 font-poppins text-sm md:text-base xl:text-lg font-normal leading-5 xl:leading-7  text-[#3c3c3c]">
                 <ul className=" flex flex-col gap-2">
                   <div className="	">
                     <li className="flex gap-3 align-middle">
@@ -29,7 +29,7 @@ const BenefitsforFarmers = () => {
                           1
                         </span>
                       </div>
-                      <h6 className="uppercase  text-[#316D69] font-bold leading-7 lg:leading-9	font-montserrat">
+                      <h6 className="uppercase  text-[#316D69] font-bold leading-7 xl:leading-9	font-montserrat">
                         Higher quality soil:
                       </h6>
                     </li>
@@ -51,7 +51,7 @@ const BenefitsforFarmers = () => {
                           2
                         </span>
                       </div>
-                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 xl:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Lower input costs:
                       </h6>
                     </li>
@@ -73,7 +73,7 @@ const BenefitsforFarmers = () => {
                           3
                         </span>
                       </div>
-                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 xl:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Higher profits in the long term:
                       </h6>
                     </li>
@@ -95,7 +95,7 @@ const BenefitsforFarmers = () => {
                           4
                         </span>
                       </div>
-                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 xl:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Access to strong community and knowledge:
                       </h6>
                     </li>
@@ -111,14 +111,12 @@ const BenefitsforFarmers = () => {
                 </ul>
               </div>
             </div>
-            <div className="pb-[20px] lg:hidden flex flex-col  justify-center items-center h-full">
-              <div className=" container flex  items-center">
-                <img
-                  className=" mx-auto "
-                  src={EffectsofDeforestation}
-                  alt="EffectsofDeforestation"
-                ></img>
-              </div>
+            <div className="pb-[20px]   lg:hidden xl:hidden ">
+              <img
+                className=" rounded-lg h-full w-full "
+                src={EffectsofDeforestation}
+                alt="EffectsofDeforestation"
+              ></img>
             </div>
           </div>
         </div>

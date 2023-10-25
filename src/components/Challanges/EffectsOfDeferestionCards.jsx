@@ -6,17 +6,17 @@ function EffectsOfDeferestionCards() {
   return (
     <div className="relative ">
       <div>
-        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
+        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] items-center">
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat  font-bold text-[#BAB220] mb-2 md:mb-4 lg:mb-6">
+              <h2 className="text-left text-2xl md:text-3xl xl:text-4xl leading-7 xl:leading-10  font-montserrat  font-bold text-[#BAB220] mb-2 md:mb-4 xl:mb-6">
                 Effects of Deforestation
               </h2>
-              <p className="text-[#3C3C3C] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins ">
+              <p className="text-[#3C3C3C] text-sm md:text-base xl:text-lg leading-5 xl:leading-7 font-normal font-poppins ">
                 Here is how deforestation negatively affects us and our
                 surroundings:
               </p>
-              <div className="mt-4 md:mt-6 lg:mt-8 font-poppins text-sm md:text-base lg:text-lg font-normal leading-5 lg:leading-7 text-[#3c3c3c]">
+              <div className="mt-4 md:mt-6 lg:mt-8 font-poppins text-sm md:text-base xl:text-lg font-normal leading-5 xl:leading-7 text-[#3c3c3c]">
                 <ul className=" flex flex-col gap-2">
                   <div className="	">
                     <li className="flex gap-3 align-middle">
@@ -25,7 +25,7 @@ function EffectsOfDeferestionCards() {
                         src={BulletPointarrow}
                         alt="location"
                       />
-                      <h6 className="uppercase leading-7 lg:leading-9  text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 xl:leading-9  text-[#316D69] font-bold	font-montserrat">
                         Climate Change:
                       </h6>
                     </li>
@@ -47,7 +47,7 @@ function EffectsOfDeferestionCards() {
                         src={BulletPointarrow}
                         alt="location"
                       />
-                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 xl:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Soil Erosion:
                       </h6>
                     </li>
@@ -69,7 +69,7 @@ function EffectsOfDeferestionCards() {
                         src={BulletPointarrow}
                         alt="location"
                       />
-                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 xl:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Ecological Disturbance:
                       </h6>
                     </li>
@@ -91,7 +91,7 @@ function EffectsOfDeferestionCards() {
                         src={BulletPointarrow}
                         alt="location"
                       />
-                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 xl:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Impact on Water Cycle:
                       </h6>
                     </li>
@@ -113,7 +113,7 @@ function EffectsOfDeferestionCards() {
                         src={BulletPointarrow}
                         alt="location"
                       />
-                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 xl:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Loss of Carbon Sinks :
                       </h6>
                     </li>
@@ -136,7 +136,7 @@ function EffectsOfDeferestionCards() {
                         src={BulletPointarrow}
                         alt="location"
                       />
-                      <h6 className="uppercase leading-7 lg:leading-9 text-[#316D69] font-bold	font-montserrat">
+                      <h6 className="uppercase leading-7 xl:leading-9 text-[#316D69] font-bold	font-montserrat">
                         Social Impact:
                       </h6>
                     </li>
@@ -154,7 +154,7 @@ function EffectsOfDeferestionCards() {
             </div>
             <div className="">
               <img
-                className=" h-full w-full rounded-lg"
+                className="h-full lg:h-[800px] xl:h-full w-full rounded-lg"
                 src={EffectsofDeforestation}
                 alt="EffectsofDeforestation"
               ></img>

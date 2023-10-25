@@ -11,20 +11,20 @@ const BlueCarbonGepPlay = () => {
   return (
     <div className="relative ">
       <div>
-        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
-            <div className="">
+        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] items-center">
+            <div className="mb-6 md:mb-6 lg:mb-0">
               <img
-                className="w-full h-full rounded-lg "
+                className="w-full h-full lg:h-[950px] xl:h-[1000px] rounded-lg "
                 src={EffectsofDeforestation}
                 alt="EffectsofDeforestation"
               ></img>
             </div>
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="text-left text-2xl md:text3xl lg:text-4xl  font-montserrat  leading-7 lg:leading-10 font-bold text-[#BAB220]  ">
+              <h2 className="text-left text-2xl md:text3xl xl:text-4xl  font-montserrat  leading-7 xl:leading-10 font-bold text-[#BAB220]  ">
                 Where does GEP Come into Play?
               </h2>
-              <div className="mt-4 md:mt-6 lg:mt-8 font-poppins text-sm md:text-base lg:text-lg text-[#3c3c3c] font-normal leading-5 lg:leading-7">
+              <div className="mt-4 md:mt-6 xl:mt-8 font-poppins text-sm md:text-base xl:text-lg text-[#3c3c3c] font-normal leading-5 xl:leading-7">
                 <ul className=" flex flex-col gap-2">
                   <div className="	">
                     <li className="flex gap-3 align-middle ">

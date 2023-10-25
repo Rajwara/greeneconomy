@@ -1,17 +1,17 @@
 import React from "react";
 function DeforestationClimate() {
   return (
-    <div className="mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
+    <div className="mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px]">
       <div className="flex flex-col justify-center items-center h-full overflow-hidden ">
         <div className="">
           <div className="text-left lg:text-center container ">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-montserrat leading-7 lg:leading-10  font-bold text-[#bab220] mb-2 md:mb-4 lg:mb-4">
+            <h2 className="text-2xl md:text-3xl xl:text-4xl font-montserrat leading-7 xl:leading-10  font-bold text-[#bab220] mb-2 md:mb-4 xl:mb-4">
               Challenges:
             </h2>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-montserrat leading-7 lg:leading-10  font-bold text-[#316D69] mb-2 md:mb-4 lg:mb-6">
+            <h2 className="text-2xl md:text-3xl xl:text-4xl font-montserrat leading-7 xl:leading-10  font-bold text-[#316D69] mb-2 md:mb-4 xl:mb-6">
               Deforestation & Climate Change
             </h2>
-            <div className="font-poppins text-sm md:text-base lg:text-lg font-normal leading-5 lg:leading-7 text-[#3c3c3c]">
+            <div className="font-poppins text-sm md:text-base xl:text-lg font-normal leading-5 xl:leading-7 text-[#3c3c3c]">
               <p className=" ">
                 <span className="text-[#D3CA28] font-bold">
                   {" "}
