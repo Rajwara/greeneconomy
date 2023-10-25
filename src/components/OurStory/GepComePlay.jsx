@@ -6,13 +6,13 @@ function GepComePlay() {
   return (
     <div className=" ">
       <div>
-        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] py-[20px] md:py-[50px]">
-          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
+        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] lg:[50px] mb-[30px] xl:mb-[50px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] items-center">
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="text-left text-2xl md:text-3xl lg:text-4xl leading-7 lg:leading-10  font-montserrat  font-bold text-[#BAB220] pb-0">
+              <h2 className="text-left text-2xl md:text-3xl xl:text-4xl leading-7 xl:leading-10  font-montserrat  font-bold text-[#BAB220] pb-0">
                 Where does GEP Come into Play?
               </h2>
-              <div className="mt-4 md:mt-6 lg:mt-8 flex flex-wrap flex-col font-poppins text-sm md:text-base lg:text-lg  font-normal leading-5 lg:leading-7 text-[#3c3c3c]">
+              <div className="mt-4 md:mt-6 xl:mt-8 flex flex-wrap flex-col font-poppins text-sm md:text-base xl:text-lg  font-normal leading-5 xl:leading-7 text-[#3c3c3c]">
                 <div className="flex flex-col">
                   <ul className=" flex flex-col gap-2">
                     <li className="flex gap-3 align-middle">
@@ -150,7 +150,7 @@ function GepComePlay() {
 
             <div className=" mt-6 md:mt-6 lg:mt-0">
               <img
-                className=" rounded-lg w-full h-full"
+                className=" rounded-lg w-full h-full lg:h-[900px] xl:h-full"
                 src={EffectsofDeforestation}
                 alt="EffectsofDeforestation"
               ></img>

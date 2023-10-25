@@ -12,10 +12,10 @@ function InnerCard(props) {
           alt="icon"
           className="mx-auto mb-4 w-16 h-16 md:w-20 md:h-20"
         />
-        <h3 className="text-base md:text-lg lg:text-xl leading-5 lg:leading-7 text-[#316D69] font-bold mb-2 md:mb-4">
+        <h3 className="text-base md:text-lg xl:text-xl leading-5 xl:leading-7 text-[#316D69] font-bold mb-2 md:mb-4">
           {props.heading}
         </h3>
-        <p className="text-sm md:text-base lg:text-lg leading-5 lg:leading-7 text-[#3c3c3c] font-[400] md:px-4">
+        <p className="text-sm md:text-base xl:text-lg leading-5 xl:leading-7 text-[#3c3c3c] font-[400] md:px-4">
           {props.text}
         </p>
       </div>
@@ -43,7 +43,7 @@ function OurStoryCards2() {
   ];
 
   return (
-    <div className=" grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-4 md:mt-8 lg:mt-12 mb-[50px] gap-6 px-[30px] md:px[60] lg:px-[80px] xl:px-[100px]">
+    <div className=" grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px] gap-6 px-[30px] md:px[60] lg:px-[80px] xl:px-[100px]">
       {details.map((el, index) => (
         <InnerCard
           key={index}
