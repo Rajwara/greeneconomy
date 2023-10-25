@@ -3,27 +3,27 @@ import Powerof1 from "../../../src/images/The-power-of-renewables-1.png";
 
 const StatsPowerrenewable = () => {
   return (
-    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lg:gap-x-[50px] ">
-        <div className="">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px] lg:mt-[50px] mb-[30px] xl:mb-[50px]">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lg:gap-x-[50px] items-center">
+        <div className="mb-6 md:mb-6 lg:mb-0">
           <img
-            className="h-full w-full rounded-lg"
+            className="h-full lg:h-[320px] xl:h-full w-full rounded-lg"
             src={Powerof1}
             alt="Powerof"
           ></img>
         </div>
         <div className=" text-white  flex flex-col justify-center  ">
-          <h2 className=" text-2xl md:text-3xl  mb-2 md:mb-4 lg:mb-6  lg:text-4xl font-bold leading-7 lg:leading-10 font-montserrat text-[#3c3c3c] dark:text-[#3c3c3c] sm:text-3xl sm:leading-9">
+          <h2 className=" text-2xl md:text-3xl  mb-2 md:mb-4 xl:mb-6  xl:text-4xl font-bold leading-7 xl:leading-10 font-montserrat text-[#3c3c3c] dark:text-[#3c3c3c]  ">
             The Power of Renewables
           </h2>
-          <p className=" text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins text-[#3c3c3c] dark:text-[#3c3c3c]">
+          <p className=" text-sm md:text-base xl:text-lg leading-5 xl:leading-7 font-normal font-poppins text-[#3c3c3c] dark:text-[#3c3c3c]">
             The Power of Renewables We have to make the banner the same way it's
             made on this page, it should keep changing this way.
           </p>
 
           <div>
             <ul className="gap-6   ">
-              <li className="mt-2 lg:mt-4 ">
+              <li className="mt-2 xl:mt-4 ">
                 <div className="flex">
                   <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 border-2 border-[#bab220] mt-1 rounded-full dark:text-green-500 dark:bg-transparent">
                     <svg className="w-4 h-4" viewBox="0 0 20 20" fill="#bab220">
@@ -34,7 +34,7 @@ const StatsPowerrenewable = () => {
                       ></path>
                     </svg>
                   </span>
-                  <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
+                  <span className="ml-4 text-sm md:text-base xl:text-lg font-normal font-poppins leading-5 xl:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                     <p>
                       Solar energy employed the most of any renewable energy
                       source;{" "}
@@ -49,7 +49,7 @@ const StatsPowerrenewable = () => {
                   </span>
                 </div>
               </li>
-              <li className="mt-2 lg:mt-4">
+              <li className="mt-2 xl:mt-4">
                 <div className="flex">
                   <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 border-2 border-[#bab220] mt-1 rounded-full dark:text-green-500 dark:bg-transparent">
                     <svg className="w-4 h-4" viewBox="0 0 20 20" fill="#bab220">
@@ -60,7 +60,7 @@ const StatsPowerrenewable = () => {
                       ></path>
                     </svg>
                   </span>
-                  <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
+                  <span className="ml-4 text-sm md:text-base xl:text-lg font-normal font-poppins leading-5 xl:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                     About{" "}
                     <a
                       className="text-[#D3CA28] font-bold underline"
@@ -73,7 +73,7 @@ const StatsPowerrenewable = () => {
                   </span>
                 </div>
               </li>
-              <li className="mt-2 lg:mt-4">
+              <li className="mt-2 xl:mt-4">
                 <div className="flex">
                   <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 border-2 border-[#bab220] mt-1 rounded-full dark:text-green-500 dark:bg-transparent">
                     <svg className="w-4 h-4" viewBox="0 0 20 20" fill="#bab220">
@@ -84,7 +84,7 @@ const StatsPowerrenewable = () => {
                       ></path>
                     </svg>
                   </span>
-                  <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
+                  <span className="ml-4 text-sm md:text-base xl:text-lg font-normal font-poppins leading-5 xl:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                     About{" "}
                     <a
                       className="text-[#D3CA28] font-bold underline"
