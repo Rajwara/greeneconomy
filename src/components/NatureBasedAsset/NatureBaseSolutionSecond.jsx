@@ -5,7 +5,7 @@ const NatureBaseSolutionSecond = () => {
   return (
     <div className=" flex flex-row lg:items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] lg:mt-[50px] mt-[30px] mb-[30px] xl:mb-[50px]">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
-        <div className="flex items-center  hidden md:hidden lg:block xl:block">
+        <div className="  hidden md:hidden lg:block xl:block">
           <img src={NatureBasedAssets2} className="h-full w-full" alt="Tree" />
         </div>
         <div className="text-sm md:text-base xl:text-lg font-normal mt-4 font-poppins leading-5 xl:leading-7 text-[#3c3c3c]">
