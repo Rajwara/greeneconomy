@@ -5,25 +5,25 @@ const HowStatisticsValidate = () => {
   return (
     <div className="relative ">
       <div>
-        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
+        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] lg:mt-[50px] mb-[30px] xl:mb-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px]">
             <div className="container text-white  flex flex-col justify-center  h-full">
-              <h2 className="mt-2 text-2xl ma:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-6 leading-7 lg:leading-10 font-montserrat tracking-normal text-[#3c3c3c] dark:text-[#3c3c3c] sm:text-3xl sm:leading-9">
+              <h2 className="mt-2 text-2xl ma:text-3xl xl:text-4xl font-bold mb-2 md:mb-4 xl:mb-6 leading-7 xl:leading-10 font-montserrat  text-[#3c3c3c] dark:text-[#3c3c3c] ">
                 How Statistics Validate
                 <span className="text-[#bab220]"> These Facts?</span>
               </h2>
-              <p className=" text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins text-[#3c3c3c] dark:text-gray-300">
+              <p className=" text-sm md:text-base xl:text-lg leading-5 xl:leading-7 font-normal font-poppins text-[#3c3c3c] dark:text-[#3c3c3c]">
                 Nature-based solutions represent more than just a concept, they
                 are grounded in compelling statistics. Here’s how numbers
                 confirm the importance of these nature-based assets:
               </p>
               <div>
-                <h6 className="mt-2 md:mt-4 lg:mt-6 text-lg md:text-xl lg:text-2xl font-bold font-montserrat leading-7 lg:leading-9 tracking-normal text-[#316D69]">
+                <h6 className="mt-2 md:mt-4 xl:mt-6 text-lg md:text-xl xl:text-2xl font-bold font-montserrat leading-7 xl:leading-9  text-[#316D69]">
                   Sustainable Forestry
                 </h6>
 
                 <ul className="gap-6   ">
-                  <li className="mt-2 lg:mt-4 ">
+                  <li className="mt-2 xl:mt-4 ">
                     <div className="flex">
                       <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 mt-1 border-2 border-[#316D69] rounded-full dark:text-green-500 dark:bg-transparent">
                         <svg
@@ -38,7 +38,7 @@ const HowStatisticsValidate = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
+                      <span className="ml-4 text-sm md:text-base xl:text-lg font-normal font-poppins leading-5 xl:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                         Sustainable forestry practices can offset nearly{" "}
                         <a
                           className="underline font-bold text-[#bab220]"
@@ -66,7 +66,7 @@ const HowStatisticsValidate = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
+                      <span className="ml-4 text-sm md:text-base xl:text-lg font-normal font-poppins leading-5 xl:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                         Forests cover{" "}
                         <a
                           className="underline font-bold text-[#bab220]"
@@ -95,7 +95,7 @@ const HowStatisticsValidate = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
+                      <span className="ml-4 text-sm md:text-base xl:text-lg font-normal font-poppins leading-5 xl:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                         Sustainable forestry can generate jobs for at least{" "}
                         <a
                           className="underline font-bold text-[#bab220]"
@@ -131,7 +131,7 @@ const HowStatisticsValidate = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
+                      <span className="ml-4 text-sm md:text-base xl:text-lg font-normal font-poppins leading-5 xl:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                         Mangroves and coastal wetlands annually sequester carbon
                         at a rate{" "}
                         <a
@@ -159,7 +159,7 @@ const HowStatisticsValidate = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
+                      <span className="ml-4 text-sm md:text-base xl:text-lg font-normal font-poppins leading-5 xl:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                         Though seagrass cover only{" "}
                         <a
                           href="https://www.padi.com/seagrass-grow#:~:text=Seagrasses%20occupy%200.1%25%20of%20the,of%20life%20in%20our%20oceans"
@@ -182,7 +182,7 @@ const HowStatisticsValidate = () => {
               </div>
 
               <div>
-                <h6 className="mt-2 md:mt-4 lg:mt-6 text-lg md:text-xl lg:text-2xl font-bold font-montserrat leading-7 lg:leading-9 tracking-normal text-[#316D69]">
+                <h6 className="mt-2 md:mt-4 xl:mt-6 text-lg md:text-xl xl:text-2xl font-bold font-montserrat leading-7 xl:leading-9  text-[#316D69]">
                   Climate Smart Agriculture
                 </h6>
 
@@ -202,7 +202,7 @@ const HowStatisticsValidate = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
+                      <span className="ml-4 text-sm md:text-base xl:text-lg font-normal font-poppins leading-5 xl:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                         In 2018, emissions from agriculture, and associated land
                         use comprised{" "}
                         <a
@@ -232,7 +232,7 @@ const HowStatisticsValidate = () => {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
+                      <span className="ml-4 text-sm md:text-base xl:text-lg font-normal font-poppins leading-5 xl:leading-7 text-[#3c3c3c] dark:text-[#3c3c3c]">
                         According to{" "}
                         <a
                           href="https://www.weforum.org/"

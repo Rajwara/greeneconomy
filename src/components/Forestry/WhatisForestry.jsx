@@ -2,13 +2,13 @@ import React from "react";
 
 const WhatisForestry = () => {
   return (
-    <div className="flex justify-center gap-8  flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
+    <div className="flex justify-center gap-8  flex-col md:flex-row px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px]">
       <div className="flex flex-col text-center items-center ">
         {" "}
-        <h2 className="text-[#316D69] text-2xl md:text-3xl mb-2 md:mb-4 lg:mb-6 lg:text-4xl leading-7 lg:leading-10  font-montserrat font-bold">
+        <h2 className="text-[#316D69] text-2xl md:text-3xl mb-2 md:mb-4 xl:mb-6 xl:text-4xl leading-7 xl:leading-10  font-montserrat font-bold">
           Agroforestry
         </h2>
-        <div className="text-[#3c3c3c] text-sm md:text-base lg:text-lg leading-5 lg:leading-7  font-poppins font-normal  lg:w-4/5">
+        <div className="text-[#3c3c3c] text-sm md:text-base xl:text-lg leading-5 xl:leading-7  font-poppins font-normal  lg:w-4/5">
           <p className="">
             Forestry is the art of nurturing our natural treasures; forests and
             their diverse resources from trees, and wildlife to the very soil
@@ -19,7 +19,7 @@ const WhatisForestry = () => {
             sanctuaries, and timber production underscores the versatility of
             forestry.
           </p>
-          <p className="mt-2 lg:mt-4">
+          <p className="mt-2 xl:mt-4">
             Sustainable forestry harmonizes the needs of ecosystems,
             communities, and wildlife, preserving the forests for future
             generations and protecting the benefits they provide, such as water

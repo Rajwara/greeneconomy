@@ -3,14 +3,14 @@ import Powerof1 from "../../../src/images/wasolar-our-commitement.png";
 
 const OurCommitment = () => {
   return (
-    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lg:gap-x-[50px] ">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px] lg:mt-[50px] mb-[30px] xl:mb-[50px]">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lg:gap-x-[50px] items-center">
         <div className=" text-white  flex flex-col justify-center  ">
-          <h2 className=" text-2xl md:text-3xl font-bold  mb-2 md:mb-4 lg:mb-6   font-montserrat text-[#3c3c3c] dark:text-[#3c3c3c] lg:text-4xl leading-7 lg:leading-10">
+          <h2 className=" text-2xl md:text-3xl font-bold  mb-2 md:mb-4 xl:mb-6   font-montserrat text-[#3c3c3c] dark:text-[#3c3c3c] xl:text-4xl leading-7 xl:leading-10">
             Our Commitment to a{" "}
             <span className="text-[#bab220]">Better Tomorrow </span>
           </h2>
-          <div className=" text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins text-[#3c3c3c] dark:text-[#3c3c3c]">
+          <div className=" text-sm md:text-base xl:text-lg leading-5 xl:leading-7 font-normal font-poppins text-[#3c3c3c] dark:text-[#3c3c3c]">
             <p>
               At Green Economy Partnership, our unwavering dedication is aimed
               at contributing to a more sustainable and eco-friendly future. Our
@@ -20,7 +20,7 @@ const OurCommitment = () => {
               the far-reaching environmental effects associated with fossil
               fuels.
             </p>
-            <p className="mt-2 lg:mt-4 ">
+            <p className="mt-2 xl:mt-4 ">
               To ensure the successful adoption of these clean energy sources,
               we actively advocate for solar and wind energy incentives within
               local communities, thereby bolstering the expansion of these
@@ -31,9 +31,9 @@ const OurCommitment = () => {
             </p>
           </div>
         </div>
-        <div className="">
+        <div className=" mt-6 md:mt-6 lg:mt-0">
           <img
-            className="h-full w-full rounded-lg"
+            className="h-full lg:h-[450px] xl:h-full w-full rounded-lg"
             src={Powerof1}
             alt="Powerof"
           ></img>

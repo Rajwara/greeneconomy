@@ -73,7 +73,7 @@ const TabsCustomAnimation = () => {
   return (
     <div className="">
       <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mx-auto mt-0 md:mt-0 lg:mt-0">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl text-[#316D69] leading-7 lg:leading-10 font-montserrat font-bold mb-4 md:mb-6 lg:mb-8 text-center">
+        <h2 className="text-2xl md:text-3xl xl:text-4xl text-[#316D69] leading-7 xl:leading-10 font-montserrat font-bold mb-4 md:mb-6 xl:mb-8 text-center">
           The Route to Carbon Neutrality
         </h2>
         <Tabs value={activeTab}>
@@ -98,11 +98,11 @@ const TabsCustomAnimation = () => {
               <TabPanel key={items.value} value={items.value}>
                 <div className="grid grid-cols-1 lg:grid-cols-2 justify-around mt-8">
                   <div className="justify-center flex flex-col flex-wrap">
-                    <h5 className="uppercase text-lg md:text-xl lg:text-2xl text-[#316D69] leading-7 lg:leading-9 font-bold	font-montserrat mt-5">
+                    <h5 className="uppercase text-lg md:text-xl xl:text-2xl text-[#316D69] leading-7 xl:leading-9 font-bold	font-montserrat mt-5">
                       {items.heading}
                     </h5>
                     <p
-                      className="font-poppins text-sm md:text-base lg:text-lg text-[#3c3c3c] font-normal leading-5 lg:leading-7 mt-3 "
+                      className="font-poppins text-sm md:text-base xl:text-lg text-[#3c3c3c] font-normal leading-5 xl:leading-7 mt-3 "
                       dangerouslySetInnerHTML={{ __html: items.desc }}
                     ></p>
                   </div>

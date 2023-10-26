@@ -9,20 +9,20 @@ import BulletPointsix from "../../../src/images/BulletPointsix.svg";
 
 const RenewableEnergyLi = () => {
   return (
-    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px] md:mt-[50px] lg:mt-[50px] mb-[50px]">
-      <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] ">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] items-center">
         <div className="">
           <img
-            className="h-full w-full rounded-lg"
+            className="h-full lg:h-[900px] xl:h-full w-full rounded-lg"
             src={RenewableEnergy}
             alt="EffectsofDeforestation"
           ></img>
         </div>
         <div className=" text-white  flex flex-col justify-center  ">
-          <h2 className=" text-left text-[#316D69] font-montserrat mt-6 md:mt-6 lg:mt-0  leading-7 lg:leading-10  mb-2 md:mb-4 lg:mb-6  text-2xl md:text-3xl lg:text-4xl font-bold">
+          <h2 className=" text-left text-[#316D69] font-montserrat mt-6 md:mt-6 lg:mt-0  leading-7 xl:leading-10  mb-2 md:mb-4 xl:mb-6  text-2xl md:text-3xl xl:text-4xl font-bold">
             What <span className="text-[#BAB220]">is Renewable Energy ?</span>
           </h2>
-          <p className="text-[#3C3C3C] text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal font-poppins ">
+          <p className="text-[#3C3C3C] text-sm md:text-base xl:text-lg leading-5 xl:leading-7 font-normal font-poppins ">
             In GEP’s pursuit of a sustainable energy future, wind generators,
             and solar panels are playing a crucial role. They offer a prominent
             solution to combat climate change. GEP embraces solar and wind
@@ -38,7 +38,7 @@ const RenewableEnergyLi = () => {
             generate energy. These renewable resources are also gaining momentum
             because:
           </p>
-          <div className="mt-2 md:mt-4 lg:mt-6 font-poppins text-sm md:text-base lg:text-lg leading-5 lg:leading-7 text-[#3c3c3c]">
+          <div className="mt-2 md:mt-4 xl:mt-6 font-poppins text-sm md:text-base xl:text-lg leading-5 xl:leading-7 text-[#3c3c3c]">
             <ul className=" flex flex-col gap-2">
               <div className="	">
                 <li className="flex gap-3 align-middle">

@@ -2,18 +2,18 @@ import React from "react";
 
 const RethinkingFossilFuels = () => {
   return (
-    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] pb-10 mt-10">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] pb-[30px] xl:pb-[50px] mt-[30px] lg:mt-[50px]">
       <div className=" ">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl  mb-2 md:mb-4 lg:mb-6  font-montserrat leading-7 lg:leading-10  font-bold text-[#bab220]">
+        <h2 className="text-2xl md:text-3xl xl:text-4xl  mb-2 md:mb-4 xl:mb-6  font-montserrat leading-7 xl:leading-10  font-bold text-[#bab220]">
           Rethinking Fossil Fuels With Renewables
         </h2>
-        <p className=" text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7 text-[#3c3c3c]">
+        <p className=" text-sm md:text-base xl:text-lg font-normal font-poppins leading-5 xl:leading-7 text-[#3c3c3c]">
           To mitigate climate change, it is essential to transition to clean and
           renewable energy, while phasing out fossil fuels.
         </p>
       </div>
       <div>
-        <div class="relative overflow-x-auto mt-4 md:mt-6 lg:mt-8">
+        <div class="relative overflow-x-auto mt-4 md:mt-6 xl:mt-8">
           <table class="w-full text-sm text-left text-[#3c3c3c] dark:text-[#3c3c3c] ">
             <thead class="text-xs text-[#3c3c3c] uppercase border-t-2 border-[#316D69] bg-[#f7f5f2] dark:bg-[#f7f5f2] dark:text-[#3c3c3c]">
               <tr className="font-montserrat font-bold text-xl text-[#316D69]">

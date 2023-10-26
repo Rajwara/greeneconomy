@@ -13,15 +13,15 @@ const Card = ({ color, title, imageSrc, description }) => {
           <img src={imageSrc} alt={title} />
         </div>
         <div className="content">
-          <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-[#316D69] leading-7 lg:leading-10 font-montserrat font">
+          <h2 className="text-lg md:text-xl lg:text-2xl xl:text-2xl font-bold text-[#316D69] leading-7 xl:leading-10 font-montserrat font">
             {title}
           </h2>
 
-          <p className="font-poppins text-sm md:text-base lg:text-lg leading-5 lg:leading-7 font-normal text-[#3c3c3c]">
+          <p className="font-poppins text-sm md:text-base xl:text-lg leading-5 xl:leading-7 font-normal text-[#3c3c3c]">
             {" "}
             {description}
           </p>
-          <a href="/about" className="rounded text-sm md:text-base lg:text-lg">
+          <a href="/about" className="rounded text-sm md:text-base xl:text-lg">
             Read More
           </a>
         </div>
