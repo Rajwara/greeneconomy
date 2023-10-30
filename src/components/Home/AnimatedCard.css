@@ -109,6 +109,7 @@ body {
     .container_c .card .img-box {
         width: 185px;
         border-radius: 10px;
+       
     }
     .container_c .card .content p {
         font-size: 0.8rem;
@@ -116,4 +117,8 @@ body {
     .container_c .card .content a {
         font-size: 0.9rem;
     }
+  
+    
 }
+
+

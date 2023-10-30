@@ -9,6 +9,7 @@ import Counter from "../../components/Home/Counter";
 import TabsCustomAnimation from "../../components/Home/TabsCustomAnimation";
 import FlowChart from "../../components/Home/FlowChart";
 import ContactFooterUperButton from "../../components/ContactFooterUperComponent/ContactFooterUperButton";
+import AnimatedCardforMobileandTab from "../../components/Home/AnimatedCardforMobileandTab";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <AboutusHome />
       <ServicesHome />
       <AnimatedCard />
+      <AnimatedCardforMobileandTab />
       <TabsCustomAnimation />
       <FlowChart />
       <GovernmentofUganda />

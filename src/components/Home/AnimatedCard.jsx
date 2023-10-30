@@ -7,7 +7,7 @@ import image4 from "../../../src/images/Carbon-credits-Card.jpg";
 
 const Card = ({ color, title, imageSrc, description }) => {
   return (
-    <div className="">
+    <div className="hidden md:hidden lg:block xl:block">
       <div className="card " style={{ "--clr": color }}>
         <div className="img-box ">
           <img src={imageSrc} alt={title} />
