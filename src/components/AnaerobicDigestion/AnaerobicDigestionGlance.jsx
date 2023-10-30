@@ -5,7 +5,7 @@ const AnaerobicDigestionGlance = () => {
   return (
     <div className=" flex flex-row lg:items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  lg:mt-[50px] mt-[30px] mb-[30px] xl:mb-[50px]">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-10">
-        <div className="flex items-center  ">
+        <div className="hidden md:hidden lg:block xl:block  ">
           <img
             src={img2}
             className="h-full lg:h-[350px] xl:h-full w-full"
@@ -39,6 +39,13 @@ const AnaerobicDigestionGlance = () => {
               are avoided.
             </p>
           </div>
+        </div>
+        <div className="lg:hidden xl:hidden  ">
+          <img
+            src={img2}
+            className="h-full lg:h-[350px] xl:h-full w-full"
+            alt=""
+          />
         </div>
       </div>
     </div>

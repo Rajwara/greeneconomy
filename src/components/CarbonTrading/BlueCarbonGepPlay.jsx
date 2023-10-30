@@ -13,7 +13,7 @@ const BlueCarbonGepPlay = () => {
       <div>
         <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] items-center">
-            <div className="mb-6 md:mb-6 lg:mb-0">
+            <div className="mb-6 md:mb-6 lg:mb-0 hidden md:hidden lg:block xl:block">
               <img
                 className="w-full h-full lg:h-[950px] xl:h-[1000px] rounded-lg "
                 src={EffectsofDeforestation}
@@ -151,6 +151,13 @@ const BlueCarbonGepPlay = () => {
                   </div>
                 </ul>
               </div>
+            </div>
+            <div className="lg:hidden xl:hidden">
+              <img
+                className="w-full h-full lg:h-[950px] xl:h-[1000px] rounded-lg "
+                src={EffectsofDeforestation}
+                alt="EffectsofDeforestation"
+              ></img>
             </div>
           </div>
         </div>
