@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import OurStory from "./pages/OurStory/OurStory";
-// import WasteManagement from "./pages/WasteManagement/WasteManagement"; 
 import CarbonTrading from "./pages/CarbonTrading/CarbonTrading";
 import Challenges from "./pages/ChallengesAndSolutions/Challenges";
 import ContactUs from "./pages/ContactUs/ContactUs";
@@ -37,12 +36,10 @@ const App = () => {
         <Route exact path="/news-and-media" element={<Media />} />
         <Route exact path="/mou-uganda" element={<MouUganda />} />
         <Route exact path="/uae-project" element={<UAEProject />} />
-
         <Route exact path="/challenges" element={<Challenges />} />{" "}
         <Route exact path="/naturebasedasset" element={<NatureBasedAsset />} />{" "}
         <Route exact path="/carbon-trading" element={<CarbonTrading />} />{" "}
         <Route exact path="/wind-and-solar" element={<WindandSolar />} />{" "}
-        {/* <Route exact path="/waste-management" element={<WasteManagement />} />{" "} */}
         <Route exact path="/agriculture" element={<Agriculture />} />
         <Route exact path="/forestry" element={<Forestry />} />
         <Route exact path="/agroforestry" element={<Agroforestry />} />
