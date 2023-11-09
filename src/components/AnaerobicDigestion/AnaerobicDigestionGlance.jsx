@@ -3,7 +3,7 @@ import img2 from "../../../src/images/anaerobic-glance.png";
 
 const AnaerobicDigestionGlance = () => {
   return (
-    <div className=" flex flex-row lg:items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  lg:mt-[50px] mt-[30px] mb-[30px] xl:mb-[50px]">
+    <div className=" flex flex-row lg:items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mb-[30px] xl:mb-[50px]">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-10">
         <div className="hidden md:hidden lg:block xl:block  ">
           <img

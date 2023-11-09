@@ -5,7 +5,7 @@ import WMImg2 from "../../../src/images/our-story-about-us.png";
 function StateAbout() {
   return (
     <div>
-      <div className=" grid grid-cols-1  lg:grid-cols-2 gap-6 md:gap-10 lg:gap-14 mx-auto mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px]  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
+      <div className=" grid grid-cols-1  lg:grid-cols-2 gap-6 md:gap-10 lg:gap-14 mx-auto mb-[30px] xl:mb-[50px]  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]">
         <div className="flex flex-col flex-wrap">
           <h6 className="uppercase text-sm md:text-base xl:text-lg text-[#316D69] font-bold leading-7 xl:leading-9	font-montserrat  ">
             {" "}

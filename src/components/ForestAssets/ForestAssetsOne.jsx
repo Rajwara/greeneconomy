@@ -2,7 +2,7 @@ import React from "react";
 
 const ForestAssetsOne = () => {
   return (
-    <div className=" px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px]">
+    <div className=" px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mb-[30px] xl:mb-[50px]">
       <div className="flex flex-col  text-center items-center">
         {" "}
         <h2 className="text-[#316D69] text-2xl mb-2 md:mb-4 xl:mb-6 md:text-3xl xl:text-4xl leading-7 xl:leading-10  font-montserrat font-bold">

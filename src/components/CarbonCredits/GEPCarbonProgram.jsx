@@ -6,7 +6,7 @@ const GEPCarbonProgram = () => {
   return (
     <div className="relative ">
       <div>
-        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px]">
+        <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mb-[30px] xl:mb-[50px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] items-center">
             <div className="container text-white  flex flex-col justify-center  h-full">
               <h2 className="text-left text-2xl md:text-3xl xl:text-4xl leading-7 xl:leading-10 font-montserrat  font-bold text-[#BAB220] ">

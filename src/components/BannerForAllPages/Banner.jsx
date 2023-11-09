@@ -1,6 +1,6 @@
 import React from "react";
 
-const Banner = ({ title, description, backgroundImage, buttonText }) => {
+const Banner = ({ title, description, backgroundImage }) => {
   const bannerStyle = {
     backgroundImage: `url(${backgroundImage})`,
     backgroundSize: "cover",
@@ -17,12 +17,6 @@ const Banner = ({ title, description, backgroundImage, buttonText }) => {
           <p className="font-poppins leading-5 lg:leading-7 text-sm md:text-base lg:text-lg font-normal text-[#EFEDD1] mt-6">
             {description}
           </p>
-
-          <div className="pt-[20px]">
-            <button className="py-[12px] px-[25px] leading-5 lg:leading-7 text-sm md:text-base lg:text-lg  hover:border-[#F7F5F2] bg-[#EFEDD1] hover:bg-[#F7F5F2] hover:text-[#316D69]  border border-white border-3  rounded-lg text-[#316D69] font-montserrat font-medium ">
-              {buttonText}
-            </button>
-          </div>
         </div>
       </div>
     </div>

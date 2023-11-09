@@ -2,7 +2,7 @@ import React from "react";
 
 const WindandSolar1 = () => {
   return (
-    <div className="flex flex-col justify-center text-center items-center  mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px]  lg:mt-[50px] pb-[0px]">
+    <div className="flex flex-col justify-center text-center items-center  mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  pb-[0px]">
       <div className="text-center flex flex-col items-center">
         <h2 className="text-[#316D69]  mb-2 md:mb-4 xl:mb-6  leading-7 xl:leading-10  font-montserrat font-bold text-2xl md:text-3xl xl:text-4xl ">
           Wind and

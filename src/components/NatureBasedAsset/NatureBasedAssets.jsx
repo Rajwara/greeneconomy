@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import NatureBasedAssetsimg from "../../../src/images/Nature-Based-Assets-1.png";
 
 const NatureBasedAssets = () => {
   return (
-    <div className=" flex flex-row lg:items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] lg:mt-[50px] mt-[30px] mb-[30px] xl:mb-[50px]">
+    <div className=" flex flex-row lg:items-center px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mb-[30px] xl:mb-[50px]">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
         <div className="text-sm md:text-base xl:text-lg font-normal mt-4 font-poppins leading-5 xl:leading-7 text-[#3c3c3c]">
           <h2 className="text-2xl md:text-3xl font-bold  leading-7 xl:leading-10 mb-2 md:mb-4 xl:mb-6 text-[#3c3c3c] font-montserrat dark:text-[#3c3c3c] xl:text-4xl">
@@ -24,12 +25,14 @@ const NatureBasedAssets = () => {
           </ol>
           <div className="">
             <div className="mt-4 md:mt-4 xl:mt-6 inline-flex rounded-lg shadow">
-              <button
-                type="button"
-                className="py-3 px-[25px] font-montserrat text-sm md:text-base xl:text-lg text-white  hover:text-white bg-[#316D69] font-semibold hover:bg-[#BAB220] transition duration-300 rounded-lg"
-              >
-                Get started
-              </button>
+              <Link to="/contact-us">
+                <button
+                  type="button"
+                  className="py-3 px-[25px] font-montserrat text-sm md:text-base xl:text-lg text-white  hover:text-white bg-[#316D69] font-semibold hover:bg-[#BAB220] transition duration-300 rounded-lg"
+                >
+                  Get started
+                </button>
+              </Link>
             </div>
           </div>
         </div>

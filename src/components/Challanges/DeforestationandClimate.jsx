@@ -1,7 +1,7 @@
 import React from "react";
 function DeforestationClimate() {
   return (
-    <div className="mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px]">
+    <div className="mx-auto px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mb-[30px] xl:mb-[50px]">
       <div className="flex flex-col justify-center items-center h-full overflow-hidden ">
         <div className="">
           <div className="text-left lg:text-center container ">

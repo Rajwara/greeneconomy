@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import NatureBasedAssets2 from "../../../src/images/Nature-Based-Assets-2.png";
 
 const NatureBaseSolutionSecond = () => {
@@ -33,12 +34,14 @@ const NatureBaseSolutionSecond = () => {
 
           <div className="lg:mt-0 lg:flex-shrink-0">
             <div className="mt-4 md:mt-4 xl:mt-6 inline-flex rounded-lg shadow">
-              <button
-                type="button"
-                className="py-3 px-[25px] font-montserrat text-sm md:text-base xl:text-lg text-white  hover:text-white bg-[#316D69] font-semibold hover:bg-[#BAB220] transition duration-300 rounded-lg"
-              >
-                Get started
-              </button>
+              <Link to="/contact-us">
+                <button
+                  type="button"
+                  className="py-3 px-[25px] font-montserrat text-sm md:text-base xl:text-lg text-white  hover:text-white bg-[#316D69] font-semibold hover:bg-[#BAB220] transition duration-300 rounded-lg"
+                >
+                  Get started
+                </button>
+              </Link>
             </div>
           </div>
         </div>

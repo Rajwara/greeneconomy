@@ -3,7 +3,7 @@ import Nature from "../../../src/images/Pioneering-Initiatives-in-Carbon-Trading
 
 const PioneeringInitiatives = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] items-center mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px] px-[30px] md:px-[60px] font-roboto lg:px-[80px] xl:px-[100px]">
+    <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[50px] items-center  mb-[30px] xl:mb-[50px] px-[30px] md:px-[60px] font-roboto lg:px-[80px] xl:px-[100px]">
       <div className="container text-left text-white flex flex-col justify-center  h-full">
         <h2 className="  mb-2 md:mb-4 xl:mb-6   font-montserrat text-[#316D69] text-2xl md:text-3xl xl:text-4xl leading-7 xl:leading-10 font-bold ">
           Pioneering Initiatives in

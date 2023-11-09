@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import "./slider.css";
 import arrowleft from "../../../src/images/arrow-left.png";
 import arrowright from "../../../src/images/arrow-right.png";
@@ -26,6 +27,7 @@ const Slider = () => {
       desc: "The experts at GEP help businesses reduce emissions; they identify suitable projects, ensure compliance with Article 6.2 standards, develop project plans, and seek certification from recognized carbon standards. ",
       name: "Carbon Credits",
       buttontext: "Offset Emissions! ",
+      link: "/carbon-credits",
     },
     {
       id: 1,
@@ -34,6 +36,7 @@ const Slider = () => {
       desc: "At Green Economy Partnership, we aim to achieve net-zero carbon emissions by 2050. Our experts help you prevent climate change through nature-based solutions, renewable energy sources, and carbon trading. ",
       name: "Welcome to Green Economy Partnership",
       buttontext: "Accelerate a Sustainable Future! ",
+      link: "/contact-us",
     },
     {
       id: 3,
@@ -42,6 +45,7 @@ const Slider = () => {
       desc: "Assets like sustainable forestry, blue carbon, and climate-smart agriculture offer a powerful ally in the fight against climate change. Our experts help you reduce your carbon footprint through sustainable forest management. ",
       name: "Nature-Based Solutions ",
       buttontext: "Go Green Now!",
+      link: "/naturebasedasset",
     },
     {
       id: 4,
@@ -50,6 +54,7 @@ const Slider = () => {
       desc: "GEP supports wind and solar energy incentives within local communities, helping you contribute to a sustainable future. Our initiatives empower local communities, ensuring a sustainable, cost-efficient, and greener future.",
       name: "Wind and Solar",
       buttontext: "Embrace Green Living!",
+      link: "/wind-and-solar",
     },
     {
       id: 5,
@@ -58,6 +63,7 @@ const Slider = () => {
       desc: "Anaerobic digestion is gaining popularity in waste management, particularly in Dubai. GEP offers consultancy to harness its potential, cut carbon footprints, and establish cost-effective power generation systems for a greener future.",
       name: " Anaerobic Digestion",
       buttontext: "Embrace the Green Life!      ",
+      link: "/anaerobic-digestion",
     },
   ];
 
@@ -78,9 +84,11 @@ const Slider = () => {
               <div className="des text-sm md:text-base lg:text-lg">
                 {item.desc}
               </div>
-              <button className="capitalize bg-[#316D69] text-sm md:text-base lg:text-lg text-white px-6 py-2 rounded font-montserrat">
-                {item.buttontext}
-              </button>
+              <Link to={item.link}>
+                <button className="capitalize bg-[#316D69] text-sm md:text-base lg:text-lg text-white px-6 py-2 rounded font-montserrat">
+                  {item.buttontext}
+                </button>
+              </Link>
             </div>
           </div>
         ))}

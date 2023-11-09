@@ -3,7 +3,7 @@ import img1 from "../../../src/images/what-is-agriculture.png";
 
 function AgricultureOne() {
   return (
-    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px]  lg:mt-[50px] mb-[30px] xl:mb-[50px]">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mb-[30px] xl:mb-[50px]">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 lg:gap-x-[50px] ">
         <div className=" text-white  flex flex-col justify-center  ">
           <h2 className="  mb-2 md:mb-4 xl:mb-6  text-[#316D69] leading-7 xl:leading-10 font-bold text-2xl md:text-3xl xl:text-4xl font-montserrat">
