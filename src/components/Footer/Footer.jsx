@@ -100,10 +100,10 @@ const mainfooter = () => {
             </ul>
           </div>
 
-          <div className="grid-cols-3 space-y-4 f-line4 mt-6 lg:mt-0 sm:pl-16 md:pl-28 lg:pl-0">
+          <div className="grid-cols-3 space-y-4 f-line4 mt-6 md:mt-0 lg:mt-0 sm:pl-16 md:pl-24 lg:pl-0">
             {/* ... Content for the third column */}
-            <ul className=" flex flex-col gap-4 lg:-mt-8">
-              <div className="flex gap-3 align-middle	">
+            <ul className=" flex flex-col gap-4 -mt-14 md:-mt-10 lg:-mt-8">
+              <div className="flex gap-3 lg:align-middle	">
                 <img className="w-6 h-6 " src={Email} alt="location" />
                 <p className="text-[#3C3C3C] text-sm md:text-base lg:text-lg font-normal font-poppins leading-5 lg:leading-7">
                   info@greeneconomy.ae

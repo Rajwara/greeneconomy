@@ -22,7 +22,7 @@ const CoverTheSoil = () => {
         <h2 className=" text-[#bab220]">2.</h2>
         <h2 className="">Cover the Soil</h2>
       </div>
-      <div className="cardsforsoil grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-0 md:gap-8 lg:gap-10 ">
+      <div className="cardsforsoil grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 md:gap-8 lg:gap-10 ">
         {coverdata.map((item) => (
           <div
             className="card-inner p-8 shadow-sm shadow-[#316D69] rounded-lg"

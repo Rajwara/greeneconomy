@@ -4,7 +4,7 @@ import quote_lower_column from "../../../src/images/quote_lower_column.svg";
 
 const UnSecretaryQuote = () => {
   return (
-    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] pt-[30px] lg:pt-[50px] pb-[30px] xl:pb-[50px]">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] pt-[20px] md:pt-[30px] pb-[30px] xl:pb-[50px]">
       <h6 className="uppercase text-sm md:text-base xl:text-lg text-[#BAB220] font-bold leading-7 xl:leading-9	font-montserrat">
         The UN Secretary General further added to this in the following words :
       </h6>

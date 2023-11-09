@@ -40,7 +40,7 @@ const DrivingForcesBehind = () => {
       <h2 className=" mb-2 md:mb-4 xl:mb-6   font-montserrat text-[#316D69] text-2xl md:text-3xl xl:text-4xl leading-7 xl:leading-10 font-bold  text-center ">
         Driving Forces Behind Carbon Offset Market
       </h2>
-      <div className="grid gird-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 text-center items-center">
+      <div className="grid gird-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 text-center items-center mt-[50px]">
         {DrivingForcesBehindCards.map((items) => (
           <div className="w-[100%] " key={items.id}>
             <div className="flex flex-col ">

@@ -8,7 +8,7 @@ const ZoomSyntropicExplore = () => {
         <div className="flex flex-wrap items-center align-middle pt-[30px]  lg:pt-[50px] pb-[30px] xl:pb-[50px]">
           <div className="w-full lg:w-1/2">
             <div className=" border-b  lg:border-b-0">
-              <h2 className=" mb-2 md:mb-4 xl:mb-6  text-2xl md:text-3xl font-bold xl:text-4xl leading-7 xl:leading-10 font-montserrat font-heading text-[#316D69] dark:text-white">
+              <h2 className=" mb-2 md:mb-4 xl:mb-6  text-2xl md:text-3xl font-bold xl:text-4xl leading-7 xl:leading-10 font-montserrat font-heading text-[#316D69] dark:text-[#3c3c3c]">
                 <p className="text-[#bab220]">
                   <h2>The Goal of Our Native Forest </h2>
                 </p>{" "}

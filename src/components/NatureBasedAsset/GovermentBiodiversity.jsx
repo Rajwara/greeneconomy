@@ -2,7 +2,7 @@ import React from "react";
 
 const GovermentBiodiversity = () => {
   return (
-    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px] mb-[30px] xl:mb-[50px] mt-[30px]  lg:mt-[50px]">
+    <div className="px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  mt-[30px]  lg:mt-[50px]">
       <h2 className="text-2xl ma:text-3xl xl:text-4xl mb-2 md:mb-4 xl:mb-6 font-montserrat leading-7 xl:leading-10  font-bold text-[#316D69]">
         How Governments Are Dealing With Climate Change and Biodiversity?
       </h2>

@@ -3,7 +3,7 @@ import React from "react";
 const SyntropicFarming = () => {
   return (
     <div className=" flex flex-col text-center  dark:bg-white overflow-hidden  px-[30px] md:px-[60px] lg:px-[80px] xl:px-[100px]  lg:flex lg:items-center">
-      <div className=" pt-[30px]  lg:pt-[50px] pb-[30px] xl:pb-[50px] text-center  ">
+      <div className=" pt-[30px]  lg:pt-[50px] pb-[10px] md:pb-[20px] text-center  ">
         <div className="flex flex-col items-center text-center">
           <h2 className=" text-2xl md:text-3xl font-bold text-center leading-7  mb-2 md:mb-4 xl:mb-6   xl:leading-10 xl:text-4xl font-montserrat text-[#316D69] dark:text-[#316D69]">
             <span className="text-[#bab220]">A. </span>
