@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Footerlogo from "../../../src/images/greenlogo.png";
 import Facebook from "../../../src/images/Fb-icon.svg";
 import Twitter from "../../../src/images/X-icon.svg";
@@ -23,25 +24,31 @@ const mainfooter = () => {
             </p>
             <ul className=" flex gap-4">
               <li className="flex space-y-2">
-                <img
-                  className="w-8 h-8  rounded-full hover:scale-110 transition duration-700 ease-in-out"
-                  src={Facebook}
-                  alt="facebook"
-                />
+                <Link to="https://www.facebook.com/greeneconomypartnership/">
+                  <img
+                    className="w-8 h-8  rounded-full hover:scale-110 transition duration-700 ease-in-out"
+                    src={Facebook}
+                    alt="facebook"
+                  />
+                </Link>
               </li>
               <li className="flex space-y-2">
-                <img
-                  className="w-8 h-8  rounded-full hover:scale-110 transition duration-700 ease-in-out"
-                  src={Twitter}
-                  alt="twitter"
-                />
+                <Link to="https://twitter.com/greeneconomypr">
+                  <img
+                    className="w-8 h-8  rounded-full hover:scale-110 transition duration-700 ease-in-out"
+                    src={Twitter}
+                    alt="twitter"
+                  />
+                </Link>
               </li>
               <li className="flex space-y-2">
-                <img
-                  className="w-8- h-8  rounded-full hover:scale-110 transition duration-700 ease-in-out"
-                  src={LinkedIn}
-                  alt="linkedin"
-                />
+                <Link to="https://www.linkedin.com/company/92713944/admin/feed/posts/">
+                  <img
+                    className="w-8- h-8  rounded-full hover:scale-110 transition duration-700 ease-in-out"
+                    src={LinkedIn}
+                    alt="linkedin"
+                  />
+                </Link>
               </li>
             </ul>
           </div>
