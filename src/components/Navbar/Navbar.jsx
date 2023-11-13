@@ -66,7 +66,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white dark:bg-white sticky w-full z-30 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
-      <div className="flex flex-wrap items-center justify-between px-[10px] sm:px-[30px] md:px-[40px] lg:px-[60px] xl:pl-[75px] xl:pr-[100px]">
+      <div className="flex flex-wrap items-center justify-between px-[10px] sm:px-[30px] md:px-[40px] lg:px-[60px] xl:pl-[75px] xl:pr-[100px] py-0 my-0">
         <Link to="/" className="flex items-center">
           <img
             src={Logo}
