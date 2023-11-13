@@ -357,7 +357,7 @@
         }
         .buttons {
             position: absolute;
-            bottom: 60px !important;
+            bottom: 90px !important;
             z-index: 1;
             text-align: end;
             width: 65% !important;
