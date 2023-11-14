@@ -78,7 +78,7 @@ const Navbar = () => {
         <button
           data-collapse-toggle="navbar-multi-level"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-[#3c3c3c] rounded-lg md:hidden hover:bg-[white] dark:text-[#3c3c3c] dark:hover:bg-white"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center  text-sm text-[#3c3c3c] rounded-lg md:hidden hover:bg-[white] dark:text-[#3c3c3c] dark:hover:bg-white"
           aria-controls="navbar-multi-level"
           aria-expanded="false"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -101,7 +101,7 @@ const Navbar = () => {
           </svg>
         </button>
         <div
-          className={`w-full md:block md:w-auto sm:pl-[10px] ${
+          className={`w-full md:block md:w-auto sm:pl-[10px] border-t-2  md:border-none ${
             menuOpen ? "" : "hidden" // Show/hide the menu
           }`}
           id="navbar-multi-level"
@@ -402,10 +402,10 @@ const Navbar = () => {
                 News and Media
               </Link>
             </li>{" "}
-            <li>
+            <li className="">
               <Link
                 to="/carbon-credits"
-                className={`block py-2 font-montserrat font-semibold dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base pl-3 sm:pl-0 pr-4 sm:pr-0 ${
+                className={`block py-2 font-montserrat font-semibold dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base -pl-3 sm:pl-0 pr-4 sm:pr-0 ${
                   activeLink === "CarbonCredits"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"

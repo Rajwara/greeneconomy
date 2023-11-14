@@ -131,7 +131,7 @@
     
         .item {
             width: 150px;
-            height: 250px;
+            height: 200px;
             background-position: 50% 50%;
             display: inline-block;
             transition: 0.8s;
@@ -155,23 +155,29 @@
         
         .item:nth-child(3) {
             left: 52%  !important;
-            top: 70%;
+            top: 65%;
+            width: 150px;
+            height: 250px;
         }
         
         .item:nth-child(4) {
             /* left: calc(50% + 170px); */
             left: 68% !important;
-            top: 70%;
+            top: 65%;
+            width: 150px;
+            height: 250px;
         }
         
         .item:nth-child(5) {
             /* left: calc(50% + 370px); */
             left: 84% !important;
-            top: 70%;
+            top: 65%;
+            width: 150px;
+            height: 250px;
         }
         .buttons {
             position: absolute;
-            bottom: -100px !important;
+            bottom: -50px !important;
             z-index: 1;
             text-align: end;
             width: 80% !important;
@@ -218,12 +224,12 @@
     }
     @media screen and (min-width:768px) and (max-width: 1000px) {
         .container_slider {
-            height: 600px !important ;
+            height: 550px !important ;
             /* box-shadow: 0 30px 50px #a9a8a8; */
         }
         .item {
             width: 150px;
-            height: 230px;
+            height: 100px;
             background-position: 50% 50%;
             display: inline-block;
             transition: 0.8s;
@@ -247,23 +253,29 @@
         
         .item:nth-child(3) {
             left: 52%  !important;
-            top: 70%;
+            top: 65%;
+            width: 150px;
+            height: 230px;
         }
         
         .item:nth-child(4) {
             /* left: calc(50% + 170px); */
             left: 65% !important;
-            top: 70%;
+            top: 65%;
+            width: 150px;
+            height: 230px;
         }
         
         .item:nth-child(5) {
             /* left: calc(50% + 370px); */
             left: 78% !important;
-            top: 70%;
+            top: 65%;
+            width: 150px;
+            height: 230px;
         }
         .buttons {
             position: absolute;
-            bottom: -50px !important;
+            bottom: -10px !important;
             z-index: 1;
             text-align: end;
             width: 80% !important;
