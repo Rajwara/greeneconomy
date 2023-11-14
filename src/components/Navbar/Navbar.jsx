@@ -3,6 +3,7 @@ import Logo from "../../../src/images/greenlogo.png";
 import { Link, useParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { GiConsoleController } from "react-icons/gi";
+import LogoNavbar from "../../../src/images/greeneconomy_logo.svg";
 
 const Navbar = () => {
   const location = useLocation();
@@ -65,12 +66,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white dark:bg-white sticky w-full z-30 top-0 left-0  ">
-      <div className="flex flex-wrap items-center justify-between px-[10px] sm:px-[30px] md:px-[40px] lg:px-[60px] xl:pl-[75px] xl:pr-[100px] mt-2 md:mt-0 mb-0">
-        <Link to="/" className="flex items-center">
+    <nav className="bg-white dark:bg-white sticky w-full z-30 top-0 left-0  md:border-b border-gray-500">
+      <div className="flex flex-wrap items-center justify-between px-[23px] md:px-[40px] lg:px-[60px] xl:pl-[95px] xl:pr-[100px] ">
+        <Link to="/" className="flex items-center md:pl-4 xl:pl-0">
           <img
-            src={Logo}
-            className="h-full w-full p-0"
+            src={LogoNavbar}
+            className="h-[100px] w-[90%] md:w-[100%] lg:w-[100%] xl:w-[100%]  p-2"
             alt="Green Economy Logo"
           />
         </Link>
@@ -405,7 +406,7 @@ const Navbar = () => {
             <li className="">
               <Link
                 to="/carbon-credits"
-                className={`block py-2 font-montserrat font-semibold dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base -pl-3 sm:pl-0 pr-4 sm:pr-0 ${
+                className={`block py-2 font-montserrat font-semibold dark:text-[#3c3c3c] md:dark:hover:text-[#316D69]   text-base pl-3 sm:pl-0 pr-4 sm:pr-0 ${
                   activeLink === "CarbonCredits"
                     ? "text-[#316D69] font-bold"
                     : "text-[#3c3c3c]"

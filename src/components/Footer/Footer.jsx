@@ -6,16 +6,21 @@ import Twitter from "../../../src/images/X-icon.svg";
 import LinkedIn from "../../../src/images/Linkedin-icon.svg";
 import Location from "../../../src/images/Locationf.svg";
 import Email from "../../../src/images/Emailf.svg";
+import LogoFooter from "../../../src/images/greeneconomy_logo.svg";
 
 const mainfooter = () => {
   return (
     <div className="main-footer">
-      <div className="container-fluid flex bg-[#ffffff] justify-between lg:py-16 pb-4 pt-4  lg:pb-6 px-[30px] md:px-[60px] lg:px-[70px] xl:px-[80px] ">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-2  lg:space-y-28 space-y-24 flex-wrap lg:gap-6 row-footer sm:pb-6 pb-6">
+      <div className="container-fluid flex bg-[#ffffff] justify-between lg:py-16 pb-4 pt-4  lg:pb-6 px-[28px] md:px-[60px] lg:px-[65px] xl:px-[80px] ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 md:grid-cols-2  lg:space-y-28 space-y-24 flex-wrap lg:gap-6 row-footer sm:pb-6 pb-6">
           <div className="grid-cols-3 space-y-4 f-line2 lg:ml-4">
             <a href="/">
               {" "}
-              <img className="-ml-5" src={Footerlogo} alt="footerlogo" />
+              <img
+                className="ml-1 w-[43%] md:w-[55%] lg:w-[43%] xl:w-[65%]"
+                src={LogoFooter}
+                alt="footerlogo"
+              />
             </a>
             <p className="text-[#3C3C3C] text-sm md:text-base lg:text-lg font-poppins font-normal leading-5 lg:leading-7">
               Our mission is to lead the way in developing and restoring
