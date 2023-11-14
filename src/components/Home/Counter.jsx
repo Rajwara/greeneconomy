@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Counter() {
   return (
-    <div className="flex flex-col text-center items-center mt-[30px] lg:mt-[50px] mb-[50px] xl:mb-[80px]">
-      <h2 className="text-2xl md:text-3xl xl:text-4xl mb-2 md:mb-4 xl:mb-8 font-montserrat font-bold leading-7 xl:leading-10 text-[#316D69]">
+    <div className="flex flex-col text-center items-center mt-[60px] lg:mt-[50px] mb-[50px] xl:mb-[80px]">
+      <h2 className="text-2xl md:text-3xl xl:text-4xl mb-4 md:mb-4 xl:mb-8 font-montserrat font-bold leading-7 xl:leading-10 text-[#316D69]">
         Net-Zero <span className="text-[#3c3c3c]">Catalysts</span>
       </h2>
       <div className=" Conter flex bg-current w-[60%] flex-wrap lg:w-[80%] mx-auto   border-2 border-gray-950 shadow-md rounded-lg  font-roboto sm:flex justify-center   ">
